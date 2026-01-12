@@ -1,0 +1,45 @@
+{
+  "filename": "8._Mauve_Purple_Color_Palette_Color_Palette_with_Claret_Hex_730132_Plum_Hex_8B3D80_Lavender_Floral_Hex_A279CD_Wisteria_Hex_C99CE6_Mauve_Hex_F0BFFF_Color_Palette_with_Hex_Codes.png_v=1707826988.png",
+  "image_hash": "2d30ab7f9b64d7f600a25faa95bceaf1503be1162d6b51cb8f5834cc0272f854",
+  "extracted_colors": [
+    {
+      "hex": "#E7C2FB",
+      "rgb": "231, 194, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#82457D",
+      "rgb": "130, 69, 125",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C29EE3",
+      "rgb": "194, 158, 227",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9E7DC6",
+      "rgb": "158, 125, 198",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#691431",
+      "rgb": "105, 20, 49",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#E7C2FB",
+      "fg_hex": "#691431",
+      "contrast_ratio": 7.74
+    }
+  ],
+  "processing_time_ms": 1006,
+  "created_at": "2026-01-07T09:47:53.182601+00:00"
+}

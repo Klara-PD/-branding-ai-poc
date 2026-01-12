@@ -1,0 +1,45 @@
+{
+  "filename": "Blue-and-Pink-Color-Palette-with-Hex-Codes.png_v=1688970492.png",
+  "image_hash": "8c49521ed9ecea4ea1f67fd252e06c0281c9333a4a4e7a31b572d3bdbcd39027",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.28
+    },
+    {
+      "hex": "#96CAFB",
+      "rgb": "150, 202, 251",
+      "name": "Bright Teal",
+      "weight": 0.14
+    },
+    {
+      "hex": "#FF9ABE",
+      "rgb": "255, 154, 190",
+      "name": "Bright Ruby",
+      "weight": 0.14
+    },
+    {
+      "hex": "#FFC2DB",
+      "rgb": "255, 194, 219",
+      "name": "Soft Ruby",
+      "weight": 0.13
+    },
+    {
+      "hex": "#C2E3FB",
+      "rgb": "194, 227, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.13
+    },
+    {
+      "hex": "#4D8AC2",
+      "rgb": "77, 138, 194",
+      "name": "Deep Teal",
+      "weight": 0.13
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 960,
+  "created_at": "2026-01-07T09:19:59.465582+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "Rustic_Brown_Green_Color_Palette_Color_Palette_with_Dark_Green_Hex_102820_Hunter_Green_Hex_4C6444_Khaki_Hex_CABA9C_Raw_Umber_Hex_8A6240_Cafe_Noir_Hex_4D2D18_Color_Palette_with_Hex_Cod.png_v=1684820221.png",
+  "image_hash": "669c8ae08d3e70ae5ac24a5f10e90c1dcb7dd0ebc665ab9eb220e996b9334a7d",
+  "extracted_colors": [
+    {
+      "hex": "#CABA9E",
+      "rgb": "202, 186, 158",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4D6545",
+      "rgb": "77, 101, 69",
+      "name": "Deep Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#102820",
+      "rgb": "16, 40, 32",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4D2D18",
+      "rgb": "77, 45, 24",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8A6141",
+      "rgb": "138, 97, 65",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#CABA9E",
+      "fg_hex": "#102820",
+      "contrast_ratio": 8.19
+    }
+  ],
+  "processing_time_ms": 1104,
+  "created_at": "2026-01-07T09:17:49.504582+00:00"
+}

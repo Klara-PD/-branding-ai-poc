@@ -1,0 +1,49 @@
+{
+  "filename": "Palette_118.jpg",
+  "image_hash": "7c77a3eed51ecbcdd07d47319a5e9baf3165c7a36557fd33c911614e73ca2474",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#45BEDB",
+      "rgb": "69, 190, 219",
+      "name": "Bright Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#140C0C",
+      "rgb": "20, 12, 12",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E3DBDB",
+      "rgb": "227, 219, 219",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#140C0C",
+      "contrast_ratio": 19.31
+    },
+    {
+      "bg_hex": "#45BEDB",
+      "fg_hex": "#140C0C",
+      "contrast_ratio": 8.86
+    },
+    {
+      "bg_hex": "#140C0C",
+      "fg_hex": "#E3DBDB",
+      "contrast_ratio": 14.18
+    }
+  ],
+  "processing_time_ms": 1022,
+  "created_at": "2026-01-07T08:10:40.983123+00:00"
+}

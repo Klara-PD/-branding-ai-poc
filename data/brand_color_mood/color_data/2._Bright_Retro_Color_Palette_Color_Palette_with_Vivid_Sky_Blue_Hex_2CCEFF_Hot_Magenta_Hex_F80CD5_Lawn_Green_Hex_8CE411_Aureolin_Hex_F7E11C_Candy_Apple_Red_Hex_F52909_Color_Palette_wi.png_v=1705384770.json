@@ -1,0 +1,39 @@
+{
+  "filename": "2._Bright_Retro_Color_Palette_Color_Palette_with_Vivid_Sky_Blue_Hex_2CCEFF_Hot_Magenta_Hex_F80CD5_Lawn_Green_Hex_8CE411_Aureolin_Hex_F7E11C_Candy_Apple_Red_Hex_F52909_Color_Palette_wi.png_v=1705384770.png",
+  "image_hash": "9fbc08e6a70731821f4c1174421ac9b1c17ca300d08cd8f72d6f55e9c3bb4302",
+  "extracted_colors": [
+    {
+      "hex": "#F3E351",
+      "rgb": "243, 227, 81",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A2E349",
+      "rgb": "162, 227, 73",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E339CE",
+      "rgb": "227, 57, 206",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E34124",
+      "rgb": "227, 65, 36",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#65CAFB",
+      "rgb": "101, 202, 251",
+      "name": "Bright Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1008,
+  "created_at": "2026-01-07T08:56:51.869644+00:00"
+}

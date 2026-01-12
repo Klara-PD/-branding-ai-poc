@@ -1,0 +1,27 @@
+{
+  "filename": "7._Neutral_Pastel_Color_Palette_Color_Palette_with_Ash_Gray_Hex_B3B3A8_Platinum_Hex_E4E4E4_Desert_Sand_Hex_D1B2A1_Desert_Sand_Hex_EEC7AC_Wheat_Hex_F2E0B3_Color_Palette_with_Hex_Codes.png_v=1705469552.png",
+  "image_hash": "f5d879289f10dc07f08358c3c8593f2b0193091d0700f26890c275503821611d",
+  "extracted_colors": [
+    {
+      "hex": "#EFDFB6",
+      "rgb": "239, 223, 182",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#D7BEAE",
+      "rgb": "215, 190, 174",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#E3E3E3",
+      "rgb": "227, 227, 227",
+      "name": "Pearl White",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1062,
+  "created_at": "2026-01-07T09:47:59.919101+00:00"
+}

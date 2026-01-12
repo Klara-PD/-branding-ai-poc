@@ -1,0 +1,45 @@
+{
+  "filename": "20._Neon_Green_And_Blue_Color_Palette_Color_Palette_with_Blue_Hex_0D00FF_Turquoise_Hex_02F7D8_Screamin_Green_Hex_ACFF78_Neon_Green_Hex_2FFF00_Spring_Bud_Hex_ABFF19_Color_Palette_with.png_v=1706161399.png",
+  "image_hash": "4d2ece51052887efad5b9a35e1538b1b07b978cef1af08a5baa1616ccecb861c",
+  "extracted_colors": [
+    {
+      "hex": "#71F3DB",
+      "rgb": "113, 243, 219",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7DFB4D",
+      "rgb": "125, 251, 77",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BEFB55",
+      "rgb": "190, 251, 85",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BEFB8A",
+      "rgb": "190, 251, 138",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#0418F7",
+      "rgb": "4, 24, 247",
+      "name": "Deep Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#BEFB8A",
+      "fg_hex": "#0418F7",
+      "contrast_ratio": 7
+    }
+  ],
+  "processing_time_ms": 976,
+  "created_at": "2026-01-07T09:38:39.050229+00:00"
+}

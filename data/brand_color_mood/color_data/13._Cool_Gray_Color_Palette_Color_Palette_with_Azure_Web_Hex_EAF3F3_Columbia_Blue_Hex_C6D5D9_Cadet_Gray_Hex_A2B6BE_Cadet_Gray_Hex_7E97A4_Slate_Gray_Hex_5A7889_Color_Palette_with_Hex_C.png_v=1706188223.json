@@ -1,0 +1,39 @@
+{
+  "filename": "13._Cool_Gray_Color_Palette_Color_Palette_with_Azure_Web_Hex_EAF3F3_Columbia_Blue_Hex_C6D5D9_Cadet_Gray_Hex_A2B6BE_Cadet_Gray_Hex_7E97A4_Slate_Gray_Hex_5A7889_Color_Palette_with_Hex_C.png_v=1706188223.png",
+  "image_hash": "764df35ab30b34582666daba4fb52ac1879c4d89252f344dac351fdc4dc84744",
+  "extracted_colors": [
+    {
+      "hex": "#8296A2",
+      "rgb": "130, 150, 162",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBF3F3",
+      "rgb": "235, 243, 243",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#617586",
+      "rgb": "97, 117, 134",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A6B6BE",
+      "rgb": "166, 182, 190",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CAD7D7",
+      "rgb": "202, 215, 215",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1158,
+  "created_at": "2026-01-07T09:49:00.135553+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "12._Pastel_Fall_Color_Palette_Color_Palette_with_Olivine_Hex_A4BD84_Straw_Hex_D3DC92_Vanilla_Hex_FDF1A8_Melon_Hex_FCAB92_Old_Rose_Hex_B17C82_Color_Palette_with_Hex_Codes.png_v=1705469631.png",
+  "image_hash": "813b0d08e237804b7b6310916cd44a11c0d1815eae395d6f3d4430a892db33b6",
+  "extracted_colors": [
+    {
+      "hex": "#FBF3B2",
+      "rgb": "251, 243, 178",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3AE96",
+      "rgb": "243, 174, 150",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AA7D82",
+      "rgb": "170, 125, 130",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D7DB9A",
+      "rgb": "215, 219, 154",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AABA8A",
+      "rgb": "170, 186, 138",
+      "name": "Soft Forest",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1041,
+  "created_at": "2026-01-07T09:46:40.282802+00:00"
+}

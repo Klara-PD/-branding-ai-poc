@@ -1,0 +1,54 @@
+{
+  "filename": "Palette_25.jpg",
+  "image_hash": "de61f2a7aa4cada45dbf77f2217b7d9c0d8a775f22510a866b1808e293d6d747",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFB",
+      "rgb": "255, 255, 251",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#C6C6C6",
+      "rgb": "198, 198, 198",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#040035",
+      "rgb": "4, 0, 53",
+      "name": "Deep Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#1C1C92",
+      "rgb": "28, 28, 146",
+      "name": "Deep Sapphire",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFB",
+      "fg_hex": "#040035",
+      "contrast_ratio": 19.83
+    },
+    {
+      "bg_hex": "#FFFFFB",
+      "fg_hex": "#1C1C92",
+      "contrast_ratio": 12.85
+    },
+    {
+      "bg_hex": "#C6C6C6",
+      "fg_hex": "#040035",
+      "contrast_ratio": 11.64
+    },
+    {
+      "bg_hex": "#C6C6C6",
+      "fg_hex": "#1C1C92",
+      "contrast_ratio": 7.54
+    }
+  ],
+  "processing_time_ms": 1157,
+  "created_at": "2026-01-07T08:11:32.580088+00:00"
+}

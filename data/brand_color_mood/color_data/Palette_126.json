@@ -1,0 +1,54 @@
+{
+  "filename": "Palette_126.jpg",
+  "image_hash": "c9242321dd77eced5f1575c534bd5365167b536381c1245f746417ecd84571dd",
+  "extracted_colors": [
+    {
+      "hex": "#A6E7CA",
+      "rgb": "166, 231, 202",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D7CECA",
+      "rgb": "215, 206, 202",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#040004",
+      "rgb": "4, 0, 4",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#512D59",
+      "rgb": "81, 45, 89",
+      "name": "Deep Plum",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#A6E7CA",
+      "fg_hex": "#040004",
+      "contrast_ratio": 14.8
+    },
+    {
+      "bg_hex": "#A6E7CA",
+      "fg_hex": "#512D59",
+      "contrast_ratio": 7.97
+    },
+    {
+      "bg_hex": "#D7CECA",
+      "fg_hex": "#040004",
+      "contrast_ratio": 13.48
+    },
+    {
+      "bg_hex": "#D7CECA",
+      "fg_hex": "#512D59",
+      "contrast_ratio": 7.26
+    }
+  ],
+  "processing_time_ms": 1182,
+  "created_at": "2026-01-07T08:11:03.590269+00:00"
+}

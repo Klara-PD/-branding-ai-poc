@@ -1,0 +1,50 @@
+{
+  "filename": "8._Purple_And_Teal_Color_Palette_Color_Palette_with_Russian_Violet_Hex_300049_Indigo_Hex_4A0072_Wisteria_Hex_D5B4E7_Teal_Hex_00838F_Pine_Green_Hex_00695C_Color_Palette_with_Hex_Codes.png_v=1704721228.png",
+  "image_hash": "0029b6a41b449e48530cabbb9828e4d2ff40440cd10a984ee21ff9411850ebf8",
+  "extracted_colors": [
+    {
+      "hex": "#39828E",
+      "rgb": "57, 130, 142",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#450C6D",
+      "rgb": "69, 12, 109",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CEB6E3",
+      "rgb": "206, 182, 227",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#2D655D",
+      "rgb": "45, 101, 93",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#2D0445",
+      "rgb": "45, 4, 69",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#450C6D",
+      "fg_hex": "#CEB6E3",
+      "contrast_ratio": 7.48
+    },
+    {
+      "bg_hex": "#CEB6E3",
+      "fg_hex": "#2D0445",
+      "contrast_ratio": 9.4
+    }
+  ],
+  "processing_time_ms": 963,
+  "created_at": "2026-01-07T09:48:56.937954+00:00"
+}

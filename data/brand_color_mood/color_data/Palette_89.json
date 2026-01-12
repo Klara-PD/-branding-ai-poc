@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_89.jpg",
+  "image_hash": "9ed67b384cbd3384e2c49f8006cc0eb3550ff3fb35de0d5f86cefb363dec387d",
+  "extracted_colors": [
+    {
+      "hex": "#F7F7F7",
+      "rgb": "247, 247, 247",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E76514",
+      "rgb": "231, 101, 20",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FBA659",
+      "rgb": "251, 166, 89",
+      "name": "Bright Amber",
+      "weight": 0.17
+    },
+    {
+      "hex": "#CECECA",
+      "rgb": "206, 206, 202",
+      "name": "Cloud Gray",
+      "weight": 0.17
+    },
+    {
+      "hex": "#92969A",
+      "rgb": "146, 150, 154",
+      "name": "Silver Gray",
+      "weight": 0.16
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1026,
+  "created_at": "2026-01-07T08:08:43.635933+00:00"
+}

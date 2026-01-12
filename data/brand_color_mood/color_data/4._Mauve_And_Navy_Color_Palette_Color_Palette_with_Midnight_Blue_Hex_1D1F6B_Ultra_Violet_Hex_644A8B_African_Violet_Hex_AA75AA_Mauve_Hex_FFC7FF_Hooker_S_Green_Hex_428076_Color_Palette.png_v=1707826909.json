@@ -1,0 +1,45 @@
+{
+  "filename": "4._Mauve_And_Navy_Color_Palette_Color_Palette_with_Midnight_Blue_Hex_1D1F6B_Ultra_Violet_Hex_644A8B_African_Violet_Hex_AA75AA_Mauve_Hex_FFC7FF_Hooker_S_Green_Hex_428076_Color_Palette.png_v=1707826909.png",
+  "image_hash": "54736c6798c6f6217ec63695fa3dd80af149d14aa0baa9f52fa13f8eb5155096",
+  "extracted_colors": [
+    {
+      "hex": "#F7CAFB",
+      "rgb": "247, 202, 251",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#517D75",
+      "rgb": "81, 125, 117",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A279A6",
+      "rgb": "162, 121, 166",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#614D86",
+      "rgb": "97, 77, 134",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#1C2065",
+      "rgb": "28, 32, 101",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F7CAFB",
+      "fg_hex": "#1C2065",
+      "contrast_ratio": 10.25
+    }
+  ],
+  "processing_time_ms": 1207,
+  "created_at": "2026-01-07T08:55:51.000637+00:00"
+}

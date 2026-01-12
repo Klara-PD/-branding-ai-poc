@@ -1,0 +1,39 @@
+{
+  "filename": "7._Pink_And_Yellow_Color_Palette_Color_Palette_with_French_Rose_Hex_E94A8A_Persian_Pink_Hex_FF76BB_Apricot_Hex_FFC1A8_Maize_Hex_FEE55F_Gold_Hex_FFD300_Color_Palette_with_Hex_Codes.png_v=1706012781.png",
+  "image_hash": "85dca5f8cab10061cb9a5e3b7c40225ac13b00ed6e6bf14badac9d8e85d4db81",
+  "extracted_colors": [
+    {
+      "hex": "#F7C2AA",
+      "rgb": "247, 194, 170",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7D249",
+      "rgb": "247, 210, 73",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBE775",
+      "rgb": "251, 231, 117",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF7DBA",
+      "rgb": "239, 125, 186",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D7558A",
+      "rgb": "215, 85, 138",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1084,
+  "created_at": "2026-01-07T09:50:39.407791+00:00"
+}

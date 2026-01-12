@@ -1,0 +1,33 @@
+{
+  "filename": "19._Bright_Orange_Color_Palette_Color_Palette_with_Scarlet_Hex_F42B03_Orange_Pantone_Hex_FF5E13_Orange_Wheel_Hex_FF8113_Saffron_Hex_FAC864_Dutch_White_Hex_FFF0C7_Color_Palette_with_He.png_v=1704868521.png",
+  "image_hash": "3376699e69b3096905da88a17db53cb7a63455a10fd1a85b87e703eedc7c710c",
+  "extracted_colors": [
+    {
+      "hex": "#F3CA75",
+      "rgb": "243, 202, 117",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFEFCA",
+      "rgb": "255, 239, 202",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EF6935",
+      "rgb": "239, 105, 53",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E34124",
+      "rgb": "227, 65, 36",
+      "name": "Deep Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1160,
+  "created_at": "2026-01-07T09:34:10.642943+00:00"
+}

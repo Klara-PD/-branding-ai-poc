@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_105.jpg",
+  "image_hash": "a00927d074d90f6e4c7124e1c48bd378a11281e9f24cb577f23f80d96f8dec96",
+  "extracted_colors": [
+    {
+      "hex": "#E7E3DF",
+      "rgb": "231, 227, 223",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#6D6965",
+      "rgb": "109, 105, 101",
+      "name": "Slate Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E3C29A",
+      "rgb": "227, 194, 154",
+      "name": "Soft Ruby",
+      "weight": 0.17
+    },
+    {
+      "hex": "#AE9ACA",
+      "rgb": "174, 154, 202",
+      "name": "Soft Sapphire",
+      "weight": 0.17
+    },
+    {
+      "hex": "#A69279",
+      "rgb": "166, 146, 121",
+      "name": "Soft Ruby",
+      "weight": 0.16
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1044,
+  "created_at": "2026-01-07T08:09:21.232212+00:00"
+}

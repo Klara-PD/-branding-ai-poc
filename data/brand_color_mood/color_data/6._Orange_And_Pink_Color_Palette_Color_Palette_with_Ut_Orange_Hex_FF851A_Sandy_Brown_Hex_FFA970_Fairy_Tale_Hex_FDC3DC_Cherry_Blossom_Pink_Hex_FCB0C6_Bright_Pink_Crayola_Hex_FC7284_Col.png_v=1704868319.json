@@ -1,0 +1,33 @@
+{
+  "filename": "6._Orange_And_Pink_Color_Palette_Color_Palette_with_Ut_Orange_Hex_FF851A_Sandy_Brown_Hex_FFA970_Fairy_Tale_Hex_FDC3DC_Cherry_Blossom_Pink_Hex_FCB0C6_Bright_Pink_Crayola_Hex_FC7284_Col.png_v=1704868319.png",
+  "image_hash": "8f63303c9afdcfa2f9aa0bbb85e9cbbe0d9456edec844607c276685f29eab8e6",
+  "extracted_colors": [
+    {
+      "hex": "#EB7986",
+      "rgb": "235, 121, 134",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3B2C6",
+      "rgb": "243, 178, 198",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EF8A3D",
+      "rgb": "239, 138, 61",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3AA79",
+      "rgb": "243, 170, 121",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1611,
+  "created_at": "2026-01-07T08:58:02.042743+00:00"
+}

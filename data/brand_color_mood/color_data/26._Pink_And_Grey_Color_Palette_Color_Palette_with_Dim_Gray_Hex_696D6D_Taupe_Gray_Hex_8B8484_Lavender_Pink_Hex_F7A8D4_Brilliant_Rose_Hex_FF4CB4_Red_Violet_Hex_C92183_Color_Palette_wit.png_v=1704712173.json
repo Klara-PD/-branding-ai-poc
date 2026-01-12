@@ -1,0 +1,39 @@
+{
+  "filename": "26._Pink_And_Grey_Color_Palette_Color_Palette_with_Dim_Gray_Hex_696D6D_Taupe_Gray_Hex_8B8484_Lavender_Pink_Hex_F7A8D4_Brilliant_Rose_Hex_FF4CB4_Red_Violet_Hex_C92183_Color_Palette_wit.png_v=1704712173.png",
+  "image_hash": "7e88ee3bb4faca5b195774cde29e938296c422aad289883ea80c396df25bc549",
+  "extracted_colors": [
+    {
+      "hex": "#BA3582",
+      "rgb": "186, 53, 130",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBAAD2",
+      "rgb": "235, 170, 210",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#696D6D",
+      "rgb": "105, 109, 109",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8A8686",
+      "rgb": "138, 134, 134",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB5DB2",
+      "rgb": "235, 93, 178",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1122,
+  "created_at": "2026-01-07T09:17:30.316169+00:00"
+}

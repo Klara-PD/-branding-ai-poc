@@ -1,0 +1,39 @@
+{
+  "filename": "14._Neon_Sunset_Color_Palette_Color_Palette_with_French_Violet_Hex_7D00D0_Steel_Pink_Hex_CC00CC_Persian_Rose_Hex_FF099D_Safety_Orange_Hex_FF7B00_School_Bus_Yellow_Hex_FFE100_Color_Pal.png_v=1705405021.png",
+  "image_hash": "3030cf9173283199e3465e088eb450070bd8182bdcb8fce99e3ea59293106223",
+  "extracted_colors": [
+    {
+      "hex": "#EF8231",
+      "rgb": "239, 130, 49",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BA2DC6",
+      "rgb": "186, 45, 198",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB399A",
+      "rgb": "235, 57, 154",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBE34D",
+      "rgb": "251, 227, 77",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7120C6",
+      "rgb": "113, 32, 198",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 973,
+  "created_at": "2026-01-07T09:53:05.062239+00:00"
+}

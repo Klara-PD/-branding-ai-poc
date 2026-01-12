@@ -1,0 +1,27 @@
+{
+  "filename": "6._Sage_Green_And_Brown_Color_Palette_Color_Palette_with_Desert_Sand_Hex_D5B2A1_Beaver_Hex_9C8372_Walnut_Brown_Hex_635342_Ash_Gray_Hex_B1B4A3_Reseda_Green_Hex_79836A_Color_Palette_wit.png_v=1705927896.png",
+  "image_hash": "2358ec4ccfdf81887cd7dfdfff5c628e8d34c19717015ade6549ce645e1fc67a",
+  "extracted_colors": [
+    {
+      "hex": "#615545",
+      "rgb": "97, 85, 69",
+      "name": "Slate Gray",
+      "weight": 0.34
+    },
+    {
+      "hex": "#9A8275",
+      "rgb": "154, 130, 117",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#B2B2A6",
+      "rgb": "178, 178, 166",
+      "name": "Silver Gray",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1255,
+  "created_at": "2026-01-07T08:56:40.564498+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "filename": "Palette_79.jpg",
+  "image_hash": "434ba0c3d6287f065bbf542a145c712c86d72c6d5deff488114d9d0525deb26a",
+  "extracted_colors": [
+    {
+      "hex": "#8EBEDF",
+      "rgb": "142, 190, 223",
+      "name": "Soft Teal",
+      "weight": 0.33
+    },
+    {
+      "hex": "#D7D2FF",
+      "rgb": "215, 210, 255",
+      "name": "Soft Sapphire",
+      "weight": 0.33
+    },
+    {
+      "hex": "#713D6D",
+      "rgb": "113, 61, 109",
+      "name": "Deep Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1101,
+  "created_at": "2026-01-07T08:13:19.94179+00:00"
+}

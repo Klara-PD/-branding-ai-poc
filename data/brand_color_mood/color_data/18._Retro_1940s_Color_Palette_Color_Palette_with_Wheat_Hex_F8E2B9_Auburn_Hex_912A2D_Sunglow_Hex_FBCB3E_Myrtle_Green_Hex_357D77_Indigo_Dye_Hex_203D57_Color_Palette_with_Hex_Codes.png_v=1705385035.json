@@ -1,0 +1,50 @@
+{
+  "filename": "18._Retro_1940s_Color_Palette_Color_Palette_with_Wheat_Hex_F8E2B9_Auburn_Hex_912A2D_Sunglow_Hex_FBCB3E_Myrtle_Green_Hex_357D77_Indigo_Dye_Hex_203D57_Color_Palette_with_Hex_Codes.png_v=1705385035.png",
+  "image_hash": "cd65da6f229d4f8060b19e4edd07bbe5c68d113b5d3adee88b4dff68e5f30cf1",
+  "extracted_colors": [
+    {
+      "hex": "#497D75",
+      "rgb": "73, 125, 117",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#863131",
+      "rgb": "134, 49, 49",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#283D55",
+      "rgb": "40, 61, 85",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3CA5D",
+      "rgb": "243, 202, 93",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7E3BE",
+      "rgb": "247, 227, 190",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#283D55",
+      "fg_hex": "#F3CA5D",
+      "contrast_ratio": 7.1
+    },
+    {
+      "bg_hex": "#283D55",
+      "fg_hex": "#F7E3BE",
+      "contrast_ratio": 8.83
+    }
+  ],
+  "processing_time_ms": 8610,
+  "created_at": "2026-01-07T09:36:22.827473+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "13._Magenta_And_Teal_Color_Palette_Color_Palette_with_Fuchsia_Hex_FF00FF_Electric_Purple_Hex_C020E0_Blue_Violet_Hex_8040C0_Lapis_Lazuli_Hex_4060A0_Teal_Hex_008080_Color_Palette_with_H.png_v=1707738177.png",
+  "image_hash": "a1ccff9c28b22d803093aee54d3996cb6f29aa103e5af9273510a60c132a34aa",
+  "extracted_colors": [
+    {
+      "hex": "#B239DB",
+      "rgb": "178, 57, 219",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB3DF7",
+      "rgb": "235, 61, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#397D7D",
+      "rgb": "57, 125, 125",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#49619E",
+      "rgb": "73, 97, 158",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7945BA",
+      "rgb": "121, 69, 186",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 995,
+  "created_at": "2026-01-07T09:46:58.730933+00:00"
+}

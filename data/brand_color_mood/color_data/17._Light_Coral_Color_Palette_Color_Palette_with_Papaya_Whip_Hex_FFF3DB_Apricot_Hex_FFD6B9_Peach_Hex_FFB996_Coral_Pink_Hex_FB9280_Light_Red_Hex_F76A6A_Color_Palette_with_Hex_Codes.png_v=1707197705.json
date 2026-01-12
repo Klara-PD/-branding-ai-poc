@@ -1,0 +1,39 @@
+{
+  "filename": "17._Light_Coral_Color_Palette_Color_Palette_with_Papaya_Whip_Hex_FFF3DB_Apricot_Hex_FFD6B9_Peach_Hex_FFB996_Coral_Pink_Hex_FB9280_Light_Red_Hex_F76A6A_Color_Palette_with_Hex_Codes.png_v=1707197705.png",
+  "image_hash": "856a75a6fa901a211ed8699b5423e51ada268fe21724d6e52404fd51435377b9",
+  "extracted_colors": [
+    {
+      "hex": "#F7BA9E",
+      "rgb": "247, 186, 158",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7716D",
+      "rgb": "231, 113, 109",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7D7BE",
+      "rgb": "247, 215, 190",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF9686",
+      "rgb": "239, 150, 134",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFF3DF",
+      "rgb": "255, 243, 223",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1116,
+  "created_at": "2026-01-07T09:38:46.276554+00:00"
+}

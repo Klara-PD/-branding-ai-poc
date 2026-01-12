@@ -1,0 +1,49 @@
+{
+  "filename": "18._Navy_Blue_And_Coral_Color_Palette_Color_Palette_with_Jordy_Blue_Hex_98BEEC_Navy_Blue_Hex_05006C_Coral_Hex_FF7F50_Salmon_Hex_FF9277_Peach_Hex_FFC8A1_Color_Palette_with_Hex_Codes.png_v=1707197717.png",
+  "image_hash": "540eb1002d284ec6de609f43685ab6190c4d223ec040ca39cea4b5034d12cd4d",
+  "extracted_colors": [
+    {
+      "hex": "#EF967D",
+      "rgb": "239, 150, 125",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F7CAA6",
+      "rgb": "247, 202, 166",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#040465",
+      "rgb": "4, 4, 101",
+      "name": "Deep Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#A2BEE7",
+      "rgb": "162, 190, 231",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EF967D",
+      "fg_hex": "#040465",
+      "contrast_ratio": 7.71
+    },
+    {
+      "bg_hex": "#F7CAA6",
+      "fg_hex": "#040465",
+      "contrast_ratio": 11.53
+    },
+    {
+      "bg_hex": "#040465",
+      "fg_hex": "#A2BEE7",
+      "contrast_ratio": 9.13
+    }
+  ],
+  "processing_time_ms": 1057,
+  "created_at": "2026-01-07T09:38:12.924027+00:00"
+}

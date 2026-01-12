@@ -1,0 +1,50 @@
+{
+  "filename": "7._Neon_Retro_Color_Palette_Color_Palette_with_Federal_Blue_Hex_1E0051_Mexican_Pink_Hex_EE0087_Electric_Purple_Hex_C300FF_Picton_Blue_Hex_00AEFF_Yellow_Hex_F8FF22_Color_Palette_with_H.png_v=1706160959.png",
+  "image_hash": "490c3cf47e32d35734f134bdad09afd913a1bfca6d031e569c36cc563ec7f281",
+  "extracted_colors": [
+    {
+      "hex": "#FBFF5D",
+      "rgb": "251, 255, 93",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DB3186",
+      "rgb": "219, 49, 134",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4DAEFB",
+      "rgb": "77, 174, 251",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B231F7",
+      "rgb": "178, 49, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#18044D",
+      "rgb": "24, 4, 77",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBFF5D",
+      "fg_hex": "#18044D",
+      "contrast_ratio": 16.82
+    },
+    {
+      "bg_hex": "#4DAEFB",
+      "fg_hex": "#18044D",
+      "contrast_ratio": 7.53
+    }
+  ],
+  "processing_time_ms": 3081,
+  "created_at": "2026-01-07T09:47:23.525041+00:00"
+}

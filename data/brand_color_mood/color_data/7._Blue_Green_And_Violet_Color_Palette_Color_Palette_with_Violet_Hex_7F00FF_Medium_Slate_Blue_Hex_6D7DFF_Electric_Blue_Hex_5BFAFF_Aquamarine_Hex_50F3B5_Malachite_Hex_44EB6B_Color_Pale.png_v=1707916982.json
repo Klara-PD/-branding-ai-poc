@@ -1,0 +1,39 @@
+{
+  "filename": "7._Blue_Green_And_Violet_Color_Palette_Color_Palette_with_Violet_Hex_7F00FF_Medium_Slate_Blue_Hex_6D7DFF_Electric_Blue_Hex_5BFAFF_Aquamarine_Hex_50F3B5_Malachite_Hex_44EB6B_Color_Pale.png_v=1707916982.png",
+  "image_hash": "fe73fc67af4dd6a179b329529419e9ec95267e51532221100e700598927ca4d9",
+  "extracted_colors": [
+    {
+      "hex": "#8AF7FF",
+      "rgb": "138, 247, 255",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#86EFBA",
+      "rgb": "134, 239, 186",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#79E779",
+      "rgb": "121, 231, 121",
+      "name": "Bright Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#717DF7",
+      "rgb": "113, 125, 247",
+      "name": "Bright Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 990,
+  "created_at": "2026-01-07T08:54:53.222356+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "1._Teal_And_Terracotta_Color_Palette_Color_Palette_with_Teal_Hex_008080_Light_Sea_Green_Hex_00ABAB_Rust_Hex_BA4727_Burnt_Sienna_Hex_D6764B_Sandy_Brown_Hex_F1A56F_Color_Palette_with_He.png_v=1707218838.png",
+  "image_hash": "86778fb33920483ff6e4916772db3c87ad2128005f28303b1664b141dc196f2f",
+  "extracted_colors": [
+    {
+      "hex": "#CA7955",
+      "rgb": "202, 121, 85",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AE4D35",
+      "rgb": "174, 77, 53",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7AA79",
+      "rgb": "231, 170, 121",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4DAAAA",
+      "rgb": "77, 170, 170",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#397D7D",
+      "rgb": "57, 125, 125",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1056,
+  "created_at": "2026-01-07T08:54:46.581357+00:00"
+}

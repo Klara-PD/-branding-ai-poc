@@ -1,0 +1,33 @@
+{
+  "filename": "18._Terracotta_And_Gold_Color_Palette_Color_Palette_with_Brown_Hex_913F1C_Brown_Sugar_Hex_B96E4B_Dun_Hex_DDC8B0_Ecru_Hex_C5A56B_Dark_Goldenrod_Hex_AC8125_Color_Palette_with_Hex_Codes.png_v=1707219165.png",
+  "image_hash": "edb935adc19feda82ea61d8a274c00dd737d31c6825b47c9595c9369d9732cb0",
+  "extracted_colors": [
+    {
+      "hex": "#BEA671",
+      "rgb": "190, 166, 113",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#A68239",
+      "rgb": "166, 130, 57",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DBCAB2",
+      "rgb": "219, 202, 178",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#864524",
+      "rgb": "134, 69, 36",
+      "name": "Deep Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1072,
+  "created_at": "2026-01-07T09:38:44.558725+00:00"
+}

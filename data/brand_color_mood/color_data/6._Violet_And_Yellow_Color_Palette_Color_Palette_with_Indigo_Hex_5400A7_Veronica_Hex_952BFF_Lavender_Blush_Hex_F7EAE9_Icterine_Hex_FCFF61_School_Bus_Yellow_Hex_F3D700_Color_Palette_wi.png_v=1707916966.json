@@ -1,0 +1,55 @@
+{
+  "filename": "6._Violet_And_Yellow_Color_Palette_Color_Palette_with_Indigo_Hex_5400A7_Veronica_Hex_952BFF_Lavender_Blush_Hex_F7EAE9_Icterine_Hex_FCFF61_School_Bus_Yellow_Hex_F3D700_Color_Palette_wi.png_v=1707916966.png",
+  "image_hash": "80c85b3981afe02f7165cd364107ed58f5ade83d2aa393077c5be622619fd86e",
+  "extracted_colors": [
+    {
+      "hex": "#FFFF7D",
+      "rgb": "255, 255, 125",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8A3DF7",
+      "rgb": "138, 61, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7EBEB",
+      "rgb": "247, 235, 235",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFD749",
+      "rgb": "239, 215, 73",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4D14A2",
+      "rgb": "77, 20, 162",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFF7D",
+      "fg_hex": "#4D14A2",
+      "contrast_ratio": 10.25
+    },
+    {
+      "bg_hex": "#F7EBEB",
+      "fg_hex": "#4D14A2",
+      "contrast_ratio": 9.31
+    },
+    {
+      "bg_hex": "#EFD749",
+      "fg_hex": "#4D14A2",
+      "contrast_ratio": 7.48
+    }
+  ],
+  "processing_time_ms": 1009,
+  "created_at": "2026-01-07T08:57:24.142902+00:00"
+}

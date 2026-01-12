@@ -1,0 +1,33 @@
+{
+  "filename": "24._Aesthetic_Cottagecore_Color_Palette_Color_Palette_with_Field_Drab_Hex_63581F_Olive_Hex_7F7129_Almond_Hex_F1E1CE_Atomic_Tangerine_Hex_E19578_Jasper_Hex_BF5F45_Color_Palette_with_He.png_v=1705581574.png",
+  "image_hash": "f07dcdab9bb5be8763aeda6a47249b04acb71b05d128e193cafe930c89c06322",
+  "extracted_colors": [
+    {
+      "hex": "#EFE3CE",
+      "rgb": "239, 227, 206",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#7D7135",
+      "rgb": "125, 113, 53",
+      "name": "Deep Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B2654D",
+      "rgb": "178, 101, 77",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D79A7D",
+      "rgb": "215, 154, 125",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1004,
+  "created_at": "2026-01-07T09:25:39.74892+00:00"
+}

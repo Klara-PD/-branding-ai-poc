@@ -1,0 +1,39 @@
+{
+  "filename": "14._Gray_And_Purple_Color_Palette_Color_Palette_with_Royal_Purple_Hex_8650AB_Wisteria_Hex_D79DEB_Thistle_Hex_D6CBDA_Rose_Quartz_Hex_998D9E_Davy_S_Gray_Hex_524E53_Color_Palette_with_He.png_v=1706188240.png",
+  "image_hash": "f0e68d3b467bb1afe84b573c777189508eef68128b7b44665c634db3703cff6b",
+  "extracted_colors": [
+    {
+      "hex": "#968E9E",
+      "rgb": "150, 142, 158",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CEA2E7",
+      "rgb": "206, 162, 231",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#514D55",
+      "rgb": "81, 77, 85",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D7CADB",
+      "rgb": "215, 202, 219",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7D55A6",
+      "rgb": "125, 85, 166",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 992,
+  "created_at": "2026-01-07T09:51:34.689568+00:00"
+}

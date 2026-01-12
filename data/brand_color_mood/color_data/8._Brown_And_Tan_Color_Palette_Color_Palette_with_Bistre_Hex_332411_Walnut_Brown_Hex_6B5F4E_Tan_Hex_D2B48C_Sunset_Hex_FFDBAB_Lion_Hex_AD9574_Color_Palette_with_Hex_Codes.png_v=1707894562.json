@@ -1,0 +1,50 @@
+{
+  "filename": "8._Brown_And_Tan_Color_Palette_Color_Palette_with_Bistre_Hex_332411_Walnut_Brown_Hex_6B5F4E_Tan_Hex_D2B48C_Sunset_Hex_FFDBAB_Lion_Hex_AD9574_Color_Palette_with_Hex_Codes.png_v=1707894562.png",
+  "image_hash": "51d1375709b2512482a55c80f26718a82484c82b23c1bf08988cde92bbfe7cba",
+  "extracted_colors": [
+    {
+      "hex": "#AA9679",
+      "rgb": "170, 150, 121",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CEB292",
+      "rgb": "206, 178, 146",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBDBB2",
+      "rgb": "251, 219, 178",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#695D51",
+      "rgb": "105, 93, 81",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#312414",
+      "rgb": "49, 36, 20",
+      "name": "Charcoal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#CEB292",
+      "fg_hex": "#312414",
+      "contrast_ratio": 7.47
+    },
+    {
+      "bg_hex": "#FBDBB2",
+      "fg_hex": "#312414",
+      "contrast_ratio": 11.4
+    }
+  ],
+  "processing_time_ms": 983,
+  "created_at": "2026-01-07T09:49:30.043007+00:00"
+}

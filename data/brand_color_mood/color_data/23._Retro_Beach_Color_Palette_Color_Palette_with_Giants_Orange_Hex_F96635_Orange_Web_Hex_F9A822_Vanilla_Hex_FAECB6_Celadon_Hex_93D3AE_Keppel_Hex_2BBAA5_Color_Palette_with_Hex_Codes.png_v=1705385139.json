@@ -1,0 +1,39 @@
+{
+  "filename": "23._Retro_Beach_Color_Palette_Color_Palette_with_Giants_Orange_Hex_F96635_Orange_Web_Hex_F9A822_Vanilla_Hex_FAECB6_Celadon_Hex_93D3AE_Keppel_Hex_2BBAA5_Color_Palette_with_Hex_Codes.png_v=1705385139.png",
+  "image_hash": "27c8fb22f844b004b4b446f7ca5107e88078c0af918a6d5a2a4a745e77f49f79",
+  "extracted_colors": [
+    {
+      "hex": "#F7EBBA",
+      "rgb": "247, 235, 186",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A2D2B2",
+      "rgb": "162, 210, 178",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#5DB6A6",
+      "rgb": "93, 182, 166",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFAA45",
+      "rgb": "239, 170, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E76D45",
+      "rgb": "231, 109, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 5223,
+  "created_at": "2026-01-07T09:19:40.704212+00:00"
+}

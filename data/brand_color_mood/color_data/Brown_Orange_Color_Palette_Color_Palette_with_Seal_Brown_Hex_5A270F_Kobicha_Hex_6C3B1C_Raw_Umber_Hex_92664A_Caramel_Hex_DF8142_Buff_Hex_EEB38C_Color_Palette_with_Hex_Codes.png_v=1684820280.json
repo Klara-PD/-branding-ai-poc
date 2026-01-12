@@ -1,0 +1,33 @@
+{
+  "filename": "Brown_Orange_Color_Palette_Color_Palette_with_Seal_Brown_Hex_5A270F_Kobicha_Hex_6C3B1C_Raw_Umber_Hex_92664A_Caramel_Hex_DF8142_Buff_Hex_EEB38C_Color_Palette_with_Hex_Codes.png_v=1684820280.png",
+  "image_hash": "a54152204be8bf5f2fdfc8138354ccf529bc8f1d81e0cfb95cf199d9b7400055",
+  "extracted_colors": [
+    {
+      "hex": "#6D3D1C",
+      "rgb": "109, 61, 28",
+      "name": "Deep Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#92654D",
+      "rgb": "146, 101, 77",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DF8241",
+      "rgb": "223, 130, 65",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EFB28E",
+      "rgb": "239, 178, 142",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1175,
+  "created_at": "2026-01-07T09:17:22.203917+00:00"
+}

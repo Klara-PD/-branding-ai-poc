@@ -1,0 +1,56 @@
+{
+  "filename": "Blue-and-Green-Color-Palette-with-Hex-Codes.png_v=1688969688.png",
+  "image_hash": "b5bf2909607d471e15d40527ff85d7601176ddc8e69649f6ea14994a000879d9",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.28
+    },
+    {
+      "hex": "#7DD249",
+      "rgb": "125, 210, 73",
+      "name": "Bright Honey",
+      "weight": 0.14
+    },
+    {
+      "hex": "#009ED2",
+      "rgb": "0, 158, 210",
+      "name": "Deep Teal",
+      "weight": 0.13
+    },
+    {
+      "hex": "#00397D",
+      "rgb": "0, 57, 125",
+      "name": "Deep Teal",
+      "weight": 0.13
+    },
+    {
+      "hex": "#96E7F7",
+      "rgb": "150, 231, 247",
+      "name": "Soft Teal",
+      "weight": 0.13
+    },
+    {
+      "hex": "#24B271",
+      "rgb": "36, 178, 113",
+      "name": "Bright Aqua",
+      "weight": 0.13
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#00397D",
+      "contrast_ratio": 11.16
+    },
+    {
+      "bg_hex": "#00397D",
+      "fg_hex": "#96E7F7",
+      "contrast_ratio": 8.01
+    }
+  ],
+  "processing_time_ms": 9296,
+  "created_at": "2026-01-07T09:24:35.651636+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "22._Modern_Gray_Color_Palette_Color_Palette_with_Raisin_Black_Hex_32323F_Davy_S_Gray_Hex_4C4E5D_Taupe_Gray_Hex_988E96_Silver_Hex_BCABA8_Timberwolf_Hex_DDD5D0_Color_Palette_with_Hex_Co.png_v=1706188375.png",
+  "image_hash": "50f4153c44d54f3528a6929137d1642d8e32922353506330d1b6c407f234d4aa",
+  "extracted_colors": [
+    {
+      "hex": "#9A8E96",
+      "rgb": "154, 142, 150",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4D4D5D",
+      "rgb": "77, 77, 93",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BAAAAA",
+      "rgb": "186, 170, 170",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DBD7CE",
+      "rgb": "219, 215, 206",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#31313D",
+      "rgb": "49, 49, 61",
+      "name": "Iron Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#DBD7CE",
+      "fg_hex": "#31313D",
+      "contrast_ratio": 8.93
+    }
+  ],
+  "processing_time_ms": 1164,
+  "created_at": "2026-01-07T09:26:51.005462+00:00"
+}

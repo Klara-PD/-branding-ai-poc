@@ -1,0 +1,45 @@
+{
+  "filename": "21._Aesthetic_Autumn_Color_Palette_Color_Palette_with_Chocolate_Cosmos_Hex_5E1525_Sinopia_Hex_C74F29_Butterscotch_Hex_E99E46_Sage_Hex_B6C38D_Olive_Hex_828144_Color_Palette_with_Hex_Co.png_v=1705581507.png",
+  "image_hash": "5c20bb971f208c32c1a0381a5fd91660a4633e8016ba1da29d6e5be6ea580de4",
+  "extracted_colors": [
+    {
+      "hex": "#DFA255",
+      "rgb": "223, 162, 85",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#82824D",
+      "rgb": "130, 130, 77",
+      "name": "Deep Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BAC292",
+      "rgb": "186, 194, 146",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BA5535",
+      "rgb": "186, 85, 53",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#551C24",
+      "rgb": "85, 28, 36",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#BAC292",
+      "fg_hex": "#551C24",
+      "contrast_ratio": 7.11
+    }
+  ],
+  "processing_time_ms": 1158,
+  "created_at": "2026-01-07T09:34:38.067722+00:00"
+}

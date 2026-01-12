@@ -1,0 +1,39 @@
+{
+  "filename": "20._Sunset_Shimmer_Color_Palette_Color_Palette_with_Fire_Engine_Red_Hex_DB062F_Tangerine_Hex_F08118_School_Bus_Yellow_Hex_FAE00C_Red_Violet_Hex_CD128B_Jasmine_Hex_F8D77B_Color_Palette.png_v=1705405179.png",
+  "image_hash": "322c97001025c33c40b9d39ab049026060d6f1da53dd238f2facec0603d5218b",
+  "extracted_colors": [
+    {
+      "hex": "#F3D786",
+      "rgb": "243, 215, 134",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E38639",
+      "rgb": "227, 134, 57",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BA318A",
+      "rgb": "186, 49, 138",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CA2D39",
+      "rgb": "202, 45, 57",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7DF4D",
+      "rgb": "247, 223, 77",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 4186,
+  "created_at": "2026-01-07T09:37:23.033338+00:00"
+}

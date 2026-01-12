@@ -1,0 +1,33 @@
+{
+  "filename": "25._Deep_Neutral_Color_Palette_Color_Palette_with_Rose_Taupe_Hex_896A67_Rose_Taupe_Hex_7A5C5F_Eggplant_Hex_6B4D57_Dark_Purple_Hex_3F2A32_Licorice_Hex_13070C_Color_Palette_with_Hex_Cod.png_v=1705496104.png",
+  "image_hash": "54ff74ee8c7009143686f5cb6c8111302183f0fe789de7cd95fa41f4537fd64f",
+  "extracted_colors": [
+    {
+      "hex": "#655155",
+      "rgb": "101, 81, 85",
+      "name": "Slate Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#10080C",
+      "rgb": "16, 8, 12",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#3D2D31",
+      "rgb": "61, 45, 49",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#866969",
+      "rgb": "134, 105, 105",
+      "name": "Silver Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1161,
+  "created_at": "2026-01-07T09:23:47.392479+00:00"
+}

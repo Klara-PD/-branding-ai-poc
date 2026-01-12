@@ -1,0 +1,21 @@
+{
+  "filename": "3._Pastel_Green_Color_Palette_Color_Palette_with_Beige_Hex_F1F5D8_Tea_Green_Hex_D6FFC1_Light_Green_Hex_B9FFAF_Light_Green_Hex_97FA9A_Aquamarine_Hex_8AF0BF_Color_Palette_with_Hex_Codes.png_v=1705469376.png",
+  "image_hash": "abc7243d5c6e40f20c900e601208731506bc1b1a3b0941ad920cda40e38e0964",
+  "extracted_colors": [
+    {
+      "hex": "#AEF7A6",
+      "rgb": "174, 247, 166",
+      "name": "Soft Forest",
+      "weight": 0.5
+    },
+    {
+      "hex": "#F3F7DB",
+      "rgb": "243, 247, 219",
+      "name": "Cloud Gray",
+      "weight": 0.5
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1173,
+  "created_at": "2026-01-07T08:58:09.021214+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "filename": "20._Black_And_Navy_Color_Palette_Color_Palette_with_Rich_Black_Hex_000016_Federal_Blue_Hex_000057_Navy_Blue_Hex_000080_Duke_Blue_Hex_0000A8_Medium_Blue_Hex_0000D0_Color_Palette_with_H.png_v=1706793153.png",
+  "image_hash": "45b039e65835d7387557e8e7fef4d312cac17498bb8c6e4d3638d4a9d581e6de",
+  "extracted_colors": [
+    {
+      "hex": "#000455",
+      "rgb": "0, 4, 85",
+      "name": "Deep Teal",
+      "weight": 0.33
+    },
+    {
+      "hex": "#000CA2",
+      "rgb": "0, 12, 162",
+      "name": "Deep Teal",
+      "weight": 0.33
+    },
+    {
+      "hex": "#000014",
+      "rgb": "0, 0, 20",
+      "name": "Deep Black",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1081,
+  "created_at": "2026-01-07T09:32:25.784852+00:00"
+}

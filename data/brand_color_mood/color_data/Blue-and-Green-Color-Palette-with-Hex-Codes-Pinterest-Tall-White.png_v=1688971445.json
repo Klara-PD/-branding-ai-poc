@@ -1,0 +1,56 @@
+{
+  "filename": "Blue-and-Green-Color-Palette-with-Hex-Codes-Pinterest-Tall-White.png_v=1688971445.png",
+  "image_hash": "232c5e8da6b8cb1c8aee76116412fc8d8c47168d54fa3f9727b462a09120b8a9",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.21
+    },
+    {
+      "hex": "#00397D",
+      "rgb": "0, 57, 125",
+      "name": "Deep Teal",
+      "weight": 0.15
+    },
+    {
+      "hex": "#24B271",
+      "rgb": "36, 178, 113",
+      "name": "Bright Aqua",
+      "weight": 0.15
+    },
+    {
+      "hex": "#96E7F7",
+      "rgb": "150, 231, 247",
+      "name": "Soft Teal",
+      "weight": 0.15
+    },
+    {
+      "hex": "#7DD249",
+      "rgb": "125, 210, 73",
+      "name": "Bright Honey",
+      "weight": 0.14
+    },
+    {
+      "hex": "#009ED2",
+      "rgb": "0, 158, 210",
+      "name": "Deep Teal",
+      "weight": 0.14
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#00397D",
+      "contrast_ratio": 11.16
+    },
+    {
+      "bg_hex": "#00397D",
+      "fg_hex": "#96E7F7",
+      "contrast_ratio": 8.01
+    }
+  ],
+  "processing_time_ms": 4407,
+  "created_at": "2026-01-07T09:19:19.235402+00:00"
+}

@@ -1,0 +1,60 @@
+{
+  "filename": "Blue-and-Orange-Color-Palette-with-Hex-Codes.png_v=1688970448.png",
+  "image_hash": "e23e8101875fbe1ec6e87d4848cfc36e601d0c7438174dbeb8c8961acefe85f2",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.36
+    },
+    {
+      "hex": "#FFA67D",
+      "rgb": "255, 166, 125",
+      "name": "Bright Ruby",
+      "weight": 0.19
+    },
+    {
+      "hex": "#69AAF3",
+      "rgb": "105, 170, 243",
+      "name": "Bright Teal",
+      "weight": 0.19
+    },
+    {
+      "hex": "#FF7979",
+      "rgb": "255, 121, 121",
+      "name": "Bright Ruby",
+      "weight": 0.19
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.05
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#000000",
+      "contrast_ratio": 21
+    },
+    {
+      "bg_hex": "#FFA67D",
+      "fg_hex": "#000000",
+      "contrast_ratio": 11
+    },
+    {
+      "bg_hex": "#69AAF3",
+      "fg_hex": "#000000",
+      "contrast_ratio": 8.64
+    },
+    {
+      "bg_hex": "#FF7979",
+      "fg_hex": "#000000",
+      "contrast_ratio": 8.26
+    }
+  ],
+  "processing_time_ms": 5129,
+  "created_at": "2026-01-07T09:25:24.678379+00:00"
+}

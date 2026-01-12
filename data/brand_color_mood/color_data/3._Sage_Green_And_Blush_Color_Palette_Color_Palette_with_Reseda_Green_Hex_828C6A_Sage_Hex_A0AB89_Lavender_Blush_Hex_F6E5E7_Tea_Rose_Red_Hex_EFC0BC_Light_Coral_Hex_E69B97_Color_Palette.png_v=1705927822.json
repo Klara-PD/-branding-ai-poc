@@ -1,0 +1,39 @@
+{
+  "filename": "3._Sage_Green_And_Blush_Color_Palette_Color_Palette_with_Reseda_Green_Hex_828C6A_Sage_Hex_A0AB89_Lavender_Blush_Hex_F6E5E7_Tea_Rose_Red_Hex_EFC0BC_Light_Coral_Hex_E69B97_Color_Palette.png_v=1705927822.png",
+  "image_hash": "603dd811828a0297ca8665c06aafaa719b5ac3af4a26ce6ba04da6a3e183391a",
+  "extracted_colors": [
+    {
+      "hex": "#F3E7E7",
+      "rgb": "243, 231, 231",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DB9E9A",
+      "rgb": "219, 158, 154",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A2AA8E",
+      "rgb": "162, 170, 142",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7C2BE",
+      "rgb": "231, 194, 190",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#868E6D",
+      "rgb": "134, 142, 109",
+      "name": "Soft Forest",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1126,
+  "created_at": "2026-01-07T08:57:56.594032+00:00"
+}

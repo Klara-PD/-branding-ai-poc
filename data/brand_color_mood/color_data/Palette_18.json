@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_18.jpg",
+  "image_hash": "69f9b07bbf5f3a37f581609196339453eaec13c4d54906592520006cb9006b89",
+  "extracted_colors": [
+    {
+      "hex": "#CAD2B2",
+      "rgb": "202, 210, 178",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#C6B2CE",
+      "rgb": "198, 178, 206",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#143920",
+      "rgb": "20, 57, 32",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#821841",
+      "rgb": "130, 24, 65",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#CAD2B2",
+      "fg_hex": "#143920",
+      "contrast_ratio": 8.17
+    }
+  ],
+  "processing_time_ms": 2596,
+  "created_at": "2026-01-07T08:11:18.87276+00:00"
+}

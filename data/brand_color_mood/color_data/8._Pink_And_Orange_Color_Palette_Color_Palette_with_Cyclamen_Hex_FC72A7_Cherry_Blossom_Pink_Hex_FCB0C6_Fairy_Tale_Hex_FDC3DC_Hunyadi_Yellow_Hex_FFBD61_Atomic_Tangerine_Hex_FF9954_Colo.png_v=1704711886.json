@@ -1,0 +1,27 @@
+{
+  "filename": "8._Pink_And_Orange_Color_Palette_Color_Palette_with_Cyclamen_Hex_FC72A7_Cherry_Blossom_Pink_Hex_FCB0C6_Fairy_Tale_Hex_FDC3DC_Hunyadi_Yellow_Hex_FFBD61_Atomic_Tangerine_Hex_FF9954_Colo.png_v=1704711886.png",
+  "image_hash": "8b9eadd1319d8b8972e49c6f15a248d92f3820ab12f8b0fe11491cefb7fe321b",
+  "extracted_colors": [
+    {
+      "hex": "#F39E61",
+      "rgb": "243, 158, 97",
+      "name": "Bright Amber",
+      "weight": 0.33
+    },
+    {
+      "hex": "#EB79A6",
+      "rgb": "235, 121, 166",
+      "name": "Bright Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#F3C6DB",
+      "rgb": "243, 198, 219",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 988,
+  "created_at": "2026-01-07T09:47:08.705066+00:00"
+}

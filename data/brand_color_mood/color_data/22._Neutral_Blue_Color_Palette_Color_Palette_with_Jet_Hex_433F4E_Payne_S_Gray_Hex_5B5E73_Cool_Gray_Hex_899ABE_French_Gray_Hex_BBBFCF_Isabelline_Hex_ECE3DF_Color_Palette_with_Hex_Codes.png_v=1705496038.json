@@ -1,0 +1,45 @@
+{
+  "filename": "22._Neutral_Blue_Color_Palette_Color_Palette_with_Jet_Hex_433F4E_Payne_S_Gray_Hex_5B5E73_Cool_Gray_Hex_899ABE_French_Gray_Hex_BBBFCF_Isabelline_Hex_ECE3DF_Color_Palette_with_Hex_Codes.png_v=1705496038.png",
+  "image_hash": "16644029b7f449c2c1ac852482b6c50589c86a973feff5896585fb1261cf253e",
+  "extracted_colors": [
+    {
+      "hex": "#8A9ABA",
+      "rgb": "138, 154, 186",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#41414D",
+      "rgb": "65, 65, 77",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBE3DF",
+      "rgb": "235, 227, 223",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#5D5D71",
+      "rgb": "93, 93, 113",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BEBECE",
+      "rgb": "190, 190, 206",
+      "name": "Silver Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#41414D",
+      "fg_hex": "#EBE3DF",
+      "contrast_ratio": 7.94
+    }
+  ],
+  "processing_time_ms": 1105,
+  "created_at": "2026-01-07T09:19:00.507828+00:00"
+}

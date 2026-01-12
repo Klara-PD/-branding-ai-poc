@@ -1,0 +1,39 @@
+{
+  "filename": "18._Dark_Purple_And_Green_Color_Palette_Color_Palette_with_Dark_Purple_Hex_210724_Russian_Violet_Hex_3C1351_Tekhelet_Hex_571F7D_Dartmouth_Green_Hex_1F6131_Pakistan_Green_Hex_074417_Co.png_v=1704721377.png",
+  "image_hash": "c652e782f08d9f80356cab177bd2c87bdbb2b5706c4f3a8365f3160531fec0af",
+  "extracted_colors": [
+    {
+      "hex": "#512479",
+      "rgb": "81, 36, 121",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#1C451C",
+      "rgb": "28, 69, 28",
+      "name": "Deep Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#39184D",
+      "rgb": "57, 24, 77",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#356135",
+      "rgb": "53, 97, 53",
+      "name": "Deep Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#1C0824",
+      "rgb": "28, 8, 36",
+      "name": "Charcoal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 2583,
+  "created_at": "2026-01-07T09:35:34.372544+00:00"
+}

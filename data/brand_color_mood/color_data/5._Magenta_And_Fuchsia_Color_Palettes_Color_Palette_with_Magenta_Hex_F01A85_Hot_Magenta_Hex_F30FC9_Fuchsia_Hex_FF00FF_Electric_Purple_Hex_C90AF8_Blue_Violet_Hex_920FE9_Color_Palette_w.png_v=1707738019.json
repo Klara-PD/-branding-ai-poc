@@ -1,0 +1,39 @@
+{
+  "filename": "5._Magenta_And_Fuchsia_Color_Palettes_Color_Palette_with_Magenta_Hex_F01A85_Hot_Magenta_Hex_F30FC9_Fuchsia_Hex_FF00FF_Electric_Purple_Hex_C90AF8_Blue_Violet_Hex_920FE9_Color_Palette_w.png_v=1707738019.png",
+  "image_hash": "d6b10f9cdd5b04cf6cc6d10c0705faf7b21c464928c1d60d5d24ee156084ae52",
+  "extracted_colors": [
+    {
+      "hex": "#EB3DF7",
+      "rgb": "235, 61, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8628DF",
+      "rgb": "134, 40, 223",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DF39C2",
+      "rgb": "223, 57, 194",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B631EF",
+      "rgb": "182, 49, 239",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DF3982",
+      "rgb": "223, 57, 130",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1005,
+  "created_at": "2026-01-07T08:58:07.213341+00:00"
+}

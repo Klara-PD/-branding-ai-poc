@@ -1,0 +1,33 @@
+{
+  "filename": "27._Muted_Red_Color_Palette_Color_Palette_with_Chocolate_Cosmos_Hex_461220_Wine_Hex_69212D_Cordovan_Hex_8C2F39_Redwood_Hex_B23A48_Light_Coral_Hex_D77A7D_Color_Palette_with_Hex_Codes.png_v=1704801524.png",
+  "image_hash": "57301646c6b3df27927e38f595d4c5cd6ca4e0c1166297162a934c894f79a6ec",
+  "extracted_colors": [
+    {
+      "hex": "#CA7D7D",
+      "rgb": "202, 125, 125",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#A6454D",
+      "rgb": "166, 69, 77",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#61242D",
+      "rgb": "97, 36, 45",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#82353D",
+      "rgb": "130, 53, 61",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1848,
+  "created_at": "2026-01-07T09:24:01.851525+00:00"
+}

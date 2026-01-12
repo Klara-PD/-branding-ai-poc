@@ -1,0 +1,55 @@
+{
+  "filename": "Dark_Brown_Grey_Color_Palette_Color_Palette_with_Night_Hex_181516_Van_Dyke_Hex_362D2B_Battleship_Gray_Hex_8B8481_Silver_Hex_C2B7AE_Seasalt_Hex_F9F9F7_Color_Palette_with_Hex_Codes.png_v=1684820303.png",
+  "image_hash": "ed2a6a873e814c1f258eafb6f4da60ee7763ccee294b7171f8cba49dd8dbe0b1",
+  "extracted_colors": [
+    {
+      "hex": "#8A8682",
+      "rgb": "138, 134, 130",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#181414",
+      "rgb": "24, 20, 20",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C2B6AE",
+      "rgb": "194, 182, 174",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBFBF7",
+      "rgb": "251, 251, 247",
+      "name": "Pure White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#392D2D",
+      "rgb": "57, 45, 45",
+      "name": "Charcoal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#181414",
+      "fg_hex": "#C2B6AE",
+      "contrast_ratio": 9.22
+    },
+    {
+      "bg_hex": "#181414",
+      "fg_hex": "#FBFBF7",
+      "contrast_ratio": 17.62
+    },
+    {
+      "bg_hex": "#FBFBF7",
+      "fg_hex": "#392D2D",
+      "contrast_ratio": 12.75
+    }
+  ],
+  "processing_time_ms": 1014,
+  "created_at": "2026-01-07T09:26:15.356737+00:00"
+}

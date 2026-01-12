@@ -1,0 +1,45 @@
+{
+  "filename": "Cobalt-Blue-Color-Palette-with-Hex-Codes.png_v=1688971256.png",
+  "image_hash": "a16c99c997a3ecb40d2ac1c424e9c66b9b3a4253f10f060cd9ccd403f4a20cca",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.32
+    },
+    {
+      "hex": "#0049AA",
+      "rgb": "0, 73, 170",
+      "name": "Deep Teal",
+      "weight": 0.16
+    },
+    {
+      "hex": "#49BADB",
+      "rgb": "73, 186, 219",
+      "name": "Bright Teal",
+      "weight": 0.15
+    },
+    {
+      "hex": "#0096C6",
+      "rgb": "0, 150, 198",
+      "name": "Deep Teal",
+      "weight": 0.15
+    },
+    {
+      "hex": "#92DFEF",
+      "rgb": "146, 223, 239",
+      "name": "Soft Teal",
+      "weight": 0.15
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#0049AA",
+      "contrast_ratio": 8.29
+    }
+  ],
+  "processing_time_ms": 941,
+  "created_at": "2026-01-07T09:19:05.171825+00:00"
+}

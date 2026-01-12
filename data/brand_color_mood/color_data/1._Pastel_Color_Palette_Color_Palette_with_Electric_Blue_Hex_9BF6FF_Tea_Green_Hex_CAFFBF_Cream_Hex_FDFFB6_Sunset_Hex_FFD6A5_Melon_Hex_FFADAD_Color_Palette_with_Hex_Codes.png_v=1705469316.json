@@ -1,0 +1,33 @@
+{
+  "filename": "1._Pastel_Color_Palette_Color_Palette_with_Electric_Blue_Hex_9BF6FF_Tea_Green_Hex_CAFFBF_Cream_Hex_FDFFB6_Sunset_Hex_FFD6A5_Melon_Hex_FFADAD_Color_Palette_with_Hex_Codes.png_v=1705469316.png",
+  "image_hash": "50edfcf1b788212250847301307d6f264b6988ce1570efc171f5b825d545ba2c",
+  "extracted_colors": [
+    {
+      "hex": "#F3B2AE",
+      "rgb": "243, 178, 174",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFFFBE",
+      "rgb": "255, 255, 190",
+      "name": "Soft Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D7FFC6",
+      "rgb": "215, 255, 198",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#AEF3FF",
+      "rgb": "174, 243, 255",
+      "name": "Soft Teal",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 972,
+  "created_at": "2026-01-07T08:56:17.320753+00:00"
+}

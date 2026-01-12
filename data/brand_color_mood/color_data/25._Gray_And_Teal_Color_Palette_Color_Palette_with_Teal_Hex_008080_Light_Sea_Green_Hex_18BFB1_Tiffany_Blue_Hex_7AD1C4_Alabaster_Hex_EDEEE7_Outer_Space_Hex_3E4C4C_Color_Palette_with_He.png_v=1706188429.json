@@ -1,0 +1,45 @@
+{
+  "filename": "25._Gray_And_Teal_Color_Palette_Color_Palette_with_Teal_Hex_008080_Light_Sea_Green_Hex_18BFB1_Tiffany_Blue_Hex_7AD1C4_Alabaster_Hex_EDEEE7_Outer_Space_Hex_3E4C4C_Color_Palette_with_He.png_v=1706188429.png",
+  "image_hash": "97e65a7c8208e6994da9989c4a7f6baf863681ba9301f5b31437f423a8f700e5",
+  "extracted_colors": [
+    {
+      "hex": "#8ECEC2",
+      "rgb": "142, 206, 194",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFEFE7",
+      "rgb": "239, 239, 231",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#414D4D",
+      "rgb": "65, 77, 77",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#59BAB2",
+      "rgb": "89, 186, 178",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#397D7D",
+      "rgb": "57, 125, 125",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EFEFE7",
+      "fg_hex": "#414D4D",
+      "contrast_ratio": 7.59
+    }
+  ],
+  "processing_time_ms": 1318,
+  "created_at": "2026-01-07T09:26:27.98413+00:00"
+}

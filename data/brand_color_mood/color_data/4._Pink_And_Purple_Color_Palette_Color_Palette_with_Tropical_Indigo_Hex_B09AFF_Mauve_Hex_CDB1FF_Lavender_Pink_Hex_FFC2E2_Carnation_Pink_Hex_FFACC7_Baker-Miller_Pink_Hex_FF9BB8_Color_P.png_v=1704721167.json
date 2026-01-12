@@ -1,0 +1,21 @@
+{
+  "filename": "4._Pink_And_Purple_Color_Palette_Color_Palette_with_Tropical_Indigo_Hex_B09AFF_Mauve_Hex_CDB1FF_Lavender_Pink_Hex_FFC2E2_Carnation_Pink_Hex_FFACC7_Baker-Miller_Pink_Hex_FF9BB8_Color_P.png_v=1704721167.png",
+  "image_hash": "878b95c6b09c3f09b5affaa2e185969edec1dd69771f45f553c83f7825752a69",
+  "extracted_colors": [
+    {
+      "hex": "#CAB2FB",
+      "rgb": "202, 178, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.5
+    },
+    {
+      "hex": "#F3AEC6",
+      "rgb": "243, 174, 198",
+      "name": "Soft Ruby",
+      "weight": 0.5
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1047,
+  "created_at": "2026-01-07T08:56:32.188201+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "3._Turquoise_And_Gold_Color_Palette_Color_Palette_with_Midnight_Green_Hex_003B3B_Teal_Hex_1A837C_Turquoise_Hex_34CBBC_Old_Gold_Hex_CCAE35_Saffron_Hex_E6C31B_Color_Palette_with_Hex_Cod.png_v=1707289384.png",
+  "image_hash": "791abe59f89bcec5dea16359b456da88d7838ef9e45f07f5770fc6d59de42092",
+  "extracted_colors": [
+    {
+      "hex": "#3D827D",
+      "rgb": "61, 130, 125",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E3C249",
+      "rgb": "227, 194, 73",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#65C6BA",
+      "rgb": "101, 198, 186",
+      "name": "Soft Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#143939",
+      "rgb": "20, 57, 57",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#E3C249",
+      "fg_hex": "#143939",
+      "contrast_ratio": 7.22
+    }
+  ],
+  "processing_time_ms": 969,
+  "created_at": "2026-01-07T08:57:36.065226+00:00"
+}

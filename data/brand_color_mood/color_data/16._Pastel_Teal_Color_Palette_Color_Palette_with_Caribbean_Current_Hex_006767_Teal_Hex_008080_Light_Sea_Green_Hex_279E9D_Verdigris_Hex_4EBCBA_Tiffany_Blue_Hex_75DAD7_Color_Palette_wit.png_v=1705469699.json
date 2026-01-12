@@ -1,0 +1,33 @@
+{
+  "filename": "16._Pastel_Teal_Color_Palette_Color_Palette_with_Caribbean_Current_Hex_006767_Teal_Hex_008080_Light_Sea_Green_Hex_279E9D_Verdigris_Hex_4EBCBA_Tiffany_Blue_Hex_75DAD7_Color_Palette_wit.png_v=1705469699.png",
+  "image_hash": "36b727a41db1e38b0b28ea57a58a13c00ceeec51137a26dcdb3246073bdbd4f4",
+  "extracted_colors": [
+    {
+      "hex": "#519E9E",
+      "rgb": "81, 158, 158",
+      "name": "Soft Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#397D7D",
+      "rgb": "57, 125, 125",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8ED7D7",
+      "rgb": "142, 215, 215",
+      "name": "Soft Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#6DBABA",
+      "rgb": "109, 186, 186",
+      "name": "Soft Aqua",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1018,
+  "created_at": "2026-01-07T09:38:30.451435+00:00"
+}

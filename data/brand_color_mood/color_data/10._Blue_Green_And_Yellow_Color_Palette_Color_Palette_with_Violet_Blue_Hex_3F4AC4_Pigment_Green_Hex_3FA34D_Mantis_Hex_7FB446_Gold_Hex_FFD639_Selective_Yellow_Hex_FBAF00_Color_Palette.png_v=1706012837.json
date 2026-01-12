@@ -1,0 +1,39 @@
+{
+  "filename": "10._Blue_Green_And_Yellow_Color_Palette_Color_Palette_with_Violet_Blue_Hex_3F4AC4_Pigment_Green_Hex_3FA34D_Mantis_Hex_7FB446_Gold_Hex_FFD639_Selective_Yellow_Hex_FBAF00_Color_Palette.png_v=1706012837.png",
+  "image_hash": "78d8780f50f1114069322f2e42096a2d29a16283801f798146e754b78fa94c42",
+  "extracted_colors": [
+    {
+      "hex": "#8AB255",
+      "rgb": "138, 178, 85",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBD75D",
+      "rgb": "251, 215, 93",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#59A255",
+      "rgb": "89, 162, 85",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFB23D",
+      "rgb": "239, 178, 61",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#414DBE",
+      "rgb": "65, 77, 190",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1103,
+  "created_at": "2026-01-07T09:49:03.444797+00:00"
+}

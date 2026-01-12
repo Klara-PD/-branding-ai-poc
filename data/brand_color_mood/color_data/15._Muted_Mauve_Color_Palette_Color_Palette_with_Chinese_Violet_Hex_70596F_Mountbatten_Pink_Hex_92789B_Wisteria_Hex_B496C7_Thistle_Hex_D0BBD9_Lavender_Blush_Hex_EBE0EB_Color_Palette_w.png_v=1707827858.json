@@ -1,0 +1,39 @@
+{
+  "filename": "15._Muted_Mauve_Color_Palette_Color_Palette_with_Chinese_Violet_Hex_70596F_Mountbatten_Pink_Hex_92789B_Wisteria_Hex_B496C7_Thistle_Hex_D0BBD9_Lavender_Blush_Hex_EBE0EB_Color_Palette_w.png_v=1707827858.png",
+  "image_hash": "4d55de83e60e206e6be83d81a8ff253220f6b4e679305229d1196b4da18eb668",
+  "extracted_colors": [
+    {
+      "hex": "#AE9AC2",
+      "rgb": "174, 154, 194",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CEBAD7",
+      "rgb": "206, 186, 215",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8E799A",
+      "rgb": "142, 121, 154",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBE3EB",
+      "rgb": "235, 227, 235",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6D596D",
+      "rgb": "109, 89, 109",
+      "name": "Slate Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 999,
+  "created_at": "2026-01-07T09:36:03.503924+00:00"
+}

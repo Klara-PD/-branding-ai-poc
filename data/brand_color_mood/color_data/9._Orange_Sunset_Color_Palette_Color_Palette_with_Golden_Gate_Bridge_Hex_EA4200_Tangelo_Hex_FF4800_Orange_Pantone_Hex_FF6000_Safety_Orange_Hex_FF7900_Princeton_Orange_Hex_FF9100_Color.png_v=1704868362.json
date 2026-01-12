@@ -1,0 +1,21 @@
+{
+  "filename": "9._Orange_Sunset_Color_Palette_Color_Palette_with_Golden_Gate_Bridge_Hex_EA4200_Tangelo_Hex_FF4800_Orange_Pantone_Hex_FF6000_Safety_Orange_Hex_FF7900_Princeton_Orange_Hex_FF9100_Color.png_v=1704868362.png",
+  "image_hash": "b97403dafc0bc8da44e6f11fc30ab9a8d741d5f09383ebe9361fd5f3442ee659",
+  "extracted_colors": [
+    {
+      "hex": "#EB5528",
+      "rgb": "235, 85, 40",
+      "name": "Deep Amber",
+      "weight": 0.5
+    },
+    {
+      "hex": "#EF8231",
+      "rgb": "239, 130, 49",
+      "name": "Bright Amber",
+      "weight": 0.5
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 979,
+  "created_at": "2026-01-07T09:50:50.798359+00:00"
+}

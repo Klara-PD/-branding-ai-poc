@@ -1,0 +1,39 @@
+{
+  "filename": "1._Mauve_Wedding_Color_Palette_Color_Palette_with_English_Violet_Hex_523466_Mauve_Hex_E0B0FF_Periwinkle_Hex_B0B4FF_Lavender_Pink_Hex_FFB0DA_Thistle_Hex_C3B6CC_Color_Palette_with_Hex_C.png_v=1707826860.png",
+  "image_hash": "e270527b599003fd7d7a90f7028d341fb9c9ad2e4111d9ee6ee8951e69f4d9f6",
+  "extracted_colors": [
+    {
+      "hex": "#DBB2FB",
+      "rgb": "219, 178, 251",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B2B6FB",
+      "rgb": "178, 182, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3B2D7",
+      "rgb": "243, 178, 215",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C2B6CA",
+      "rgb": "194, 182, 202",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4D3561",
+      "rgb": "77, 53, 97",
+      "name": "Deep Plum",
+      "weight": 0.19
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1202,
+  "created_at": "2026-01-07T08:57:20.287094+00:00"
+}

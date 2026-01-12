@@ -1,0 +1,33 @@
+{
+  "filename": "14._Pink_And_Violet_Color_Palette_Color_Palette_with_Violet_Hex_7F00FF_Medium_Slate_Blue_Hex_826AED_Heliotrope_Hex_C879FF_Mauve_Hex_FFB7FF_Mimi_Pink_Hex_FFDBEE_Color_Palette_with_Hex.png_v=1707917104.png",
+  "image_hash": "814f5111e5aa1ed7093d515aa20ce7e45ed43d2458916232c458b604e43acd66",
+  "extracted_colors": [
+    {
+      "hex": "#F3BAFB",
+      "rgb": "243, 186, 251",
+      "name": "Soft Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#BE7DF7",
+      "rgb": "190, 125, 247",
+      "name": "Bright Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#7D6DE7",
+      "rgb": "125, 109, 231",
+      "name": "Deep Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1455,
+  "created_at": "2026-01-07T09:48:22.396217+00:00"
+}

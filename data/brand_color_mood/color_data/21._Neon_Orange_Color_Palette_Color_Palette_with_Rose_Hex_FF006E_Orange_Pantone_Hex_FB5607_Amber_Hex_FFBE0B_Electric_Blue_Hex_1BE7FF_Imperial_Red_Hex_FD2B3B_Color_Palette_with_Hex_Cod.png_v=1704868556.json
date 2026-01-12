@@ -1,0 +1,33 @@
+{
+  "filename": "21._Neon_Orange_Color_Palette_Color_Palette_with_Rose_Hex_FF006E_Orange_Pantone_Hex_FB5607_Amber_Hex_FFBE0B_Electric_Blue_Hex_1BE7FF_Imperial_Red_Hex_FD2B3B_Color_Palette_with_Hex_Cod.png_v=1704868556.png",
+  "image_hash": "a1f44f380e74bc086dc35d7c859defc00d4e1234f00993f04c31e4ac98bc50ab",
+  "extracted_colors": [
+    {
+      "hex": "#F7BE45",
+      "rgb": "247, 190, 69",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EB4545",
+      "rgb": "235, 69, 69",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EB356D",
+      "rgb": "235, 53, 109",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#69E3FB",
+      "rgb": "105, 227, 251",
+      "name": "Bright Teal",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1045,
+  "created_at": "2026-01-07T09:37:24.765963+00:00"
+}

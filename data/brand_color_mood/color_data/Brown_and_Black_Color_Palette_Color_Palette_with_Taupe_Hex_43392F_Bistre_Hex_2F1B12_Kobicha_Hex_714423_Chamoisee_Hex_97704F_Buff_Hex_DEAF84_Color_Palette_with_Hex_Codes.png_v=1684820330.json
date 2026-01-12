@@ -1,0 +1,45 @@
+{
+  "filename": "Brown_and_Black_Color_Palette_Color_Palette_with_Taupe_Hex_43392F_Bistre_Hex_2F1B12_Kobicha_Hex_714423_Chamoisee_Hex_97704F_Buff_Hex_DEAF84_Color_Palette_with_Hex_Codes.png_v=1684820330.png",
+  "image_hash": "71f2730999682a4c162baa5afebc50c193b0958968934ab6036a695c11b7d54d",
+  "extracted_colors": [
+    {
+      "hex": "#714524",
+      "rgb": "113, 69, 36",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#311C10",
+      "rgb": "49, 28, 16",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DFAE86",
+      "rgb": "223, 174, 134",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#453931",
+      "rgb": "69, 57, 49",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#967151",
+      "rgb": "150, 113, 81",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#311C10",
+      "fg_hex": "#DFAE86",
+      "contrast_ratio": 8.08
+    }
+  ],
+  "processing_time_ms": 960,
+  "created_at": "2026-01-07T09:23:15.348265+00:00"
+}

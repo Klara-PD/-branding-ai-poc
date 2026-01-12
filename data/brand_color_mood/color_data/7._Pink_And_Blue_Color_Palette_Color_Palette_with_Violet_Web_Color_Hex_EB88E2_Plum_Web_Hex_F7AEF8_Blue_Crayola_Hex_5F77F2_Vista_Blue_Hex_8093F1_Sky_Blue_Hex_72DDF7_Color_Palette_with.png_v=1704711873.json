@@ -1,0 +1,39 @@
+{
+  "filename": "7._Pink_And_Blue_Color_Palette_Color_Palette_with_Violet_Web_Color_Hex_EB88E2_Plum_Web_Hex_F7AEF8_Blue_Crayola_Hex_5F77F2_Vista_Blue_Hex_8093F1_Sky_Blue_Hex_72DDF7_Color_Palette_with.png_v=1704711873.png",
+  "image_hash": "3f0abbbe9f5f6fe86361e0393c957e2664e59f847cd3e020c06d0cb0945a8c42",
+  "extracted_colors": [
+    {
+      "hex": "#8EDBF3",
+      "rgb": "142, 219, 243",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBB2F3",
+      "rgb": "235, 178, 243",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8696EB",
+      "rgb": "134, 150, 235",
+      "name": "Bright Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6579EB",
+      "rgb": "101, 121, 235",
+      "name": "Bright Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DF8EDB",
+      "rgb": "223, 142, 219",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1146,
+  "created_at": "2026-01-07T09:46:30.431951+00:00"
+}

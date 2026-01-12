@@ -1,0 +1,27 @@
+{
+  "filename": "15._Orange_And_Yellow_Color_Palette_Color_Palette_with_Scarlet_Hex_FF2F00_Orange_Pantone_Hex_FF5E00_Dark_Orange_Web_Hex_FF8A00_Jonquil_Hex_FFD000_Yellow_Hex_FFFF00_Color_Palette_with.png_v=1704868458.png",
+  "image_hash": "f33e1c3972852a9b6795574774a62c322beb576026ea03ecbb79ba3166b6c6e0",
+  "extracted_colors": [
+    {
+      "hex": "#FFFF55",
+      "rgb": "255, 255, 85",
+      "name": "Bright Honey",
+      "weight": 0.33
+    },
+    {
+      "hex": "#F7D249",
+      "rgb": "247, 210, 73",
+      "name": "Bright Amber",
+      "weight": 0.33
+    },
+    {
+      "hex": "#EF692D",
+      "rgb": "239, 105, 45",
+      "name": "Bright Amber",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1109,
+  "created_at": "2026-01-07T09:36:10.381328+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "5._Neon_Rainbow_Color_Palette_Color_Palette_with_Red_Cmyk_Hex_EE1717_Giants_Orange_Hex_FC6524_Canary_Hex_FFE433_Erin_Hex_00F556_Aqua_Hex_00F2FA_Color_Palette_with_Hex_Codes.png_v=1706160924.png",
+  "image_hash": "43999b34568f55c6323b6bcedc4e75cbe871ff536291b92f1f0a899f9584673e",
+  "extracted_colors": [
+    {
+      "hex": "#6DEFF7",
+      "rgb": "109, 239, 247",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DB3528",
+      "rgb": "219, 53, 40",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBE359",
+      "rgb": "251, 227, 89",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6DF36D",
+      "rgb": "109, 243, 109",
+      "name": "Bright Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB6D3D",
+      "rgb": "235, 109, 61",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1996,
+  "created_at": "2026-01-07T08:57:42.601423+00:00"
+}

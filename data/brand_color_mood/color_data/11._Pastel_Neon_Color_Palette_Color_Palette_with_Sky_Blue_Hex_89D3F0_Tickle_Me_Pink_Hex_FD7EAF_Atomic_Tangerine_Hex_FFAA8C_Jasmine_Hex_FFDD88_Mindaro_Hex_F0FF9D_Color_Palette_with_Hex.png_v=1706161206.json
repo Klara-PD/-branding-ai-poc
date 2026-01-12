@@ -1,0 +1,33 @@
+{
+  "filename": "11._Pastel_Neon_Color_Palette_Color_Palette_with_Sky_Blue_Hex_89D3F0_Tickle_Me_Pink_Hex_FD7EAF_Atomic_Tangerine_Hex_FFAA8C_Jasmine_Hex_FFDD88_Mindaro_Hex_F0FF9D_Color_Palette_with_Hex.png_v=1706161206.png",
+  "image_hash": "51694bdea353279f6220097bb888faf44165915cc7edc7a0bda63b8a8e5b1565",
+  "extracted_colors": [
+    {
+      "hex": "#F3FFAA",
+      "rgb": "243, 255, 170",
+      "name": "Soft Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EF86AE",
+      "rgb": "239, 134, 174",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3AE92",
+      "rgb": "243, 174, 146",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#9AD2EF",
+      "rgb": "154, 210, 239",
+      "name": "Soft Teal",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 958,
+  "created_at": "2026-01-07T09:47:58.298227+00:00"
+}

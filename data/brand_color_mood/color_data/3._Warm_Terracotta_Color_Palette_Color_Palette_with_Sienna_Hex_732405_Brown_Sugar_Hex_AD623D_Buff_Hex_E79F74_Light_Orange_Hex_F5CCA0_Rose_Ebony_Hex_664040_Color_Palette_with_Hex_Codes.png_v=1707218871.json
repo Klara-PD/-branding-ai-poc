@@ -1,0 +1,45 @@
+{
+  "filename": "3._Warm_Terracotta_Color_Palette_Color_Palette_with_Sienna_Hex_732405_Brown_Sugar_Hex_AD623D_Buff_Hex_E79F74_Light_Orange_Hex_F5CCA0_Rose_Ebony_Hex_664040_Color_Palette_with_Hex_Codes.png_v=1707218871.png",
+  "image_hash": "27725ffce3801759527c16a847bac5d27e56e426b9254b744853a02a2e6c87af",
+  "extracted_colors": [
+    {
+      "hex": "#DFA279",
+      "rgb": "223, 162, 121",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#692810",
+      "rgb": "105, 40, 16",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A26545",
+      "rgb": "162, 101, 69",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFCEA6",
+      "rgb": "239, 206, 166",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#614141",
+      "rgb": "97, 65, 65",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#692810",
+      "fg_hex": "#EFCEA6",
+      "contrast_ratio": 7.35
+    }
+  ],
+  "processing_time_ms": 1158,
+  "created_at": "2026-01-07T08:54:56.681973+00:00"
+}

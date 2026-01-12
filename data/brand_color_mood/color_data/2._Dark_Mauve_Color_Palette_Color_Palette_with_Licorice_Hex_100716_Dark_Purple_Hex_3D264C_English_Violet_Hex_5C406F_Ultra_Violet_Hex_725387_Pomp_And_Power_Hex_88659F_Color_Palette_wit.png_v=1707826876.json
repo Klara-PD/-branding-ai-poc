@@ -1,0 +1,27 @@
+{
+  "filename": "2._Dark_Mauve_Color_Palette_Color_Palette_with_Licorice_Hex_100716_Dark_Purple_Hex_3D264C_English_Violet_Hex_5C406F_Ultra_Violet_Hex_725387_Pomp_And_Power_Hex_88659F_Color_Palette_wit.png_v=1707826876.png",
+  "image_hash": "829e9e8e06aaf6784fc4a81b4f0ce3e033305a385e13e6727a2d291adcda0c83",
+  "extracted_colors": [
+    {
+      "hex": "#6D5586",
+      "rgb": "109, 85, 134",
+      "name": "Deep Plum",
+      "weight": 0.34
+    },
+    {
+      "hex": "#392849",
+      "rgb": "57, 40, 73",
+      "name": "Deep Plum",
+      "weight": 0.34
+    },
+    {
+      "hex": "#0C0814",
+      "rgb": "12, 8, 20",
+      "name": "Deep Black",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 2071,
+  "created_at": "2026-01-07T08:56:02.511088+00:00"
+}

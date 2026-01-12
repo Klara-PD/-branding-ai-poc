@@ -1,0 +1,27 @@
+{
+  "filename": "11._Pastel_Autumn_Color_Palette_Color_Palette_with_Moss_Green_Hex_8C9579_Sunset_Hex_EACFA5_Desert_Sand_Hex_E6BB96_Rosy_Brown_Hex_BE9A98_Old_Rose_Hex_AA7A79_Color_Palette_with_Hex_Code.png_v=1705469617.png",
+  "image_hash": "d6e7a429dc816d8073c7e1c595dc3a8fe8369631bc71952679d8637053ddba54",
+  "extracted_colors": [
+    {
+      "hex": "#BA9E9A",
+      "rgb": "186, 158, 154",
+      "name": "Soft Ruby",
+      "weight": 0.34
+    },
+    {
+      "hex": "#E7CEAA",
+      "rgb": "231, 206, 170",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#A27D79",
+      "rgb": "162, 125, 121",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1142,
+  "created_at": "2026-01-07T09:48:41.097294+00:00"
+}

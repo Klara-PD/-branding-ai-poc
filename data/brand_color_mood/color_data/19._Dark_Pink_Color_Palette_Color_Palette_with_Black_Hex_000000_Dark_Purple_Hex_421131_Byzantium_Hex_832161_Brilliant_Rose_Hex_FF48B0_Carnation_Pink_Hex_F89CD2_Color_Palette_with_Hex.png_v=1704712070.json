@@ -1,0 +1,50 @@
+{
+  "filename": "19._Dark_Pink_Color_Palette_Color_Palette_with_Black_Hex_000000_Dark_Purple_Hex_421131_Byzantium_Hex_832161_Brilliant_Rose_Hex_FF48B0_Carnation_Pink_Hex_F89CD2_Color_Palette_with_Hex.png_v=1704712070.png",
+  "image_hash": "b63077582e875923007c8fc5d79fe1b8d5a66e74fe6d17482445e5dfbf5be49a",
+  "extracted_colors": [
+    {
+      "hex": "#EBA2CE",
+      "rgb": "235, 162, 206",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#3D1431",
+      "rgb": "61, 20, 49",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#79285D",
+      "rgb": "121, 40, 93",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB59AE",
+      "rgb": "235, 89, 174",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EBA2CE",
+      "fg_hex": "#000000",
+      "contrast_ratio": 10.59
+    },
+    {
+      "bg_hex": "#EBA2CE",
+      "fg_hex": "#3D1431",
+      "contrast_ratio": 7.89
+    }
+  ],
+  "processing_time_ms": 1047,
+  "created_at": "2026-01-07T09:32:22.356256+00:00"
+}

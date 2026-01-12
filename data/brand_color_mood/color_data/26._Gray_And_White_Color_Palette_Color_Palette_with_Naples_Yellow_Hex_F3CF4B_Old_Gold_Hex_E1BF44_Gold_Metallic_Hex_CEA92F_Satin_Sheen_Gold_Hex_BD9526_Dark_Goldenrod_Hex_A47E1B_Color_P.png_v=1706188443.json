@@ -1,0 +1,50 @@
+{
+  "filename": "26._Gray_And_White_Color_Palette_Color_Palette_with_Naples_Yellow_Hex_F3CF4B_Old_Gold_Hex_E1BF44_Gold_Metallic_Hex_CEA92F_Satin_Sheen_Gold_Hex_BD9526_Dark_Goldenrod_Hex_A47E1B_Color_P.png_v=1706188443.png",
+  "image_hash": "8199551c41a44b58c1379f69db4f50ea88c2164c6d878f2c1ceec4c1cd220cf0",
+  "extracted_colors": [
+    {
+      "hex": "#353535",
+      "rgb": "53, 53, 53",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBFBFB",
+      "rgb": "251, 251, 251",
+      "name": "Pure White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#656565",
+      "rgb": "101, 101, 101",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CACACA",
+      "rgb": "202, 202, 202",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#969696",
+      "rgb": "150, 150, 150",
+      "name": "Silver Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#353535",
+      "fg_hex": "#FBFBFB",
+      "contrast_ratio": 11.85
+    },
+    {
+      "bg_hex": "#353535",
+      "fg_hex": "#CACACA",
+      "contrast_ratio": 7.48
+    }
+  ],
+  "processing_time_ms": 1072,
+  "created_at": "2026-01-07T09:26:31.36818+00:00"
+}

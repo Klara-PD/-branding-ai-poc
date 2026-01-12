@@ -1,0 +1,60 @@
+{
+  "filename": "Palette_90.jpg",
+  "image_hash": "1a32f8ad7e54cddcb71ec6e256d9dfbac1b245900c79e52a6bc43c529f20563f",
+  "extracted_colors": [
+    {
+      "hex": "#454545",
+      "rgb": "69, 69, 69",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#A6A6A2",
+      "rgb": "166, 166, 162",
+      "name": "Silver Gray",
+      "weight": 0.17
+    },
+    {
+      "hex": "#00AEAE",
+      "rgb": "0, 174, 174",
+      "name": "Deep Aqua",
+      "weight": 0.17
+    },
+    {
+      "hex": "#DFDFDB",
+      "rgb": "223, 223, 219",
+      "name": "Cloud Gray",
+      "weight": 0.16
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#454545",
+      "fg_hex": "#DFDFDB",
+      "contrast_ratio": 7.18
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#A6A6A2",
+      "contrast_ratio": 8.6
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#00AEAE",
+      "contrast_ratio": 7.67
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#DFDFDB",
+      "contrast_ratio": 15.72
+    }
+  ],
+  "processing_time_ms": 1254,
+  "created_at": "2026-01-07T08:12:48.413532+00:00"
+}

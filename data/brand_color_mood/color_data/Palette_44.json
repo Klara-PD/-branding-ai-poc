@@ -1,0 +1,49 @@
+{
+  "filename": "Palette_44.jpg",
+  "image_hash": "598a917ad2522c15eaed162eefb184b9319e1c3d68a210639d99b844e3b80496",
+  "extracted_colors": [
+    {
+      "hex": "#D2D7B2",
+      "rgb": "210, 215, 178",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DFC2EB",
+      "rgb": "223, 194, 235",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#202020",
+      "rgb": "32, 32, 32",
+      "name": "Charcoal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFDB45",
+      "rgb": "255, 219, 69",
+      "name": "Bright Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#D2D7B2",
+      "fg_hex": "#202020",
+      "contrast_ratio": 10.94
+    },
+    {
+      "bg_hex": "#DFC2EB",
+      "fg_hex": "#202020",
+      "contrast_ratio": 10.13
+    },
+    {
+      "bg_hex": "#202020",
+      "fg_hex": "#FFDB45",
+      "contrast_ratio": 12
+    }
+  ],
+  "processing_time_ms": 996,
+  "created_at": "2026-01-07T08:13:13.285002+00:00"
+}

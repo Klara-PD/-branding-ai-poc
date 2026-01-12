@@ -1,0 +1,39 @@
+{
+  "filename": "10._Retro_Vintage_Color_Palette_Color_Palette_with_Coffee_Hex_804D37_Robin_Egg_Blue_Hex_43C6C3_Floral_White_Hex_F5F4ED_Saffron_Hex_F2C749_Tomato_Hex_F75A33_Color_Palette_with_Hex_Code.png_v=1705384904.png",
+  "image_hash": "5e250e429a5e7b7365f5d70f239a9a4adcc7fbf779b261bca60955145a1f9330",
+  "extracted_colors": [
+    {
+      "hex": "#EBC661",
+      "rgb": "235, 198, 97",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E76541",
+      "rgb": "231, 101, 65",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7F3EF",
+      "rgb": "247, 243, 239",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#69C2C2",
+      "rgb": "105, 194, 194",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#795139",
+      "rgb": "121, 81, 57",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1288,
+  "created_at": "2026-01-07T09:47:10.550112+00:00"
+}

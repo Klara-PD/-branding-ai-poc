@@ -1,0 +1,39 @@
+{
+  "filename": "17._Bright_Pastel_Color_Palette_Color_Palette_with_Mauve_Hex_FFAAFF_Cream_Hex_FDFFB6_Light_Green_Hex_B2FFA3_Electric_Blue_Hex_94F6FF_Jordy_Blue_Hex_7FB0FF_Color_Palette_with_Hex_Codes.png_v=1705469713.png",
+  "image_hash": "06ce70b75891029837dd47a870cea4044a14a76fc7c193277ef36d1f0d61f881",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFBE",
+      "rgb": "255, 255, 190",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C2FBAA",
+      "rgb": "194, 251, 170",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8AAEFB",
+      "rgb": "138, 174, 251",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AAF3FF",
+      "rgb": "170, 243, 255",
+      "name": "Soft Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3AEFB",
+      "rgb": "243, 174, 251",
+      "name": "Soft Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1151,
+  "created_at": "2026-01-07T09:32:24.158631+00:00"
+}

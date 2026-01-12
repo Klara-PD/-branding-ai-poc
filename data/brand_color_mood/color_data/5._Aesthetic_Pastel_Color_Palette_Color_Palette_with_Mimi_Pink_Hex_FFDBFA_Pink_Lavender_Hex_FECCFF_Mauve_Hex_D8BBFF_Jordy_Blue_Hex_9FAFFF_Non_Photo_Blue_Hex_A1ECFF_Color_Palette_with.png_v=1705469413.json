@@ -1,0 +1,33 @@
+{
+  "filename": "5._Aesthetic_Pastel_Color_Palette_Color_Palette_with_Mimi_Pink_Hex_FFDBFA_Pink_Lavender_Hex_FECCFF_Mauve_Hex_D8BBFF_Jordy_Blue_Hex_9FAFFF_Non_Photo_Blue_Hex_A1ECFF_Color_Palette_with.png_v=1705469413.png",
+  "image_hash": "d4d6f1652f1aac8c808d46f8ddd322fe668fb58370f292e1109d8ac7a053cbd9",
+  "extracted_colors": [
+    {
+      "hex": "#A2AEF7",
+      "rgb": "162, 174, 247",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FBDFF7",
+      "rgb": "251, 223, 247",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D2BEFB",
+      "rgb": "210, 190, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B2EBFF",
+      "rgb": "178, 235, 255",
+      "name": "Soft Teal",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1002,
+  "created_at": "2026-01-07T08:52:18.745436+00:00"
+}

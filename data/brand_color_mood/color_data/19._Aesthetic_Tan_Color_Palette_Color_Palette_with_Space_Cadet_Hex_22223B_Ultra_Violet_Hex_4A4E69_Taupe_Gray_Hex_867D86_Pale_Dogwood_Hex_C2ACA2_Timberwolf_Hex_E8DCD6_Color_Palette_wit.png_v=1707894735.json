@@ -1,0 +1,50 @@
+{
+  "filename": "19._Aesthetic_Tan_Color_Palette_Color_Palette_with_Space_Cadet_Hex_22223B_Ultra_Violet_Hex_4A4E69_Taupe_Gray_Hex_867D86_Pale_Dogwood_Hex_C2ACA2_Timberwolf_Hex_E8DCD6_Color_Palette_wit.png_v=1707894735.png",
+  "image_hash": "013aac1ea0f272152e03aab5c3d84c8f73c3be536e89a3d1f0a152a981fad754",
+  "extracted_colors": [
+    {
+      "hex": "#867D86",
+      "rgb": "134, 125, 134",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#494D65",
+      "rgb": "73, 77, 101",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BEAAA6",
+      "rgb": "190, 170, 166",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7DFD7",
+      "rgb": "231, 223, 215",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#202039",
+      "rgb": "32, 32, 57",
+      "name": "Charcoal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#BEAAA6",
+      "fg_hex": "#202039",
+      "contrast_ratio": 7.15
+    },
+    {
+      "bg_hex": "#E7DFD7",
+      "fg_hex": "#202039",
+      "contrast_ratio": 12.01
+    }
+  ],
+  "processing_time_ms": 1155,
+  "created_at": "2026-01-07T09:35:59.887828+00:00"
+}

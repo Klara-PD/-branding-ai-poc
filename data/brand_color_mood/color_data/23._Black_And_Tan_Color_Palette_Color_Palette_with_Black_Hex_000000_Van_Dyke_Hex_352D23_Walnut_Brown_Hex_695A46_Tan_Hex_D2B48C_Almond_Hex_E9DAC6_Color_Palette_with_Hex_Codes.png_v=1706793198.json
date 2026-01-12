@@ -1,0 +1,55 @@
+{
+  "filename": "23._Black_And_Tan_Color_Palette_Color_Palette_with_Black_Hex_000000_Van_Dyke_Hex_352D23_Walnut_Brown_Hex_695A46_Tan_Hex_D2B48C_Almond_Hex_E9DAC6_Color_Palette_with_Hex_Codes.png_v=1706793198.png",
+  "image_hash": "224114e3713a7d052ce37c79511bc542d6e16b74dfd670c90f13fa8d24e18a5c",
+  "extracted_colors": [
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CEB292",
+      "rgb": "206, 178, 146",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#352D24",
+      "rgb": "53, 45, 36",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7DBC6",
+      "rgb": "231, 219, 198",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#655949",
+      "rgb": "101, 89, 73",
+      "name": "Slate Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#CEB292",
+      "contrast_ratio": 10.41
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#E7DBC6",
+      "contrast_ratio": 15.35
+    },
+    {
+      "bg_hex": "#352D24",
+      "fg_hex": "#E7DBC6",
+      "contrast_ratio": 9.89
+    }
+  ],
+  "processing_time_ms": 1206,
+  "created_at": "2026-01-07T09:26:38.600194+00:00"
+}

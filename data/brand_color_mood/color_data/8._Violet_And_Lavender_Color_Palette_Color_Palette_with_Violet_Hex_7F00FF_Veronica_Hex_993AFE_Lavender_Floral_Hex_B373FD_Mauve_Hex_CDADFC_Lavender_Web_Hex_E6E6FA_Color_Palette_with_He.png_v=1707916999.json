@@ -1,0 +1,39 @@
+{
+  "filename": "8._Violet_And_Lavender_Color_Palette_Color_Palette_with_Violet_Hex_7F00FF_Veronica_Hex_993AFE_Lavender_Floral_Hex_B373FD_Mauve_Hex_CDADFC_Lavender_Web_Hex_E6E6FA_Color_Palette_with_He.png_v=1707916999.png",
+  "image_hash": "0bb48835fd796e44efbec9af1b0cf42c1168ecd5324d81aea7cdfca320dbf76e",
+  "extracted_colors": [
+    {
+      "hex": "#C6AEF7",
+      "rgb": "198, 174, 247",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8E45F7",
+      "rgb": "142, 69, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7E7FB",
+      "rgb": "231, 231, 251",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AA79F7",
+      "rgb": "170, 121, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 980,
+  "created_at": "2026-01-07T09:46:06.053479+00:00"
+}

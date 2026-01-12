@@ -1,0 +1,33 @@
+{
+  "filename": "Palette_12.jpg",
+  "image_hash": "450fb95f985d4a7fa4f52d8613f1ce9561dc3546572c7ba9a2f1b0d790bf7157",
+  "extracted_colors": [
+    {
+      "hex": "#821841",
+      "rgb": "130, 24, 65",
+      "name": "Deep Ruby",
+      "weight": 0.5
+    },
+    {
+      "hex": "#DFCABE",
+      "rgb": "223, 202, 190",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#DFCABE",
+      "fg_hex": "#000000",
+      "contrast_ratio": 13.33
+    }
+  ],
+  "processing_time_ms": 1055,
+  "created_at": "2026-01-07T08:09:53.515268+00:00"
+}

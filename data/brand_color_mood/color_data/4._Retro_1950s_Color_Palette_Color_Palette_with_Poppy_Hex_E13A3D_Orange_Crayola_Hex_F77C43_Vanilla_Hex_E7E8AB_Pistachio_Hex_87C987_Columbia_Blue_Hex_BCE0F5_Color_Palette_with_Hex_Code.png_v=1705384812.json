@@ -1,0 +1,39 @@
+{
+  "filename": "4._Retro_1950s_Color_Palette_Color_Palette_with_Poppy_Hex_E13A3D_Orange_Crayola_Hex_F77C43_Vanilla_Hex_E7E8AB_Pistachio_Hex_87C987_Columbia_Blue_Hex_BCE0F5_Color_Palette_with_Hex_Code.png_v=1705384812.png",
+  "image_hash": "399074eb5da526b15851ca3a18205b40e1a4275c622e1e5c05c2bcea9d3a5ca9",
+  "extracted_colors": [
+    {
+      "hex": "#96C68E",
+      "rgb": "150, 198, 142",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7E7B2",
+      "rgb": "231, 231, 178",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CE4945",
+      "rgb": "206, 73, 69",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E78251",
+      "rgb": "231, 130, 81",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C2DFF3",
+      "rgb": "194, 223, 243",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1130,
+  "created_at": "2026-01-07T08:55:52.806+00:00"
+}

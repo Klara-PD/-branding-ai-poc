@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_131.jpg",
+  "image_hash": "71bf40ffeec2bf29d1a04a5c91e5fb4366bc40f1b6d1a03895c8e83f45c4d04f",
+  "extracted_colors": [
+    {
+      "hex": "#BADFEF",
+      "rgb": "186, 223, 239",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#4D5971",
+      "rgb": "77, 89, 113",
+      "name": "Deep Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#144520",
+      "rgb": "20, 69, 32",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FF7139",
+      "rgb": "255, 113, 57",
+      "name": "Bright Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#BADFEF",
+      "fg_hex": "#144520",
+      "contrast_ratio": 7.83
+    }
+  ],
+  "processing_time_ms": 8399,
+  "created_at": "2026-01-07T08:10:27.011184+00:00"
+}

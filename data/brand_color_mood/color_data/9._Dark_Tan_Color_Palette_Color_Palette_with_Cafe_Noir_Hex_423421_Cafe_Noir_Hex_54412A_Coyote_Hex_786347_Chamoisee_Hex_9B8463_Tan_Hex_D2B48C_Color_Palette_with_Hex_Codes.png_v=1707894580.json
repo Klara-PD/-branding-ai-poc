@@ -1,0 +1,33 @@
+{
+  "filename": "9._Dark_Tan_Color_Palette_Color_Palette_with_Cafe_Noir_Hex_423421_Cafe_Noir_Hex_54412A_Coyote_Hex_786347_Chamoisee_Hex_9B8463_Tan_Hex_D2B48C_Color_Palette_with_Hex_Codes.png_v=1707894580.png",
+  "image_hash": "bef67c66b2d7ff0e3ae2cbb38077c3757932ec5b07317124652f69a776bf8d0a",
+  "extracted_colors": [
+    {
+      "hex": "#75654D",
+      "rgb": "117, 101, 77",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#51412D",
+      "rgb": "81, 65, 45",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEB292",
+      "rgb": "206, 178, 146",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#9A8669",
+      "rgb": "154, 134, 105",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 983,
+  "created_at": "2026-01-07T09:50:34.521017+00:00"
+}

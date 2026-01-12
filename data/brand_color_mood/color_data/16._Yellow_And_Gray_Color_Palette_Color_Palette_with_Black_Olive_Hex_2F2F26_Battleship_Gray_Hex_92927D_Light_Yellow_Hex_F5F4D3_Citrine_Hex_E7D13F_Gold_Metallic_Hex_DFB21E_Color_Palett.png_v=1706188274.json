@@ -1,0 +1,50 @@
+{
+  "filename": "16._Yellow_And_Gray_Color_Palette_Color_Palette_with_Black_Olive_Hex_2F2F26_Battleship_Gray_Hex_92927D_Light_Yellow_Hex_F5F4D3_Citrine_Hex_E7D13F_Gold_Metallic_Hex_DFB21E_Color_Palett.png_v=1706188274.png",
+  "image_hash": "99ef370c7dfd0f3c0ea992781d579723133270b0fad35929be6836d3ec1baebd",
+  "extracted_colors": [
+    {
+      "hex": "#E3D25D",
+      "rgb": "227, 210, 93",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#313128",
+      "rgb": "49, 49, 40",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#92927D",
+      "rgb": "146, 146, 125",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7F3D7",
+      "rgb": "247, 243, 215",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D7B245",
+      "rgb": "215, 178, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#E3D25D",
+      "fg_hex": "#313128",
+      "contrast_ratio": 8.52
+    },
+    {
+      "bg_hex": "#313128",
+      "fg_hex": "#F7F3D7",
+      "contrast_ratio": 11.72
+    }
+  ],
+  "processing_time_ms": 2060,
+  "created_at": "2026-01-07T09:36:38.521527+00:00"
+}

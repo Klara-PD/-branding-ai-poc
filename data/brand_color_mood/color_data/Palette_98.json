@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_98.jpg",
+  "image_hash": "c06ce786e94c52c011b58c6317e640a623320462ea80d3b895b159865716823f",
+  "extracted_colors": [
+    {
+      "hex": "#515135",
+      "rgb": "81, 81, 53",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#AAD21C",
+      "rgb": "170, 210, 28",
+      "name": "Bright Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#9E9E9E",
+      "rgb": "158, 158, 158",
+      "name": "Silver Gray",
+      "weight": 0.17
+    },
+    {
+      "hex": "#D2AE9E",
+      "rgb": "210, 174, 158",
+      "name": "Soft Ruby",
+      "weight": 0.17
+    },
+    {
+      "hex": "#9E7561",
+      "rgb": "158, 117, 97",
+      "name": "Deep Ruby",
+      "weight": 0.16
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1046,
+  "created_at": "2026-01-07T08:08:59.938168+00:00"
+}

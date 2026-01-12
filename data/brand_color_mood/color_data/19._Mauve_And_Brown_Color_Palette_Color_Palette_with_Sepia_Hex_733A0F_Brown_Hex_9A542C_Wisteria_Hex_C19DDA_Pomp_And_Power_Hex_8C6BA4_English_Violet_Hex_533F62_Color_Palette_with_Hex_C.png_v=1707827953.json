@@ -1,0 +1,39 @@
+{
+  "filename": "19._Mauve_And_Brown_Color_Palette_Color_Palette_with_Sepia_Hex_733A0F_Brown_Hex_9A542C_Wisteria_Hex_C19DDA_Pomp_And_Power_Hex_8C6BA4_English_Violet_Hex_533F62_Color_Palette_with_Hex_C.png_v=1707827953.png",
+  "image_hash": "5e6f26b32488fc0cd910dfcc920acfefebc1c9ce5e28140777187301adb0e50e",
+  "extracted_colors": [
+    {
+      "hex": "#BA9ED7",
+      "rgb": "186, 158, 215",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#925535",
+      "rgb": "146, 85, 53",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6D3D18",
+      "rgb": "109, 61, 24",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#514161",
+      "rgb": "81, 65, 97",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#866DA2",
+      "rgb": "134, 109, 162",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1049,
+  "created_at": "2026-01-07T09:34:34.466699+00:00"
+}

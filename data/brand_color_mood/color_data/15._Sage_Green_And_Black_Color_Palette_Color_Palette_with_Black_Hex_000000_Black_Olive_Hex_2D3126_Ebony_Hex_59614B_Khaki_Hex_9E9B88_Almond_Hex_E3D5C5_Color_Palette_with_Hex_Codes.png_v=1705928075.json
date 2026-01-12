@@ -1,0 +1,55 @@
+{
+  "filename": "15._Sage_Green_And_Black_Color_Palette_Color_Palette_with_Black_Hex_000000_Black_Olive_Hex_2D3126_Ebony_Hex_59614B_Khaki_Hex_9E9B88_Almond_Hex_E3D5C5_Color_Palette_with_Hex_Codes.png_v=1705928075.png",
+  "image_hash": "94b8ef3c319cc90bbd45a75f974515b6f099c7f46f79142f23149cb710b9aa8e",
+  "extracted_colors": [
+    {
+      "hex": "#59614D",
+      "rgb": "89, 97, 77",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9E9A8A",
+      "rgb": "158, 154, 138",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E3D7C6",
+      "rgb": "227, 215, 198",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#2D3128",
+      "rgb": "45, 49, 40",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#9E9A8A",
+      "fg_hex": "#000000",
+      "contrast_ratio": 7.44
+    },
+    {
+      "bg_hex": "#E3D7C6",
+      "fg_hex": "#2D3128",
+      "contrast_ratio": 9.36
+    },
+    {
+      "bg_hex": "#E3D7C6",
+      "fg_hex": "#000000",
+      "contrast_ratio": 14.8
+    }
+  ],
+  "processing_time_ms": 1027,
+  "created_at": "2026-01-07T09:38:33.790181+00:00"
+}

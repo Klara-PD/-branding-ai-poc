@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_71.jpg",
+  "image_hash": "76051841c09573bad1022a786d9b4c296ba637dc81dec2cb1f33bb86c9513b73",
+  "extracted_colors": [
+    {
+      "hex": "#FB9292",
+      "rgb": "251, 146, 146",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#61242D",
+      "rgb": "97, 36, 45",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E3D7DB",
+      "rgb": "227, 215, 219",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B64545",
+      "rgb": "182, 69, 69",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#61242D",
+      "fg_hex": "#E3D7DB",
+      "contrast_ratio": 8.35
+    }
+  ],
+  "processing_time_ms": 1666,
+  "created_at": "2026-01-07T08:09:02.166522+00:00"
+}

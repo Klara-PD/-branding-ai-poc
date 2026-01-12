@@ -1,0 +1,21 @@
+{
+  "filename": "13._Coral_And_Orange_Color_Palette_Color_Palette_with_Atomic_Tangerine_Hex_FF946D_Coral_Hex_FF7F50_Ut_Orange_Hex_FF8C28_Orange_Peel_Hex_FF9900_Safety_Orange_Hex_F77700_Color_Palette_w.png_v=1707197638.png",
+  "image_hash": "8d1ad06f9ffc976865684255c3ee84ba003760f93c4213e81baf5f0f5ecc5725",
+  "extracted_colors": [
+    {
+      "hex": "#F39E39",
+      "rgb": "243, 158, 57",
+      "name": "Bright Amber",
+      "weight": 0.5
+    },
+    {
+      "hex": "#EF865D",
+      "rgb": "239, 134, 93",
+      "name": "Bright Ruby",
+      "weight": 0.5
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1279,
+  "created_at": "2026-01-07T09:51:48.049474+00:00"
+}

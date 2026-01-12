@@ -1,0 +1,27 @@
+{
+  "filename": "2._Aesthetic_Pastel_Color_Palette_Color_Palette_with_Uranian_Blue_Hex_BDE0FE_Fairy_Tale_Hex_FFC8DD_Carnation_Pink_Hex_FFAFCC_Mint_Green_Hex_D8F7F2_Thistle_Hex_CDB4DB_Color_Palette_wit.png_v=1705581154.png",
+  "image_hash": "ef9442213ddef2cad3814eee7a309e98c4088b9c1e452ed973bae715c6cda248",
+  "extracted_colors": [
+    {
+      "hex": "#DFF7F3",
+      "rgb": "223, 247, 243",
+      "name": "Pearl White",
+      "weight": 0.33
+    },
+    {
+      "hex": "#F7CADB",
+      "rgb": "247, 202, 219",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#CAB6D7",
+      "rgb": "202, 182, 215",
+      "name": "Soft Sapphire",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1185,
+  "created_at": "2026-01-07T08:57:26.030136+00:00"
+}

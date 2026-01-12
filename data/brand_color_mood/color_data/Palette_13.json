@@ -1,0 +1,44 @@
+{
+  "filename": "Palette_13.jpg",
+  "image_hash": "1059fb0318564a7dc05064c89ecdf7f1fadbc8e0e37b99e63f3741c64d771f3e",
+  "extracted_colors": [
+    {
+      "hex": "#FBFBF7",
+      "rgb": "251, 251, 247",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E36945",
+      "rgb": "227, 105, 69",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#202020",
+      "rgb": "32, 32, 32",
+      "name": "Charcoal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFAE55",
+      "rgb": "255, 174, 85",
+      "name": "Bright Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBFBF7",
+      "fg_hex": "#202020",
+      "contrast_ratio": 15.71
+    },
+    {
+      "bg_hex": "#202020",
+      "fg_hex": "#FFAE55",
+      "contrast_ratio": 8.87
+    }
+  ],
+  "processing_time_ms": 1138,
+  "created_at": "2026-01-07T08:10:08.467704+00:00"
+}

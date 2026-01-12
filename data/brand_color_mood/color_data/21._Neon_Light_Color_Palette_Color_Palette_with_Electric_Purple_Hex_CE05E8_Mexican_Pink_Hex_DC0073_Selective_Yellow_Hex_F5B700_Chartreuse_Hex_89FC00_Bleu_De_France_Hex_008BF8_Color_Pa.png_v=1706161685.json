@@ -1,0 +1,39 @@
+{
+  "filename": "21._Neon_Light_Color_Palette_Color_Palette_with_Electric_Purple_Hex_CE05E8_Mexican_Pink_Hex_DC0073_Selective_Yellow_Hex_F5B700_Chartreuse_Hex_89FC00_Bleu_De_France_Hex_008BF8_Color_Pa.png_v=1706161685.png",
+  "image_hash": "060dd56b25657abb5b6621adec2924b321520dbe8a695cab4c6ce93b7a908eac",
+  "extracted_colors": [
+    {
+      "hex": "#A6F74D",
+      "rgb": "166, 247, 77",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CA2D71",
+      "rgb": "202, 45, 113",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#3D8AEF",
+      "rgb": "61, 138, 239",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBBA41",
+      "rgb": "235, 186, 65",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BE31DF",
+      "rgb": "190, 49, 223",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1138,
+  "created_at": "2026-01-07T09:38:14.62899+00:00"
+}

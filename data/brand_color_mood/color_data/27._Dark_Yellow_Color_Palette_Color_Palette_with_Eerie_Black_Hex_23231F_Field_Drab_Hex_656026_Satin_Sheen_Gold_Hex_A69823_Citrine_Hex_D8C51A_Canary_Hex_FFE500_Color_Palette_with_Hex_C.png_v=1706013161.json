@@ -1,0 +1,50 @@
+{
+  "filename": "27._Dark_Yellow_Color_Palette_Color_Palette_with_Eerie_Black_Hex_23231F_Field_Drab_Hex_656026_Satin_Sheen_Gold_Hex_A69823_Citrine_Hex_D8C51A_Canary_Hex_FFE500_Color_Palette_with_Hex_C.png_v=1706013161.png",
+  "image_hash": "6dd85ddeb47ba5b0c0d003e15638b3607e4211bdcb759a21afde035f2f42c94f",
+  "extracted_colors": [
+    {
+      "hex": "#FBE74D",
+      "rgb": "251, 231, 77",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#616131",
+      "rgb": "97, 97, 49",
+      "name": "Deep Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A69A3D",
+      "rgb": "166, 154, 61",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D2C645",
+      "rgb": "210, 198, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#242420",
+      "rgb": "36, 36, 32",
+      "name": "Charcoal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBE74D",
+      "fg_hex": "#242420",
+      "contrast_ratio": 12.34
+    },
+    {
+      "bg_hex": "#D2C645",
+      "fg_hex": "#242420",
+      "contrast_ratio": 8.83
+    }
+  ],
+  "processing_time_ms": 1143,
+  "created_at": "2026-01-07T09:19:54.907293+00:00"
+}

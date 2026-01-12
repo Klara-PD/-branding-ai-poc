@@ -1,0 +1,33 @@
+{
+  "filename": "Palette_42.jpg",
+  "image_hash": "37b9a4c32896db06170a115cb65bef68d5563037391c78c05cf6326dc05f646c",
+  "extracted_colors": [
+    {
+      "hex": "#A69E92",
+      "rgb": "166, 158, 146",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#BE692D",
+      "rgb": "190, 105, 45",
+      "name": "Deep Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#3D453D",
+      "rgb": "61, 69, 61",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FF82BE",
+      "rgb": "255, 130, 190",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 3589,
+  "created_at": "2026-01-07T08:12:27.899657+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "17._Pink_And_Turquoise_Color_Palette_Color_Palette_with_Turquoise_Hex_38DDCD_Aquamarine_Hex_8FECD5_Champagne_Pink_Hex_FDE7DB_Pink_Hex_FFC0CB_Amaranth_Pink_Hex_F79AC4_Color_Palette_wit.png_v=1707289608.png",
+  "image_hash": "a47beea82337c54f614b82ef8c89acac3f7257a9fbe4c9e34e5dd2116710487a",
+  "extracted_colors": [
+    {
+      "hex": "#F7C2CA",
+      "rgb": "247, 194, 202",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#A6EBD7",
+      "rgb": "166, 235, 215",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#71DBCE",
+      "rgb": "113, 219, 206",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FBE7DF",
+      "rgb": "251, 231, 223",
+      "name": "Pearl White",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1024,
+  "created_at": "2026-01-07T09:36:40.202975+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "13._Purple_And_Pink_Color_Palette_Color_Palette_with_Blue_Violet_Hex_7A31E1_Tropical_Indigo_Hex_AF99FF_Mauve_Hex_CAADFF_Lavender_Pink_Hex_FFC2E2_Baker-Miller_Pink_Hex_FF99B6_Color_Pal.png_v=1704721299.png",
+  "image_hash": "67efefc6ecc453ce0c731518295901e81dc28c33a836693bd4e42f035e163924",
+  "extracted_colors": [
+    {
+      "hex": "#C6AEFB",
+      "rgb": "198, 174, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F7C6DF",
+      "rgb": "247, 198, 223",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F39EB6",
+      "rgb": "243, 158, 182",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#713DDB",
+      "rgb": "113, 61, 219",
+      "name": "Deep Plum",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 2194,
+  "created_at": "2026-01-07T09:48:02.711658+00:00"
+}

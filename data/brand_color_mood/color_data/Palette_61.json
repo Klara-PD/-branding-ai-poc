@@ -1,0 +1,49 @@
+{
+  "filename": "Palette_61.jpg",
+  "image_hash": "482001def875786e8088c1cdc53a46996df48e18f94962dac98b38e322c12a94",
+  "extracted_colors": [
+    {
+      "hex": "#61B22D",
+      "rgb": "97, 178, 45",
+      "name": "Bright Honey",
+      "weight": 0.4
+    },
+    {
+      "hex": "#EFEFEF",
+      "rgb": "239, 239, 239",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#313131",
+      "rgb": "49, 49, 49",
+      "name": "Charcoal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#61B22D",
+      "fg_hex": "#000000",
+      "contrast_ratio": 7.91
+    },
+    {
+      "bg_hex": "#EFEFEF",
+      "fg_hex": "#000000",
+      "contrast_ratio": 18.26
+    },
+    {
+      "bg_hex": "#EFEFEF",
+      "fg_hex": "#313131",
+      "contrast_ratio": 11.31
+    }
+  ],
+  "processing_time_ms": 4862,
+  "created_at": "2026-01-07T08:08:27.256703+00:00"
+}

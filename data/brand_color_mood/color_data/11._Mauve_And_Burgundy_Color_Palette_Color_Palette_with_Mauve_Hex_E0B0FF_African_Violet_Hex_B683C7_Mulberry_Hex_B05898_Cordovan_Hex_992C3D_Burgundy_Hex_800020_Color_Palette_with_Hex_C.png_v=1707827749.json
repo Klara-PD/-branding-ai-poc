@@ -1,0 +1,39 @@
+{
+  "filename": "11._Mauve_And_Burgundy_Color_Palette_Color_Palette_with_Mauve_Hex_E0B0FF_African_Violet_Hex_B683C7_Mulberry_Hex_B05898_Cordovan_Hex_992C3D_Burgundy_Hex_800020_Color_Palette_with_Hex_C.png_v=1707827749.png",
+  "image_hash": "bd2e6f0fbdc8282dbf6bca5e2d887b9681b89890cd14435760c62dc4eec690eb",
+  "extracted_colors": [
+    {
+      "hex": "#A65D96",
+      "rgb": "166, 93, 150",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AE86C2",
+      "rgb": "174, 134, 194",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#751420",
+      "rgb": "117, 20, 32",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8E3541",
+      "rgb": "142, 53, 65",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DBB2FB",
+      "rgb": "219, 178, 251",
+      "name": "Soft Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1697,
+  "created_at": "2026-01-07T09:52:33.348323+00:00"
+}

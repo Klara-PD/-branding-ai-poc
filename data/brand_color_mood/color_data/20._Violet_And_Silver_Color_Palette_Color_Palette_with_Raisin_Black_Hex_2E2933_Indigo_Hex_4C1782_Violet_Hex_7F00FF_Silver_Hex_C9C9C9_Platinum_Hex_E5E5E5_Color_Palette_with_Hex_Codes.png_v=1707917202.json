@@ -1,0 +1,60 @@
+{
+  "filename": "20._Violet_And_Silver_Color_Palette_Color_Palette_with_Raisin_Black_Hex_2E2933_Indigo_Hex_4C1782_Violet_Hex_7F00FF_Silver_Hex_C9C9C9_Platinum_Hex_E5E5E5_Color_Palette_with_Hex_Codes.png_v=1707917202.png",
+  "image_hash": "25e24a2595d5b036ddbcb22313c9cdb49dae8c1b804adf38c75c7fdd22ca33c7",
+  "extracted_colors": [
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#45207D",
+      "rgb": "69, 32, 125",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CACACA",
+      "rgb": "202, 202, 202",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7E7E7",
+      "rgb": "231, 231, 231",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#2D2831",
+      "rgb": "45, 40, 49",
+      "name": "Charcoal",
+      "weight": 0.19
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#45207D",
+      "fg_hex": "#CACACA",
+      "contrast_ratio": 7.3
+    },
+    {
+      "bg_hex": "#45207D",
+      "fg_hex": "#E7E7E7",
+      "contrast_ratio": 9.67
+    },
+    {
+      "bg_hex": "#CACACA",
+      "fg_hex": "#2D2831",
+      "contrast_ratio": 8.78
+    },
+    {
+      "bg_hex": "#E7E7E7",
+      "fg_hex": "#2D2831",
+      "contrast_ratio": 11.64
+    }
+  ],
+  "processing_time_ms": 1218,
+  "created_at": "2026-01-07T09:38:23.540108+00:00"
+}

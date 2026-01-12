@@ -1,0 +1,39 @@
+{
+  "filename": "22._Neon_Violet_Color_Palette_Color_Palette_with_Violet_Hex_7F00FF_Aquamarine_Hex_00FFE1_Phlox_Hex_E600FF_Canary_Hex_FFEE00_Lawn_Green_Hex_77FF00_Color_Palette_with_Hex_Codes.png_v=1707917232.png",
+  "image_hash": "03fcfdf6d8f0c224d57a141ab7a777ed59f19ec95a99cb6dc6140e0b8248c1cc",
+  "extracted_colors": [
+    {
+      "hex": "#D235F7",
+      "rgb": "210, 53, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBEF51",
+      "rgb": "251, 239, 81",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9EFB4D",
+      "rgb": "158, 251, 77",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75FBE3",
+      "rgb": "117, 251, 227",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.19
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1003,
+  "created_at": "2026-01-07T09:26:00.464324+00:00"
+}

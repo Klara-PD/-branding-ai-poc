@@ -1,0 +1,39 @@
+{
+  "filename": "6._Red_And_Purple_Color_Palette_Color_Palette_with_Russian_Violet_Hex_32004F_Grape_Hex_7323A8_Razzle_Dazzle_Rose_Hex_E154B9_Cerise_Hex_F31365_Red_Ncs_Hex_C3122F_Color_Palette_with_Hex.png_v=1704801141.png",
+  "image_hash": "a30b6e0c0a45e9721ded4ce42f65bbdc2db99d10098aae5613efc157c437ac3d",
+  "extracted_colors": [
+    {
+      "hex": "#DF3565",
+      "rgb": "223, 53, 101",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B22D35",
+      "rgb": "178, 45, 53",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#692DA2",
+      "rgb": "105, 45, 162",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#2D044D",
+      "rgb": "45, 4, 77",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D25DB6",
+      "rgb": "210, 93, 182",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1037,
+  "created_at": "2026-01-07T08:53:45.934618+00:00"
+}

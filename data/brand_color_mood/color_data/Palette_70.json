@@ -1,0 +1,33 @@
+{
+  "filename": "Palette_70.jpg",
+  "image_hash": "3bfb702f1bd079ed8f43a7450b0e0c12d30e5c949840adaa006f25cd51137032",
+  "extracted_colors": [
+    {
+      "hex": "#FFBE00",
+      "rgb": "255, 190, 0",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFE745",
+      "rgb": "255, 231, 69",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3CE7D",
+      "rgb": "243, 206, 125",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FF7900",
+      "rgb": "255, 121, 0",
+      "name": "Bright Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1009,
+  "created_at": "2026-01-07T08:09:11.09994+00:00"
+}

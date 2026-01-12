@@ -1,0 +1,27 @@
+{
+  "filename": "4._Sage_Green_And_Pink_Color_Palette_Color_Palette_with_Reseda_Green_Hex_7E8C69_Cambridge_Blue_Hex_9CAD8C_Cherry_Blossom_Pink_Hex_F6B0BB_Tea_Rose_Red_Hex_F1C8CB_Champagne_Pink_Hex_ECE.png_v=1705927843.png",
+  "image_hash": "9e270011b398557f0dbbb0883eb50cbf309690cac87c4721ddc802cd806ab5ce",
+  "extracted_colors": [
+    {
+      "hex": "#EBCACA",
+      "rgb": "235, 202, 202",
+      "name": "Soft Ruby",
+      "weight": 0.34
+    },
+    {
+      "hex": "#828A6D",
+      "rgb": "130, 138, 109",
+      "name": "Silver Gray",
+      "weight": 0.33
+    },
+    {
+      "hex": "#9EAA8E",
+      "rgb": "158, 170, 142",
+      "name": "Silver Gray",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 973,
+  "created_at": "2026-01-07T08:56:42.152286+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "filename": "6._Black_And_Turquoise_Color_Palette_Color_Palette_with_Rich_Black_Hex_070D20_Gunmetal_Hex_283041_Charcoal_Hex_485362_Dark_Cyan_Hex_439AA0_Turquoise_Hex_40E0D0_Color_Palette_with_Hex.png_v=1707289433.png",
+  "image_hash": "be622e616bcaa75b2d7f74dec9f7366a35002b486a97bf878e1e734f3a83ef06",
+  "extracted_colors": [
+    {
+      "hex": "#495561",
+      "rgb": "73, 85, 97",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#599A9E",
+      "rgb": "89, 154, 158",
+      "name": "Soft Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#283141",
+      "rgb": "40, 49, 65",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#080C20",
+      "rgb": "8, 12, 32",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#283141",
+      "fg_hex": "#75DFCE",
+      "contrast_ratio": 8.22
+    },
+    {
+      "bg_hex": "#080C20",
+      "fg_hex": "#75DFCE",
+      "contrast_ratio": 12.18
+    }
+  ],
+  "processing_time_ms": 1150,
+  "created_at": "2026-01-07T08:58:28.275963+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "23._Vintage_Sunset_Color_Palette_Color_Palette_with_Mauveine_Hex_800096_Veronica_Hex_B200D1_Rose_Hex_FF0084_Pumpkin_Hex_FF6A00_Orange_Peel_Hex_FFA200_Color_Palette_with_Hex_Codes.png_v=1705405359.png",
+  "image_hash": "2afac77a5c51a2ee02c81b6411e1af0be96345f4a39306b9bd9eccc614407cb3",
+  "extracted_colors": [
+    {
+      "hex": "#EB3582",
+      "rgb": "235, 53, 130",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A228CA",
+      "rgb": "162, 40, 202",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF712D",
+      "rgb": "239, 113, 45",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#751892",
+      "rgb": "117, 24, 146",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3A63D",
+      "rgb": "243, 166, 61",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 975,
+  "created_at": "2026-01-07T09:23:16.90382+00:00"
+}

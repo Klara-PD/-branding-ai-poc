@@ -1,0 +1,55 @@
+{
+  "filename": "24._Turquoise_Coral_And_Black_Color_Palette_Color_Palette_with_Black_Hex_000000_Caribbean_Current_Hex_1C655E_Turquoise_Hex_40E0D0_Peach_Hex_FFB888_Pumpkin_Hex_F57926_Color_Palette_wit.png_v=1707197819.png",
+  "image_hash": "e4f959a84b032e9e16fa67f96f8dc0df800ecd01af0271e6d4683501d7f2bb2b",
+  "extracted_colors": [
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E77D3D",
+      "rgb": "231, 125, 61",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7BA92",
+      "rgb": "247, 186, 146",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#35655D",
+      "rgb": "53, 101, 93",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#E77D3D",
+      "contrast_ratio": 7.4
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#F7BA92",
+      "contrast_ratio": 12.39
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#75DFCE",
+      "contrast_ratio": 13.2
+    }
+  ],
+  "processing_time_ms": 998,
+  "created_at": "2026-01-07T09:24:54.180712+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "filename": "18._Orange_And_Black_Color_Palette_Color_Palette_with_Eerie_Black_Hex_171717_Jet_Hex_33302C_Sandy_Brown_Hex_FFA552_Dark_Orange_Web_Hex_FF8800_Burnt_Orange_Hex_B34E00_Color_Palette_wit.png_v=1704868508.png",
+  "image_hash": "fb145da45e26d920be16f9d9ed439f41c1ca1734313577fc34be0bdcfc22a3ad",
+  "extracted_colors": [
+    {
+      "hex": "#A65520",
+      "rgb": "166, 85, 32",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF8E35",
+      "rgb": "239, 142, 53",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#181818",
+      "rgb": "24, 24, 24",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#35312D",
+      "rgb": "53, 49, 45",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3AA61",
+      "rgb": "243, 170, 97",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EF8E35",
+      "fg_hex": "#181818",
+      "contrast_ratio": 7.26
+    },
+    {
+      "bg_hex": "#181818",
+      "fg_hex": "#F3AA61",
+      "contrast_ratio": 9.08
+    }
+  ],
+  "processing_time_ms": 975,
+  "created_at": "2026-01-07T09:37:47.42479+00:00"
+}

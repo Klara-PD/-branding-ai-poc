@@ -1,0 +1,39 @@
+{
+  "filename": "24._Retro_Blue_Color_Palette_Color_Palette_with_Polynesian_Blue_Hex_01519B_Yale_Blue_Hex_0D3C6E_Raisin_Black_Hex_212027_Payne_S_Gray_Hex_4C5E73_Blue_Gray_Hex_7297BC_Color_Palette_with.png_v=1705385161.png",
+  "image_hash": "44ae78b99e5c15cd1b7d7ebb5e5e9eff276704603280f1fe69502e3b34cb0ec0",
+  "extracted_colors": [
+    {
+      "hex": "#515D71",
+      "rgb": "81, 93, 113",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7996BA",
+      "rgb": "121, 150, 186",
+      "name": "Soft Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#1C3D69",
+      "rgb": "28, 61, 105",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#202028",
+      "rgb": "32, 32, 40",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#205196",
+      "rgb": "32, 81, 150",
+      "name": "Deep Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 954,
+  "created_at": "2026-01-07T09:19:50.089518+00:00"
+}

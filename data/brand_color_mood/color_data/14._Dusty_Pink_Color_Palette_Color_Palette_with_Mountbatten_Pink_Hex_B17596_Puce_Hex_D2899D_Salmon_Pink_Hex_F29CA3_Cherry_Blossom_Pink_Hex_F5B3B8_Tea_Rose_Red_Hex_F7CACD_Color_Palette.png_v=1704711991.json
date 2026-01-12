@@ -1,0 +1,21 @@
+{
+  "filename": "14._Dusty_Pink_Color_Palette_Color_Palette_with_Mountbatten_Pink_Hex_B17596_Puce_Hex_D2899D_Salmon_Pink_Hex_F29CA3_Cherry_Blossom_Pink_Hex_F5B3B8_Tea_Rose_Red_Hex_F7CACD_Color_Palette.png_v=1704711991.png",
+  "image_hash": "d1b9aabb45c3c53379a98d48d9f79c58e61e5745d3619694510ce79e354e9796",
+  "extracted_colors": [
+    {
+      "hex": "#EFCACE",
+      "rgb": "239, 202, 206",
+      "name": "Soft Ruby",
+      "weight": 0.5
+    },
+    {
+      "hex": "#C68E9E",
+      "rgb": "198, 142, 158",
+      "name": "Soft Ruby",
+      "weight": 0.49
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 957,
+  "created_at": "2026-01-07T09:52:20.978187+00:00"
+}

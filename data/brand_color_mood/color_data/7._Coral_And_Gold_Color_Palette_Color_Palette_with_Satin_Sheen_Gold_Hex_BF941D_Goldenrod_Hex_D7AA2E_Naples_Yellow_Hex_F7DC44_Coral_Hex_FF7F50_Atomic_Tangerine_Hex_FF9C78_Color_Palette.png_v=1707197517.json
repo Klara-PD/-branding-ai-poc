@@ -1,0 +1,33 @@
+{
+  "filename": "7._Coral_And_Gold_Color_Palette_Color_Palette_with_Satin_Sheen_Gold_Hex_BF941D_Goldenrod_Hex_D7AA2E_Naples_Yellow_Hex_F7DC44_Coral_Hex_FF7F50_Atomic_Tangerine_Hex_FF9C78_Color_Palette.png_v=1707197517.png",
+  "image_hash": "80e1c1bae718dfd33c8b8e6fe01c1e17a2080c0a1145dd616466ae0190bb78b6",
+  "extracted_colors": [
+    {
+      "hex": "#EF865D",
+      "rgb": "239, 134, 93",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEAA49",
+      "rgb": "206, 170, 73",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3DB61",
+      "rgb": "243, 219, 97",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3A27D",
+      "rgb": "243, 162, 125",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1014,
+  "created_at": "2026-01-07T09:50:00.284151+00:00"
+}

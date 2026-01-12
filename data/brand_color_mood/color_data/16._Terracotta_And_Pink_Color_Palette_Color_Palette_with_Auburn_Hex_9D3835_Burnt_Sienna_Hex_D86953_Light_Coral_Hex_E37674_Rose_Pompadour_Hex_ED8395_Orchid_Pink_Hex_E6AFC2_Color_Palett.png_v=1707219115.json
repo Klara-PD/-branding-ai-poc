@@ -1,0 +1,33 @@
+{
+  "filename": "16._Terracotta_And_Pink_Color_Palette_Color_Palette_with_Auburn_Hex_9D3835_Burnt_Sienna_Hex_D86953_Light_Coral_Hex_E37674_Rose_Pompadour_Hex_ED8395_Orchid_Pink_Hex_E6AFC2_Color_Palett.png_v=1707219115.png",
+  "image_hash": "022a5529d097e0176fd3a142da9f6ea1e01a18594c82236b2f03dcf9573e8aa3",
+  "extracted_colors": [
+    {
+      "hex": "#DF8A96",
+      "rgb": "223, 138, 150",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#924139",
+      "rgb": "146, 65, 57",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DFB2C2",
+      "rgb": "223, 178, 194",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CA6D59",
+      "rgb": "202, 109, 89",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1443,
+  "created_at": "2026-01-07T09:34:51.444402+00:00"
+}

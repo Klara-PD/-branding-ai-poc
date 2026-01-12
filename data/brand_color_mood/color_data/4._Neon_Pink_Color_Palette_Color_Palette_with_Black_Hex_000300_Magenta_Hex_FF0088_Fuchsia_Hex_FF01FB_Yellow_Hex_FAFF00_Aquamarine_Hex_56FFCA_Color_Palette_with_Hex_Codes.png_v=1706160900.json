@@ -1,0 +1,50 @@
+{
+  "filename": "4._Neon_Pink_Color_Palette_Color_Palette_with_Black_Hex_000300_Magenta_Hex_FF0088_Fuchsia_Hex_FF01FB_Yellow_Hex_FAFF00_Aquamarine_Hex_56FFCA_Color_Palette_with_Hex_Codes.png_v=1706160900.png",
+  "image_hash": "44e9976d10f087d7df3964eb512272f3cde47af10596f7944a5a9302eda4b314",
+  "extracted_colors": [
+    {
+      "hex": "#FBFF55",
+      "rgb": "251, 255, 85",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB3DF3",
+      "rgb": "235, 61, 243",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB3586",
+      "rgb": "235, 53, 134",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8AFBCE",
+      "rgb": "138, 251, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#000400",
+      "rgb": "0, 4, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBFF55",
+      "fg_hex": "#000400",
+      "contrast_ratio": 19.2
+    },
+    {
+      "bg_hex": "#8AFBCE",
+      "fg_hex": "#000400",
+      "contrast_ratio": 16.48
+    }
+  ],
+  "processing_time_ms": 1422,
+  "created_at": "2026-01-07T08:57:39.991646+00:00"
+}

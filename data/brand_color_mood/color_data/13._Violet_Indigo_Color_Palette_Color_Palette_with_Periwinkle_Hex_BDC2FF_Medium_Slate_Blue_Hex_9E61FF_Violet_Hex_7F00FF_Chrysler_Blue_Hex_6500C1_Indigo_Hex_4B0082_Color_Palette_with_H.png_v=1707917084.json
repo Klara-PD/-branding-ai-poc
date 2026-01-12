@@ -1,0 +1,45 @@
+{
+  "filename": "13._Violet_Indigo_Color_Palette_Color_Palette_with_Periwinkle_Hex_BDC2FF_Medium_Slate_Blue_Hex_9E61FF_Violet_Hex_7F00FF_Chrysler_Blue_Hex_6500C1_Indigo_Hex_4B0082_Color_Palette_with_H.png_v=1707917084.png",
+  "image_hash": "7bc0d036103ab28d03a89870b7a7c588d33774b1190eaef290eb6436ee4e264d",
+  "extracted_colors": [
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#450C7D",
+      "rgb": "69, 12, 125",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#5D18BA",
+      "rgb": "93, 24, 186",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9665F7",
+      "rgb": "150, 101, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BEC2FB",
+      "rgb": "190, 194, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#450C7D",
+      "fg_hex": "#BEC2FB",
+      "contrast_ratio": 7.68
+    }
+  ],
+  "processing_time_ms": 3185,
+  "created_at": "2026-01-07T09:47:16.131214+00:00"
+}

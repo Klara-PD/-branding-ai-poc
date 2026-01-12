@@ -1,0 +1,45 @@
+{
+  "filename": "2._Turquoise_And_Brown_Color_Palette_Color_Palette_with_Raw_Umber_Hex_896452_Beaver_Hex_A98878_Turquoise_Hex_40E0D0_Dark_Cyan_Hex_2A8D89_Midnight_Green_Hex_133942_Color_Palette_with_H.png_v=1707289371.png",
+  "image_hash": "f940ba107dc019731037864ac48fd8ddf167386ed4f42bd9b2b1bb6a1a04ea11",
+  "extracted_colors": [
+    {
+      "hex": "#A68A79",
+      "rgb": "166, 138, 121",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#498A8A",
+      "rgb": "73, 138, 138",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#866555",
+      "rgb": "134, 101, 85",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#1C3941",
+      "rgb": "28, 57, 65",
+      "name": "Deep Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#75DFCE",
+      "fg_hex": "#1C3941",
+      "contrast_ratio": 7.72
+    }
+  ],
+  "processing_time_ms": 1039,
+  "created_at": "2026-01-07T08:56:43.815303+00:00"
+}

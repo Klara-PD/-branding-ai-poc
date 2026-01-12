@@ -1,0 +1,33 @@
+{
+  "filename": "9._Gray_And_Gold_Color_Palette_Color_Palette_with_Davy_S_Gray_Hex_5C5E5C_Battleship_Gray_Hex_858685_Timberwolf_Hex_D6D6D6_Saffron_Hex_E6C329_Gold_Metallic_Hex_CEAC16_Color_Palette_wit.png_v=1706188148.png",
+  "image_hash": "6b777994a9b106b740c61a24f975ccf621ecc3ab226483b69b1dd682f7f822dc",
+  "extracted_colors": [
+    {
+      "hex": "#E3C24D",
+      "rgb": "227, 194, 77",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#5D5D5D",
+      "rgb": "93, 93, 93",
+      "name": "Slate Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D7D7D7",
+      "rgb": "215, 215, 215",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#868686",
+      "rgb": "134, 134, 134",
+      "name": "Silver Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1016,
+  "created_at": "2026-01-07T09:51:59.247674+00:00"
+}

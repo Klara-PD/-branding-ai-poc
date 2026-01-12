@@ -1,0 +1,61 @@
+{
+  "filename": "Navy-Blue-Color-Palette-with-Hex-Codes.png_v=1688970887.png",
+  "image_hash": "ab9a757f5a1fc4aa7e62a2f8672e61e80c7de9aa05ef7163f985e225f17657d2",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.28
+    },
+    {
+      "hex": "#2D35AE",
+      "rgb": "45, 53, 174",
+      "name": "Deep Sapphire",
+      "weight": 0.14
+    },
+    {
+      "hex": "#4996EF",
+      "rgb": "73, 150, 239",
+      "name": "Bright Teal",
+      "weight": 0.13
+    },
+    {
+      "hex": "#4561EF",
+      "rgb": "69, 97, 239",
+      "name": "Deep Teal",
+      "weight": 0.13
+    },
+    {
+      "hex": "#10086D",
+      "rgb": "16, 8, 109",
+      "name": "Deep Plum",
+      "weight": 0.13
+    },
+    {
+      "hex": "#4DCAEF",
+      "rgb": "77, 202, 239",
+      "name": "Bright Teal",
+      "weight": 0.13
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#2D35AE",
+      "contrast_ratio": 9.41
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#10086D",
+      "contrast_ratio": 16.44
+    },
+    {
+      "bg_hex": "#10086D",
+      "fg_hex": "#4DCAEF",
+      "contrast_ratio": 8.62
+    }
+  ],
+  "processing_time_ms": 6373,
+  "created_at": "2026-01-07T09:24:44.248162+00:00"
+}

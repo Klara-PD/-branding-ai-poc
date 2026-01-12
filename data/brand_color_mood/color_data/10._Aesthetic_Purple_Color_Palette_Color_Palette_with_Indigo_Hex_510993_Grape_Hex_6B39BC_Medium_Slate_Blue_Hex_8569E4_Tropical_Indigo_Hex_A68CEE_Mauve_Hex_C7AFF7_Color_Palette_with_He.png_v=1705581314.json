@@ -1,0 +1,39 @@
+{
+  "filename": "10._Aesthetic_Purple_Color_Palette_Color_Palette_with_Indigo_Hex_510993_Grape_Hex_6B39BC_Medium_Slate_Blue_Hex_8569E4_Tropical_Indigo_Hex_A68CEE_Mauve_Hex_C7AFF7_Color_Palette_with_He.png_v=1705581314.png",
+  "image_hash": "99fef9b6531234dcf3abadd5de0354de4569f7fd06bb19437110389ab0746726",
+  "extracted_colors": [
+    {
+      "hex": "#A28EE7",
+      "rgb": "162, 142, 231",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#826DDF",
+      "rgb": "130, 109, 223",
+      "name": "Bright Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C2B2F3",
+      "rgb": "194, 178, 243",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#49188E",
+      "rgb": "73, 24, 142",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6141B6",
+      "rgb": "97, 65, 182",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1007,
+  "created_at": "2026-01-07T09:53:11.576864+00:00"
+}

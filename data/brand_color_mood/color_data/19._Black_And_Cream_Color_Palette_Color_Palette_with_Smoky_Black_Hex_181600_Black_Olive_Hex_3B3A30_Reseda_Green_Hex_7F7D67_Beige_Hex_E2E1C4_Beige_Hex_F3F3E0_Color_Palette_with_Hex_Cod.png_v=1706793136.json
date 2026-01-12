@@ -1,0 +1,44 @@
+{
+  "filename": "19._Black_And_Cream_Color_Palette_Color_Palette_with_Smoky_Black_Hex_181600_Black_Olive_Hex_3B3A30_Reseda_Green_Hex_7F7D67_Beige_Hex_E2E1C4_Beige_Hex_F3F3E0_Color_Palette_with_Hex_Cod.png_v=1706793136.png",
+  "image_hash": "b96d8dbfc920ad61d7deb09396b9b927250adfe4e039e5b357049e7f318382e4",
+  "extracted_colors": [
+    {
+      "hex": "#F3F3E3",
+      "rgb": "243, 243, 227",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#7D7D69",
+      "rgb": "125, 125, 105",
+      "name": "Slate Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#3D3931",
+      "rgb": "61, 57, 49",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#181400",
+      "rgb": "24, 20, 0",
+      "name": "Deep Black",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F3F3E3",
+      "fg_hex": "#3D3931",
+      "contrast_ratio": 10.25
+    },
+    {
+      "bg_hex": "#F3F3E3",
+      "fg_hex": "#181400",
+      "contrast_ratio": 16.45
+    }
+  ],
+  "processing_time_ms": 10519,
+  "created_at": "2026-01-07T09:37:18.199961+00:00"
+}

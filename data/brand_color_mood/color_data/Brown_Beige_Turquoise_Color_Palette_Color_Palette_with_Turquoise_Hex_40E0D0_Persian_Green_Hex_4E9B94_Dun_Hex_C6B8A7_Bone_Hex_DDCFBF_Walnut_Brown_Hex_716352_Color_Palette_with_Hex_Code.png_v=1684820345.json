@@ -1,0 +1,39 @@
+{
+  "filename": "Brown_Beige_Turquoise_Color_Palette_Color_Palette_with_Turquoise_Hex_40E0D0_Persian_Green_Hex_4E9B94_Dun_Hex_C6B8A7_Bone_Hex_DDCFBF_Walnut_Brown_Hex_716352_Color_Palette_with_Hex_Code.png_v=1684820345.png",
+  "image_hash": "261d3a52412fb629894a5645eaa355f7cc6bc01c34e2584f47e5051b23f5acac",
+  "extracted_colors": [
+    {
+      "hex": "#C6BAA6",
+      "rgb": "198, 186, 166",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#41DFCE",
+      "rgb": "65, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DFCEBE",
+      "rgb": "223, 206, 190",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#519A96",
+      "rgb": "81, 154, 150",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#716551",
+      "rgb": "113, 101, 81",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 970,
+  "created_at": "2026-01-07T09:23:52.262075+00:00"
+}

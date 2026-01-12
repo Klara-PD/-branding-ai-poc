@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_133.jpg",
+  "image_hash": "5ac45ed251c44ffc3ad71992d967adf8c3c47500f3112e5fca8cf8d81d929982",
+  "extracted_colors": [
+    {
+      "hex": "#8E9E92",
+      "rgb": "142, 158, 146",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFC604",
+      "rgb": "255, 198, 4",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#144520",
+      "rgb": "20, 69, 32",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FF7139",
+      "rgb": "255, 113, 57",
+      "name": "Bright Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFC604",
+      "fg_hex": "#144520",
+      "contrast_ratio": 7.01
+    }
+  ],
+  "processing_time_ms": 1167,
+  "created_at": "2026-01-07T08:11:07.068057+00:00"
+}

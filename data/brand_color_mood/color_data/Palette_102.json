@@ -1,0 +1,50 @@
+{
+  "filename": "Palette_102.jpg",
+  "image_hash": "d38dfba550cf305ad69f83290541fac1e691eff41b4d1ffcbe3900ded973d062",
+  "extracted_colors": [
+    {
+      "hex": "#F751BA",
+      "rgb": "247, 81, 186",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#552D55",
+      "rgb": "85, 45, 85",
+      "name": "Deep Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#284139",
+      "rgb": "40, 65, 57",
+      "name": "Iron Gray",
+      "weight": 0.17
+    },
+    {
+      "hex": "#59595D",
+      "rgb": "89, 89, 93",
+      "name": "Slate Gray",
+      "weight": 0.17
+    },
+    {
+      "hex": "#8EF78A",
+      "rgb": "142, 247, 138",
+      "name": "Bright Forest",
+      "weight": 0.16
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#552D55",
+      "fg_hex": "#8EF78A",
+      "contrast_ratio": 8.36
+    },
+    {
+      "bg_hex": "#284139",
+      "fg_hex": "#8EF78A",
+      "contrast_ratio": 8.3
+    }
+  ],
+  "processing_time_ms": 1135,
+  "created_at": "2026-01-07T08:09:43.156431+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "filename": "15._Pink_And_Black_Color_Palette_Color_Palette_with_Eerie_Black_Hex_1B2021_Amaranth_Purple_Hex_B30051_French_Rose_Hex_FF5387_Cyclamen_Hex_FD6692_Rose_Pompadour_Hex_FA799D_Color_Palett.png_v=1704712005.png",
+  "image_hash": "e7cf51f8ec59853b52bea6e4b725800487c09bb72fb3c37c0ae808ee3c6e0b1b",
+  "extracted_colors": [
+    {
+      "hex": "#EB829E",
+      "rgb": "235, 130, 158",
+      "name": "Bright Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#1C2020",
+      "rgb": "28, 32, 32",
+      "name": "Charcoal",
+      "weight": 0.33
+    },
+    {
+      "hex": "#A62051",
+      "rgb": "166, 32, 81",
+      "name": "Deep Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 959,
+  "created_at": "2026-01-07T09:34:29.300507+00:00"
+}

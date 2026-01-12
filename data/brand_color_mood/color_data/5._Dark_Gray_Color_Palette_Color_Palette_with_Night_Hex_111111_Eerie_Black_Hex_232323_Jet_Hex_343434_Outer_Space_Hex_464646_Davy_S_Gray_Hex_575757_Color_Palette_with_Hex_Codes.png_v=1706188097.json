@@ -1,0 +1,27 @@
+{
+  "filename": "5._Dark_Gray_Color_Palette_Color_Palette_with_Night_Hex_111111_Eerie_Black_Hex_232323_Jet_Hex_343434_Outer_Space_Hex_464646_Davy_S_Gray_Hex_575757_Color_Palette_with_Hex_Codes.png_v=1706188097.png",
+  "image_hash": "6509817bd46f380a188647ac00366fdd8a0bd5b11b06e30394c6b38be29e996c",
+  "extracted_colors": [
+    {
+      "hex": "#353535",
+      "rgb": "53, 53, 53",
+      "name": "Charcoal",
+      "weight": 0.33
+    },
+    {
+      "hex": "#555555",
+      "rgb": "85, 85, 85",
+      "name": "Iron Gray",
+      "weight": 0.33
+    },
+    {
+      "hex": "#101010",
+      "rgb": "16, 16, 16",
+      "name": "Deep Black",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 983,
+  "created_at": "2026-01-07T08:56:06.568671+00:00"
+}

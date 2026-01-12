@@ -1,0 +1,33 @@
+{
+  "filename": "18._Violet_And_Peach_Color_Palette_Color_Palette_with_Vanilla_Hex_FFF0B5_Peach_Hex_FFCB98_Sandy_Brown_Hex_FFB07C_Sky_Magenta_Hex_C37BA2_Blue_Violet_Hex_8645C7_Color_Palette_with_Hex_C.png_v=1707917171.png",
+  "image_hash": "716f89253b26a1ae8a6cb66866b522ad1760f3555632daecd4fc275dbdffda07",
+  "extracted_colors": [
+    {
+      "hex": "#F7CE9E",
+      "rgb": "247, 206, 158",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B67DA2",
+      "rgb": "182, 125, 162",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#7D4DBE",
+      "rgb": "125, 77, 190",
+      "name": "Deep Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFEFBA",
+      "rgb": "255, 239, 186",
+      "name": "Soft Ruby",
+      "weight": 0.24
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1253,
+  "created_at": "2026-01-07T09:36:45.273119+00:00"
+}

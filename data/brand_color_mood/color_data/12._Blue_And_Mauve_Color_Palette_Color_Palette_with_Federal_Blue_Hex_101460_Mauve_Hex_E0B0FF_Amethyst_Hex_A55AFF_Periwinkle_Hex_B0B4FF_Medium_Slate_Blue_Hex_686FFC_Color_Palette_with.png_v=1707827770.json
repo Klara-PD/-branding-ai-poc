@@ -1,0 +1,50 @@
+{
+  "filename": "12._Blue_And_Mauve_Color_Palette_Color_Palette_with_Federal_Blue_Hex_101460_Mauve_Hex_E0B0FF_Amethyst_Hex_A55AFF_Periwinkle_Hex_B0B4FF_Medium_Slate_Blue_Hex_686FFC_Color_Palette_with.png_v=1707827770.png",
+  "image_hash": "517484e1860f4533a1ea9d860b586127d4b86ec6ceae9adf8337bac322ff7112",
+  "extracted_colors": [
+    {
+      "hex": "#DBB2FB",
+      "rgb": "219, 178, 251",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9A61F7",
+      "rgb": "154, 97, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B2B6FB",
+      "rgb": "178, 182, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6971F3",
+      "rgb": "105, 113, 243",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#10145D",
+      "rgb": "16, 20, 93",
+      "name": "Deep Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#DBB2FB",
+      "fg_hex": "#10145D",
+      "contrast_ratio": 9.2
+    },
+    {
+      "bg_hex": "#B2B6FB",
+      "fg_hex": "#10145D",
+      "contrast_ratio": 8.57
+    }
+  ],
+  "processing_time_ms": 1844,
+  "created_at": "2026-01-07T09:52:01.729864+00:00"
+}

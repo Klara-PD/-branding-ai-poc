@@ -1,0 +1,39 @@
+{
+  "filename": "Aesthetic_Brown_Blue_Color_Palette_Color_Palette_with_Bistre_Hex_2D211A_Coyote_Hex_836E5C_Slate_Gray_Hex_6D8387_Cadet_Gray_Hex_7C9AA0_Azure_Web_Hex_DCEAE9_Color_Palette_with_Hex_Codes.png_v=1684820392.png",
+  "image_hash": "e327c8f88e8b2f496e103b7388055d6c21fed974bc68f86163a99964a2c61550",
+  "extracted_colors": [
+    {
+      "hex": "#6D868A",
+      "rgb": "109, 134, 138",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#2D2018",
+      "rgb": "45, 32, 24",
+      "name": "Charcoal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#826D5D",
+      "rgb": "130, 109, 93",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DBEBEB",
+      "rgb": "219, 235, 235",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#2D2018",
+      "fg_hex": "#DBEBEB",
+      "contrast_ratio": 12.84
+    }
+  ],
+  "processing_time_ms": 6824,
+  "created_at": "2026-01-07T09:26:26.069918+00:00"
+}

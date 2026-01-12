@@ -1,0 +1,33 @@
+{
+  "filename": "14._Golden_Yellow_Color_Palette_Color_Palette_with_Naples_Yellow_Hex_FFE169_Mustard_Hex_FAD643_Xanthous_Hex_F0B609_Dark_Goldenrod_Hex_C1910F_Golden_Brown_Hex_926C15_Color_Palette_with.png_v=1706012905.png",
+  "image_hash": "bc78f0e5656f357833f1089e88c96cc4ca492084648e4970b51c283452ef3395",
+  "extracted_colors": [
+    {
+      "hex": "#BA9235",
+      "rgb": "186, 146, 53",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8E6D28",
+      "rgb": "142, 109, 40",
+      "name": "Deep Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3D761",
+      "rgb": "243, 215, 97",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E7B641",
+      "rgb": "231, 182, 65",
+      "name": "Bright Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 5604,
+  "created_at": "2026-01-07T09:51:55.851689+00:00"
+}

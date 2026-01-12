@@ -1,0 +1,50 @@
+{
+  "filename": "Blue-and-Purple-Color-Palette-with-Hex-Codes.png_v=1688970437.png",
+  "image_hash": "3fb68791c31df7ecd9dcd4c035cf98efd2935d941932636debe7d879d7bb2d0d",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.32
+    },
+    {
+      "hex": "#7108B6",
+      "rgb": "113, 8, 182",
+      "name": "Deep Plum",
+      "weight": 0.16
+    },
+    {
+      "hex": "#4139CA",
+      "rgb": "65, 57, 202",
+      "name": "Deep Sapphire",
+      "weight": 0.16
+    },
+    {
+      "hex": "#4996EF",
+      "rgb": "73, 150, 239",
+      "name": "Bright Teal",
+      "weight": 0.15
+    },
+    {
+      "hex": "#B6189E",
+      "rgb": "182, 24, 158",
+      "name": "Deep Ruby",
+      "weight": 0.15
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#7108B6",
+      "contrast_ratio": 8.71
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#4139CA",
+      "contrast_ratio": 7.89
+    }
+  ],
+  "processing_time_ms": 1119,
+  "created_at": "2026-01-07T09:19:03.675528+00:00"
+}

@@ -1,0 +1,55 @@
+{
+  "filename": "Dark_Brown_Gold_Color_Palette_Color_Palette_with_Licorice_Hex_281E18_Seal_Brown_Hex_572D0C_Harvest_Gold_Hex_C78E3A_Earth_Yellow_Hex_E3B76A_Cream_Hex_FDFCD4_Color_Palette_with_Hex_Code.png_v=1684820269.png",
+  "image_hash": "b66f6b2d6e50353eb4066a18e2e7f0307b3ee241c9f935b23966de08cdaa787b",
+  "extracted_colors": [
+    {
+      "hex": "#C68E39",
+      "rgb": "198, 142, 57",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#281C18",
+      "rgb": "40, 28, 24",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFFBD2",
+      "rgb": "255, 251, 210",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#592D0C",
+      "rgb": "89, 45, 12",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E3B669",
+      "rgb": "227, 182, 105",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#281C18",
+      "fg_hex": "#FFFBD2",
+      "contrast_ratio": 15.74
+    },
+    {
+      "bg_hex": "#281C18",
+      "fg_hex": "#E3B669",
+      "contrast_ratio": 8.79
+    },
+    {
+      "bg_hex": "#FFFBD2",
+      "fg_hex": "#592D0C",
+      "contrast_ratio": 11.07
+    }
+  ],
+  "processing_time_ms": 1137,
+  "created_at": "2026-01-07T09:24:52.523333+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "filename": "18._Ivory_And_Cream_Color_Palette_Color_Palette_with_Sage_Hex_B1AF86_Dutch_White_Hex_DBD9B4_Cream_Hex_FFFDD0_Ivory_Hex_FFFFF0_Alabaster_Hex_DBDBCE_Color_Palette_with_Hex_Codes.png_v=1707390331.png",
+  "image_hash": "0b6fcee51acb18c0e9ee09142bea841e228ed3de7f5195ccd24279b3da3af885",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFF3",
+      "rgb": "255, 255, 243",
+      "name": "Pure White",
+      "weight": 0.34
+    },
+    {
+      "hex": "#DBDBCE",
+      "rgb": "219, 219, 206",
+      "name": "Cloud Gray",
+      "weight": 0.33
+    },
+    {
+      "hex": "#B2AE8A",
+      "rgb": "178, 174, 138",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 996,
+  "created_at": "2026-01-07T09:32:41.165368+00:00"
+}

@@ -1,0 +1,44 @@
+{
+  "filename": "Palette_2.jpg",
+  "image_hash": "383225e47b14a9cae4ae3c19e76b6c27720d75aaf6d08f715d1f95969835a180",
+  "extracted_colors": [
+    {
+      "hex": "#EFDFCA",
+      "rgb": "239, 223, 202",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8E2455",
+      "rgb": "142, 36, 85",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#141010",
+      "rgb": "20, 16, 16",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEE745",
+      "rgb": "206, 231, 69",
+      "name": "Bright Honey",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EFDFCA",
+      "fg_hex": "#141010",
+      "contrast_ratio": 14.47
+    },
+    {
+      "bg_hex": "#141010",
+      "fg_hex": "#CEE745",
+      "contrast_ratio": 13.62
+    }
+  ],
+  "processing_time_ms": 1097,
+  "created_at": "2026-01-07T08:12:19.570804+00:00"
+}

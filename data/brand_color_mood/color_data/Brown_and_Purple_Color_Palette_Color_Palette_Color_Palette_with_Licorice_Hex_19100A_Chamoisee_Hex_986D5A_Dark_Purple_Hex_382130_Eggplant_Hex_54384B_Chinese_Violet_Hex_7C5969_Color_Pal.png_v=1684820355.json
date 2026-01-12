@@ -1,0 +1,33 @@
+{
+  "filename": "Brown_and_Purple_Color_Palette_Color_Palette_Color_Palette_with_Licorice_Hex_19100A_Chamoisee_Hex_986D5A_Dark_Purple_Hex_382130_Eggplant_Hex_54384B_Chinese_Violet_Hex_7C5969_Color_Pal.png_v=1684820355.png",
+  "image_hash": "7a1ff9773840a03e4cd86d32886a428aedad44411127ae7cf7ec2bb1ecf3c9a3",
+  "extracted_colors": [
+    {
+      "hex": "#392031",
+      "rgb": "57, 32, 49",
+      "name": "Charcoal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#55394D",
+      "rgb": "85, 57, 77",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#181008",
+      "rgb": "24, 16, 8",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#9A6D59",
+      "rgb": "154, 109, 89",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1192,
+  "created_at": "2026-01-07T09:24:03.569923+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "8._Neutral_Gray_Color_Palette_Color_Palette_with_Seasalt_Hex_F8F9FA_Platinum_Hex_E1E2E4_Platinum_Hex_D2D5D8_French_Gray_Hex_B2B6BA_Dim_Gray_Hex_696E71_Color_Palette_with_Hex_Codes.png_v=1706188136.png",
+  "image_hash": "7ca902a13b5fe839d5c109c3b3817ad3d2fea103e6a6f3048b8b21e36c5bb03d",
+  "extracted_colors": [
+    {
+      "hex": "#B2B6BA",
+      "rgb": "178, 182, 186",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F7FBFB",
+      "rgb": "247, 251, 251",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#696D71",
+      "rgb": "105, 109, 113",
+      "name": "Slate Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D2D7D7",
+      "rgb": "210, 215, 215",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1036,
+  "created_at": "2026-01-07T09:52:51.360747+00:00"
+}

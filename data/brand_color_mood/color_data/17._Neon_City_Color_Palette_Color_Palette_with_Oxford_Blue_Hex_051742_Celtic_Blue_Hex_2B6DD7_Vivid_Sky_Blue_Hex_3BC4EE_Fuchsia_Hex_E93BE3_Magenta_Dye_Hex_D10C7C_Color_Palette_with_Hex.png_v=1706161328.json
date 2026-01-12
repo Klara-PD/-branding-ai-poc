@@ -1,0 +1,45 @@
+{
+  "filename": "17._Neon_City_Color_Palette_Color_Palette_with_Oxford_Blue_Hex_051742_Celtic_Blue_Hex_2B6DD7_Vivid_Sky_Blue_Hex_3BC4EE_Fuchsia_Hex_E93BE3_Magenta_Dye_Hex_D10C7C_Color_Palette_with_Hex.png_v=1706161328.png",
+  "image_hash": "6182966da5f3c151cd03b5d1b2566f157add882c0a5b2f300d5fecbf008c0a3f",
+  "extracted_colors": [
+    {
+      "hex": "#3D6DCE",
+      "rgb": "61, 109, 206",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D74DDB",
+      "rgb": "215, 77, 219",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BE2D79",
+      "rgb": "190, 45, 121",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#65C2EB",
+      "rgb": "101, 194, 235",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#081841",
+      "rgb": "8, 24, 65",
+      "name": "Deep Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#65C2EB",
+      "fg_hex": "#081841",
+      "contrast_ratio": 8.6
+    }
+  ],
+  "processing_time_ms": 979,
+  "created_at": "2026-01-07T09:32:34.285518+00:00"
+}

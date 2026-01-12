@@ -1,0 +1,33 @@
+{
+  "filename": "Baby-Blue-Color-Palette-with-Hex-Codes.png_v=1688970954.png",
+  "image_hash": "73b3b4998b61606d53b8aa240048560400e863963a58145207b3e46d3cc5dbf7",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.39
+    },
+    {
+      "hex": "#8ACEEF",
+      "rgb": "138, 206, 239",
+      "name": "Bright Teal",
+      "weight": 0.19
+    },
+    {
+      "hex": "#BEDFFF",
+      "rgb": "190, 223, 255",
+      "name": "Soft Sapphire",
+      "weight": 0.18
+    },
+    {
+      "hex": "#6DAEEF",
+      "rgb": "109, 174, 239",
+      "name": "Bright Teal",
+      "weight": 0.18
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 955,
+  "created_at": "2026-01-07T09:17:31.827766+00:00"
+}

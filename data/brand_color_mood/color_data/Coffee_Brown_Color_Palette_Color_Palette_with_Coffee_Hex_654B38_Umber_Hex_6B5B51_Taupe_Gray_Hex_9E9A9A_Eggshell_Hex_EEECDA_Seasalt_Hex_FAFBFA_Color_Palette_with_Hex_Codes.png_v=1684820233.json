@@ -1,0 +1,33 @@
+{
+  "filename": "Coffee_Brown_Color_Palette_Color_Palette_with_Coffee_Hex_654B38_Umber_Hex_6B5B51_Taupe_Gray_Hex_9E9A9A_Eggshell_Hex_EEECDA_Seasalt_Hex_FAFBFA_Color_Palette_with_Hex_Codes.png_v=1684820233.png",
+  "image_hash": "888371e992fbdffb9fcd873bf625d24bc10c7e2e5513b9aa5ff4e87e7ed34c1d",
+  "extracted_colors": [
+    {
+      "hex": "#9E9A9A",
+      "rgb": "158, 154, 154",
+      "name": "Silver Gray",
+      "weight": 0.33
+    },
+    {
+      "hex": "#FBFBFB",
+      "rgb": "251, 251, 251",
+      "name": "Pure White",
+      "weight": 0.33
+    },
+    {
+      "hex": "#654D39",
+      "rgb": "101, 77, 57",
+      "name": "Deep Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBFBFB",
+      "fg_hex": "#654D39",
+      "contrast_ratio": 7.59
+    }
+  ],
+  "processing_time_ms": 987,
+  "created_at": "2026-01-07T09:25:43.036333+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "filename": "26._Retro_Game_Color_Palette_Color_Palette_with_Midnight_Blue_Hex_271E70_Grape_Hex_5527AA_Aquamarine_Hex_2BFDAF_Folly_Hex_FC1057_Fandango_Hex_AB196F_Color_Palette_with_Hex_Codes.png_v=1705385194.png",
+  "image_hash": "4e09d01975a08087dd70f037dddbdf1f0b186fe064e2bd99d3269ee98d1b3d75",
+  "extracted_colors": [
+    {
+      "hex": "#E73959",
+      "rgb": "231, 57, 89",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#512DA6",
+      "rgb": "81, 45, 166",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9E2D6D",
+      "rgb": "158, 45, 109",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#24206D",
+      "rgb": "36, 32, 109",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#79FBB6",
+      "rgb": "121, 251, 182",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#512DA6",
+      "fg_hex": "#79FBB6",
+      "contrast_ratio": 7.16
+    },
+    {
+      "bg_hex": "#24206D",
+      "fg_hex": "#79FBB6",
+      "contrast_ratio": 10.84
+    }
+  ],
+  "processing_time_ms": 998,
+  "created_at": "2026-01-07T09:26:17.056819+00:00"
+}

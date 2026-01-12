@@ -1,0 +1,39 @@
+{
+  "filename": "26._Orange_And_Burgundy_Color_Palette_Color_Palette_with_Chocolate_Cosmos_Hex_4F000B_Claret_Hex_720026_Rust_Hex_B93513_Pumpkin_Hex_FF6A00_Coral_Hex_FF7F51_Color_Palette_with_Hex_Codes.png_v=1704868641.png",
+  "image_hash": "aef59eb3e4a282b938d595b950a1ddbd824b2f5c0e606f50255ad7bfc4b198d9",
+  "extracted_colors": [
+    {
+      "hex": "#EF865D",
+      "rgb": "239, 134, 93",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AA4124",
+      "rgb": "170, 65, 36",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#691028",
+      "rgb": "105, 16, 40",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF712D",
+      "rgb": "239, 113, 45",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#49080C",
+      "rgb": "73, 8, 12",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1028,
+  "created_at": "2026-01-07T09:24:47.692447+00:00"
+}

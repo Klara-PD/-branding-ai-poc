@@ -1,0 +1,33 @@
+{
+  "filename": "27._Neon_Teal_Color_Palette_Color_Palette_with_Vivid_Sky_Blue_Hex_00CCFF_Fluorescent_Cyan_Hex_00E4E4_Aquamarine_Hex_00ECBD_Screamin_Green_Hex_97FF7D_Chartreuse_Hex_95FF00_Color_Palett.png_v=1706161797.png",
+  "image_hash": "4dde3441b6c9ce36521286f289969598e2b4741e43e63cd7e9f5a754fa790f35",
+  "extracted_colors": [
+    {
+      "hex": "#AEFB4D",
+      "rgb": "174, 251, 77",
+      "name": "Bright Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#6DE7BE",
+      "rgb": "109, 231, 190",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#5DCAFB",
+      "rgb": "93, 202, 251",
+      "name": "Bright Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#AEFB8E",
+      "rgb": "174, 251, 142",
+      "name": "Bright Forest",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 10296,
+  "created_at": "2026-01-07T09:25:18.830524+00:00"
+}

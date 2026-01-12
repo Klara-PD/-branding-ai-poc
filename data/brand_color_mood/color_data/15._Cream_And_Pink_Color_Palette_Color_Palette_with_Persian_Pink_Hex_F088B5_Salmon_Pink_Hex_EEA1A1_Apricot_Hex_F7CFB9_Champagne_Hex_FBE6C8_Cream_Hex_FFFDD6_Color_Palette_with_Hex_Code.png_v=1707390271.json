@@ -1,0 +1,21 @@
+{
+  "filename": "15._Cream_And_Pink_Color_Palette_Color_Palette_with_Persian_Pink_Hex_F088B5_Salmon_Pink_Hex_EEA1A1_Apricot_Hex_F7CFB9_Champagne_Hex_FBE6C8_Cream_Hex_FFFDD6_Color_Palette_with_Hex_Code.png_v=1707390271.png",
+  "image_hash": "255ac76284c9b6941048cf51a687e5ccb7c1472ebb049b10da08643f83104ccc",
+  "extracted_colors": [
+    {
+      "hex": "#F7E7CA",
+      "rgb": "247, 231, 202",
+      "name": "Soft Ruby",
+      "weight": 0.5
+    },
+    {
+      "hex": "#E3A6A2",
+      "rgb": "227, 166, 162",
+      "name": "Soft Ruby",
+      "weight": 0.5
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 957,
+  "created_at": "2026-01-07T09:32:42.698277+00:00"
+}

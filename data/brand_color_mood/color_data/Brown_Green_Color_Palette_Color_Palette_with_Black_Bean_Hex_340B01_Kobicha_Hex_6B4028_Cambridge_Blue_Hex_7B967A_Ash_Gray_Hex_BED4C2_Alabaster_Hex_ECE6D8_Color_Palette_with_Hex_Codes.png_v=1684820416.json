@@ -1,0 +1,55 @@
+{
+  "filename": "Brown_Green_Color_Palette_Color_Palette_with_Black_Bean_Hex_340B01_Kobicha_Hex_6B4028_Cambridge_Blue_Hex_7B967A_Ash_Gray_Hex_BED4C2_Alabaster_Hex_ECE6D8_Color_Palette_with_Hex_Codes.png_v=1684820416.png",
+  "image_hash": "e9d98a14301632b1a0f1e48bf24656c07c047aff140680df6fc7e245c413159b",
+  "extracted_colors": [
+    {
+      "hex": "#7D9679",
+      "rgb": "125, 150, 121",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BED2C2",
+      "rgb": "190, 210, 194",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#694128",
+      "rgb": "105, 65, 40",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#350800",
+      "rgb": "53, 8, 0",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBE7DB",
+      "rgb": "235, 231, 219",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#BED2C2",
+      "fg_hex": "#350800",
+      "contrast_ratio": 11.12
+    },
+    {
+      "bg_hex": "#694128",
+      "fg_hex": "#EBE7DB",
+      "contrast_ratio": 7.11
+    },
+    {
+      "bg_hex": "#350800",
+      "fg_hex": "#EBE7DB",
+      "contrast_ratio": 14.32
+    }
+  ],
+  "processing_time_ms": 975,
+  "created_at": "2026-01-07T09:23:35.389232+00:00"
+}

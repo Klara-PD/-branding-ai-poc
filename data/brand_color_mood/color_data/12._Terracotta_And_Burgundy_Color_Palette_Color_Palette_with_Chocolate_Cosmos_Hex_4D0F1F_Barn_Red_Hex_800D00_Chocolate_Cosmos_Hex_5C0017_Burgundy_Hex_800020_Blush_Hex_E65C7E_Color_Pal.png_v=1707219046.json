@@ -1,0 +1,27 @@
+{
+  "filename": "12._Terracotta_And_Burgundy_Color_Palette_Color_Palette_with_Chocolate_Cosmos_Hex_4D0F1F_Barn_Red_Hex_800D00_Chocolate_Cosmos_Hex_5C0017_Burgundy_Hex_800020_Blush_Hex_E65C7E_Color_Pal.png_v=1707219046.png",
+  "image_hash": "277df0f7d0714bb4d20d91715b974ed411b04f190144632c7f02984eb6d39ce8",
+  "extracted_colors": [
+    {
+      "hex": "#751420",
+      "rgb": "117, 20, 32",
+      "name": "Deep Ruby",
+      "weight": 0.34
+    },
+    {
+      "hex": "#D7657D",
+      "rgb": "215, 101, 125",
+      "name": "Bright Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#491420",
+      "rgb": "73, 20, 32",
+      "name": "Deep Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 961,
+  "created_at": "2026-01-07T09:52:52.86806+00:00"
+}

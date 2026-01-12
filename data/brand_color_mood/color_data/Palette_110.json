@@ -1,0 +1,68 @@
+{
+  "filename": "Palette_110.jpg",
+  "image_hash": "0c44e527bd783a00543110a255fb30f30cc70189664f6bc682e88572edf34b13",
+  "extracted_colors": [
+    {
+      "hex": "#FF82BE",
+      "rgb": "255, 130, 190",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F7F7F3",
+      "rgb": "247, 247, 243",
+      "name": "Pure White",
+      "weight": 0.17
+    },
+    {
+      "hex": "#282824",
+      "rgb": "40, 40, 36",
+      "name": "Charcoal",
+      "weight": 0.17
+    },
+    {
+      "hex": "#8EA2B6",
+      "rgb": "142, 162, 182",
+      "name": "Soft Sapphire",
+      "weight": 0.08
+    },
+    {
+      "hex": "#3D453D",
+      "rgb": "61, 69, 61",
+      "name": "Iron Gray",
+      "weight": 0.08
+    },
+    {
+      "hex": "#828E3D",
+      "rgb": "130, 142, 61",
+      "name": "Soft Honey",
+      "weight": 0.08
+    },
+    {
+      "hex": "#A69E92",
+      "rgb": "166, 158, 146",
+      "name": "Silver Gray",
+      "weight": 0.08
+    },
+    {
+      "hex": "#BE692D",
+      "rgb": "190, 105, 45",
+      "name": "Deep Amber",
+      "weight": 0.08
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F7F7F3",
+      "fg_hex": "#282824",
+      "contrast_ratio": 13.78
+    },
+    {
+      "bg_hex": "#F7F7F3",
+      "fg_hex": "#3D453D",
+      "contrast_ratio": 9.24
+    }
+  ],
+  "processing_time_ms": 1166,
+  "created_at": "2026-01-07T08:09:14.54794+00:00"
+}

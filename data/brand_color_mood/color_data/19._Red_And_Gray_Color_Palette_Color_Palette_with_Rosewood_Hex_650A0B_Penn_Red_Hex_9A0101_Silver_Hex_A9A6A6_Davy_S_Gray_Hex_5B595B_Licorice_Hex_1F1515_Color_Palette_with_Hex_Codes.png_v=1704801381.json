@@ -1,0 +1,45 @@
+{
+  "filename": "19._Red_And_Gray_Color_Palette_Color_Palette_with_Rosewood_Hex_650A0B_Penn_Red_Hex_9A0101_Silver_Hex_A9A6A6_Davy_S_Gray_Hex_5B595B_Licorice_Hex_1F1515_Color_Palette_with_Hex_Codes.png_v=1704801381.png",
+  "image_hash": "f5731c75127cdc6b55eb4a83a9d5e883e98b872c28d3611397f60a9bdde8496b",
+  "extracted_colors": [
+    {
+      "hex": "#1C1414",
+      "rgb": "28, 20, 20",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#5D5959",
+      "rgb": "93, 89, 89",
+      "name": "Slate Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8E1C10",
+      "rgb": "142, 28, 16",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AAA6A6",
+      "rgb": "170, 166, 166",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#5D1410",
+      "rgb": "93, 20, 16",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#1C1414",
+      "fg_hex": "#AAA6A6",
+      "contrast_ratio": 7.52
+    }
+  ],
+  "processing_time_ms": 1712,
+  "created_at": "2026-01-07T09:33:02.717001+00:00"
+}

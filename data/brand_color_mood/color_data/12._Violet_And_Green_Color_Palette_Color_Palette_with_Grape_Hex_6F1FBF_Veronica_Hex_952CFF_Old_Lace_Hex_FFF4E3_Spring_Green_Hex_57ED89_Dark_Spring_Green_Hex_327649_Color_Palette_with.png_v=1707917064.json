@@ -1,0 +1,45 @@
+{
+  "filename": "12._Violet_And_Green_Color_Palette_Color_Palette_with_Grape_Hex_6F1FBF_Veronica_Hex_952CFF_Old_Lace_Hex_FFF4E3_Spring_Green_Hex_57ED89_Dark_Spring_Green_Hex_327649_Color_Palette_with.png_v=1707917064.png",
+  "image_hash": "fb20c0276833b76e71a6dd0c0db723ab7ec67358fe3411035a9414b23107df6d",
+  "extracted_colors": [
+    {
+      "hex": "#8A3DF7",
+      "rgb": "138, 61, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBF3E3",
+      "rgb": "251, 243, 227",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#82EB92",
+      "rgb": "130, 235, 146",
+      "name": "Bright Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#45714D",
+      "rgb": "69, 113, 77",
+      "name": "Deep Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#652DB6",
+      "rgb": "101, 45, 182",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBF3E3",
+      "fg_hex": "#652DB6",
+      "contrast_ratio": 7.31
+    }
+  ],
+  "processing_time_ms": 1059,
+  "created_at": "2026-01-07T09:46:12.507069+00:00"
+}

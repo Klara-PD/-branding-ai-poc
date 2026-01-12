@@ -1,0 +1,27 @@
+{
+  "filename": "20._Neutral_Pink_Color_Palette_Color_Palette_with_Melon_Hex_F8C2B7_Melon_Hex_F8B1AB_Salmon_Pink_Hex_F79F9F_Light_Coral_Hex_EE8787_Light_Coral_Hex_E46F6F_Color_Palette_with_Hex_Codes.png_v=1704712084.png",
+  "image_hash": "728be07a8fabd686d3a615f58851c3c41e452c935d5422dede440db32557569b",
+  "extracted_colors": [
+    {
+      "hex": "#D77571",
+      "rgb": "215, 117, 113",
+      "name": "Bright Ruby",
+      "weight": 0.34
+    },
+    {
+      "hex": "#EFC2BA",
+      "rgb": "239, 194, 186",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#EBA2A2",
+      "rgb": "235, 162, 162",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1203,
+  "created_at": "2026-01-07T09:35:08.472168+00:00"
+}

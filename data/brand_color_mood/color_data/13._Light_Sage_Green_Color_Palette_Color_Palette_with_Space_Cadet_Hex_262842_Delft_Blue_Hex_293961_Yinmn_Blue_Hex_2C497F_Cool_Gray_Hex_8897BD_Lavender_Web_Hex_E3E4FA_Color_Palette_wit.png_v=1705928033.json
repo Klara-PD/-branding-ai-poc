@@ -1,0 +1,27 @@
+{
+  "filename": "13._Light_Sage_Green_Color_Palette_Color_Palette_with_Space_Cadet_Hex_262842_Delft_Blue_Hex_293961_Yinmn_Blue_Hex_2C497F_Cool_Gray_Hex_8897BD_Lavender_Web_Hex_E3E4FA_Color_Palette_wit.png_v=1705928033.png",
+  "image_hash": "392673b0a69cfe8e38d074a6b758ba49744187c4d0f7b83819635dfdd8ab918b",
+  "extracted_colors": [
+    {
+      "hex": "#EBEBE7",
+      "rgb": "235, 235, 231",
+      "name": "Pearl White",
+      "weight": 0.34
+    },
+    {
+      "hex": "#D2D2C6",
+      "rgb": "210, 210, 198",
+      "name": "Silver Gray",
+      "weight": 0.34
+    },
+    {
+      "hex": "#A6AA96",
+      "rgb": "166, 170, 150",
+      "name": "Silver Gray",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 999,
+  "created_at": "2026-01-07T09:46:41.820651+00:00"
+}

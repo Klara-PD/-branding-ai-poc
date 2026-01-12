@@ -1,0 +1,39 @@
+{
+  "filename": "27._Turquoise_And_Terracotta_Color_Palette_Color_Palette_with_Seal_Brown_Hex_6A230B_Chestnut_Hex_9E4528_Brown_Sugar_Hex_C67155_Tiffany_Blue_Hex_6AD0C6_Persian_Green_Hex_1A968A_Color_P.png_v=1707289767.png",
+  "image_hash": "e34f9003213ff8dde18f1d2d25138376645e8f1add77cbf15687bffd62b96d80",
+  "extracted_colors": [
+    {
+      "hex": "#612814",
+      "rgb": "97, 40, 20",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BA7559",
+      "rgb": "186, 117, 89",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#924931",
+      "rgb": "146, 73, 49",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#86CEC6",
+      "rgb": "134, 206, 198",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#49968A",
+      "rgb": "73, 150, 138",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 971,
+  "created_at": "2026-01-07T09:19:51.587169+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "Palette_69.jpg",
+  "image_hash": "21d9a11d7aa359c4173aee91aab3b21cfc36770934bc6610d1baa311c540e84b",
+  "extracted_colors": [
+    {
+      "hex": "#316182",
+      "rgb": "49, 97, 130",
+      "name": "Deep Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B6D2E7",
+      "rgb": "182, 210, 231",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFF3E7",
+      "rgb": "255, 243, 231",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#7D5131",
+      "rgb": "125, 81, 49",
+      "name": "Deep Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1218,
+  "created_at": "2026-01-07T08:11:58.89381+00:00"
+}

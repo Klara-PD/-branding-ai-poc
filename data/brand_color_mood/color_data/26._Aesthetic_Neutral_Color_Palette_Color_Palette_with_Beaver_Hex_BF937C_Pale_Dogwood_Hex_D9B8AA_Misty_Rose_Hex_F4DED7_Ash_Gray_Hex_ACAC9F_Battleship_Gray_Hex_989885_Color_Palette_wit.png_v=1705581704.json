@@ -1,0 +1,27 @@
+{
+  "filename": "26._Aesthetic_Neutral_Color_Palette_Color_Palette_with_Beaver_Hex_BF937C_Pale_Dogwood_Hex_D9B8AA_Misty_Rose_Hex_F4DED7_Ash_Gray_Hex_ACAC9F_Battleship_Gray_Hex_989885_Color_Palette_wit.png_v=1705581704.png",
+  "image_hash": "900e2e282a9c8c9c3b76998e8bea72e5a56f4d69942152600c36a0dde3298ea6",
+  "extracted_colors": [
+    {
+      "hex": "#F3DFD7",
+      "rgb": "243, 223, 215",
+      "name": "Cloud Gray",
+      "weight": 0.34
+    },
+    {
+      "hex": "#B69682",
+      "rgb": "182, 150, 130",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#D2BAAA",
+      "rgb": "210, 186, 170",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 957,
+  "created_at": "2026-01-07T09:18:30.186143+00:00"
+}

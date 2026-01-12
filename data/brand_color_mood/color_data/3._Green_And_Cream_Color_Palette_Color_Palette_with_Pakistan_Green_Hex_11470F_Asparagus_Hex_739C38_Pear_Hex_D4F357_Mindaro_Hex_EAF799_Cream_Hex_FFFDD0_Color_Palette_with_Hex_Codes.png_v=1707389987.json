@@ -1,0 +1,55 @@
+{
+  "filename": "3._Green_And_Cream_Color_Palette_Color_Palette_with_Pakistan_Green_Hex_11470F_Asparagus_Hex_739C38_Pear_Hex_D4F357_Mindaro_Hex_EAF799_Cream_Hex_FFFDD0_Color_Palette_with_Hex_Codes.png_v=1707389987.png",
+  "image_hash": "2a252527dd011945d8ca61bba477950af7ba45cce054951c9a9bb0657b7d3ecc",
+  "extracted_colors": [
+    {
+      "hex": "#DBF371",
+      "rgb": "219, 243, 113",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFFFD7",
+      "rgb": "255, 255, 215",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7D9A49",
+      "rgb": "125, 154, 73",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFF7A6",
+      "rgb": "239, 247, 166",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#204518",
+      "rgb": "32, 69, 24",
+      "name": "Deep Honey",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#DBF371",
+      "fg_hex": "#204518",
+      "contrast_ratio": 8.86
+    },
+    {
+      "bg_hex": "#FFFFD7",
+      "fg_hex": "#204518",
+      "contrast_ratio": 10.66
+    },
+    {
+      "bg_hex": "#EFF7A6",
+      "fg_hex": "#204518",
+      "contrast_ratio": 9.62
+    }
+  ],
+  "processing_time_ms": 9499,
+  "created_at": "2026-01-07T08:57:18.491376+00:00"
+}

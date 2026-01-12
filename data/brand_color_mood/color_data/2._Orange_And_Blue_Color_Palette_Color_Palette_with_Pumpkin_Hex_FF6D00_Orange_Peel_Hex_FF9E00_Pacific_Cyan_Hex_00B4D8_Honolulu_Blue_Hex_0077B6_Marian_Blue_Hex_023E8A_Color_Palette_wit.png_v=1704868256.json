@@ -1,0 +1,39 @@
+{
+  "filename": "2._Orange_And_Blue_Color_Palette_Color_Palette_with_Pumpkin_Hex_FF6D00_Orange_Peel_Hex_FF9E00_Pacific_Cyan_Hex_00B4D8_Honolulu_Blue_Hex_0077B6_Marian_Blue_Hex_023E8A_Color_Palette_wit.png_v=1704868256.png",
+  "image_hash": "599ee5c7f559b37afff33e35bfaf8b3231a69acea1eab9e1d6f1f27497901a4e",
+  "extracted_colors": [
+    {
+      "hex": "#3175B2",
+      "rgb": "49, 117, 178",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#144186",
+      "rgb": "20, 65, 134",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF752D",
+      "rgb": "239, 117, 45",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3A239",
+      "rgb": "243, 162, 57",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#51B2D2",
+      "rgb": "81, 178, 210",
+      "name": "Bright Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 7836,
+  "created_at": "2026-01-07T08:55:27.66284+00:00"
+}

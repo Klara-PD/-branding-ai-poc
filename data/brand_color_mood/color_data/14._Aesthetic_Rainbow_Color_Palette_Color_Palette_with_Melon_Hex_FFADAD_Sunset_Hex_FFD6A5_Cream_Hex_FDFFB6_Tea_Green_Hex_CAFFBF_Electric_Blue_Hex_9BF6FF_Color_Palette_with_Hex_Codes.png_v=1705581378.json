@@ -1,0 +1,33 @@
+{
+  "filename": "14._Aesthetic_Rainbow_Color_Palette_Color_Palette_with_Melon_Hex_FFADAD_Sunset_Hex_FFD6A5_Cream_Hex_FDFFB6_Tea_Green_Hex_CAFFBF_Electric_Blue_Hex_9BF6FF_Color_Palette_with_Hex_Codes.png_v=1705581378.png",
+  "image_hash": "1d5385f552e1ee540a7a558bdf6a4c553396ad867f50cbd984370f58eb7de387",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFBE",
+      "rgb": "255, 255, 190",
+      "name": "Soft Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D7FFC6",
+      "rgb": "215, 255, 198",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F7D7AA",
+      "rgb": "247, 215, 170",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#AEF3FF",
+      "rgb": "174, 243, 255",
+      "name": "Soft Teal",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1024,
+  "created_at": "2026-01-07T09:47:07.097352+00:00"
+}

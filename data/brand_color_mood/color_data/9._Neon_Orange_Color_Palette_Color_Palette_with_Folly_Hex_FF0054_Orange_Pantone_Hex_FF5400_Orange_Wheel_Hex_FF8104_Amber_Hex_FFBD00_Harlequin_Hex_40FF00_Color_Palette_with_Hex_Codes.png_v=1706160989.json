@@ -1,0 +1,33 @@
+{
+  "filename": "9._Neon_Orange_Color_Palette_Color_Palette_with_Folly_Hex_FF0054_Orange_Pantone_Hex_FF5400_Orange_Wheel_Hex_FF8104_Amber_Hex_FFBD00_Harlequin_Hex_40FF00_Color_Palette_with_Hex_Codes.png_v=1706160989.png",
+  "image_hash": "bf3d9379e7734afa773975c81423d8f0d24b79634d76140059cc25660d40302f",
+  "extracted_colors": [
+    {
+      "hex": "#82FB4D",
+      "rgb": "130, 251, 77",
+      "name": "Bright Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EF8635",
+      "rgb": "239, 134, 53",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F7BE41",
+      "rgb": "247, 190, 65",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EB3559",
+      "rgb": "235, 53, 89",
+      "name": "Deep Ruby",
+      "weight": 0.24
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1145,
+  "created_at": "2026-01-07T09:50:49.242172+00:00"
+}

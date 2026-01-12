@@ -1,0 +1,39 @@
+{
+  "filename": "10._Red_And_Purple_Color_Palette_Color_Palette_with_Indigo_Hex_5B058A_French_Violet_Hex_8207C5_Bright_Pink_Crayola_Hex_F9626C_Imperial_Red_Hex_F72634_Penn_Red_Hex_9D0610_Color_Palette.png_v=1704721257.png",
+  "image_hash": "ce22a58c2c7b6669bc9f4cf725cd44330883b40482d6a00d00d533cb667145c4",
+  "extracted_colors": [
+    {
+      "hex": "#E33D41",
+      "rgb": "227, 61, 65",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#921C18",
+      "rgb": "146, 28, 24",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7520BE",
+      "rgb": "117, 32, 190",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E76D71",
+      "rgb": "231, 109, 113",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#551486",
+      "rgb": "85, 20, 134",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 998,
+  "created_at": "2026-01-07T09:50:31.349262+00:00"
+}

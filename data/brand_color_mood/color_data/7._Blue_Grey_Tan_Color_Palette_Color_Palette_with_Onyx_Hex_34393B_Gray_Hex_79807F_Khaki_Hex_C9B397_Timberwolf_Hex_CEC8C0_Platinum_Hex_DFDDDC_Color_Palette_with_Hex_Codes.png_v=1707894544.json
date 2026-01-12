@@ -1,0 +1,33 @@
+{
+  "filename": "7._Blue_Grey_Tan_Color_Palette_Color_Palette_with_Onyx_Hex_34393B_Gray_Hex_79807F_Khaki_Hex_C9B397_Timberwolf_Hex_CEC8C0_Platinum_Hex_DFDDDC_Color_Palette_with_Hex_Codes.png_v=1707894544.png",
+  "image_hash": "a2dc3b216238f1b1f276e608861d79b4cf69b4ddd7c8dd100ec07e346bb259ad",
+  "extracted_colors": [
+    {
+      "hex": "#79827D",
+      "rgb": "121, 130, 125",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#C6B29A",
+      "rgb": "198, 178, 154",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEC6C2",
+      "rgb": "206, 198, 194",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#35393D",
+      "rgb": "53, 57, 61",
+      "name": "Iron Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1016,
+  "created_at": "2026-01-07T08:58:26.373323+00:00"
+}

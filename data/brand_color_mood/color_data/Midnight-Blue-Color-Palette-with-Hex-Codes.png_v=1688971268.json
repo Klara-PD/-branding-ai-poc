@@ -1,0 +1,49 @@
+{
+  "filename": "Midnight-Blue-Color-Palette-with-Hex-Codes.png_v=1688971268.png",
+  "image_hash": "4894318587a6a02023128c36f985b0da94a71ff7e83a381434489c3a501e446e",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.38
+    },
+    {
+      "hex": "#181871",
+      "rgb": "24, 24, 113",
+      "name": "Deep Sapphire",
+      "weight": 0.19
+    },
+    {
+      "hex": "#394186",
+      "rgb": "57, 65, 134",
+      "name": "Deep Sapphire",
+      "weight": 0.18
+    },
+    {
+      "hex": "#080839",
+      "rgb": "8, 8, 57",
+      "name": "Deep Sapphire",
+      "weight": 0.18
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#181871",
+      "contrast_ratio": 14.92
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#394186",
+      "contrast_ratio": 9.23
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#080839",
+      "contrast_ratio": 19.02
+    }
+  ],
+  "processing_time_ms": 1170,
+  "created_at": "2026-01-07T09:25:38.224025+00:00"
+}

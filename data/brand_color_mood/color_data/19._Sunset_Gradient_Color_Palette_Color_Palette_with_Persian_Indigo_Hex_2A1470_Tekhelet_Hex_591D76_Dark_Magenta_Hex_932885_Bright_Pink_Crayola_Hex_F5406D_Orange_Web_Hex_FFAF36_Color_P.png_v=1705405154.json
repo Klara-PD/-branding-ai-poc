@@ -1,0 +1,45 @@
+{
+  "filename": "19._Sunset_Gradient_Color_Palette_Color_Palette_with_Persian_Indigo_Hex_2A1470_Tekhelet_Hex_591D76_Dark_Magenta_Hex_932885_Bright_Pink_Crayola_Hex_F5406D_Orange_Web_Hex_FFAF36_Color_P.png_v=1705405154.png",
+  "image_hash": "b883abf9b7f486c8c0fa8a02d21534d724a0cf95a32e7214caf9e2001c4c641d",
+  "extracted_colors": [
+    {
+      "hex": "#512471",
+      "rgb": "81, 36, 113",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3B251",
+      "rgb": "243, 178, 81",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#28186D",
+      "rgb": "40, 24, 109",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8A3182",
+      "rgb": "138, 49, 130",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E3516D",
+      "rgb": "227, 81, 109",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F3B251",
+      "fg_hex": "#28186D",
+      "contrast_ratio": 7.84
+    }
+  ],
+  "processing_time_ms": 1160,
+  "created_at": "2026-01-07T09:38:35.666694+00:00"
+}

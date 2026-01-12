@@ -1,0 +1,45 @@
+{
+  "filename": "9._Neutral_Green_Color_Palette_Color_Palette_with_Bone_Hex_EBE3D2_Dun_Hex_CCBFA3_Sage_Hex_A4AC86_Reseda_Green_Hex_737A5D_Ebony_Hex_414833_Color_Palette_with_Hex_Codes.png_v=1705495798.png",
+  "image_hash": "ee1b5e8422d86ffb33da59a752174abf0ba03e1cf3a03241ddf80ed8d158de2e",
+  "extracted_colors": [
+    {
+      "hex": "#A6AA8A",
+      "rgb": "166, 170, 138",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#454935",
+      "rgb": "69, 73, 53",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBE3D2",
+      "rgb": "235, 227, 210",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CABEA6",
+      "rgb": "202, 190, 166",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#757961",
+      "rgb": "117, 121, 97",
+      "name": "Slate Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#454935",
+      "fg_hex": "#EBE3D2",
+      "contrast_ratio": 7.29
+    }
+  ],
+  "processing_time_ms": 7181,
+  "created_at": "2026-01-07T09:50:08.034455+00:00"
+}

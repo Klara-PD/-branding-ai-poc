@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_91.jpg",
+  "image_hash": "dc740370dfdadfd0cc5d5eb02a75d1f8b90469a411c3e50ab12fdd0dfda00fb3",
+  "extracted_colors": [
+    {
+      "hex": "#243D4D",
+      "rgb": "36, 61, 77",
+      "name": "Deep Teal",
+      "weight": 0.3
+    },
+    {
+      "hex": "#F3FBFB",
+      "rgb": "243, 251, 251",
+      "name": "Pure White",
+      "weight": 0.3
+    },
+    {
+      "hex": "#698696",
+      "rgb": "105, 134, 150",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AEBAC2",
+      "rgb": "174, 186, 194",
+      "name": "Silver Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#243D4D",
+      "fg_hex": "#F3FBFB",
+      "contrast_ratio": 10.81
+    }
+  ],
+  "processing_time_ms": 1416,
+  "created_at": "2026-01-07T08:13:01.260241+00:00"
+}

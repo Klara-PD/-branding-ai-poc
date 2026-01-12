@@ -1,0 +1,39 @@
+{
+  "filename": "23._Violet_And_Turquoise_Color_Palette_Color_Palette_with_Veronica_Hex_9141E0_Violet_Hex_7F00FF_Aero_Hex_41BDE0_Turquoise_Hex_40E0D0_Pale_Dogwood_Hex_FFDAC9_Color_Palette_with_Hex_Cod.png_v=1707917252.png",
+  "image_hash": "8ea5a8db9379a9e4837292a5029f58d9d3db575a5ee9559adbc45286d4df2c7c",
+  "extracted_colors": [
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#65BADB",
+      "rgb": "101, 186, 219",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBDBCA",
+      "rgb": "251, 219, 202",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8649D7",
+      "rgb": "134, 73, 215",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 992,
+  "created_at": "2026-01-07T09:18:45.905929+00:00"
+}

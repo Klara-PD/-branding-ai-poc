@@ -1,0 +1,33 @@
+{
+  "filename": "25._Pastel_Mauve_Color_Palette_Color_Palette_with_Celeste_Hex_C2FEFF_Cream_Hex_F5FFC2_Mauve_Hex_E8C2FF_Apricot_Hex_FFD9C2_Light_Green_Hex_B5FFA8_Color_Palette_with_Hex_Codes.png_v=1707828054.png",
+  "image_hash": "bb11180dd02d8fd146c45a029a7586f9ef21dc38b345714677303287a288b8a2",
+  "extracted_colors": [
+    {
+      "hex": "#E3C2FB",
+      "rgb": "227, 194, 251",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F7FFCA",
+      "rgb": "247, 255, 202",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#C2FFB2",
+      "rgb": "194, 255, 178",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEFFFF",
+      "rgb": "206, 255, 255",
+      "name": "Soft Forest",
+      "weight": 0.24
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 945,
+  "created_at": "2026-01-07T09:19:43.790422+00:00"
+}

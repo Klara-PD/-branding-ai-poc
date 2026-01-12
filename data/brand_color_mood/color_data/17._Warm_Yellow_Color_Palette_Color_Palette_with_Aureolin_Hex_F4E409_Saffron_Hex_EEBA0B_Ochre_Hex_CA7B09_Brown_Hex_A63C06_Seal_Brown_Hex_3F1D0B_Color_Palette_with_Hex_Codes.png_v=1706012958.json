@@ -1,0 +1,50 @@
+{
+  "filename": "17._Warm_Yellow_Color_Palette_Color_Palette_with_Aureolin_Hex_F4E409_Saffron_Hex_EEBA0B_Ochre_Hex_CA7B09_Brown_Hex_A63C06_Seal_Brown_Hex_3F1D0B_Color_Palette_with_Hex_Codes.png_v=1706012958.png",
+  "image_hash": "fea305ffd683fa023710f12451920c3b6172ce67ff6225669083555916fba6ea",
+  "extracted_colors": [
+    {
+      "hex": "#BE7D2D",
+      "rgb": "190, 125, 45",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#3D2010",
+      "rgb": "61, 32, 16",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9A451C",
+      "rgb": "154, 69, 28",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3E34D",
+      "rgb": "243, 227, 77",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7BA41",
+      "rgb": "231, 186, 65",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#3D2010",
+      "fg_hex": "#F3E34D",
+      "contrast_ratio": 11.26
+    },
+    {
+      "bg_hex": "#3D2010",
+      "fg_hex": "#E7BA41",
+      "contrast_ratio": 8.14
+    }
+  ],
+  "processing_time_ms": 6542,
+  "created_at": "2026-01-07T09:38:21.733973+00:00"
+}

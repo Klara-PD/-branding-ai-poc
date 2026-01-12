@@ -1,0 +1,45 @@
+{
+  "filename": "16._Violet_And_Gray_Color_Palette_Color_Palette_with_Magnolia_Hex_F4EFFA_Thistle_Hex_CFC6DA_Rose_Quartz_Hex_AA9DB9_Royal_Purple_Hex_8160A3_Tekhelet_Hex_58238D_Color_Palette_with_Hex_C.png_v=1707917138.png",
+  "image_hash": "8e05c41b6ea368f318a30998034dd4f4ea74c1bd6f3c30b23e69a1263643428f",
+  "extracted_colors": [
+    {
+      "hex": "#CEC6DB",
+      "rgb": "206, 198, 219",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7D619E",
+      "rgb": "125, 97, 158",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AA9EB6",
+      "rgb": "170, 158, 182",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#51288A",
+      "rgb": "81, 40, 138",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3EFFB",
+      "rgb": "243, 239, 251",
+      "name": "Pearl White",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#51288A",
+      "fg_hex": "#F3EFFB",
+      "contrast_ratio": 9.18
+    }
+  ],
+  "processing_time_ms": 973,
+  "created_at": "2026-01-07T09:37:59.536634+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "Palette_6.jpg",
+  "image_hash": "e42d24a67e917f5c5254ce68575638a4635a3671a847ae8a87195d8e9792c4b8",
+  "extracted_colors": [
+    {
+      "hex": "#EBEBEB",
+      "rgb": "235, 235, 235",
+      "name": "Pearl White",
+      "weight": 0.33
+    },
+    {
+      "hex": "#1C1C1C",
+      "rgb": "28, 28, 28",
+      "name": "Deep Black",
+      "weight": 0.33
+    },
+    {
+      "hex": "#CA82DF",
+      "rgb": "202, 130, 223",
+      "name": "Soft Plum",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EBEBEB",
+      "fg_hex": "#1C1C1C",
+      "contrast_ratio": 14.3
+    }
+  ],
+  "processing_time_ms": 1073,
+  "created_at": "2026-01-07T08:13:06.495445+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "25._Teal_And_Yellow_Color_Palette_Color_Palette_with_Sunset_Hex_FFCB80_Jasmine_Hex_FFEA80_Mint_Green_Hex_CCFFFF_Turquoise_Hex_38D1B4_Teal_Hex_008080_Color_Palette_with_Hex_Codes.png_v=1706013113.png",
+  "image_hash": "acb750c95c0c81bbfefe0f446f577e707bf035d57067bbc4aa6368d6f04a1435",
+  "extracted_colors": [
+    {
+      "hex": "#FBEB8E",
+      "rgb": "251, 235, 142",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D7FFFF",
+      "rgb": "215, 255, 255",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#397D7D",
+      "rgb": "57, 125, 125",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#69CEB6",
+      "rgb": "105, 206, 182",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 953,
+  "created_at": "2026-01-07T09:17:59.602075+00:00"
+}

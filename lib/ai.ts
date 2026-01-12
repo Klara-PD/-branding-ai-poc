@@ -1,0 +1,293 @@
+/**
+ * AI SDK Structure for Branding Playground
+ * 
+ * This file contains the integration with Vercel AI SDK and Replicate.
+ * Replicate API calls for logo and asset generation are active.
+ * Creative brief generation still uses mock data (can be extended with AI SDK).
+ */
+
+import { createOpenAI } from '@ai-sdk/openai';
+import { generateText, streamText } from 'ai';
+import Replicate from 'replicate';
+
+import type {
+  DiscoveryFormData,
+  CreativeBrief,
+  BrandIdentityKit,
+  LLMModel,
+  VisualDNA,
+} from "@/types";
+
+/**
+ * Generate a Visual DNA creative brief based on discovery form data
+ * 
+ * @param formData - The discovery form data (includes systemInstructions)
+ * @param model - The LLM model to use
+ * @param apiKeys - API keys for the providers
+ * @returns A Visual DNA creative brief object
+ */
+export async function generateCreativeBrief(
+  formData: DiscoveryFormData,
+  model: LLMModel,
+  apiKeys: {
+    openrouter?: string;
+    replicate?: string;
+  }
+): Promise<CreativeBrief> {
+  console.log('🤖 [AI] Generating Creative Brief with model:', model);
+
+  if (!apiKeys.openrouter) {
+    console.error('❌ [AI] No OpenRouter API key provided');
+    throw new Error('OpenRouter API key is required. Please add your API key in Settings.');
+  }
+
+  // Map model to OpenRouter model name
+  const openRouterModel = model === 'gpt-4o' 
+    ? 'openai/gpt-4o' 
+    : 'anthropic/claude-3.5-sonnet';
+
+  console.log('✅ [AI] Using OpenRouter with model:', openRouterModel);
+
+  try {
+    // Use OpenAI SDK with OpenRouter's base URL
+    const openai = createOpenAI({
+      apiKey: apiKeys.openrouter,
+      baseURL: 'https://openrouter.ai/api/v1',
+    });
+
+    const prompt = `Based on the following brand information, generate a Visual DNA:
+
+Brand: ${formData.businessName}
+Target Audience: ${formData.targetAudience}
+Style Description: ${formData.styleDescription}
+
+Output MUST be valid JSON matching this exact structure:
+{
+  "brand_color_mood": {
+    "descriptors": ["15 aesthetic descriptors (no color names)"],
+    "avoid": ["5 keywords to avoid"]
+  },
+  "typography_voice": {
+    "descriptors": ["15 descriptors about letterform soul/structure"],
+    "avoid": ["5 keywords to avoid"]
+  },
+  "logo_geometry_essence": {
+    "descriptors": ["15 descriptors about silhouette/line-weight/tension"],
+    "avoid": ["5 keywords to avoid"]
+  },
+  "photography_cinematic_world": {
+    "backgrounds": ["5 background descriptors"],
+    "models": ["5 model descriptors"],
+    "products": ["5 product descriptors"],
+    "lighting": ["5 lighting descriptors"],
+    "avoid": ["5 keywords to avoid"]
+  },
+  "illustration_style_medium": {
+    "descriptors": ["15 descriptors about artistic technique and materials"],
+    "avoid": ["5 keywords to avoid"]
+  }
+}
+
+Return ONLY the JSON object, no markdown, no explanations.`;
+
+    const { text } = await generateText({
+      model: openai(openRouterModel),
+      system: formData.systemInstructions,
+      prompt: prompt,
+      temperature: 0.7,
+    });
+
+    console.log('📝 [AI] Raw response received, parsing JSON...');
+    
+    // Extract JSON from response (handle markdown code blocks if present)
+    let jsonText = text.trim();
+    if (jsonText.startsWith('```json')) {
+      jsonText = jsonText.replace(/^```json\n?/, '').replace(/\n?```$/, '');
+    } else if (jsonText.startsWith('```')) {
+      jsonText = jsonText.replace(/^```\n?/, '').replace(/\n?```$/, '');
+    }
+    
+    const visualDNA = JSON.parse(jsonText) as VisualDNA;
+    console.log('✅ [AI] JSON parsed successfully');
+    return { visualDNA };
+  } catch (error: any) {
+    console.error('❌ [AI] Error generating Creative Brief:', error);
+    throw new Error(`Failed to generate Creative Brief: ${error.message}`);
+  }
+}
+
+/**
+ * Generate logo using Replicate (flux-1.1-pro)
+ * 
+ * @param logoGeometryEssence - The logo geometry essence descriptors
+ * @param replicateApiKey - Replicate API key
+ * @returns Logo image URL
+ */
+export async function generateLogo(
+  logoGeometryEssence: string[],
+  replicateApiKey?: string
+): Promise<string | null> {
+  // Return null if no API key (will show placeholder)
+  if (!replicateApiKey) {
+    console.warn("Replicate API key not provided, skipping logo generation");
+    return null;
+  }
+
+  try {
+    const replicate = new Replicate({
+      auth: replicateApiKey,
+    });
+
+    // Create prompt from logo geometry essence descriptors
+    const prompt = logoGeometryEssence
+      .slice(0, 10) // Use first 10 descriptors
+      .join(", ");
+    
+    const finalPrompt = `${prompt}, clean, solid flat background, professional logo design, minimalist, high quality`;
+
+    const output = await replicate.run(
+      "black-forest-labs/flux-1.1-pro",
+      {
+        input: {
+          prompt: finalPrompt,
+          aspect_ratio: "1:1",
+          output_format: "png",
+          output_quality: 95,
+        },
+      }
+    );
+
+    // Replicate returns an array of URLs
+    if (Array.isArray(output) && output.length > 0) {
+      return output[0] as string;
+    }
+
+    return null;
+  } catch (error) {
+    console.error("Error generating logo:", error);
+    return null;
+  }
+}
+
+/**
+ * Generate brand mockup images using Replicate (flux-1.1-pro)
+ * 
+ * @param photographyCinematicWorld - The photography cinematic world descriptors
+ * @param replicateApiKey - Replicate API key
+ * @returns Array of 4 image URLs
+ */
+export async function generateBrandAssets(
+  photographyCinematicWorld: {
+    backgrounds: string[];
+    models: string[];
+    products: string[];
+    lighting: string[];
+  },
+  replicateApiKey?: string
+): Promise<string[]> {
+  // Return empty array if no API key (will show placeholders)
+  if (!replicateApiKey) {
+    console.warn("Replicate API key not provided, skipping asset generation");
+    return [];
+  }
+
+  try {
+    const replicate = new Replicate({
+      auth: replicateApiKey,
+    });
+
+    const prompts = [
+      // Combine different elements for variety
+      `${photographyCinematicWorld.backgrounds[0]}, ${photographyCinematicWorld.lighting[0]}, ${photographyCinematicWorld.products[0]}, professional brand photography, high quality`,
+      `${photographyCinematicWorld.backgrounds[1]}, ${photographyCinematicWorld.lighting[1]}, ${photographyCinematicWorld.models[0]}, cinematic brand photography, high quality`,
+      `${photographyCinematicWorld.backgrounds[2]}, ${photographyCinematicWorld.lighting[2]}, ${photographyCinematicWorld.products[1]}, premium brand mockup, high quality`,
+      `${photographyCinematicWorld.backgrounds[3]}, ${photographyCinematicWorld.lighting[3]}, ${photographyCinematicWorld.models[1]}, elegant brand photography, high quality`,
+    ];
+
+    const imageUrls: string[] = [];
+
+    for (const prompt of prompts) {
+      try {
+        const output = await replicate.run(
+          "black-forest-labs/flux-1.1-pro",
+          {
+            input: {
+              prompt: prompt,
+              aspect_ratio: "16:9",
+              output_format: "png",
+              output_quality: 95,
+            },
+          }
+        );
+
+        if (Array.isArray(output) && output.length > 0) {
+          imageUrls.push(output[0] as string);
+        }
+      } catch (error) {
+        console.error("Error generating asset:", error);
+        // Continue with other prompts
+      }
+    }
+
+    return imageUrls;
+  } catch (error) {
+    console.error("Error in generateBrandAssets:", error);
+    return [];
+  }
+}
+
+/**
+ * Generate brand identity kit (logo + assets)
+ * Automatically triggers after creative brief is generated
+ * 
+ * @param creativeBrief - The generated creative brief
+ * @param replicateApiKey - Replicate API key
+ * @returns Brand identity kit with logo and assets
+ */
+export async function generateBrandKit(
+  creativeBrief: CreativeBrief
+): Promise<BrandIdentityKit> {
+  // Call Next.js API route (server-side)
+  // API key is now on the backend
+  try {
+    const response = await fetch('/api/generate-brand-kit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        creativeBrief,
+      }),
+    });
+
+    if (!response.ok) {
+      const error = await response.json();
+      throw new Error(error.error || 'Failed to generate brand kit');
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (error: any) {
+    console.error('Error generating brand kit:', error);
+    return {
+      logoUrl: null,
+      assets: [],
+      isLoadingLogo: false,
+      isLoadingAssets: false,
+    };
+  }
+}
+
+/**
+ * Get model provider based on selected model
+ */
+export function getModelProvider(model: LLMModel) {
+  switch (model) {
+    case "gpt-4o":
+      return "openai";
+    case "claude-3-5-sonnet":
+      return "anthropic";
+    default:
+      return "openai";
+  }
+}

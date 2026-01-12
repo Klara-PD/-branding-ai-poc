@@ -1,0 +1,50 @@
+{
+  "filename": "16._Aesthetic_Red_Color_Palette_Color_Palette_with_Black_Hex_000000_Maroon_Hex_800000_Red_Hex_FF0000_Bittersweet_Hex_F96868_Tea_Rose_Red_Hex_F3D0D0_Color_Palette_with_Hex_Codes.png_v=1705581417.png",
+  "image_hash": "19fe69b168d058aa91783dbe3c241fca3161cbbb7e79589e79e43698d3d6d2f5",
+  "extracted_colors": [
+    {
+      "hex": "#EB3124",
+      "rgb": "235, 49, 36",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75140C",
+      "rgb": "117, 20, 12",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7716D",
+      "rgb": "231, 113, 109",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFD2CE",
+      "rgb": "239, 210, 206",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#EFD2CE",
+      "contrast_ratio": 14.78
+    },
+    {
+      "bg_hex": "#75140C",
+      "fg_hex": "#EFD2CE",
+      "contrast_ratio": 7.94
+    }
+  ],
+  "processing_time_ms": 1128,
+  "created_at": "2026-01-07T09:33:59.412853+00:00"
+}

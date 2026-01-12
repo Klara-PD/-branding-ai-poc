@@ -1,0 +1,33 @@
+{
+  "filename": "16._Red_Sunset_Color_Palette_Color_Palette_with_Rosewood_Hex_5A0006_Dark_Red_Hex_920004_Sinopia_Hex_D92200_Tangelo_Hex_F3500A_Safety_Orange_Hex_F37100_Color_Palette_with_Hex_Codes.png_v=1705405091.png",
+  "image_hash": "b1d0317a1ff6c158ac18a5f1c7035d429835ae25128ba7c76c4233fa636bdbb1",
+  "extracted_colors": [
+    {
+      "hex": "#C6391C",
+      "rgb": "198, 57, 28",
+      "name": "Deep Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E35D2D",
+      "rgb": "227, 93, 45",
+      "name": "Deep Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#861810",
+      "rgb": "134, 24, 16",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#510C0C",
+      "rgb": "81, 12, 12",
+      "name": "Deep Ruby",
+      "weight": 0.24
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1043,
+  "created_at": "2026-01-07T09:37:39.736028+00:00"
+}

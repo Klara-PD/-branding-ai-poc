@@ -1,0 +1,39 @@
+{
+  "filename": "22._Orange_Yellow_And_Pink_Color_Palette_Color_Palette_with_Dogwood_Rose_Hex_D70A66_Rose_Hex_FF0F7B_Bittersweet_Hex_FC5552_Carrot_Orange_Hex_F89B29_Xanthous_Hex_FFBF48_Color_Palette_w.png_v=1704868571.png",
+  "image_hash": "2fc8f16860347ad9b3b68b6f49435cc6b645cbbaf63b9dd83893a6e929af0965",
+  "extracted_colors": [
+    {
+      "hex": "#EB6159",
+      "rgb": "235, 97, 89",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7C25D",
+      "rgb": "247, 194, 93",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB3979",
+      "rgb": "235, 57, 121",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB9E45",
+      "rgb": "235, 158, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C62D65",
+      "rgb": "198, 45, 101",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1002,
+  "created_at": "2026-01-07T09:18:44.359491+00:00"
+}

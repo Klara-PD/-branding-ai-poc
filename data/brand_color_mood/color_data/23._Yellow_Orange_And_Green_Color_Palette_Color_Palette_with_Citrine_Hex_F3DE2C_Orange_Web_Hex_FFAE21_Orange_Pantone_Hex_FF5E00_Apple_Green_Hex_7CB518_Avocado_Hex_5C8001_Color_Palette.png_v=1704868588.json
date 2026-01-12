@@ -1,0 +1,39 @@
+{
+  "filename": "23._Yellow_Orange_And_Green_Color_Palette_Color_Palette_with_Citrine_Hex_F3DE2C_Orange_Web_Hex_FFAE21_Orange_Pantone_Hex_FF5E00_Apple_Green_Hex_7CB518_Avocado_Hex_5C8001_Color_Palette.png_v=1704868588.png",
+  "image_hash": "82829c17974dda0806eb65018fe6dac5f8f582304e1fce9f35d393808a3a4658",
+  "extracted_colors": [
+    {
+      "hex": "#617D24",
+      "rgb": "97, 125, 36",
+      "name": "Deep Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF692D",
+      "rgb": "239, 105, 45",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFDF55",
+      "rgb": "239, 223, 85",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8AB23D",
+      "rgb": "138, 178, 61",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3B245",
+      "rgb": "243, 178, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1041,
+  "created_at": "2026-01-07T09:25:57.126131+00:00"
+}

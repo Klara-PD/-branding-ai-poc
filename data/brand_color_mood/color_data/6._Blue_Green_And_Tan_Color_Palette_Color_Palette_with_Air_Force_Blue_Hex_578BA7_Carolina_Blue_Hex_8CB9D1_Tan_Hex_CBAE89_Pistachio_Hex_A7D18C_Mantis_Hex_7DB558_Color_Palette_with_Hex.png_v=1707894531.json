@@ -1,0 +1,39 @@
+{
+  "filename": "6._Blue_Green_And_Tan_Color_Palette_Color_Palette_with_Air_Force_Blue_Hex_578BA7_Carolina_Blue_Hex_8CB9D1_Tan_Hex_CBAE89_Pistachio_Hex_A7D18C_Mantis_Hex_7DB558_Color_Palette_with_Hex.png_v=1707894531.png",
+  "image_hash": "665b35c32c96cd14037fe22439c2ff62aa2cb4bdbb86733269dc0113d31d80a6",
+  "extracted_colors": [
+    {
+      "hex": "#AECE92",
+      "rgb": "174, 206, 146",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C6AE8E",
+      "rgb": "198, 174, 142",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8AB265",
+      "rgb": "138, 178, 101",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#96B6CE",
+      "rgb": "150, 182, 206",
+      "name": "Soft Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#618AA6",
+      "rgb": "97, 138, 166",
+      "name": "Soft Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1199,
+  "created_at": "2026-01-07T08:54:39.545782+00:00"
+}

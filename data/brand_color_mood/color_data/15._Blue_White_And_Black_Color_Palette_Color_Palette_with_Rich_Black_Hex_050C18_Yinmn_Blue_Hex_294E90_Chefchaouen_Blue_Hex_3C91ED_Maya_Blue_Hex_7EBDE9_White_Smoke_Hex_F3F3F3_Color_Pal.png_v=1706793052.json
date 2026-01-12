@@ -1,0 +1,55 @@
+{
+  "filename": "15._Blue_White_And_Black_Color_Palette_Color_Palette_with_Rich_Black_Hex_050C18_Yinmn_Blue_Hex_294E90_Chefchaouen_Blue_Hex_3C91ED_Maya_Blue_Hex_7EBDE9_White_Smoke_Hex_F3F3F3_Color_Pal.png_v=1706793052.png",
+  "image_hash": "8324d5f8482ddb41f13da20e294b46f92d9d6e8b284ab26c5c8345a5f071b1e0",
+  "extracted_colors": [
+    {
+      "hex": "#F3F3F3",
+      "rgb": "243, 243, 243",
+      "name": "Pure White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#314D8E",
+      "rgb": "49, 77, 142",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8EBAE7",
+      "rgb": "142, 186, 231",
+      "name": "Soft Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#5192E7",
+      "rgb": "81, 146, 231",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#040C18",
+      "rgb": "4, 12, 24",
+      "name": "Deep Black",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F3F3F3",
+      "fg_hex": "#314D8E",
+      "contrast_ratio": 7.33
+    },
+    {
+      "bg_hex": "#F3F3F3",
+      "fg_hex": "#040C18",
+      "contrast_ratio": 17.67
+    },
+    {
+      "bg_hex": "#8EBAE7",
+      "fg_hex": "#040C18",
+      "contrast_ratio": 9.64
+    }
+  ],
+  "processing_time_ms": 967,
+  "created_at": "2026-01-07T09:37:41.25401+00:00"
+}

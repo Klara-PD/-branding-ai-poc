@@ -1,0 +1,39 @@
+{
+  "filename": "25._Violet_And_Purple_Color_Palette_Color_Palette_with_Violet_Web_Color_Hex_FF86FF_Steel_Pink_Hex_C043C0_Purple_Hex_800080_French_Violet_Hex_8000C0_Violet_Hex_7F00FF_Color_Palette_wit.png_v=1707917282.png",
+  "image_hash": "1dba4b732008a561bad03ef5dbc228a855ed0feea1d016ed47cf8ba414057982",
+  "extracted_colors": [
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75187D",
+      "rgb": "117, 24, 125",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B24DBA",
+      "rgb": "178, 77, 186",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#751CBA",
+      "rgb": "117, 28, 186",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF8EFB",
+      "rgb": "239, 142, 251",
+      "name": "Bright Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1438,
+  "created_at": "2026-01-07T09:26:56.625257+00:00"
+}

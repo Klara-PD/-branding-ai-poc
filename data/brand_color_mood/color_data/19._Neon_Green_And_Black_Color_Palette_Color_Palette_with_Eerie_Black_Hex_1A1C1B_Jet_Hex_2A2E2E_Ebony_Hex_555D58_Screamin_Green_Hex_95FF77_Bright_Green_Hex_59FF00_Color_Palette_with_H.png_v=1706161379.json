@@ -1,0 +1,44 @@
+{
+  "filename": "19._Neon_Green_And_Black_Color_Palette_Color_Palette_with_Eerie_Black_Hex_1A1C1B_Jet_Hex_2A2E2E_Ebony_Hex_555D58_Screamin_Green_Hex_95FF77_Bright_Green_Hex_59FF00_Color_Palette_with_H.png_v=1706161379.png",
+  "image_hash": "61b6a1e46692ab0be26acfd1882380651de11ccd93af0f4bcaba19546ec94c4a",
+  "extracted_colors": [
+    {
+      "hex": "#181C1C",
+      "rgb": "24, 28, 28",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#AEFB8A",
+      "rgb": "174, 251, 138",
+      "name": "Bright Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8EFB4D",
+      "rgb": "142, 251, 77",
+      "name": "Bright Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#555D59",
+      "rgb": "85, 93, 89",
+      "name": "Slate Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#181C1C",
+      "fg_hex": "#AEFB8A",
+      "contrast_ratio": 13.89
+    },
+    {
+      "bg_hex": "#181C1C",
+      "fg_hex": "#8EFB4D",
+      "contrast_ratio": 13.14
+    }
+  ],
+  "processing_time_ms": 962,
+  "created_at": "2026-01-07T09:34:07.365021+00:00"
+}

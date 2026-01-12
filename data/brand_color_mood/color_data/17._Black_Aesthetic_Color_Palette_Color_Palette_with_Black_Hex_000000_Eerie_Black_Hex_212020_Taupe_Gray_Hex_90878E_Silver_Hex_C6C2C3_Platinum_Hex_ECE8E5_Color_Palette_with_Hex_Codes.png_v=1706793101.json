@@ -1,0 +1,60 @@
+{
+  "filename": "17._Black_Aesthetic_Color_Palette_Color_Palette_with_Black_Hex_000000_Eerie_Black_Hex_212020_Taupe_Gray_Hex_90878E_Silver_Hex_C6C2C3_Platinum_Hex_ECE8E5_Color_Palette_with_Hex_Codes.png_v=1706793101.png",
+  "image_hash": "94b5dd2a47e645e5b122df043b9899a8de7b07c14308c657d1e26b4cd95846db",
+  "extracted_colors": [
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#202020",
+      "rgb": "32, 32, 32",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#C6C2C2",
+      "rgb": "198, 194, 194",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8E8A8E",
+      "rgb": "142, 138, 142",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBE7E7",
+      "rgb": "235, 231, 231",
+      "name": "Pearl White",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#C6C2C2",
+      "contrast_ratio": 11.9
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#EBE7E7",
+      "contrast_ratio": 17.12
+    },
+    {
+      "bg_hex": "#202020",
+      "fg_hex": "#C6C2C2",
+      "contrast_ratio": 9.23
+    },
+    {
+      "bg_hex": "#202020",
+      "fg_hex": "#EBE7E7",
+      "contrast_ratio": 13.28
+    }
+  ],
+  "processing_time_ms": 1027,
+  "created_at": "2026-01-07T09:38:49.738723+00:00"
+}

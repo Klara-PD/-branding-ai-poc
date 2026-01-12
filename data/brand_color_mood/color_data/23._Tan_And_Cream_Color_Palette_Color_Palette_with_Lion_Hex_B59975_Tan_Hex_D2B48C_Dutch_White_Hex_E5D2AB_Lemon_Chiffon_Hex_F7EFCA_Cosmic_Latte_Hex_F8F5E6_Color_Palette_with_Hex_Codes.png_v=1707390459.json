@@ -1,0 +1,33 @@
+{
+  "filename": "23._Tan_And_Cream_Color_Palette_Color_Palette_with_Lion_Hex_B59975_Tan_Hex_D2B48C_Dutch_White_Hex_E5D2AB_Lemon_Chiffon_Hex_F7EFCA_Cosmic_Latte_Hex_F8F5E6_Color_Palette_with_Hex_Codes.png_v=1707390459.png",
+  "image_hash": "71c130e3eb69268d67d0a7e4d60ed135768d8960e9527a4fd881f73829648fb7",
+  "extracted_colors": [
+    {
+      "hex": "#F7EFCE",
+      "rgb": "247, 239, 206",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEB292",
+      "rgb": "206, 178, 146",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E3D2AE",
+      "rgb": "227, 210, 174",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B29A79",
+      "rgb": "178, 154, 121",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 5387,
+  "created_at": "2026-01-07T09:18:57.418596+00:00"
+}

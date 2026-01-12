@@ -1,0 +1,27 @@
+{
+  "filename": "16._Cream_And_Yellow_Color_Palette_Color_Palette_with_Saffron_Hex_F7C319_Sunglow_Hex_FACF43_Naples_Yellow_Hex_FCDB6D_Vanilla_Hex_FDEB9E_Cream_Hex_FDFBCF_Color_Palette_with_Hex_Codes.png_v=1707390292.png",
+  "image_hash": "d5084e06606af16cbef774d719a8386b7c084809b2b0c7a999a7b45a74f4c316",
+  "extracted_colors": [
+    {
+      "hex": "#F3CE5D",
+      "rgb": "243, 206, 93",
+      "name": "Bright Amber",
+      "weight": 0.33
+    },
+    {
+      "hex": "#FFFBD2",
+      "rgb": "255, 251, 210",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#FBEBAA",
+      "rgb": "251, 235, 170",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1137,
+  "created_at": "2026-01-07T09:32:56.980049+00:00"
+}

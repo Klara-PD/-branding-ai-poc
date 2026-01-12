@@ -1,0 +1,27 @@
+{
+  "filename": "21._Neutral_Earth_Tones_Color_Palette_Color_Palette_with_Buff_Hex_CB997E_Desert_Sand_Hex_DDBEA9_Champagne_Pink_Hex_FFE8D6_Ash_Gray_Hex_B7B7A4_Sage_Hex_A5A58D_Color_Palette_with_Hex_Co.png_v=1705496020.png",
+  "image_hash": "70b2ccae4fdb0270ab208bdbc14b96225b4e9984adb1dfa22f38f7f7dd775bbe",
+  "extracted_colors": [
+    {
+      "hex": "#FBEBD7",
+      "rgb": "251, 235, 215",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#B6B6A6",
+      "rgb": "182, 182, 166",
+      "name": "Silver Gray",
+      "weight": 0.33
+    },
+    {
+      "hex": "#C29A82",
+      "rgb": "194, 154, 130",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 968,
+  "created_at": "2026-01-07T09:33:04.381584+00:00"
+}

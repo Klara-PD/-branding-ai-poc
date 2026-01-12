@@ -1,0 +1,39 @@
+{
+  "filename": "14._Terracotta_And_Navy_Blue_Color_Palette_Color_Palette_with_Bistre_Hex_42251D_Brown_Sugar_Hex_B36435_Rose_Ebony_Hex_68453C_Space_Cadet_Hex_1D2642_Slate_Gray_Hex_757E97_Color_Palette.png_v=1707219081.png",
+  "image_hash": "866752a0c1f064b697288de8aac58779079319871255fc016a12a28a202ffdbd",
+  "extracted_colors": [
+    {
+      "hex": "#757D96",
+      "rgb": "117, 125, 150",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AA693D",
+      "rgb": "170, 105, 61",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#202441",
+      "rgb": "32, 36, 65",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#614941",
+      "rgb": "97, 73, 65",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#412420",
+      "rgb": "65, 36, 32",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1081,
+  "created_at": "2026-01-07T09:36:13.556173+00:00"
+}

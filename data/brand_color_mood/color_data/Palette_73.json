@@ -1,0 +1,33 @@
+{
+  "filename": "Palette_73.jpg",
+  "image_hash": "d049b836f663bea9edf6b2c4e3cde20a4a516082448adcafe74c3753b4366f58",
+  "extracted_colors": [
+    {
+      "hex": "#E3AEFF",
+      "rgb": "227, 174, 255",
+      "name": "Soft Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8A65DF",
+      "rgb": "138, 101, 223",
+      "name": "Deep Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#C2D7FF",
+      "rgb": "194, 215, 255",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DF65E3",
+      "rgb": "223, 101, 227",
+      "name": "Bright Plum",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1192,
+  "created_at": "2026-01-07T08:08:56.602426+00:00"
+}

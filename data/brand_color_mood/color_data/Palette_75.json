@@ -1,0 +1,33 @@
+{
+  "filename": "Palette_75.jpg",
+  "image_hash": "fa6ce39c254420a38823bc039efc8fbef86c5ad69b8bd579d78081798c0dac40",
+  "extracted_colors": [
+    {
+      "hex": "#248E55",
+      "rgb": "36, 142, 85",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8A618E",
+      "rgb": "138, 97, 142",
+      "name": "Deep Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#96DFE3",
+      "rgb": "150, 223, 227",
+      "name": "Soft Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEEBEF",
+      "rgb": "206, 235, 239",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1207,
+  "created_at": "2026-01-07T08:08:29.073162+00:00"
+}

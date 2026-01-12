@@ -1,0 +1,27 @@
+{
+  "filename": "23._Color_Palette_With_Pale_Blue_And_Sage_Green_Color_Palette_with_Hunter_Green_Hex_425A43_Reseda_Green_Hex_6A8C68_Light_Cyan_Hex_D0EFF3_Light_Blue_Hex_ADD8E6_Celeste_Hex_AFEEEE_Color.png_v=1705928235.png",
+  "image_hash": "801578a3aab0800a606d709c7c8fb8104a2a4397aec2b58700ca822fadc5ca52",
+  "extracted_colors": [
+    {
+      "hex": "#BAEBEF",
+      "rgb": "186, 235, 239",
+      "name": "Soft Teal",
+      "weight": 0.34
+    },
+    {
+      "hex": "#718A69",
+      "rgb": "113, 138, 105",
+      "name": "Deep Forest",
+      "weight": 0.34
+    },
+    {
+      "hex": "#495945",
+      "rgb": "73, 89, 69",
+      "name": "Iron Gray",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1015,
+  "created_at": "2026-01-07T09:26:47.578699+00:00"
+}

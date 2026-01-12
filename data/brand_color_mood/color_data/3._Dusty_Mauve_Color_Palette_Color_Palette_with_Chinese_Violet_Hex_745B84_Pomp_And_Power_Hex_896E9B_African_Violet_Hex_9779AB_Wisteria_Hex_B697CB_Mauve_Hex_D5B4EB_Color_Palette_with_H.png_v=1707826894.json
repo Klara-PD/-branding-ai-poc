@@ -1,0 +1,33 @@
+{
+  "filename": "3._Dusty_Mauve_Color_Palette_Color_Palette_with_Chinese_Violet_Hex_745B84_Pomp_And_Power_Hex_896E9B_African_Violet_Hex_9779AB_Wisteria_Hex_B697CB_Mauve_Hex_D5B4EB_Color_Palette_with_H.png_v=1707826894.png",
+  "image_hash": "37414e744007cc1fb660b9d4415042a6a1711e6b51dc4a1584d98800cff5502a",
+  "extracted_colors": [
+    {
+      "hex": "#9279AA",
+      "rgb": "146, 121, 170",
+      "name": "Soft Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B29AC6",
+      "rgb": "178, 154, 198",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEB6E7",
+      "rgb": "206, 182, 231",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#715D82",
+      "rgb": "113, 93, 130",
+      "name": "Deep Plum",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 959,
+  "created_at": "2026-01-07T08:57:32.968331+00:00"
+}

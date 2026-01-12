@@ -1,0 +1,39 @@
+{
+  "filename": "10._Burgundy_And_Cream_Color_Palette_Color_Palette_with_Burgundy_Hex_800020_Amaranth_Purple_Hex_A42E4A_Bright_Pink_Crayola_Hex_D7707C_Cream_Hex_FFFDD0_Vanilla_Hex_F7EDB9_Color_Palette.png_v=1707390149.png",
+  "image_hash": "b39a0bbf0f15bccae87ec64cb2532a9dabe2c1a93b02b55ee8c53d710a3683cd",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFD7",
+      "rgb": "255, 255, 215",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#96394D",
+      "rgb": "150, 57, 77",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CA757D",
+      "rgb": "202, 117, 125",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#751420",
+      "rgb": "117, 20, 32",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFD7",
+      "fg_hex": "#751420",
+      "contrast_ratio": 10.94
+    }
+  ],
+  "processing_time_ms": 1013,
+  "created_at": "2026-01-07T09:51:38.241903+00:00"
+}

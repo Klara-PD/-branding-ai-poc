@@ -1,0 +1,98 @@
+{
+  "filename": "Palette_114.jpg",
+  "image_hash": "c73d0a6652c38b2eee4b2ada0c5a6e84902a8a9d70fa05d16c524097964d21d0",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFB",
+      "rgb": "255, 255, 251",
+      "name": "Pure White",
+      "weight": 0.17
+    },
+    {
+      "hex": "#040035",
+      "rgb": "4, 0, 53",
+      "name": "Deep Plum",
+      "weight": 0.17
+    },
+    {
+      "hex": "#10F7F7",
+      "rgb": "16, 247, 247",
+      "name": "Bright Aqua",
+      "weight": 0.11
+    },
+    {
+      "hex": "#419AFB",
+      "rgb": "65, 154, 251",
+      "name": "Bright Teal",
+      "weight": 0.11
+    },
+    {
+      "hex": "#1C1C92",
+      "rgb": "28, 28, 146",
+      "name": "Deep Sapphire",
+      "weight": 0.11
+    },
+    {
+      "hex": "#F7CAF7",
+      "rgb": "247, 202, 247",
+      "name": "Soft Plum",
+      "weight": 0.11
+    },
+    {
+      "hex": "#FB92BE",
+      "rgb": "251, 146, 190",
+      "name": "Bright Ruby",
+      "weight": 0.11
+    },
+    {
+      "hex": "#FB6D7D",
+      "rgb": "251, 109, 125",
+      "name": "Bright Ruby",
+      "weight": 0.11
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFB",
+      "fg_hex": "#040035",
+      "contrast_ratio": 19.83
+    },
+    {
+      "bg_hex": "#FFFFFB",
+      "fg_hex": "#1C1C92",
+      "contrast_ratio": 12.85
+    },
+    {
+      "bg_hex": "#040035",
+      "fg_hex": "#10F7F7",
+      "contrast_ratio": 14.83
+    },
+    {
+      "bg_hex": "#040035",
+      "fg_hex": "#F7CAF7",
+      "contrast_ratio": 13.96
+    },
+    {
+      "bg_hex": "#040035",
+      "fg_hex": "#FB92BE",
+      "contrast_ratio": 9.42
+    },
+    {
+      "bg_hex": "#040035",
+      "fg_hex": "#FB6D7D",
+      "contrast_ratio": 7.18
+    },
+    {
+      "bg_hex": "#10F7F7",
+      "fg_hex": "#1C1C92",
+      "contrast_ratio": 9.61
+    },
+    {
+      "bg_hex": "#1C1C92",
+      "fg_hex": "#F7CAF7",
+      "contrast_ratio": 9.04
+    }
+  ],
+  "processing_time_ms": 3954,
+  "created_at": "2026-01-07T08:10:04.954089+00:00"
+}

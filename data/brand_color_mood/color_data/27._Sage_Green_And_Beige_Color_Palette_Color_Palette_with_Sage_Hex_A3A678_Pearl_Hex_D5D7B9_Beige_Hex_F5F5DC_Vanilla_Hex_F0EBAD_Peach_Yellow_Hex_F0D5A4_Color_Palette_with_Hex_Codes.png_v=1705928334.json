@@ -1,0 +1,27 @@
+{
+  "filename": "27._Sage_Green_And_Beige_Color_Palette_Color_Palette_with_Sage_Hex_A3A678_Pearl_Hex_D5D7B9_Beige_Hex_F5F5DC_Vanilla_Hex_F0EBAD_Peach_Yellow_Hex_F0D5A4_Color_Palette_with_Hex_Codes.png_v=1705928334.png",
+  "image_hash": "cb524c495eb9a6e11960a64fcb71ba594eae964b98f8abd6890e3efe80548a7a",
+  "extracted_colors": [
+    {
+      "hex": "#D7D7BA",
+      "rgb": "215, 215, 186",
+      "name": "Silver Gray",
+      "weight": 0.34
+    },
+    {
+      "hex": "#F7F7DF",
+      "rgb": "247, 247, 223",
+      "name": "Pearl White",
+      "weight": 0.34
+    },
+    {
+      "hex": "#A6A67D",
+      "rgb": "166, 166, 125",
+      "name": "Soft Honey",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1090,
+  "created_at": "2026-01-07T09:27:05.506693+00:00"
+}

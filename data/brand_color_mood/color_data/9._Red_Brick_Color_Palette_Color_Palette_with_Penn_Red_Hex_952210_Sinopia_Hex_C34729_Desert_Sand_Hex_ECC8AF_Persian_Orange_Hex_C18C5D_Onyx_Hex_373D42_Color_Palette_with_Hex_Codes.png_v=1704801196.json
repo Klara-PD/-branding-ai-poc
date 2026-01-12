@@ -1,0 +1,45 @@
+{
+  "filename": "9._Red_Brick_Color_Palette_Color_Palette_with_Penn_Red_Hex_952210_Sinopia_Hex_C34729_Desert_Sand_Hex_ECC8AF_Persian_Orange_Hex_C18C5D_Onyx_Hex_373D42_Color_Palette_with_Hex_Codes.png_v=1704801196.png",
+  "image_hash": "f146c3b080c21550dd181fc24d153445963797e0724e8df9208266c6e97b4cb9",
+  "extracted_colors": [
+    {
+      "hex": "#393D41",
+      "rgb": "57, 61, 65",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BA8E65",
+      "rgb": "186, 142, 101",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B25135",
+      "rgb": "178, 81, 53",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8A2D1C",
+      "rgb": "138, 45, 28",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7CAB2",
+      "rgb": "231, 202, 178",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#393D41",
+      "fg_hex": "#E7CAB2",
+      "contrast_ratio": 7.03
+    }
+  ],
+  "processing_time_ms": 1195,
+  "created_at": "2026-01-07T09:45:49.772696+00:00"
+}

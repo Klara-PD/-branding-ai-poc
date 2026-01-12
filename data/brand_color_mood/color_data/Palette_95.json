@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_95.jpg",
+  "image_hash": "82c49e6f1dcf0f91f2dd542fff52ec61fcf8f6033a781c0de1d953a936392818",
+  "extracted_colors": [
+    {
+      "hex": "#96969A",
+      "rgb": "150, 150, 154",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FBFBFB",
+      "rgb": "251, 251, 251",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EB4D24",
+      "rgb": "235, 77, 36",
+      "name": "Deep Amber",
+      "weight": 0.17
+    },
+    {
+      "hex": "#CECECE",
+      "rgb": "206, 206, 206",
+      "name": "Cloud Gray",
+      "weight": 0.17
+    },
+    {
+      "hex": "#2DCECE",
+      "rgb": "45, 206, 206",
+      "name": "Bright Aqua",
+      "weight": 0.16
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1134,
+  "created_at": "2026-01-07T08:12:23.636765+00:00"
+}

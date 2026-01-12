@@ -1,0 +1,45 @@
+{
+  "filename": "12._Grey_And_Turquoise_Color_Palette_Color_Palette_with_Jet_Hex_484349_Taupe_Gray_Hex_A09A9D_Snow_Hex_F7F0F0_Turquoise_Hex_40E0D0_Light_Sea_Green_Hex_17A09E_Color_Palette_with_Hex_Cod.png_v=1707289535.png",
+  "image_hash": "321d9f586e5b73b991bf0ed312fc5708c08b9cdcfd29111181b60d892d30a911",
+  "extracted_colors": [
+    {
+      "hex": "#F7EFEF",
+      "rgb": "247, 239, 239",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9E9A9E",
+      "rgb": "158, 154, 158",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#499E9E",
+      "rgb": "73, 158, 158",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#494549",
+      "rgb": "73, 69, 73",
+      "name": "Iron Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F7EFEF",
+      "fg_hex": "#494549",
+      "contrast_ratio": 8.31
+    }
+  ],
+  "processing_time_ms": 1174,
+  "created_at": "2026-01-07T09:50:29.82425+00:00"
+}

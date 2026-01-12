@@ -1,0 +1,56 @@
+{
+  "filename": "Blue_and_Green_Color_Palette.png_v=1688971385.png",
+  "image_hash": "b8d079268b52bc2e12ee87c5a05618c9096079ebb6a39b1ff0fa7112bc6d68a0",
+  "extracted_colors": [
+    {
+      "hex": "#00397D",
+      "rgb": "0, 57, 125",
+      "name": "Deep Teal",
+      "weight": 0.19
+    },
+    {
+      "hex": "#96E7F7",
+      "rgb": "150, 231, 247",
+      "name": "Soft Teal",
+      "weight": 0.19
+    },
+    {
+      "hex": "#24B271",
+      "rgb": "36, 178, 113",
+      "name": "Bright Aqua",
+      "weight": 0.19
+    },
+    {
+      "hex": "#7DD249",
+      "rgb": "125, 210, 73",
+      "name": "Bright Honey",
+      "weight": 0.19
+    },
+    {
+      "hex": "#009ED2",
+      "rgb": "0, 158, 210",
+      "name": "Deep Teal",
+      "weight": 0.19
+    },
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.06
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#00397D",
+      "fg_hex": "#96E7F7",
+      "contrast_ratio": 8.01
+    },
+    {
+      "bg_hex": "#00397D",
+      "fg_hex": "#FFFFFF",
+      "contrast_ratio": 11.16
+    }
+  ],
+  "processing_time_ms": 2854,
+  "created_at": "2026-01-07T09:17:18.652826+00:00"
+}

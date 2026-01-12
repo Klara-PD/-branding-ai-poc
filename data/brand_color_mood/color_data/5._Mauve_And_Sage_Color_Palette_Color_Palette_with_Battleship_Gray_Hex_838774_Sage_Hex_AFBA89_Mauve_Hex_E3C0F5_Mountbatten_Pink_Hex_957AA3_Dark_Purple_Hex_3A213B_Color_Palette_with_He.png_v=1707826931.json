@@ -1,0 +1,45 @@
+{
+  "filename": "5._Mauve_And_Sage_Color_Palette_Color_Palette_with_Battleship_Gray_Hex_838774_Sage_Hex_AFBA89_Mauve_Hex_E3C0F5_Mountbatten_Pink_Hex_957AA3_Dark_Purple_Hex_3A213B_Color_Palette_with_He.png_v=1707826931.png",
+  "image_hash": "f05f01f7d88b425fe66f5f8dcde433e73a151bbadd8c6d29f1bd8eaaa6c5b36a",
+  "extracted_colors": [
+    {
+      "hex": "#AEBA8E",
+      "rgb": "174, 186, 142",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DBC2F3",
+      "rgb": "219, 194, 243",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#392439",
+      "rgb": "57, 36, 57",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#927D9E",
+      "rgb": "146, 125, 158",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#828675",
+      "rgb": "130, 134, 117",
+      "name": "Silver Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#DBC2F3",
+      "fg_hex": "#392439",
+      "contrast_ratio": 8.77
+    }
+  ],
+  "processing_time_ms": 980,
+  "created_at": "2026-01-07T08:55:00.172388+00:00"
+}

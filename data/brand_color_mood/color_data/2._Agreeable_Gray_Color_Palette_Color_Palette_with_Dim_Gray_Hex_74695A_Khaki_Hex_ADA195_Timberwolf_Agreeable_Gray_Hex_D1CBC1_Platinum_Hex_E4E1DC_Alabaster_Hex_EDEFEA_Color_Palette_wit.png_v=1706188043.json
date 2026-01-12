@@ -1,0 +1,33 @@
+{
+  "filename": "2._Agreeable_Gray_Color_Palette_Color_Palette_with_Dim_Gray_Hex_74695A_Khaki_Hex_ADA195_Timberwolf_Agreeable_Gray_Hex_D1CBC1_Platinum_Hex_E4E1DC_Alabaster_Hex_EDEFEA_Color_Palette_wit.png_v=1706188043.png",
+  "image_hash": "ffa6b0b58fb94120ed7354b30a591a09e36168c9f3c6b3365597b927085e2d17",
+  "extracted_colors": [
+    {
+      "hex": "#EFEFEB",
+      "rgb": "239, 239, 235",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#AAA296",
+      "rgb": "170, 162, 150",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CECAC2",
+      "rgb": "206, 202, 194",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#71695D",
+      "rgb": "113, 105, 93",
+      "name": "Slate Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1000,
+  "created_at": "2026-01-07T08:56:55.32918+00:00"
+}

@@ -1,0 +1,27 @@
+{
+  "filename": "20._Aesthetic_White_Color_Palette_Color_Palette_with_Cadet_Gray_Hex_88A9B3_Light_Blue_Hex_A3CCD0_Azure_Web_Hex_E8F3F2_Alice_Blue_Hex_EDF6F9_Silver_Hex_A6A6A6_Color_Palette_with_Hex_Co.png_v=1705581493.png",
+  "image_hash": "ce4cd6189282939e972456e32e6da9bfb626f6599b01f1f25232900e0fd9dbf4",
+  "extracted_colors": [
+    {
+      "hex": "#EBF3F3",
+      "rgb": "235, 243, 243",
+      "name": "Pearl White",
+      "weight": 0.34
+    },
+    {
+      "hex": "#A6A6A6",
+      "rgb": "166, 166, 166",
+      "name": "Silver Gray",
+      "weight": 0.33
+    },
+    {
+      "hex": "#AACACE",
+      "rgb": "170, 202, 206",
+      "name": "Soft Sapphire",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 957,
+  "created_at": "2026-01-07T09:37:56.46324+00:00"
+}

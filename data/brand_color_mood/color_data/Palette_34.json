@@ -1,0 +1,39 @@
+{
+  "filename": "Palette_34.jpg",
+  "image_hash": "e75f4ab477a63fb3d31676b6bcf0f91b7280fa2b68999eb5f959adf9a6dd9709",
+  "extracted_colors": [
+    {
+      "hex": "#14BE71",
+      "rgb": "20, 190, 113",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFB600",
+      "rgb": "255, 182, 0",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#04311C",
+      "rgb": "4, 49, 28",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FF79BA",
+      "rgb": "255, 121, 186",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFB600",
+      "fg_hex": "#04311C",
+      "contrast_ratio": 8.17
+    }
+  ],
+  "processing_time_ms": 981,
+  "created_at": "2026-01-07T08:11:10.467881+00:00"
+}

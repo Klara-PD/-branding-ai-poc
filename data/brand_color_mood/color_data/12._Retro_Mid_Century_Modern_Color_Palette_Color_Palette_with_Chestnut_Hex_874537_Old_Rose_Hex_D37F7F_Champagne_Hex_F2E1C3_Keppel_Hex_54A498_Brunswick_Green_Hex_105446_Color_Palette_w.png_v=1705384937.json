@@ -1,0 +1,39 @@
+{
+  "filename": "12._Retro_Mid_Century_Modern_Color_Palette_Color_Palette_with_Chestnut_Hex_874537_Old_Rose_Hex_D37F7F_Champagne_Hex_F2E1C3_Keppel_Hex_54A498_Brunswick_Green_Hex_105446_Color_Palette_w.png_v=1705384937.png",
+  "image_hash": "4def6e03b1dbe4061ff8a612b0990457a7dfbcfd5221825c929293555a606504",
+  "extracted_colors": [
+    {
+      "hex": "#C68282",
+      "rgb": "198, 130, 130",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#82493D",
+      "rgb": "130, 73, 61",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#69A29A",
+      "rgb": "105, 162, 154",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EFE3C6",
+      "rgb": "239, 227, 198",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#285549",
+      "rgb": "40, 85, 73",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 14809,
+  "created_at": "2026-01-07T09:45:47.813153+00:00"
+}

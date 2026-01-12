@@ -1,0 +1,27 @@
+{
+  "filename": "7._Beige_Neutral_Color_Palette_Color_Palette_with_Eggshell_Hex_E9E9D9_Almond_Hex_E9D6C4_Desert_Sand_Hex_E9C3AF_Buff_Hex_CDA089_Chamoisee_Hex_B07D62_Color_Palette_with_Hex_Codes.png_v=1705495760.png",
+  "image_hash": "33d8e0cd080ffdf581322693190d1f3dcb78695d7d2b9a5cc18e4477aeb32e8d",
+  "extracted_colors": [
+    {
+      "hex": "#E7D7C6",
+      "rgb": "231, 215, 198",
+      "name": "Soft Ruby",
+      "weight": 0.34
+    },
+    {
+      "hex": "#C6A28E",
+      "rgb": "198, 162, 142",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#AA7D65",
+      "rgb": "170, 125, 101",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 998,
+  "created_at": "2026-01-07T08:52:17.118483+00:00"
+}

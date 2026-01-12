@@ -1,0 +1,39 @@
+{
+  "filename": "10._Coral_And_Mint_Color_Palette_Color_Palette_with_Verdigris_Hex_529FA0_Tiffany_Blue_Hex_75D1C5_Aquamarine_Hex_A9FFE0_Melon_Hex_FFAD9E_Bittersweet_Hex_FF726B_Color_Palette_with_Hex_C.png_v=1707197568.png",
+  "image_hash": "0b747850e1fd3219b52099ee7186a2f2ed2eeb9da267116ab43d7553bde544f2",
+  "extracted_colors": [
+    {
+      "hex": "#F3AEA2",
+      "rgb": "243, 174, 162",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF7971",
+      "rgb": "239, 121, 113",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8ACEC6",
+      "rgb": "138, 206, 198",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BAFFE3",
+      "rgb": "186, 255, 227",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#659E9E",
+      "rgb": "101, 158, 158",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1002,
+  "created_at": "2026-01-07T09:52:31.027823+00:00"
+}

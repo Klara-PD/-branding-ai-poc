@@ -1,0 +1,39 @@
+{
+  "filename": "12._Dark_Orange_Color_Palette_Color_Palette_with_Chocolate_Cosmos_Hex_4F000B_Barn_Red_Hex_7B1509_Rufous_Hex_A72906_Sinopia_Hex_D33D03_Aerospace_Orange_Hex_FF5100_Color_Palette_with_He.png_v=1704868411.png",
+  "image_hash": "76e1c0603549e79fea08112eb11ca7438f7393af703927e936aaaa1701407b0c",
+  "extracted_colors": [
+    {
+      "hex": "#C24920",
+      "rgb": "194, 73, 32",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB5D28",
+      "rgb": "235, 93, 40",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#712014",
+      "rgb": "113, 32, 20",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9A3518",
+      "rgb": "154, 53, 24",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#49080C",
+      "rgb": "73, 8, 12",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1166,
+  "created_at": "2026-01-07T09:47:17.908978+00:00"
+}

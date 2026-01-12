@@ -1,0 +1,27 @@
+{
+  "filename": "11._Light_Yellow_Color_Palette_Color_Palette_with_Light_Yellow_Hex_FFFFDD_Cream_Hex_FFFFC1_Mindaro_Hex_FFFF90_Icterine_Hex_FFFF4C_Yellow_Hex_F8F800_Color_Palette_with_Hex_Codes.png_v=1706012855.png",
+  "image_hash": "a24577435449bbf1a7a872faeed304205d224fa0beb1906b49682e453d4a1e25",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFC6",
+      "rgb": "255, 255, 198",
+      "name": "Soft Forest",
+      "weight": 0.33
+    },
+    {
+      "hex": "#FFFF6D",
+      "rgb": "255, 255, 109",
+      "name": "Bright Honey",
+      "weight": 0.33
+    },
+    {
+      "hex": "#FFFF9E",
+      "rgb": "255, 255, 158",
+      "name": "Soft Honey",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1079,
+  "created_at": "2026-01-07T09:48:47.446074+00:00"
+}

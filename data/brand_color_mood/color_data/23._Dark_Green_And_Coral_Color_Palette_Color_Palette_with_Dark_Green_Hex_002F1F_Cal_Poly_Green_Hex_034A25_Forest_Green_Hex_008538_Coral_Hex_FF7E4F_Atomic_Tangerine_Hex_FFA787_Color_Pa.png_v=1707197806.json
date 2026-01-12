@@ -1,0 +1,33 @@
+{
+  "filename": "23._Dark_Green_And_Coral_Color_Palette_Color_Palette_with_Dark_Green_Hex_002F1F_Cal_Poly_Green_Hex_034A25_Forest_Green_Hex_008538_Coral_Hex_FF7E4F_Atomic_Tangerine_Hex_FFA787_Color_Pa.png_v=1707197806.png",
+  "image_hash": "b93e4ab95f0179ab43850f493c09b0cfb99f3c6fa6fb55df8b55436df92612c6",
+  "extracted_colors": [
+    {
+      "hex": "#EF8659",
+      "rgb": "239, 134, 89",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#1C4928",
+      "rgb": "28, 73, 40",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#398241",
+      "rgb": "57, 130, 65",
+      "name": "Deep Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3AA8E",
+      "rgb": "243, 170, 142",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1046,
+  "created_at": "2026-01-07T09:25:55.438835+00:00"
+}

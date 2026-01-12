@@ -1,0 +1,44 @@
+{
+  "filename": "Palette_23.jpg",
+  "image_hash": "5772e90b02d8c82b93ca7f668773ad119047bf24bb4435cce06e4d63417a9ec8",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D7B2EB",
+      "rgb": "215, 178, 235",
+      "name": "Soft Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#040004",
+      "rgb": "4, 0, 4",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#4D6524",
+      "rgb": "77, 101, 36",
+      "name": "Deep Honey",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#040004",
+      "contrast_ratio": 20.86
+    },
+    {
+      "bg_hex": "#D7B2EB",
+      "fg_hex": "#040004",
+      "contrast_ratio": 11.38
+    }
+  ],
+  "processing_time_ms": 987,
+  "created_at": "2026-01-07T08:10:46.174445+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "20._Red_And_Cream_Color_Palette_Color_Palette_with_Ou_Crimson_Hex_871313_Fire_Brick_Hex_BB2929_Coral_Pink_Hex_E7877E_Lemon_Chiffon_Hex_F1EFC7_Vanilla_Hex_D8D59B_Color_Palette_with_Hex.png_v=1707390364.png",
+  "image_hash": "d96933fb8702146a2921f327c269888990579da99e34b28ec3cfbe09ef367f24",
+  "extracted_colors": [
+    {
+      "hex": "#7D2018",
+      "rgb": "125, 32, 24",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3EFCA",
+      "rgb": "243, 239, 202",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DB8E82",
+      "rgb": "219, 142, 130",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D7D7A2",
+      "rgb": "215, 215, 162",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AA3531",
+      "rgb": "170, 53, 49",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#7D2018",
+      "fg_hex": "#F3EFCA",
+      "contrast_ratio": 8.61
+    }
+  ],
+  "processing_time_ms": 1232,
+  "created_at": "2026-01-07T09:34:26.199574+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "filename": "1._Blue_And_Gray_Color_Palette_Color_Palette_with_Marian_Blue_Hex_163C90_Royal_Blue_Web_Color_Hex_2764F3_Jet_Hex_2F3136_Battleship_Gray_Hex_8A8B8E_Platinum_Hex_E5E5E5_Color_Palette_wi.png_v=1706188023.png",
+  "image_hash": "8014c5633e952a4afcafe8eebaebb8091c24b3ff353eeb90a30e1f5068d77e3c",
+  "extracted_colors": [
+    {
+      "hex": "#313135",
+      "rgb": "49, 49, 53",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7E7E7",
+      "rgb": "231, 231, 231",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8A8A8E",
+      "rgb": "138, 138, 142",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#3965EB",
+      "rgb": "57, 101, 235",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#203D8A",
+      "rgb": "32, 61, 138",
+      "name": "Deep Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#313135",
+      "fg_hex": "#E7E7E7",
+      "contrast_ratio": 10.47
+    },
+    {
+      "bg_hex": "#E7E7E7",
+      "fg_hex": "#203D8A",
+      "contrast_ratio": 8.1
+    }
+  ],
+  "processing_time_ms": 1084,
+  "created_at": "2026-01-07T09:48:50.638838+00:00"
+}

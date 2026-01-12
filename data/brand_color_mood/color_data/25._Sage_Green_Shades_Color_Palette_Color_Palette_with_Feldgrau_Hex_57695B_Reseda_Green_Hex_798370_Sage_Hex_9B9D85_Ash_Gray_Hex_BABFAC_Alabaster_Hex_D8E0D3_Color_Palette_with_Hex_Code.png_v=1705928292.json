@@ -1,0 +1,39 @@
+{
+  "filename": "25._Sage_Green_Shades_Color_Palette_Color_Palette_with_Feldgrau_Hex_57695B_Reseda_Green_Hex_798370_Sage_Hex_9B9D85_Ash_Gray_Hex_BABFAC_Alabaster_Hex_D8E0D3_Color_Palette_with_Hex_Code.png_v=1705928292.png",
+  "image_hash": "f2d35bc8350e719d16d8260b5d1598c6270a72197e572aada4f5753e2b0b61bc",
+  "extracted_colors": [
+    {
+      "hex": "#798271",
+      "rgb": "121, 130, 113",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9E9E8A",
+      "rgb": "158, 158, 138",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BABEAE",
+      "rgb": "186, 190, 174",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DBDFD2",
+      "rgb": "219, 223, 210",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#5D695D",
+      "rgb": "93, 105, 93",
+      "name": "Slate Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 4986,
+  "created_at": "2026-01-07T09:24:17.681749+00:00"
+}

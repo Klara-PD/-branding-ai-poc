@@ -1,0 +1,33 @@
+{
+  "filename": "24._Neutral_Ground_Color_Palette_Color_Palette_with_Raw_Umber_Hex_9F6942_Davy_S_Gray_Hex_4F4D48_Dun_Hex_D1BCA9_Alabaster_Hex_DEDCD0_Silver_Hex_C5BCB3_Color_Palette_with_Hex_Codes.png_v=1705496085.png",
+  "image_hash": "389d06a729787a443615d28dacb3b47df4dd634b381de151cc584f7b614c6b6a",
+  "extracted_colors": [
+    {
+      "hex": "#CEBEAA",
+      "rgb": "206, 190, 170",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#514D49",
+      "rgb": "81, 77, 73",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#966D49",
+      "rgb": "150, 109, 73",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DFDBD2",
+      "rgb": "223, 219, 210",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 7237,
+  "created_at": "2026-01-07T09:19:30.23086+00:00"
+}

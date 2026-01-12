@@ -1,0 +1,45 @@
+{
+  "filename": "23._Gray_And_Navy_Blue_Color_Palette_Color_Palette_with_Penn_Blue_Hex_131B58_Delft_Blue_Hex_363A73_Ultra_Violet_Hex_6B6B9D_French_Gray_Hex_BEBEC6_Taupe_Gray_Hex_84848F_Color_Palette_w.png_v=1706188390.png",
+  "image_hash": "a710eab925ec78a92fbd7d1a1a069e509f4cdf579c22bcad3120bfdeef64ce91",
+  "extracted_colors": [
+    {
+      "hex": "#141C55",
+      "rgb": "20, 28, 85",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#393D71",
+      "rgb": "57, 61, 113",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#86868E",
+      "rgb": "134, 134, 142",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BEBEC6",
+      "rgb": "190, 190, 198",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#696D9A",
+      "rgb": "105, 109, 154",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#141C55",
+      "fg_hex": "#BEBEC6",
+      "contrast_ratio": 8.57
+    }
+  ],
+  "processing_time_ms": 981,
+  "created_at": "2026-01-07T09:19:53.117922+00:00"
+}

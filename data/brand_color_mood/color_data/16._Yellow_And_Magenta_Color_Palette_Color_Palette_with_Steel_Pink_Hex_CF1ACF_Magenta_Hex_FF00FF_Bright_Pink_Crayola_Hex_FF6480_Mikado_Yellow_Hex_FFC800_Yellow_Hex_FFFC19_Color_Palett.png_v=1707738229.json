@@ -1,0 +1,39 @@
+{
+  "filename": "16._Yellow_And_Magenta_Color_Palette_Color_Palette_with_Steel_Pink_Hex_CF1ACF_Magenta_Hex_FF00FF_Bright_Pink_Crayola_Hex_FF6480_Mikado_Yellow_Hex_FFC800_Yellow_Hex_FFFC19_Color_Palett.png_v=1707738229.png",
+  "image_hash": "190e43069ab925c56987a8945102caa234b6b22bd791a8bcea804e5b6e02f409",
+  "extracted_colors": [
+    {
+      "hex": "#EB3DF7",
+      "rgb": "235, 61, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7CA45",
+      "rgb": "247, 202, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFFB55",
+      "rgb": "255, 251, 85",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BE35C6",
+      "rgb": "190, 53, 198",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF6D82",
+      "rgb": "239, 109, 130",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1011,
+  "created_at": "2026-01-07T09:35:43.156103+00:00"
+}

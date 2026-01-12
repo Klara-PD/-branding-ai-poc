@@ -1,0 +1,45 @@
+{
+  "filename": "4._Purple_And_Orange_Color_Palette_Color_Palette_with_Russian_Violet_Hex_40005C_Purple_Hex_73008C_Veronica_Hex_AB27C9_Sandy_Brown_Hex_FCA160_Dark_Orange_Web_Hex_FF8B10_Color_Palette_w.png_v=1704868287.png",
+  "image_hash": "5567d89f610347304afd4b392e3beddefdb40e12b26856a8dffcde3b7cc0f638",
+  "extracted_colors": [
+    {
+      "hex": "#EFA66D",
+      "rgb": "239, 166, 109",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF9239",
+      "rgb": "239, 146, 57",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#691486",
+      "rgb": "105, 20, 134",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9E39C2",
+      "rgb": "158, 57, 194",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#390859",
+      "rgb": "57, 8, 89",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EFA66D",
+      "fg_hex": "#390859",
+      "contrast_ratio": 7.65
+    }
+  ],
+  "processing_time_ms": 1656,
+  "created_at": "2026-01-07T08:54:00.683162+00:00"
+}

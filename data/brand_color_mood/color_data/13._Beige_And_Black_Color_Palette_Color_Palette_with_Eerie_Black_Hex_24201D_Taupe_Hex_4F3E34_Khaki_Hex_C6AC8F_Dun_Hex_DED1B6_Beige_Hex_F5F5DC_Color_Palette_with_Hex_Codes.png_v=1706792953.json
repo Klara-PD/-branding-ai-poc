@@ -1,0 +1,60 @@
+{
+  "filename": "13._Beige_And_Black_Color_Palette_Color_Palette_with_Eerie_Black_Hex_24201D_Taupe_Hex_4F3E34_Khaki_Hex_C6AC8F_Dun_Hex_DED1B6_Beige_Hex_F5F5DC_Color_Palette_with_Hex_Codes.png_v=1706792953.png",
+  "image_hash": "2f781ae47c98a89bb5e1437431f811cfd7216c4f7ae4452530f76933c2245694",
+  "extracted_colors": [
+    {
+      "hex": "#C2AE92",
+      "rgb": "194, 174, 146",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#4D4135",
+      "rgb": "77, 65, 53",
+      "name": "Iron Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DBD2BA",
+      "rgb": "219, 210, 186",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7F7DF",
+      "rgb": "247, 247, 223",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#20201C",
+      "rgb": "32, 32, 28",
+      "name": "Charcoal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#C2AE92",
+      "fg_hex": "#20201C",
+      "contrast_ratio": 7.6
+    },
+    {
+      "bg_hex": "#4D4135",
+      "fg_hex": "#F7F7DF",
+      "contrast_ratio": 9.1
+    },
+    {
+      "bg_hex": "#DBD2BA",
+      "fg_hex": "#20201C",
+      "contrast_ratio": 10.85
+    },
+    {
+      "bg_hex": "#F7F7DF",
+      "fg_hex": "#20201C",
+      "contrast_ratio": 15.04
+    }
+  ],
+  "processing_time_ms": 972,
+  "created_at": "2026-01-07T09:47:35.636113+00:00"
+}

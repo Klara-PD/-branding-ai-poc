@@ -1,0 +1,27 @@
+{
+  "filename": "6._Pastel_Sunset_Color_Palette_Color_Palette_with_Baker-Miller_Pink_Hex_FE9FB8_African_Violet_Hex_A893CE_Plum_Web_Hex_E2A9DB_Melon_Hex_FEB2AB_Peach_Hex_FFC198_Color_Palette_with_Hex_C.png_v=1705404890.png",
+  "image_hash": "36f6f4b8c58cee9084d130c3ed29aac5471c6ba6dc86133a1eaf1f2e23dd8a06",
+  "extracted_colors": [
+    {
+      "hex": "#F3B6AE",
+      "rgb": "243, 182, 174",
+      "name": "Soft Ruby",
+      "weight": 0.34
+    },
+    {
+      "hex": "#DBAAD7",
+      "rgb": "219, 170, 215",
+      "name": "Soft Ruby",
+      "weight": 0.33
+    },
+    {
+      "hex": "#A696CA",
+      "rgb": "166, 150, 202",
+      "name": "Soft Sapphire",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1251,
+  "created_at": "2026-01-07T08:56:53.686163+00:00"
+}

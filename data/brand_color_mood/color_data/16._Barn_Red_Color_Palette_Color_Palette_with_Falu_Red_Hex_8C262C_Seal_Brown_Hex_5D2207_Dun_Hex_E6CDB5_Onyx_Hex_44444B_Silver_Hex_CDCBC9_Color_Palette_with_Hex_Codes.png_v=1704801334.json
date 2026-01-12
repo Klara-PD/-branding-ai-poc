@@ -1,0 +1,39 @@
+{
+  "filename": "16._Barn_Red_Color_Palette_Color_Palette_with_Falu_Red_Hex_8C262C_Seal_Brown_Hex_5D2207_Dun_Hex_E6CDB5_Onyx_Hex_44444B_Silver_Hex_CDCBC9_Color_Palette_with_Hex_Codes.png_v=1704801334.png",
+  "image_hash": "08c2a17c2174434aa153e85601ffb15ee532b3652c894fc53c96fa3896b4902c",
+  "extracted_colors": [
+    {
+      "hex": "#45454D",
+      "rgb": "69, 69, 77",
+      "name": "Iron Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CECACA",
+      "rgb": "206, 202, 202",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#822D31",
+      "rgb": "130, 45, 49",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#552410",
+      "rgb": "85, 36, 16",
+      "name": "Deep Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#CECACA",
+      "fg_hex": "#552410",
+      "contrast_ratio": 7.85
+    }
+  ],
+  "processing_time_ms": 988,
+  "created_at": "2026-01-07T09:33:46.054767+00:00"
+}

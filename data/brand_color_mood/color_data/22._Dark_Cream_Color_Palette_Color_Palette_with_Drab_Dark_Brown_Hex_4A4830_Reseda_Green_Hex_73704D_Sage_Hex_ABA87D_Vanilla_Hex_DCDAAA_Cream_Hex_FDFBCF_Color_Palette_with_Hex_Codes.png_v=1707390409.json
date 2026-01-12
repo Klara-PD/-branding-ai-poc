@@ -1,0 +1,45 @@
+{
+  "filename": "22._Dark_Cream_Color_Palette_Color_Palette_with_Drab_Dark_Brown_Hex_4A4830_Reseda_Green_Hex_73704D_Sage_Hex_ABA87D_Vanilla_Hex_DCDAAA_Cream_Hex_FDFBCF_Color_Palette_with_Hex_Codes.png_v=1707390409.png",
+  "image_hash": "ccaf110e3bd56043b82e03f5574c955579361c52ef2a0db2581840b5760c00de",
+  "extracted_colors": [
+    {
+      "hex": "#AAAA82",
+      "rgb": "170, 170, 130",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFFBD2",
+      "rgb": "255, 251, 210",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DBDBAE",
+      "rgb": "219, 219, 174",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#717151",
+      "rgb": "113, 113, 81",
+      "name": "Deep Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#494935",
+      "rgb": "73, 73, 53",
+      "name": "Iron Gray",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFBD2",
+      "fg_hex": "#494935",
+      "contrast_ratio": 8.73
+    }
+  ],
+  "processing_time_ms": 1047,
+  "created_at": "2026-01-07T09:23:49.045863+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "22._Turquoise_And_Peach_Color_Palette_Color_Palette_with_Fluorescent_Cyan_Hex_6AF4E6_Turquoise_Hex_40E0D0_Robin_Egg_Blue_Hex_2AC6B6_Peach_Hex_FFE5B4_Melon_Hex_F7AD97_Color_Palette_wit.png_v=1707289692.png",
+  "image_hash": "fa1afbaf3d35c528b08636aba0c444dbb534bed7073d284d4beface91020b12f",
+  "extracted_colors": [
+    {
+      "hex": "#EBAE9A",
+      "rgb": "235, 174, 154",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBE7BA",
+      "rgb": "251, 231, 186",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#92EFE7",
+      "rgb": "146, 239, 231",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#61C2B6",
+      "rgb": "97, 194, 182",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1298,
+  "created_at": "2026-01-07T09:24:10.474821+00:00"
+}

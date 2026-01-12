@@ -1,0 +1,50 @@
+{
+  "filename": "11._Retro_Cyberpunk_Color_Palette_Color_Palette_with_Phlox_Hex_EC00F0_Fluorescent_Cyan_Hex_54EFEA_Robin_Egg_Blue_Hex_51CCDC_Grape_Hex_600DB5_Russian_Violet_Hex_1F004B_Color_Palette_wi.png_v=1705384920.png",
+  "image_hash": "9384fb3a2386a76b2599db6ea593d5b39f2480123c45fbf00a0cfe7885b562b7",
+  "extracted_colors": [
+    {
+      "hex": "#591CAE",
+      "rgb": "89, 28, 174",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#1C0449",
+      "rgb": "28, 4, 73",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#71CADB",
+      "rgb": "113, 202, 219",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#86EBEB",
+      "rgb": "134, 235, 235",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DB35E7",
+      "rgb": "219, 53, 231",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#1C0449",
+      "fg_hex": "#71CADB",
+      "contrast_ratio": 9.61
+    },
+    {
+      "bg_hex": "#1C0449",
+      "fg_hex": "#86EBEB",
+      "contrast_ratio": 12.98
+    }
+  ],
+  "processing_time_ms": 988,
+  "created_at": "2026-01-07T09:46:35.358328+00:00"
+}

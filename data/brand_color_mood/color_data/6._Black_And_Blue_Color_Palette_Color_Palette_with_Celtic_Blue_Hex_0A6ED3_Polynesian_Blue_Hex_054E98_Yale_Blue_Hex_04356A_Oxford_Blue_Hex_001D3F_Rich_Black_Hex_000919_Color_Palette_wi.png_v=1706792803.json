@@ -1,0 +1,39 @@
+{
+  "filename": "6._Black_And_Blue_Color_Palette_Color_Palette_with_Celtic_Blue_Hex_0A6ED3_Polynesian_Blue_Hex_054E98_Yale_Blue_Hex_04356A_Oxford_Blue_Hex_001D3F_Rich_Black_Hex_000919_Color_Palette_wi.png_v=1706792803.png",
+  "image_hash": "fe9c2dc16c83f968caabfd5b30e988611d5be61d2ad45e6ba672b14ffcc84e60",
+  "extracted_colors": [
+    {
+      "hex": "#143565",
+      "rgb": "20, 53, 101",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#081C3D",
+      "rgb": "8, 28, 61",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#316DCA",
+      "rgb": "49, 109, 202",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#000818",
+      "rgb": "0, 8, 24",
+      "name": "Deep Black",
+      "weight": 0.2
+    },
+    {
+      "hex": "#204D92",
+      "rgb": "32, 77, 146",
+      "name": "Deep Teal",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1063,
+  "created_at": "2026-01-07T08:55:45.947732+00:00"
+}

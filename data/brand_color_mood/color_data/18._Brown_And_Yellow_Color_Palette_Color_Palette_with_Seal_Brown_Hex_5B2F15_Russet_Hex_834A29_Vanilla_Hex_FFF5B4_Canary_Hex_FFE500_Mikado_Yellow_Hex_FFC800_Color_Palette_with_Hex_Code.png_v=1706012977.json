@@ -1,0 +1,44 @@
+{
+  "filename": "18._Brown_And_Yellow_Color_Palette_Color_Palette_with_Seal_Brown_Hex_5B2F15_Russet_Hex_834A29_Vanilla_Hex_FFF5B4_Canary_Hex_FFE500_Mikado_Yellow_Hex_FFC800_Color_Palette_with_Hex_Code.png_v=1706012977.png",
+  "image_hash": "c592ebf8687515d7de244a4482ff9df8d1f8143d0e60cd42db3802e4dc34ef52",
+  "extracted_colors": [
+    {
+      "hex": "#F7CA45",
+      "rgb": "247, 202, 69",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#7D4D31",
+      "rgb": "125, 77, 49",
+      "name": "Deep Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FFF7BA",
+      "rgb": "255, 247, 186",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#55311C",
+      "rgb": "85, 49, 28",
+      "name": "Deep Amber",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F7CA45",
+      "fg_hex": "#55311C",
+      "contrast_ratio": 7.32
+    },
+    {
+      "bg_hex": "#FFF7BA",
+      "fg_hex": "#55311C",
+      "contrast_ratio": 10.46
+    }
+  ],
+  "processing_time_ms": 2566,
+  "created_at": "2026-01-07T09:37:33.154144+00:00"
+}

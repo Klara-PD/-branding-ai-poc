@@ -1,0 +1,21 @@
+{
+  "filename": "20._Deep_Magenta_Color_Palette_Color_Palette_with_Dark_Purple_Hex_3B032F_Tyrian_Purple_Hex_4E0535_Tyrian_Purple_Hex_61063B_Murrey_Hex_7E0B48_Murrey_Hex_A10B56_Color_Palette_with_Hex_C.png_v=1707738329.png",
+  "image_hash": "1fad55cc59f46df6910ae3f8e69e4cab4248530295d05a2b466e6d0a36b10350",
+  "extracted_colors": [
+    {
+      "hex": "#751C49",
+      "rgb": "117, 28, 73",
+      "name": "Deep Ruby",
+      "weight": 0.5
+    },
+    {
+      "hex": "#490C35",
+      "rgb": "73, 12, 53",
+      "name": "Deep Ruby",
+      "weight": 0.5
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 963,
+  "created_at": "2026-01-07T09:33:05.960966+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "24._Violet_Complementary_Color_Palette_Color_Palette_with_Tekhelet_Hex_4A2C69_Grape_Hex_7830BF_Violet_Hex_7F00FF_Yellow_Hex_FCFF00_Olive_Hex_999B20_Color_Palette_with_Hex_Codes.png_v=1707917267.png",
+  "image_hash": "c5a0543a8deb61a52967e0fa83ffbfdcd3b0a344d49d5cf15c1dc6ec69583b05",
+  "extracted_colors": [
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFFF55",
+      "rgb": "255, 255, 85",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6D39B6",
+      "rgb": "109, 57, 182",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9A9A39",
+      "rgb": "154, 154, 57",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#453165",
+      "rgb": "69, 49, 101",
+      "name": "Deep Plum",
+      "weight": 0.19
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFF55",
+      "fg_hex": "#453165",
+      "contrast_ratio": 10.47
+    }
+  ],
+  "processing_time_ms": 8869,
+  "created_at": "2026-01-07T09:27:19.863514+00:00"
+}

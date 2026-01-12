@@ -1,0 +1,39 @@
+{
+  "filename": "14._Purple_And_Tan_Color_Palette_Color_Palette_with_Tekhelet_Hex_4A336C_Lavender_Floral_Hex_C576E4_Wisteria_Hex_B99CE6_Linen_Hex_F2E6DD_Dun_Hex_DFC6A8_Color_Palette_with_Hex_Codes.png_v=1707894658.png",
+  "image_hash": "ebe8692f1a521fe766a7974127a8ce9972b90f1b91973b784871d27bed702c9a",
+  "extracted_colors": [
+    {
+      "hex": "#DBC6AA",
+      "rgb": "219, 198, 170",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EFE7DF",
+      "rgb": "239, 231, 223",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B29EE3",
+      "rgb": "178, 158, 227",
+      "name": "Soft Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#493569",
+      "rgb": "73, 53, 105",
+      "name": "Deep Plum",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EFE7DF",
+      "fg_hex": "#493569",
+      "contrast_ratio": 8.6
+    }
+  ],
+  "processing_time_ms": 1039,
+  "created_at": "2026-01-07T09:37:38.153821+00:00"
+}

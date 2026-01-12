@@ -1,0 +1,33 @@
+{
+  "filename": "20._Turquoise_And_Aqua_Color_Palette_Color_Palette_with_Cyan_Rgb_Hex_00FFFF_Fluorescent_Cyan_Hex_20F0E8_Turquoise_Hex_40E0D0_Verdigris_Hex_30B7BB_Blue_Munsell_Hex_208DA5_Color_Palette.png_v=1707289657.png",
+  "image_hash": "cf209ea6ef200e0dc168b817997a6c1c453b6bdbc902a5bd80512025eaf88776",
+  "extracted_colors": [
+    {
+      "hex": "#5DB6BA",
+      "rgb": "93, 182, 186",
+      "name": "Soft Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#75FBFF",
+      "rgb": "117, 251, 255",
+      "name": "Bright Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#458AA2",
+      "rgb": "69, 138, 162",
+      "name": "Deep Teal",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 2368,
+  "created_at": "2026-01-07T09:36:48.306742+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "10._Fuchsia_And_Turquoise_Color_Palette_Color_Palette_with_Steel_Pink_Hex_BA31BA_Fuchsia_Hex_FD47FD_Vista_Blue_Hex_A1A1E2_Turquoise_Hex_45F2D8_Verdigris_Hex_48ABA7_Color_Palette_with.png_v=1707289501.png",
+  "image_hash": "d526419a3bfa1370239439dd00ba78a8f6130fdfb3029f50d51a8e6307a1c096",
+  "extracted_colors": [
+    {
+      "hex": "#EB59F7",
+      "rgb": "235, 89, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#A2A2DF",
+      "rgb": "162, 162, 223",
+      "name": "Soft Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7DEFDB",
+      "rgb": "125, 239, 219",
+      "name": "Bright Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#61AAA6",
+      "rgb": "97, 170, 166",
+      "name": "Soft Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AA41B2",
+      "rgb": "170, 65, 178",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1097,
+  "created_at": "2026-01-07T09:49:01.788342+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "13._Retro_Orange_Color_Palette_Color_Palette_with_Aquamarine_Hex_74E1BE_Maize_Hex_FFE656_Xanthous_Hex_FBB638_Ut_Orange_Hex_F78619_Spanish_Orange_Hex_EE640F_Color_Palette_with_Hex_Code.png_v=1705384957.png",
+  "image_hash": "aa5382aea431437d6e3d9440882650b7b63d918730e71c555a0021061de657aa",
+  "extracted_colors": [
+    {
+      "hex": "#DF6D31",
+      "rgb": "223, 109, 49",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FBE76D",
+      "rgb": "251, 231, 109",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3BA51",
+      "rgb": "243, 186, 81",
+      "name": "Bright Amber",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8EDFBE",
+      "rgb": "142, 223, 190",
+      "name": "Soft Aqua",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1549,
+  "created_at": "2026-01-07T09:52:03.857548+00:00"
+}

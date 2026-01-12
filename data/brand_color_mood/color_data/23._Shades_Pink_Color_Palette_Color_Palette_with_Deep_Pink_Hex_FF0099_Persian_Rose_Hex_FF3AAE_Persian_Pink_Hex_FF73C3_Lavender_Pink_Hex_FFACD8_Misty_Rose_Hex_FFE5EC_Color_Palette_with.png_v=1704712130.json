@@ -1,0 +1,33 @@
+{
+  "filename": "23._Shades_Pink_Color_Palette_Color_Palette_with_Deep_Pink_Hex_FF0099_Persian_Rose_Hex_FF3AAE_Persian_Pink_Hex_FF73C3_Lavender_Pink_Hex_FFACD8_Misty_Rose_Hex_FFE5EC_Color_Palette_with.png_v=1704712130.png",
+  "image_hash": "2fd2ae73a555c96dec0000363768c6b97c85277951287da8e7071327181539c0",
+  "extracted_colors": [
+    {
+      "hex": "#FBE7EB",
+      "rgb": "251, 231, 235",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EB3596",
+      "rgb": "235, 53, 150",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EF7DBE",
+      "rgb": "239, 125, 190",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3AED7",
+      "rgb": "243, 174, 215",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 944,
+  "created_at": "2026-01-07T09:19:08.11951+00:00"
+}

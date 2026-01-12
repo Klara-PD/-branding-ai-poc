@@ -1,0 +1,49 @@
+{
+  "filename": "Palette_28.jpg",
+  "image_hash": "5d92550c1a87579fe5228bfda5debee85c99cf2e1a59565299f7e705f3ad4101",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B6CACE",
+      "rgb": "182, 202, 206",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#DFCABE",
+      "rgb": "223, 202, 190",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#000000",
+      "contrast_ratio": 21
+    },
+    {
+      "bg_hex": "#B6CACE",
+      "fg_hex": "#000000",
+      "contrast_ratio": 12.33
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#DFCABE",
+      "contrast_ratio": 13.33
+    }
+  ],
+  "processing_time_ms": 1050,
+  "created_at": "2026-01-07T08:09:26.440666+00:00"
+}

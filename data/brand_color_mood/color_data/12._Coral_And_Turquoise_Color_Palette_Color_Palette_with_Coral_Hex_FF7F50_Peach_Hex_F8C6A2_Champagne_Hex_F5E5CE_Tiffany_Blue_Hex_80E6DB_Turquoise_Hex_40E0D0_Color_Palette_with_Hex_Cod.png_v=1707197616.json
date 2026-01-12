@@ -1,0 +1,33 @@
+{
+  "filename": "12._Coral_And_Turquoise_Color_Palette_Color_Palette_with_Coral_Hex_FF7F50_Peach_Hex_F8C6A2_Champagne_Hex_F5E5CE_Tiffany_Blue_Hex_80E6DB_Turquoise_Hex_40E0D0_Color_Palette_with_Hex_Cod.png_v=1707197616.png",
+  "image_hash": "e35100e1d8da54b9998f654d0f53e62871c60845c77ba9d47769809c3b1caab9",
+  "extracted_colors": [
+    {
+      "hex": "#EF865D",
+      "rgb": "239, 134, 93",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EFC6A6",
+      "rgb": "239, 198, 166",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3E7D2",
+      "rgb": "243, 231, 210",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#75DFCE",
+      "rgb": "117, 223, 206",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1152,
+  "created_at": "2026-01-07T09:50:36.24049+00:00"
+}

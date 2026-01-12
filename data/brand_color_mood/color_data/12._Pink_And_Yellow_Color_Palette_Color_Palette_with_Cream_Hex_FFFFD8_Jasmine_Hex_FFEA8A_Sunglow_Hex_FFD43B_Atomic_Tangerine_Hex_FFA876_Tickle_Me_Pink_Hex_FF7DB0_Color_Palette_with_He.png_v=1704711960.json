@@ -1,0 +1,39 @@
+{
+  "filename": "12._Pink_And_Yellow_Color_Palette_Color_Palette_with_Cream_Hex_FFFFD8_Jasmine_Hex_FFEA8A_Sunglow_Hex_FFD43B_Atomic_Tangerine_Hex_FFA876_Tickle_Me_Pink_Hex_FF7DB0_Color_Palette_with_He.png_v=1704711960.png",
+  "image_hash": "aad86b74a0acb47d64be66c0297d612da510477cb855b2e17197ae2bc917587b",
+  "extracted_colors": [
+    {
+      "hex": "#EF86AE",
+      "rgb": "239, 134, 174",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFFFDB",
+      "rgb": "255, 255, 219",
+      "name": "Soft Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FBEB96",
+      "rgb": "251, 235, 150",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F7D759",
+      "rgb": "247, 215, 89",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3AA7D",
+      "rgb": "243, 170, 125",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 993,
+  "created_at": "2026-01-07T09:48:52.197061+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "filename": "15._Black_And_Neon_Color_Palette_Color_Palette_with_Night_Hex_0C0F0A_Electric_Indigo_Hex_6A0FFC_Hot_Magenta_Hex_FF00D9_Yellow_Hex_FBFF12_Sgbus_Green_Hex_53EB42_Color_Palette_with_Hex.png_v=1706161284.png",
+  "image_hash": "53c2dbd20488481899224748d1ea11d152b00eed558ceeef03733ffd5d786403",
+  "extracted_colors": [
+    {
+      "hex": "#FBFF55",
+      "rgb": "251, 255, 85",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#82E75D",
+      "rgb": "130, 231, 93",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6124F3",
+      "rgb": "97, 36, 243",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB39D2",
+      "rgb": "235, 57, 210",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#0C1008",
+      "rgb": "12, 16, 8",
+      "name": "Deep Black",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBFF55",
+      "fg_hex": "#0C1008",
+      "contrast_ratio": 17.87
+    },
+    {
+      "bg_hex": "#82E75D",
+      "fg_hex": "#0C1008",
+      "contrast_ratio": 12.38
+    }
+  ],
+  "processing_time_ms": 1255,
+  "created_at": "2026-01-07T09:32:37.877664+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "filename": "11._Pink_And_Red_Color_Palette_Color_Palette_with_Rose_Red_Hex_C9184A_Bright_Pink_Crayola_Hex_FF4D6D_Bright_Pink_Crayola_Hex_FF758F_Salmon_Pink_Hex_FF8FA3_Cherry_Blossom_Pink_Hex_FFB3.png_v=1704711946.png",
+  "image_hash": "67ca0265582b70455165201973f9dff0061bae73cbe45a24011e0d429c448d8d",
+  "extracted_colors": [
+    {
+      "hex": "#F3B6C2",
+      "rgb": "243, 182, 194",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#B6314D",
+      "rgb": "182, 49, 77",
+      "name": "Deep Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EF96A6",
+      "rgb": "239, 150, 166",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EB5D71",
+      "rgb": "235, 93, 113",
+      "name": "Bright Ruby",
+      "weight": 0.25
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 979,
+  "created_at": "2026-01-07T09:48:04.244648+00:00"
+}

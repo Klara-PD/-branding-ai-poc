@@ -1,0 +1,38 @@
+{
+  "filename": "Palette_15.jpg",
+  "image_hash": "b3e61890f9b50861e762f6bb6cea9d1651e4d4efd061e3ac3a974acf9b796f1f",
+  "extracted_colors": [
+    {
+      "hex": "#E7E3D7",
+      "rgb": "231, 227, 215",
+      "name": "Cloud Gray",
+      "weight": 0.33
+    },
+    {
+      "hex": "#00EFF7",
+      "rgb": "0, 239, 247",
+      "name": "Bright Teal",
+      "weight": 0.33
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.33
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#E7E3D7",
+      "fg_hex": "#000000",
+      "contrast_ratio": 16.37
+    },
+    {
+      "bg_hex": "#00EFF7",
+      "fg_hex": "#000000",
+      "contrast_ratio": 14.69
+    }
+  ],
+  "processing_time_ms": 1218,
+  "created_at": "2026-01-07T08:09:36.370584+00:00"
+}

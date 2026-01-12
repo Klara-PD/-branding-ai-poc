@@ -1,0 +1,39 @@
+{
+  "filename": "23._Magenta_Plum_Color_Palette_Color_Palette_with_Plum_Hex_8E4585_Steel_Pink_Hex_C723C2_Magenta_Hex_FF00FF_Plum_Web_Hex_DDA0DD_African_Violet_Hex_B673B1_Color_Palette_with_Hex_Codes.png_v=1707738384.png",
+  "image_hash": "105c1f985f49c7bc977884eadb94638f9393379d501555bc934fc6e7be3cb519",
+  "extracted_colors": [
+    {
+      "hex": "#B639BA",
+      "rgb": "182, 57, 186",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB3DF7",
+      "rgb": "235, 61, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#864982",
+      "rgb": "134, 73, 130",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AE75AE",
+      "rgb": "174, 117, 174",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D2A2DB",
+      "rgb": "210, 162, 219",
+      "name": "Soft Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1019,
+  "created_at": "2026-01-07T09:24:50.763161+00:00"
+}

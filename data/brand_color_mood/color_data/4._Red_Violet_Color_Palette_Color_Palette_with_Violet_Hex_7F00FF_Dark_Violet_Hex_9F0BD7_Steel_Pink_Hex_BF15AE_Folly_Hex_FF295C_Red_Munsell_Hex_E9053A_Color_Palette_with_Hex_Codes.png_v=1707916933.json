@@ -1,0 +1,39 @@
+{
+  "filename": "4._Red_Violet_Color_Palette_Color_Palette_with_Violet_Hex_7F00FF_Dark_Violet_Hex_9F0BD7_Steel_Pink_Hex_BF15AE_Folly_Hex_FF295C_Red_Munsell_Hex_E9053A_Color_Palette_with_Hex_Codes.png_v=1707916933.png",
+  "image_hash": "441005847759026468f0fa36c62a7778a254a9439b6f5235b6d507146dd11b8b",
+  "extracted_colors": [
+    {
+      "hex": "#EB4161",
+      "rgb": "235, 65, 97",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9228CE",
+      "rgb": "146, 40, 206",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AE31AA",
+      "rgb": "174, 49, 170",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D73141",
+      "rgb": "215, 49, 65",
+      "name": "Deep Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1031,
+  "created_at": "2026-01-07T08:54:48.254355+00:00"
+}

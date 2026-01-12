@@ -1,0 +1,39 @@
+{
+  "filename": "16._Pink_And_Gold_Color_Palette_Color_Palette_with_Rose_Pompadour_Hex_EC839E_Orchid_Pink_Hex_F4B8C7_Buff_Hex_EBB287_Hunyadi_Yellow_Hex_E1AB47_Dark_Goldenrod_Hex_AD7E20_Color_Palette_w.png_v=1704712021.png",
+  "image_hash": "2c8b5bf45bc9c042c9aa3500787c676bad8edd383dcbbbe7bbece162cf3ed251",
+  "extracted_colors": [
+    {
+      "hex": "#A68235",
+      "rgb": "166, 130, 53",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E3B28E",
+      "rgb": "227, 178, 142",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBBAC6",
+      "rgb": "235, 186, 198",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DBAE59",
+      "rgb": "219, 174, 89",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DF8A9E",
+      "rgb": "223, 138, 158",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    }
+  ],
+  "aaa_pairs": [],
+  "processing_time_ms": 1064,
+  "created_at": "2026-01-07T09:35:39.750762+00:00"
+}
