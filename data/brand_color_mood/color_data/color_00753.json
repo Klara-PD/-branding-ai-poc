@@ -1,0 +1,100 @@
+{
+  "filename": "color_00753.jpg",
+  "image_hash": "8a721b3dcd2c9de85967d357d8826c69e029ca39d30faab7a42263049d86c19c",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#355545",
+      "rgb": "53, 85, 69",
+      "name": "Deep Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#000000",
+      "rgb": "0, 0, 0",
+      "name": "Deep Black",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E3F779",
+      "rgb": "227, 247, 121",
+      "name": "Bright Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F4F5F6",
+      "rgb": "244, 245, 246",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#151613",
+      "rgb": "21, 22, 19",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#355545",
+      "wcag_level": "AAA",
+      "contrast_ratio": 8.28
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#000000",
+      "wcag_level": "AAA",
+      "contrast_ratio": 21
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#151613",
+      "wcag_level": "AAA",
+      "contrast_ratio": 18.17
+    },
+    {
+      "bg_hex": "#355545",
+      "fg_hex": "#E3F779",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.04
+    },
+    {
+      "bg_hex": "#355545",
+      "fg_hex": "#F4F5F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.58
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#E3F779",
+      "wcag_level": "AAA",
+      "contrast_ratio": 17.85
+    },
+    {
+      "bg_hex": "#000000",
+      "fg_hex": "#F4F5F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 19.24
+    },
+    {
+      "bg_hex": "#E3F779",
+      "fg_hex": "#151613",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.44
+    },
+    {
+      "bg_hex": "#F4F5F6",
+      "fg_hex": "#151613",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.64
+    }
+  ],
+  "processing_time_ms": 1127,
+  "created_at": "2026-01-12T11:51:43.478922+00:00"
+}

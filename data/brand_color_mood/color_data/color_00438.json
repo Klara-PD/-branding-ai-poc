@@ -1,0 +1,106 @@
+{
+  "filename": "color_00438.png",
+  "image_hash": "25e24a2595d5b036ddbcb22313c9cdb49dae8c1b804adf38c75c7fdd22ca33c7",
+  "extracted_colors": [
+    {
+      "hex": "#7524F7",
+      "rgb": "117, 36, 247",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#45207D",
+      "rgb": "69, 32, 125",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CACACA",
+      "rgb": "202, 202, 202",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E7E7E7",
+      "rgb": "231, 231, 231",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#2D2831",
+      "rgb": "45, 40, 49",
+      "name": "Charcoal",
+      "weight": 0.19
+    },
+    {
+      "hex": "#F5F4F6",
+      "rgb": "245, 244, 246",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#181519",
+      "rgb": "24, 21, 25",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#45207D",
+      "fg_hex": "#CACACA",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.3
+    },
+    {
+      "bg_hex": "#45207D",
+      "fg_hex": "#E7E7E7",
+      "wcag_level": "AAA",
+      "contrast_ratio": 9.67
+    },
+    {
+      "bg_hex": "#45207D",
+      "fg_hex": "#F5F4F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.91
+    },
+    {
+      "bg_hex": "#CACACA",
+      "fg_hex": "#2D2831",
+      "wcag_level": "AAA",
+      "contrast_ratio": 8.78
+    },
+    {
+      "bg_hex": "#CACACA",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.04
+    },
+    {
+      "bg_hex": "#E7E7E7",
+      "fg_hex": "#2D2831",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.64
+    },
+    {
+      "bg_hex": "#E7E7E7",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.64
+    },
+    {
+      "bg_hex": "#2D2831",
+      "fg_hex": "#F5F4F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 13.12
+    },
+    {
+      "bg_hex": "#F5F4F6",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.51
+    }
+  ],
+  "processing_time_ms": 1085,
+  "created_at": "2026-01-12T11:16:37.944367+00:00"
+}

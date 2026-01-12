@@ -1,0 +1,88 @@
+{
+  "filename": "color_00407.png",
+  "image_hash": "d60fb2e5ae22fb370f13bed2aefbf235400a4943925cf21682ee23e6a22a5130",
+  "extracted_colors": [
+    {
+      "hex": "#AA9E9E",
+      "rgb": "170, 158, 158",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#39455D",
+      "rgb": "57, 69, 93",
+      "name": "Deep Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#E7E3DB",
+      "rgb": "231, 227, 219",
+      "name": "Cloud Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#000C55",
+      "rgb": "0, 12, 85",
+      "name": "Deep Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F8F8F7",
+      "rgb": "248, 248, 247",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#131415",
+      "rgb": "19, 20, 21",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#AA9E9E",
+      "fg_hex": "#131415",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.11
+    },
+    {
+      "bg_hex": "#39455D",
+      "fg_hex": "#E7E3DB",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.52
+    },
+    {
+      "bg_hex": "#39455D",
+      "fg_hex": "#F8F8F7",
+      "wcag_level": "AAA",
+      "contrast_ratio": 9.05
+    },
+    {
+      "bg_hex": "#E7E3DB",
+      "fg_hex": "#000C55",
+      "wcag_level": "AAA",
+      "contrast_ratio": 13.86
+    },
+    {
+      "bg_hex": "#E7E3DB",
+      "fg_hex": "#131415",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.41
+    },
+    {
+      "bg_hex": "#000C55",
+      "fg_hex": "#F8F8F7",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.69
+    },
+    {
+      "bg_hex": "#F8F8F7",
+      "fg_hex": "#131415",
+      "wcag_level": "AAA",
+      "contrast_ratio": 17.36
+    }
+  ],
+  "processing_time_ms": 1134,
+  "created_at": "2026-01-12T11:19:31.399055+00:00"
+}

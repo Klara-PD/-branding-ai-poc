@@ -1,12 +1,16 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useBranding } from "@/context/BrandingContext";
-import { ImageIcon, Loader2 } from "lucide-react";
+import { ImageIcon, Loader2, Sliders } from "lucide-react";
 import { Skeleton } from "@/components/ui/skeleton";
+import { Slider } from "@/components/ui/slider";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
+import { Label } from "@/components/ui/label";
+import { CATEGORY_SLIDERS, CATEGORY_TYPE_MAP, type SliderConfig } from "@/lib/vibeSteering";
 
 const inspirationSections = [
   {
@@ -73,6 +77,13 @@ export function Step3Inspiration() {
   const [results, setResults] = useState<Record<string, InspirationResult[]>>({});
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  
+  // Vibe steering state: track slider values per category
+  const [sliderValues, setSliderValues] = useState<Record<string, Record<string, number>>>({});
+  const [isRefining, setIsRefining] = useState<Record<string, boolean>>({});
+  const [refiningRequestId, setRefiningRequestId] = useState<Record<string, string>>({}); // Track request IDs to prevent race conditions
+  const refiningRequestIdRef = useRef<Record<string, string>>({}); // Use ref for synchronous access
+  const [popoverOpen, setPopoverOpen] = useState<Record<string, boolean>>({}); // Track popover open state
 
   useEffect(() => {
     if (!creativeBrief?.visualDNA) {
@@ -85,16 +96,32 @@ export function Step3Inspiration() {
       setError(null);
 
       try {
-        // Combine all descriptors from visualDNA into a search query
+        // Use visual_prompt if available (natural language), fallback to descriptors
         const { visualDNA } = creativeBrief;
-        const searchQuery = [
-          ...visualDNA.brand_color_mood.descriptors.slice(0, 5),
-          ...visualDNA.typography_voice.descriptors.slice(0, 5),
-          ...visualDNA.logo_geometry_essence.descriptors.slice(0, 5),
-          ...visualDNA.photography_cinematic_world.backgrounds.slice(0, 3),
-          ...visualDNA.photography_cinematic_world.lighting.slice(0, 3),
-          ...visualDNA.illustration_style_medium.descriptors.slice(0, 5),
-        ].join(", ");
+        
+        // Build search query: prioritize visual_prompt, fallback to descriptors
+        const buildCategoryQuery = (category: any, fallbackDescriptors: string[]) => {
+          if (category.visual_prompt) {
+            return category.visual_prompt;
+          }
+          return fallbackDescriptors.slice(0, 5).join(", ");
+        };
+        
+        const categoryQueries = [
+          buildCategoryQuery(visualDNA.brand_color_mood, visualDNA.brand_color_mood.descriptors),
+          buildCategoryQuery(visualDNA.typography_voice, visualDNA.typography_voice.descriptors),
+          buildCategoryQuery(visualDNA.logo_geometry_essence, visualDNA.logo_geometry_essence.descriptors),
+          buildCategoryQuery(
+            visualDNA.photography_cinematic_world,
+            [
+              ...visualDNA.photography_cinematic_world.backgrounds.slice(0, 3),
+              ...visualDNA.photography_cinematic_world.lighting.slice(0, 3),
+            ]
+          ),
+          buildCategoryQuery(visualDNA.illustration_style_medium, visualDNA.illustration_style_medium.descriptors),
+        ];
+        
+        const searchQuery = categoryQueries.join(". ");
 
         console.log('🔍 [Step3] Fetching inspiration images with query:', searchQuery.substring(0, 100));
 
@@ -231,6 +258,16 @@ export function Step3Inspiration() {
     fetchInspiration();
   }, [creativeBrief]);
 
+  // Debug: Log when results change
+  useEffect(() => {
+    console.log('🔄 [Step3] Results state changed:', Object.keys(results).map(k => `${k}: ${results[k]?.length || 0} results`));
+    Object.keys(results).forEach(category => {
+      if (results[category]?.length > 0) {
+        console.log(`  📸 ${category}: First image ID = ${results[category][0]?.id}, path = ${results[category][0]?.metadata?.file_path}`);
+      }
+    });
+  }, [results]);
+
   const getImagePath = (result: InspirationResult) => {
     // Convert file_path to a local path or URL
     const filePath = result.metadata?.file_path;
@@ -242,6 +279,345 @@ export function Step3Inspiration() {
     }
     
     return filePath;
+  };
+
+  // Initialize slider values for a category
+  const initializeSliders = (categoryKey: string) => {
+    if (!sliderValues[categoryKey]) {
+      const categoryType = CATEGORY_TYPE_MAP[categoryKey];
+      const sliders = CATEGORY_SLIDERS[categoryType] || [];
+      const initialValues: Record<string, number> = {};
+      sliders.forEach(slider => {
+        initialValues[slider.key] = 0; // Start at neutral (0)
+      });
+      setSliderValues(prev => {
+        const updated = { ...prev, [categoryKey]: initialValues };
+        console.log(`🎚️ [Step3] Initialized sliders for ${categoryKey}:`, initialValues);
+        return updated;
+      });
+    }
+  };
+
+  // Handle slider value change
+  const handleSliderChange = (categoryKey: string, sliderKey: string, value: number[]) => {
+    const newValue = value[0];
+    setSliderValues(prev => {
+      const updated = {
+        ...prev,
+        [categoryKey]: {
+          ...(prev[categoryKey] || {}),
+          [sliderKey]: newValue,
+        },
+      };
+      console.log(`🎚️ [Step3] Slider ${categoryKey}.${sliderKey} changed to ${newValue}`);
+      return updated;
+    });
+  };
+
+  // Refine category with slider values
+  const handleRefineCategory = async (categoryKey: string) => {
+    const categoryType = CATEGORY_TYPE_MAP[categoryKey];
+    if (!categoryType) {
+      console.error('❌ [Step3] Unknown category type for:', categoryKey);
+      return;
+    }
+
+    const currentSliders = sliderValues[categoryKey];
+    if (!currentSliders) {
+      console.error('❌ [Step3] No slider values for:', categoryKey);
+      return;
+    }
+
+    // Prevent duplicate requests
+    if (isRefining[categoryKey]) {
+      console.warn('⚠️ [Step3] Refinement already in progress for:', categoryKey);
+      return;
+    }
+
+    // Generate unique request ID to track this specific request
+    // Use a more unique ID to avoid collisions
+    const requestId = `${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+    console.log('🆔 [Step3] Generated request ID:', requestId, 'for category:', categoryKey);
+    
+    // Update both state and ref for synchronous access
+    refiningRequestIdRef.current[categoryKey] = requestId;
+    setRefiningRequestId(prev => ({ ...prev, [categoryKey]: requestId }));
+    setIsRefining(prev => ({ ...prev, [categoryKey]: true }));
+
+    try {
+      // Build search query from creative brief: use visual_prompt if available, fallback to descriptors
+      const { visualDNA } = creativeBrief!;
+      
+      // Helper to get visual_prompt or fallback to descriptors
+      const getCategoryPrompt = (category: any, fallbackDescriptors: string[]) => {
+        if (category.visual_prompt) {
+          return category.visual_prompt;
+        }
+        return fallbackDescriptors.slice(0, 5).join(", ");
+      };
+      
+      // Build query for the specific category being refined
+      let searchQuery = '';
+      switch (categoryKey) {
+        case 'brand_color_mood':
+          searchQuery = getCategoryPrompt(visualDNA.brand_color_mood, visualDNA.brand_color_mood.descriptors);
+          break;
+        case 'typography':
+          searchQuery = getCategoryPrompt(visualDNA.typography_voice, visualDNA.typography_voice.descriptors);
+          break;
+        case 'logo_geometry':
+          searchQuery = getCategoryPrompt(visualDNA.logo_geometry_essence, visualDNA.logo_geometry_essence.descriptors);
+          break;
+        case 'illustration':
+          searchQuery = getCategoryPrompt(visualDNA.illustration_style_medium, visualDNA.illustration_style_medium.descriptors);
+          break;
+        case 'environments':
+        case 'products':
+        case 'models':
+          // For photography subcategories, use the main photography visual_prompt or combine subcategory descriptors
+          if (visualDNA.photography_cinematic_world.visual_prompt) {
+            searchQuery = visualDNA.photography_cinematic_world.visual_prompt;
+          } else {
+            const subcategoryDescriptors = 
+              categoryKey === 'environments' ? visualDNA.photography_cinematic_world.backgrounds :
+              categoryKey === 'products' ? visualDNA.photography_cinematic_world.products :
+              visualDNA.photography_cinematic_world.models;
+            searchQuery = subcategoryDescriptors.slice(0, 5).join(", ");
+          }
+          break;
+        default:
+          // Fallback: combine all descriptors
+          searchQuery = [
+            ...visualDNA.brand_color_mood.descriptors.slice(0, 5),
+            ...visualDNA.typography_voice.descriptors.slice(0, 5),
+            ...visualDNA.logo_geometry_essence.descriptors.slice(0, 5),
+            ...visualDNA.photography_cinematic_world.backgrounds.slice(0, 3),
+            ...visualDNA.photography_cinematic_world.lighting.slice(0, 3),
+            ...visualDNA.illustration_style_medium.descriptors.slice(0, 5),
+          ].join(", ");
+      }
+
+      console.log('🎛️ [Step3] Refining category:', categoryKey, 'with sliders:', currentSliders);
+
+      // Get current image path for this category to use as base
+      const currentImage = results[categoryKey]?.[0];
+      console.log('🔍 [Step3] Current image for category:', categoryKey, {
+        hasImage: !!currentImage,
+        imageId: currentImage?.id,
+        imagePath: currentImage?.metadata?.file_path,
+        fullResult: currentImage
+      });
+      
+      const currentImagePath = currentImage ? getImagePath(currentImage) : null;
+      const currentImageId = currentImage?.id; // Store ID to exclude from results
+      console.log('🔍 [Step3] Extracted values:', {
+        currentImagePath,
+        currentImageId,
+        willExclude: !!currentImageId
+      });
+      
+      if (currentImagePath) {
+        console.log('🖼️ [Step3] Using current image as base for tuning:', currentImagePath);
+      } else {
+        console.warn('⚠️ [Step3] No current image path found, will use brand brief as base');
+      }
+
+      const response = await fetch('/api/refine-category', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          brandBrief: searchQuery,
+          categoryType,
+          sliderValues: currentSliders,
+          originalCategory: categoryKey,
+          currentImagePath: currentImagePath, // Pass current image path to use as base
+          currentImageId: currentImageId, // Pass current image ID to exclude from results
+        }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.error || 'Failed to refine category');
+      }
+
+      const data = await response.json();
+      console.log('✅ [Step3] Refined results:', data.count, 'images');
+      console.log('✅ [Step3] Results array length:', data.results?.length || 0);
+      console.log('✅ [Step3] First result:', data.results?.[0] ? {
+        id: data.results[0].id,
+        hasMetadata: !!data.results[0].metadata,
+        file_path: data.results[0].metadata?.file_path,
+        category: data.results[0].metadata?.category
+      } : 'NO RESULTS');
+      
+      // Check if this request is still the latest one (prevent race conditions)
+      // Use ref for synchronous access (state updates are async)
+      const currentRequestId = refiningRequestIdRef.current[categoryKey];
+      console.log('🆔 [Step3] Checking request ID:', {
+        thisRequestId: requestId,
+        currentRequestId: currentRequestId,
+        match: currentRequestId === requestId,
+        refContents: refiningRequestIdRef.current
+      });
+      
+      if (currentRequestId !== requestId) {
+        console.warn('⚠️ [Step3] Ignoring stale request result for:', categoryKey, {
+          expectedRequestId: requestId,
+          currentRequestId: currentRequestId,
+          reason: 'Another refinement request was made after this one - ignoring this response'
+        });
+        // CRITICAL: Still clear refining state so UI doesn't stay in loading state
+        setIsRefining(prev => ({ ...prev, [categoryKey]: false }));
+        return;
+      }
+      
+      console.log('✅ [Step3] Request ID matches, processing results:', requestId);
+      
+      const oldImageId = results[categoryKey]?.[0]?.id;
+      const newImageId = data.results?.[0]?.id;
+      const areDifferent = newImageId !== oldImageId;
+      
+      console.log('🔍 [Step3] Comparison:', {
+        oldImageId,
+        oldImagePath: results[categoryKey]?.[0]?.metadata?.file_path,
+        newImageId,
+        newImagePath: data.results?.[0]?.metadata?.file_path,
+        excludedImageId: currentImageId,
+        areDifferent,
+        sameImage: !areDifferent,
+        topResults: data.results?.slice(0, 5).map(r => ({ id: r.id, score: r.score, path: r.metadata?.file_path }))
+      });
+      
+      if (!areDifferent && currentImageId) {
+        console.warn('⚠️ [Step3] WARNING: New result has the same ID as old image!');
+        console.warn('⚠️ [Step3] This means exclusion might not have worked, or query returned same image');
+        console.warn('⚠️ [Step3] Check server logs for exclusion details');
+      }
+
+      // Update results for this category
+      // CRITICAL: Only update if we have valid results with file_path, otherwise keep old image
+      if (data.results && Array.isArray(data.results) && data.results.length > 0) {
+        // Determine image count based on category
+        let imageCount = 1;
+        if (categoryKey === 'models') {
+          imageCount = 4;
+        }
+        
+        const updatedResults = data.results.slice(0, imageCount);
+        console.log(`📊 [Step3] Received ${data.results.length} total results, using first ${updatedResults.length}`);
+        console.log(`📊 [Step3] First result ID:`, updatedResults[0]?.id);
+        console.log(`📊 [Step3] First result file_path:`, updatedResults[0]?.metadata?.file_path);
+        console.log(`📊 [Step3] First result has valid path:`, !!updatedResults[0]?.metadata?.file_path);
+        
+        // Validate that results have valid file paths
+        const validResults = updatedResults.filter(r => r.metadata?.file_path);
+        console.log(`🔍 [Step3] Validation: ${updatedResults.length} total results, ${validResults.length} with file_path`);
+        
+        // CRITICAL CHECK: If no valid results, DO NOT update state - keep old image
+        if (validResults.length === 0) {
+          console.error('❌ [Step3] No valid results with file_path after filtering!');
+          console.error('❌ [Step3] This means the query returned results but they have no file_path metadata');
+          console.error('❌ [Step3] Raw results:', updatedResults.map(r => ({ 
+            id: r.id, 
+            hasMetadata: !!r.metadata,
+            metadataKeys: r.metadata ? Object.keys(r.metadata) : [],
+            file_path: r.metadata?.file_path 
+          })));
+          console.warn('⚠️ [Step3] Keeping existing image since no valid new results - NOT updating state');
+          // CRITICAL: Don't update state - keep the old image visible
+          setIsRefining(prev => ({ ...prev, [categoryKey]: false }));
+          return;
+        }
+        
+        // Use only valid results
+        const finalResults = validResults.length < updatedResults.length ? validResults : updatedResults;
+        if (finalResults.length < updatedResults.length) {
+          console.warn(`⚠️ [Step3] Filtered out ${updatedResults.length - finalResults.length} results without file_path`);
+        }
+        
+        // CRITICAL CHECK: Ensure we have at least 1 valid result before updating
+        if (finalResults.length === 0) {
+          console.error('❌ [Step3] finalResults is empty - this should not happen!');
+          console.warn('⚠️ [Step3] Keeping existing image - NOT updating state');
+          setIsRefining(prev => ({ ...prev, [categoryKey]: false }));
+          return;
+        }
+        
+        console.log(`✅ [Step3] Using ${finalResults.length} valid results with file_path`);
+        console.log(`✅ [Step3] Will update state with new image: ${finalResults[0]?.metadata?.file_path}`);
+        console.log(`✅ [Step3] About to call setResults - current state has:`, results[categoryKey]?.length || 0, 'images');
+        
+        // Force state update by creating a new object and new array
+        // CRITICAL: Only update if we have valid results
+        setResults(prev => {
+          console.log(`🔄 [Step3] Inside setResults callback - prev state:`, {
+            categoryKey,
+            prevCount: prev[categoryKey]?.length || 0,
+            finalResultsCount: finalResults.length,
+            willUpdate: finalResults.length > 0 && !!finalResults[0]?.metadata?.file_path
+          });
+          // Double-check we have valid results before updating
+          if (!finalResults || finalResults.length === 0) {
+            console.error('❌ [Step3] Attempted to update state with empty finalResults - aborting!');
+            console.error('❌ [Step3] Keeping existing results:', prev[categoryKey]?.length || 0, 'images');
+            return prev; // Return unchanged state - this prevents gray box
+          }
+          
+          // Verify first result has file_path
+          if (!finalResults[0]?.metadata?.file_path) {
+            console.error('❌ [Step3] First result missing file_path - aborting state update!');
+            return prev; // Return unchanged state - this prevents gray box
+          }
+          
+          // Create a completely new object to ensure React detects the change
+          const newResults = {
+            ...prev,
+            [categoryKey]: finalResults.map(r => ({ ...r })), // Deep copy each result
+          };
+          console.log('✅ [Step3] State update successful:', {
+            category: categoryKey,
+            oldCount: prev[categoryKey]?.length || 0,
+            newCount: newResults[categoryKey]?.length || 0,
+            oldId: prev[categoryKey]?.[0]?.id,
+            newId: newResults[categoryKey]?.[0]?.id,
+            changed: newResults[categoryKey]?.[0]?.id !== prev[categoryKey]?.[0]?.id,
+            newPath: newResults[categoryKey]?.[0]?.metadata?.file_path
+          });
+          // #region agent log
+          fetch('http://127.0.0.1:7243/ingest/04912701-0df3-44bf-a263-0763cdbf7869',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'Step3Inspiration.tsx:393',message:'State update executed',data:{categoryKey,newFirstId:newResults[categoryKey]?.[0]?.id,prevFirstId:prev[categoryKey]?.[0]?.id,stateChanged:newResults[categoryKey]?.[0]?.id!==prev[categoryKey]?.[0]?.id},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'E'})}).catch(()=>{});
+          // #endregion
+          return newResults;
+        });
+      } else {
+        console.warn('⚠️ [Step3] No results returned from refine-category');
+        console.warn('⚠️ [Step3] Response data:', data);
+        console.warn('⚠️ [Step3] This could mean:');
+        console.warn('   - Query returned 0 results after category filtering');
+        console.warn('   - Exclusion removed all results');
+        console.warn('   - No images in database for this category');
+        // CRITICAL: If no results, keep the old image instead of clearing it
+        console.log('⚠️ [Step3] Keeping existing image since no new results - NOT updating state');
+        // CRITICAL: Don't update state at all - keep the old image visible
+        // The results state should remain unchanged
+      }
+    } catch (err: any) {
+      // Only update error if this is still the latest request
+      if (refiningRequestIdRef.current[categoryKey] === requestId) {
+        console.error('❌ [Step3] Error refining category:', err);
+        setError(err.message || 'Failed to refine category');
+      }
+    } finally {
+      // Only clear refining state if this is still the latest request
+      if (refiningRequestIdRef.current[categoryKey] === requestId) {
+        setIsRefining(prev => ({ ...prev, [categoryKey]: false }));
+      }
+    }
+  };
+
+  // Get sliders for a category
+  const getSlidersForCategory = (categoryKey: string): SliderConfig[] => {
+    const categoryType = CATEGORY_TYPE_MAP[categoryKey];
+    return CATEGORY_SLIDERS[categoryType] || [];
   };
 
   return (
@@ -278,15 +654,93 @@ export function Step3Inspiration() {
               transition={{ delay: idx * 0.1 }}
             >
               <Card className="h-full">
-                <CardHeader>
-                  <CardTitle className="text-lg">{section.title}</CardTitle>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    {section.subtitle}
-                  </p>
+                <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                  <div>
+                    <CardTitle className="text-lg">{section.title}</CardTitle>
+                    <p className="text-xs text-muted-foreground mt-1">
+                      {section.subtitle}
+                    </p>
+                  </div>
+                  {CATEGORY_TYPE_MAP[section.category] && (
+                    <Popover 
+                      open={popoverOpen[section.category] || false}
+                      onOpenChange={(open) => {
+                        setPopoverOpen(prev => ({ ...prev, [section.category]: open }));
+                        if (open) {
+                          initializeSliders(section.category);
+                        }
+                      }}
+                    >
+                      <PopoverTrigger asChild>
+                        <Button variant="outline" size="sm" className="h-8">
+                          <Sliders className="h-3 w-3 mr-1" />
+                          Tune
+                        </Button>
+                      </PopoverTrigger>
+                      <PopoverContent className="w-80" align="end" onInteractOutside={(e) => {
+                        // Prevent closing while refining
+                        if (isRefining[section.category]) {
+                          e.preventDefault();
+                        }
+                      }}>
+                        <div className="space-y-4">
+                          <div>
+                            <h4 className="font-medium text-sm mb-3">Adjust {section.title}</h4>
+                            {getSlidersForCategory(section.category).map((slider) => {
+                              const currentValue = sliderValues[section.category]?.[slider.key] ?? 0;
+                              return (
+                                <div key={slider.key} className="space-y-2 mb-4">
+                                  <div className="flex justify-between items-center">
+                                    <Label className="text-xs text-muted-foreground">
+                                      {slider.labelLeft}
+                                    </Label>
+                                    <Label className="text-xs text-muted-foreground">
+                                      {slider.labelRight}
+                                    </Label>
+                                  </div>
+                                  <Slider
+                                    value={[currentValue]}
+                                    onValueChange={(value) => handleSliderChange(section.category, slider.key, value)}
+                                    min={-1}
+                                    max={1}
+                                    step={0.1}
+                                    className="w-full"
+                                  />
+                                </div>
+                              );
+                            })}
+                          </div>
+                            <Button
+                              onClick={async () => {
+                                await handleRefineCategory(section.category);
+                                // Keep popover open during refinement, close after success
+                                if (!isRefining[section.category]) {
+                                  setTimeout(() => {
+                                    setPopoverOpen(prev => ({ ...prev, [section.category]: false }));
+                                  }, 500);
+                                }
+                              }}
+                              disabled={isRefining[section.category]}
+                              className="w-full"
+                              size="sm"
+                            >
+                              {isRefining[section.category] ? (
+                                <>
+                                  <Loader2 className="h-3 w-3 mr-2 animate-spin" />
+                                  Refining...
+                                </>
+                              ) : (
+                                'Apply Changes'
+                              )}
+                            </Button>
+                        </div>
+                      </PopoverContent>
+                    </Popover>
+                  )}
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-4">
-                    {isLoading ? (
+                    {isLoading || isRefining[section.category] ? (
                       // Loading skeleton
                       <Skeleton className="aspect-square rounded-lg" />
                     ) : images.length > 0 ? (
@@ -294,9 +748,16 @@ export function Step3Inspiration() {
                       <div className="aspect-square bg-muted rounded-lg overflow-hidden border border-border relative group">
                         {(() => {
                           const imagePath = getImagePath(images[0]);
+                          // Use image ID and score as key - this will change when a new image is returned
+                          const imageId = images[0].id || images[0].metadata?.file_path || 'default';
+                          const imageScore = images[0].score || 0;
+                          const imageKey = `${section.category}-${imageId}-${imageScore}`;
+                          // Use image ID for cache busting to ensure browser fetches new image
+                          const cacheBuster = `${imageId}-${imageScore}`;
                           return imagePath ? (
                             <img
-                              src={imagePath}
+                              key={imageKey}
+                              src={`${imagePath}?v=${cacheBuster}`}
                               alt={`${section.title} inspiration`}
                               className="w-full h-full object-cover"
                               onError={(e) => {
@@ -357,15 +818,93 @@ export function Step3Inspiration() {
                 transition={{ delay: idx * 0.1 }}
               >
                 <Card className="h-full">
-                  <CardHeader>
-                    <CardTitle className="text-lg">{subsection.title}</CardTitle>
-                    <p className="text-xs text-muted-foreground mt-1">
-                      {subsection.category}
-                    </p>
+                  <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
+                    <div>
+                      <CardTitle className="text-lg">{subsection.title}</CardTitle>
+                      <p className="text-xs text-muted-foreground mt-1">
+                        {subsection.category}
+                      </p>
+                    </div>
+                    {CATEGORY_TYPE_MAP[subsection.category] && (
+                      <Popover 
+                        open={popoverOpen[subsection.category] || false}
+                        onOpenChange={(open) => {
+                          setPopoverOpen(prev => ({ ...prev, [subsection.category]: open }));
+                          if (open) {
+                            initializeSliders(subsection.category);
+                          }
+                        }}
+                      >
+                        <PopoverTrigger asChild>
+                          <Button variant="outline" size="sm" className="h-8">
+                            <Sliders className="h-3 w-3 mr-1" />
+                            Tune
+                          </Button>
+                        </PopoverTrigger>
+                        <PopoverContent className="w-80" align="end" onInteractOutside={(e) => {
+                          // Prevent closing while refining
+                          if (isRefining[subsection.category]) {
+                            e.preventDefault();
+                          }
+                        }}>
+                          <div className="space-y-4">
+                            <div>
+                              <h4 className="font-medium text-sm mb-3">Adjust {subsection.title}</h4>
+                              {getSlidersForCategory(subsection.category).map((slider) => {
+                                const currentValue = sliderValues[subsection.category]?.[slider.key] ?? 0;
+                                return (
+                                  <div key={slider.key} className="space-y-2 mb-4">
+                                    <div className="flex justify-between items-center">
+                                      <Label className="text-xs text-muted-foreground">
+                                        {slider.labelLeft}
+                                      </Label>
+                                      <Label className="text-xs text-muted-foreground">
+                                        {slider.labelRight}
+                                      </Label>
+                                    </div>
+                                    <Slider
+                                      value={[currentValue]}
+                                      onValueChange={(value) => handleSliderChange(subsection.category, slider.key, value)}
+                                      min={-1}
+                                      max={1}
+                                      step={0.1}
+                                      className="w-full"
+                                    />
+                                  </div>
+                                );
+                              })}
+                            </div>
+                            <Button
+                              onClick={async () => {
+                                await handleRefineCategory(subsection.category);
+                                // Keep popover open during refinement, close after success
+                                if (!isRefining[subsection.category]) {
+                                  setTimeout(() => {
+                                    setPopoverOpen(prev => ({ ...prev, [subsection.category]: false }));
+                                  }, 500);
+                                }
+                              }}
+                              disabled={isRefining[subsection.category]}
+                              className="w-full"
+                              size="sm"
+                            >
+                              {isRefining[subsection.category] ? (
+                                <>
+                                  <Loader2 className="h-3 w-3 mr-2 animate-spin" />
+                                  Refining...
+                                </>
+                              ) : (
+                                'Apply Changes'
+                              )}
+                            </Button>
+                          </div>
+                        </PopoverContent>
+                      </Popover>
+                    )}
                   </CardHeader>
                   <CardContent>
                     <div className="space-y-4">
-                      {isLoading ? (
+                      {isLoading || isRefining[subsection.category] ? (
                         // Loading skeleton - show grid if Model (4 images), single if others
                         subsection.imageCount > 1 ? (
                           <div className="grid grid-cols-2 gap-3">
@@ -383,14 +922,17 @@ export function Step3Inspiration() {
                           <div className="grid grid-cols-2 gap-3">
                             {images.map((result, imgIdx) => {
                               const imagePath = getImagePath(result);
+                              // Include score in key to force re-render when results change
+                              const imageKey = `${subsection.category}-${result.id || result.metadata?.file_path || imgIdx}-${result.score || Date.now()}`;
                               return (
                                 <div
-                                  key={result.id || imgIdx}
+                                  key={imageKey}
                                   className="aspect-square bg-muted rounded-lg overflow-hidden border border-border relative group"
                                 >
                                   {imagePath ? (
                                     <img
-                                      src={imagePath}
+                                      key={imageKey}
+                                      src={`${imagePath}?t=${Date.now()}`}
                                       alt={`${subsection.title} inspiration ${imgIdx + 1}`}
                                       className="w-full h-full object-cover"
                                       onError={(e) => {
@@ -419,9 +961,12 @@ export function Step3Inspiration() {
                           <div className="aspect-square bg-muted rounded-lg overflow-hidden border border-border relative group">
                             {(() => {
                               const imagePath = getImagePath(images[0]);
+                              // Include timestamp in key to force re-render when results change
+                              const imageKey = `${subsection.category}-${images[0].id || images[0].metadata?.file_path || 'default'}-${images[0].score || Date.now()}`;
                               return imagePath ? (
                                 <img
-                                  src={imagePath}
+                                  key={imageKey}
+                                  src={`${imagePath}?t=${Date.now()}`}
                                   alt={`${subsection.title} inspiration`}
                                   className="w-full h-full object-cover"
                                   onError={(e) => {

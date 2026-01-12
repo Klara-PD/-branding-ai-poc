@@ -1,0 +1,100 @@
+{
+  "filename": "color_00744.jpg",
+  "image_hash": "6ce6308ee5440a2e40dda9928ded247e2bcca187a2cbec5d4d15590dfc0bcb4e",
+  "extracted_colors": [
+    {
+      "hex": "#FBF7F3",
+      "rgb": "251, 247, 243",
+      "name": "Pure White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#242D24",
+      "rgb": "36, 45, 36",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#AECA65",
+      "rgb": "174, 202, 101",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#3169BE",
+      "rgb": "49, 105, 190",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DFEB96",
+      "rgb": "223, 235, 150",
+      "name": "Soft Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F4F6F5",
+      "rgb": "244, 246, 245",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#181519",
+      "rgb": "24, 21, 25",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FBF7F3",
+      "fg_hex": "#242D24",
+      "wcag_level": "AAA",
+      "contrast_ratio": 13.35
+    },
+    {
+      "bg_hex": "#FBF7F3",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.98
+    },
+    {
+      "bg_hex": "#242D24",
+      "fg_hex": "#AECA65",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.75
+    },
+    {
+      "bg_hex": "#242D24",
+      "fg_hex": "#DFEB96",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.15
+    },
+    {
+      "bg_hex": "#242D24",
+      "fg_hex": "#F4F6F5",
+      "wcag_level": "AAA",
+      "contrast_ratio": 13.11
+    },
+    {
+      "bg_hex": "#AECA65",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 9.86
+    },
+    {
+      "bg_hex": "#DFEB96",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.19
+    },
+    {
+      "bg_hex": "#F4F6F5",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.68
+    }
+  ],
+  "processing_time_ms": 1241,
+  "created_at": "2026-01-12T11:54:45.013088+00:00"
+}

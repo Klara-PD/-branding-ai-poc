@@ -41,6 +41,13 @@ export async function generateCreativeBrief(
     throw new Error('OpenRouter API key is required. Please add your API key in Settings.');
   }
 
+  // Validate API key format
+  if (!apiKeys.openrouter.startsWith('sk-or-v1-')) {
+    console.warn('⚠️ [AI] API key format may be incorrect. Expected format: sk-or-v1-...');
+  }
+  
+  console.log('🔑 [AI] API key prefix:', apiKeys.openrouter.substring(0, 15) + '...');
+
   // Map model to OpenRouter model name
   const openRouterModel = model === 'gpt-4o' 
     ? 'openai/gpt-4o' 
@@ -50,51 +57,93 @@ export async function generateCreativeBrief(
 
   try {
     // Use OpenAI SDK with OpenRouter's base URL
+    // OpenRouter requires HTTP-Referer and X-Title headers
+    // We need to use a custom fetch to add these headers
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+    
     const openai = createOpenAI({
       apiKey: apiKeys.openrouter,
       baseURL: 'https://openrouter.ai/api/v1',
+      fetch: async (url, options = {}) => {
+        // Add required OpenRouter headers
+        const headers = new Headers(options.headers);
+        headers.set('HTTP-Referer', appUrl);
+        headers.set('X-Title', 'Branding AI POC');
+        
+        return fetch(url, {
+          ...options,
+          headers,
+        });
+      },
     });
 
+    // Build prompt from form data
+    // Note: formData may have brandBrief in styleDescription if using combined input
+    const brandInfo = formData.styleDescription || formData.businessName || '';
+    
     const prompt = `Based on the following brand information, generate a Visual DNA:
 
-Brand: ${formData.businessName}
-Target Audience: ${formData.targetAudience}
-Style Description: ${formData.styleDescription}
+Brand: ${formData.businessName || 'Brand'}
+Target Audience: ${formData.targetAudience || brandInfo}
+Style Description: ${formData.styleDescription || brandInfo}
+
+CRITICAL: For each category, you MUST provide BOTH:
+1. "descriptors" - A list of 15 aesthetic keywords/phrases
+2. "visual_prompt" - A full descriptive sentence (2-3 sentences) that tells a visual story with context
+
+The "visual_prompt" should be a natural language description that CLIP can understand. Include:
+- Context about the brand/industry (e.g., "coffee shop", "tech startup", "fashion brand")
+- Visual style and mood
+- Specific aesthetic qualities
+- Cultural or design references when relevant
+
+Example:
+- BAD: {"descriptors": ["warm", "terracotta", "sunny"]}
+- GOOD: {"descriptors": ["warm", "terracotta", "sunny"], "visual_prompt": "A warm and inviting color palette featuring terracotta oranges and sunny yellows, inspired by Barcelona architecture and morning light filtering through Mediterranean cafes."}
 
 Output MUST be valid JSON matching this exact structure:
 {
   "brand_color_mood": {
     "descriptors": ["15 aesthetic descriptors (no color names)"],
-    "avoid": ["5 keywords to avoid"]
+    "avoid": ["5 keywords to avoid"],
+    "visual_prompt": "A full descriptive sentence (2-3 sentences) about the color mood with brand context"
   },
   "typography_voice": {
     "descriptors": ["15 descriptors about letterform soul/structure"],
-    "avoid": ["5 keywords to avoid"]
+    "avoid": ["5 keywords to avoid"],
+    "visual_prompt": "A full descriptive sentence (2-3 sentences) about typography style with brand context"
   },
   "logo_geometry_essence": {
     "descriptors": ["15 descriptors about silhouette/line-weight/tension"],
-    "avoid": ["5 keywords to avoid"]
+    "avoid": ["5 keywords to avoid"],
+    "visual_prompt": "A full descriptive sentence (2-3 sentences) about logo style with brand context"
   },
   "photography_cinematic_world": {
     "backgrounds": ["5 background descriptors"],
     "models": ["5 model descriptors"],
     "products": ["5 product descriptors"],
     "lighting": ["5 lighting descriptors"],
-    "avoid": ["5 keywords to avoid"]
+    "avoid": ["5 keywords to avoid"],
+    "visual_prompt": "A full descriptive sentence (2-3 sentences) combining backgrounds, models, products, and lighting into one cohesive visual narrative with brand context"
   },
   "illustration_style_medium": {
     "descriptors": ["15 descriptors about artistic technique and materials"],
-    "avoid": ["5 keywords to avoid"]
+    "avoid": ["5 keywords to avoid"],
+    "visual_prompt": "A full descriptive sentence (2-3 sentences) about illustration style with brand context"
   }
 }
 
 Return ONLY the JSON object, no markdown, no explanations.`;
+
+    console.log('📤 [AI] Sending request to OpenRouter with model:', openRouterModel);
+    console.log('📝 [AI] Prompt length:', prompt.length, 'characters');
 
     const { text } = await generateText({
       model: openai(openRouterModel),
       system: formData.systemInstructions,
       prompt: prompt,
       temperature: 0.7,
+      maxTokens: 2000,
     });
 
     console.log('📝 [AI] Raw response received, parsing JSON...');
@@ -112,7 +161,39 @@ Return ONLY the JSON object, no markdown, no explanations.`;
     return { visualDNA };
   } catch (error: any) {
     console.error('❌ [AI] Error generating Creative Brief:', error);
-    throw new Error(`Failed to generate Creative Brief: ${error.message}`);
+    console.error('❌ [AI] Error details:', {
+      message: error.message,
+      cause: error.cause,
+      stack: error.stack,
+      response: error.response,
+      status: error.status,
+      statusCode: error.statusCode,
+    });
+    
+    // Check for specific OpenRouter error patterns
+    const errorMessage = error.message || '';
+    const errorString = JSON.stringify(error).toLowerCase();
+    
+    // Provide more specific error messages
+    if (errorMessage.includes('User not found') || errorMessage.includes('401') || errorString.includes('unauthorized')) {
+      console.error('❌ [AI] OpenRouter authentication failed. Checking API key...');
+      console.error('❌ [AI] API key present:', !!apiKeys.openrouter);
+      console.error('❌ [AI] API key prefix:', apiKeys.openrouter?.substring(0, 10) || 'N/A');
+      throw new Error('OpenRouter API key is invalid or expired. Please verify your API key is correct and active.');
+    }
+    if (errorMessage.includes('429') || errorString.includes('rate limit')) {
+      throw new Error('Rate limit exceeded. Please try again later.');
+    }
+    if (errorMessage.includes('model') || errorString.includes('model not found')) {
+      throw new Error(`Model ${openRouterModel} is not available. Please try a different model.`);
+    }
+    if (errorMessage.includes('402') || errorString.includes('payment')) {
+      throw new Error('OpenRouter account requires payment. Please add credits to your account.');
+    }
+    
+    // Log the full error for debugging
+    console.error('❌ [AI] Full error object:', error);
+    throw new Error(`Failed to generate Creative Brief: ${errorMessage || 'Unknown error'}`);
   }
 }
 

@@ -1,0 +1,40 @@
+{
+  "filename": "color_00296.png",
+  "image_hash": "0a0171d8b3faa99e567a6b14672e9ae681962084472bfd987c3ed521b9fdd145",
+  "extracted_colors": [
+    {
+      "hex": "#CE35F7",
+      "rgb": "206, 53, 247",
+      "name": "Deep Plum",
+      "weight": 0.5
+    },
+    {
+      "hex": "#9228F7",
+      "rgb": "146, 40, 247",
+      "name": "Deep Plum",
+      "weight": 0.5
+    },
+    {
+      "hex": "#F6F4F5",
+      "rgb": "246, 244, 245",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#181519",
+      "rgb": "24, 21, 25",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F6F4F5",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.53
+    }
+  ],
+  "processing_time_ms": 9441,
+  "created_at": "2026-01-12T11:42:12.905001+00:00"
+}

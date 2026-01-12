@@ -1,0 +1,76 @@
+{
+  "filename": "color_00529.png",
+  "image_hash": "29e2605caa5dede69d84ae27a72bdf74d4e61e8bd65d209bec22dfc096a47450",
+  "extracted_colors": [
+    {
+      "hex": "#203928",
+      "rgb": "32, 57, 40",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#DF9A45",
+      "rgb": "223, 154, 69",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B6552D",
+      "rgb": "182, 85, 45",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#395941",
+      "rgb": "57, 89, 65",
+      "name": "Deep Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#923D24",
+      "rgb": "146, 61, 36",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F4F5F6",
+      "rgb": "244, 245, 246",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#1D1916",
+      "rgb": "29, 25, 22",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#203928",
+      "fg_hex": "#F4F5F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.47
+    },
+    {
+      "bg_hex": "#DF9A45",
+      "fg_hex": "#1D1916",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.35
+    },
+    {
+      "bg_hex": "#395941",
+      "fg_hex": "#F4F5F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.18
+    },
+    {
+      "bg_hex": "#F4F5F6",
+      "fg_hex": "#1D1916",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.99
+    }
+  ],
+  "processing_time_ms": 1011,
+  "created_at": "2026-01-12T11:21:59.52974+00:00"
+}

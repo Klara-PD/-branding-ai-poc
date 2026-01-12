@@ -1,0 +1,76 @@
+{
+  "filename": "color_00316.png",
+  "image_hash": "a821d66af5cdc02a5a2fbe2fd9dd0cecaa67506b4e1a2799653a8123900466e2",
+  "extracted_colors": [
+    {
+      "hex": "#EB3DF7",
+      "rgb": "235, 61, 247",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#CEFB51",
+      "rgb": "206, 251, 81",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#79457D",
+      "rgb": "121, 69, 125",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#69E361",
+      "rgb": "105, 227, 97",
+      "name": "Bright Forest",
+      "weight": 0.2
+    },
+    {
+      "hex": "#8EFB4D",
+      "rgb": "142, 251, 77",
+      "name": "Bright Honey",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F4F5F6",
+      "rgb": "244, 245, 246",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#141414",
+      "rgb": "20, 20, 20",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#CEFB51",
+      "fg_hex": "#141414",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.39
+    },
+    {
+      "bg_hex": "#69E361",
+      "fg_hex": "#141414",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.19
+    },
+    {
+      "bg_hex": "#8EFB4D",
+      "fg_hex": "#141414",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.09
+    },
+    {
+      "bg_hex": "#F4F5F6",
+      "fg_hex": "#141414",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.88
+    }
+  ],
+  "processing_time_ms": 1101,
+  "created_at": "2026-01-12T11:29:44.102852+00:00"
+}

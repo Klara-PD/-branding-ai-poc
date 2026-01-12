@@ -1,0 +1,64 @@
+{
+  "filename": "color_00704.jpg",
+  "image_hash": "1614c956f55d6f0726ecdb0bae70485b5a0cbf54e2b40454bdf77214fdb73091",
+  "extracted_colors": [
+    {
+      "hex": "#4DB6B6",
+      "rgb": "77, 182, 182",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#5159FF",
+      "rgb": "81, 89, 255",
+      "name": "Deep Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#8EDBFB",
+      "rgb": "142, 219, 251",
+      "name": "Bright Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#6D8AC2",
+      "rgb": "109, 138, 194",
+      "name": "Soft Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F1F2F4",
+      "rgb": "241, 242, 244",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#181519",
+      "rgb": "24, 21, 25",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#4DB6B6",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.48
+    },
+    {
+      "bg_hex": "#8EDBFB",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.79
+    },
+    {
+      "bg_hex": "#F1F2F4",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.16
+    }
+  ],
+  "processing_time_ms": 1088,
+  "created_at": "2026-01-12T11:28:31.216457+00:00"
+}

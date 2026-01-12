@@ -1,0 +1,40 @@
+{
+  "filename": "color_00421.png",
+  "image_hash": "ec73c6a71c0395de65883155fe5d4d1370451801917512f91ca0dd11622e4691",
+  "extracted_colors": [
+    {
+      "hex": "#E38A55",
+      "rgb": "227, 138, 85",
+      "name": "Bright Amber",
+      "weight": 0.5
+    },
+    {
+      "hex": "#D24D28",
+      "rgb": "210, 77, 40",
+      "name": "Deep Amber",
+      "weight": 0.5
+    },
+    {
+      "hex": "#F6F5F4",
+      "rgb": "246, 245, 244",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#1D1816",
+      "rgb": "29, 24, 22",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F6F5F4",
+      "fg_hex": "#1D1816",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.15
+    }
+  ],
+  "processing_time_ms": 9402,
+  "created_at": "2026-01-12T11:51:01.451551+00:00"
+}

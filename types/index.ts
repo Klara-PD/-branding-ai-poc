@@ -13,14 +13,17 @@ export interface VisualDNA {
   brand_color_mood: {
     descriptors: string[];
     avoid: string[];
+    visual_prompt?: string; // Natural language visual narrative for CLIP
   };
   typography_voice: {
     descriptors: string[];
     avoid: string[];
+    visual_prompt?: string; // Natural language visual narrative for CLIP
   };
   logo_geometry_essence: {
     descriptors: string[];
     avoid: string[];
+    visual_prompt?: string; // Natural language visual narrative for CLIP
   };
   photography_cinematic_world: {
     backgrounds: string[];
@@ -28,10 +31,12 @@ export interface VisualDNA {
     products: string[];
     lighting: string[];
     avoid: string[];
+    visual_prompt?: string; // Natural language visual narrative for CLIP (combines all subcategories)
   };
   illustration_style_medium: {
     descriptors: string[];
     avoid: string[];
+    visual_prompt?: string; // Natural language visual narrative for CLIP
   };
 }
 

@@ -1,0 +1,100 @@
+{
+  "filename": "color_00644.jpg",
+  "image_hash": "c84878a45c15d0c37fdb1f2c683ddadb49baec70ad2c3ad683ff44ec4a2bd1f1",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFFB",
+      "rgb": "255, 255, 251",
+      "name": "Pure White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#10F7F7",
+      "rgb": "16, 247, 247",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#040035",
+      "rgb": "4, 0, 53",
+      "name": "Deep Plum",
+      "weight": 0.25
+    },
+    {
+      "hex": "#1C1C92",
+      "rgb": "28, 28, 146",
+      "name": "Deep Sapphire",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F4F4F6",
+      "rgb": "244, 244, 246",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#141414",
+      "rgb": "20, 20, 20",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFFB",
+      "fg_hex": "#040035",
+      "wcag_level": "AAA",
+      "contrast_ratio": 19.83
+    },
+    {
+      "bg_hex": "#FFFFFB",
+      "fg_hex": "#1C1C92",
+      "wcag_level": "AAA",
+      "contrast_ratio": 12.85
+    },
+    {
+      "bg_hex": "#FFFFFB",
+      "fg_hex": "#141414",
+      "wcag_level": "AAA",
+      "contrast_ratio": 18.38
+    },
+    {
+      "bg_hex": "#10F7F7",
+      "fg_hex": "#040035",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.83
+    },
+    {
+      "bg_hex": "#10F7F7",
+      "fg_hex": "#1C1C92",
+      "wcag_level": "AAA",
+      "contrast_ratio": 9.61
+    },
+    {
+      "bg_hex": "#10F7F7",
+      "fg_hex": "#141414",
+      "wcag_level": "AAA",
+      "contrast_ratio": 13.75
+    },
+    {
+      "bg_hex": "#040035",
+      "fg_hex": "#F4F4F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 18.09
+    },
+    {
+      "bg_hex": "#1C1C92",
+      "fg_hex": "#F4F4F6",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.72
+    },
+    {
+      "bg_hex": "#F4F4F6",
+      "fg_hex": "#141414",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.77
+    }
+  ],
+  "processing_time_ms": 16179,
+  "created_at": "2026-01-12T11:39:34.81508+00:00"
+}

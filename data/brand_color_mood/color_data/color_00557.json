@@ -1,0 +1,70 @@
+{
+  "filename": "color_00557.png",
+  "image_hash": "2636973def6a6df1d242cb6216ffc63f17e33934a3b6bf57cc3f898bc23a336f",
+  "extracted_colors": [
+    {
+      "hex": "#9A35EB",
+      "rgb": "154, 53, 235",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#6D51EF",
+      "rgb": "109, 81, 239",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3AAFB",
+      "rgb": "243, 170, 251",
+      "name": "Soft Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#55498E",
+      "rgb": "85, 73, 142",
+      "name": "Deep Sapphire",
+      "weight": 0.2
+    },
+    {
+      "hex": "#E359EF",
+      "rgb": "227, 89, 239",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F8F8F7",
+      "rgb": "248, 248, 247",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#16181D",
+      "rgb": "22, 24, 29",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F3AAFB",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.11
+    },
+    {
+      "bg_hex": "#55498E",
+      "fg_hex": "#F8F8F7",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.24
+    },
+    {
+      "bg_hex": "#F8F8F7",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.71
+    }
+  ],
+  "processing_time_ms": 8836,
+  "created_at": "2026-01-12T11:46:10.984175+00:00"
+}

@@ -1,0 +1,70 @@
+{
+  "filename": "color_00201.png",
+  "image_hash": "f5476d5895596f1f43e35aacc7756b78a0427b0987d41e1d24844ad79a4e1c28",
+  "extracted_colors": [
+    {
+      "hex": "#6145C2",
+      "rgb": "97, 69, 194",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EF82D7",
+      "rgb": "239, 130, 215",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3A6A6",
+      "rgb": "243, 166, 166",
+      "name": "Soft Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#B671DB",
+      "rgb": "182, 113, 219",
+      "name": "Bright Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7D61DF",
+      "rgb": "125, 97, 223",
+      "name": "Deep Plum",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F8F8F7",
+      "rgb": "248, 248, 247",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#1B161D",
+      "rgb": "27, 22, 29",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#EF82D7",
+      "fg_hex": "#1B161D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.5
+    },
+    {
+      "bg_hex": "#F3A6A6",
+      "fg_hex": "#1B161D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 9.17
+    },
+    {
+      "bg_hex": "#F8F8F7",
+      "fg_hex": "#1B161D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.76
+    }
+  ],
+  "processing_time_ms": 1211,
+  "created_at": "2026-01-12T11:18:55.953541+00:00"
+}

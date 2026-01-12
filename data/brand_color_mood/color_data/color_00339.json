@@ -1,0 +1,52 @@
+{
+  "filename": "color_00339.png",
+  "image_hash": "92e8d4ea8cb6dc28f778ae2a975c56f64facd334bd07e919a79dc734e1a63f9e",
+  "extracted_colors": [
+    {
+      "hex": "#FFFFDB",
+      "rgb": "255, 255, 219",
+      "name": "Soft Forest",
+      "weight": 0.5
+    },
+    {
+      "hex": "#FBFB9E",
+      "rgb": "251, 251, 158",
+      "name": "Soft Honey",
+      "weight": 0.5
+    },
+    {
+      "hex": "#F5F6F4",
+      "rgb": "245, 246, 244",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#181810",
+      "rgb": "24, 24, 16",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#FFFFDB",
+      "fg_hex": "#181810",
+      "wcag_level": "AAA",
+      "contrast_ratio": 17.48
+    },
+    {
+      "bg_hex": "#FBFB9E",
+      "fg_hex": "#181810",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.48
+    },
+    {
+      "bg_hex": "#F5F6F4",
+      "fg_hex": "#181810",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.46
+    }
+  ],
+  "processing_time_ms": 1046,
+  "created_at": "2026-01-12T11:24:38.017469+00:00"
+}

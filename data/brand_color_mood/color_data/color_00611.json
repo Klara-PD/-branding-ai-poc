@@ -1,0 +1,100 @@
+{
+  "filename": "color_00611.png",
+  "image_hash": "e9d98a14301632b1a0f1e48bf24656c07c047aff140680df6fc7e245c413159b",
+  "extracted_colors": [
+    {
+      "hex": "#7D9679",
+      "rgb": "125, 150, 121",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#BED2C2",
+      "rgb": "190, 210, 194",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#694128",
+      "rgb": "105, 65, 40",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#350800",
+      "rgb": "53, 8, 0",
+      "name": "Deep Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBE7DB",
+      "rgb": "235, 231, 219",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F5F6F4",
+      "rgb": "245, 246, 244",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#1B1A18",
+      "rgb": "27, 26, 24",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#BED2C2",
+      "fg_hex": "#350800",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.12
+    },
+    {
+      "bg_hex": "#BED2C2",
+      "fg_hex": "#1B1A18",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.92
+    },
+    {
+      "bg_hex": "#694128",
+      "fg_hex": "#EBE7DB",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.11
+    },
+    {
+      "bg_hex": "#694128",
+      "fg_hex": "#F5F6F4",
+      "wcag_level": "AAA",
+      "contrast_ratio": 8.11
+    },
+    {
+      "bg_hex": "#350800",
+      "fg_hex": "#EBE7DB",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.32
+    },
+    {
+      "bg_hex": "#350800",
+      "fg_hex": "#F5F6F4",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.33
+    },
+    {
+      "bg_hex": "#EBE7DB",
+      "fg_hex": "#1B1A18",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.07
+    },
+    {
+      "bg_hex": "#F5F6F4",
+      "fg_hex": "#1B1A18",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.04
+    }
+  ],
+  "processing_time_ms": 1126,
+  "created_at": "2026-01-12T11:19:49.743851+00:00"
+}

@@ -1,0 +1,76 @@
+{
+  "filename": "color_00192.png",
+  "image_hash": "e403afbd22537a0b448479c863e03ebbd2d2f7b8dd0dad9bb6003a301b451cb5",
+  "extracted_colors": [
+    {
+      "hex": "#B2E3F3",
+      "rgb": "178, 227, 243",
+      "name": "Soft Teal",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F3F3AE",
+      "rgb": "243, 243, 174",
+      "name": "Soft Honey",
+      "weight": 0.25
+    },
+    {
+      "hex": "#CEFFBE",
+      "rgb": "206, 255, 190",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#EBA2CE",
+      "rgb": "235, 162, 206",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F2F3F2",
+      "rgb": "242, 243, 242",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#16181D",
+      "rgb": "22, 24, 29",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#B2E3F3",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 12.83
+    },
+    {
+      "bg_hex": "#F3F3AE",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.43
+    },
+    {
+      "bg_hex": "#CEFFBE",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.79
+    },
+    {
+      "bg_hex": "#EBA2CE",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 8.96
+    },
+    {
+      "bg_hex": "#F2F3F2",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.96
+    }
+  ],
+  "processing_time_ms": 1501,
+  "created_at": "2026-01-12T11:50:29.846+00:00"
+}

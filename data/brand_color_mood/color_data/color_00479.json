@@ -1,0 +1,70 @@
+{
+  "filename": "color_00479.png",
+  "image_hash": "2dec79c2feb9d1300b57d108db86524c81b76c94d30868342de253ffd62fc066",
+  "extracted_colors": [
+    {
+      "hex": "#F7BE41",
+      "rgb": "247, 190, 65",
+      "name": "Bright Amber",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB75CE",
+      "rgb": "235, 117, 206",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#7DB6E3",
+      "rgb": "125, 182, 227",
+      "name": "Bright Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EB556D",
+      "rgb": "235, 85, 109",
+      "name": "Bright Ruby",
+      "weight": 0.2
+    },
+    {
+      "hex": "#2861B6",
+      "rgb": "40, 97, 182",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F8F8F7",
+      "rgb": "248, 248, 247",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#181519",
+      "rgb": "24, 21, 25",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F7BE41",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.69
+    },
+    {
+      "bg_hex": "#7DB6E3",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 8.34
+    },
+    {
+      "bg_hex": "#F8F8F7",
+      "fg_hex": "#181519",
+      "wcag_level": "AAA",
+      "contrast_ratio": 17.03
+    }
+  ],
+  "processing_time_ms": 7917,
+  "created_at": "2026-01-12T11:43:07.870281+00:00"
+}

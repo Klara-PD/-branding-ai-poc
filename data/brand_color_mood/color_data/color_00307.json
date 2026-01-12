@@ -1,0 +1,70 @@
+{
+  "filename": "color_00307.png",
+  "image_hash": "3d7f9a36c27ce663925616ec5a460f018bb119f8361ed7c123b6964357867f5b",
+  "extracted_colors": [
+    {
+      "hex": "#A6A692",
+      "rgb": "166, 166, 146",
+      "name": "Silver Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#D7BEAA",
+      "rgb": "215, 190, 170",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FBEBD7",
+      "rgb": "251, 235, 215",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#6D715D",
+      "rgb": "109, 113, 93",
+      "name": "Slate Gray",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F5F6F4",
+      "rgb": "245, 246, 244",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#14161A",
+      "rgb": "20, 22, 26",
+      "name": "Unnamed Color",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#A6A692",
+      "fg_hex": "#14161A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.32
+    },
+    {
+      "bg_hex": "#D7BEAA",
+      "fg_hex": "#14161A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.21
+    },
+    {
+      "bg_hex": "#FBEBD7",
+      "fg_hex": "#14161A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.5
+    },
+    {
+      "bg_hex": "#F5F6F4",
+      "fg_hex": "#14161A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.71
+    }
+  ],
+  "processing_time_ms": 1027,
+  "created_at": "2026-01-12T11:22:23.47652+00:00"
+}

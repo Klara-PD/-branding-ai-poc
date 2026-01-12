@@ -1,0 +1,76 @@
+{
+  "filename": "color_00555.png",
+  "image_hash": "241d7c8a70e7c2395a6c9c2de3c8239eaebdf9ea16c6ed03e20ce146ce26e3ab",
+  "extracted_colors": [
+    {
+      "hex": "#BAAAAA",
+      "rgb": "186, 170, 170",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#EBE7E7",
+      "rgb": "235, 231, 231",
+      "name": "Pearl White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#D2CAC6",
+      "rgb": "210, 202, 198",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#9E8A8A",
+      "rgb": "158, 138, 138",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#866969",
+      "rgb": "134, 105, 105",
+      "name": "Silver Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F3F2F2",
+      "rgb": "243, 242, 242",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#14191A",
+      "rgb": "20, 25, 26",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#BAAAAA",
+      "fg_hex": "#14191A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.96
+    },
+    {
+      "bg_hex": "#EBE7E7",
+      "fg_hex": "#14191A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.46
+    },
+    {
+      "bg_hex": "#D2CAC6",
+      "fg_hex": "#14191A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.99
+    },
+    {
+      "bg_hex": "#F3F2F2",
+      "fg_hex": "#14191A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.88
+    }
+  ],
+  "processing_time_ms": 1160,
+  "created_at": "2026-01-12T11:51:20.096238+00:00"
+}

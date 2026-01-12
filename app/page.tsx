@@ -18,8 +18,8 @@ function BrandingPlayground() {
         {/* Header */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h1 className="text-2xl font-bold">Branding Playground</h1>
-            <p className="text-sm text-muted-foreground">
+            <h1 className="text-5xl font-bold">Branding Playground</h1>
+            <p className="text-xl text-muted-foreground">
               Generate your complete Brand System
             </p>
           </div>

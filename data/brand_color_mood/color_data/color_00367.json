@@ -1,0 +1,76 @@
+{
+  "filename": "color_00367.png",
+  "image_hash": "a47beea82337c54f614b82ef8c89acac3f7257a9fbe4c9e34e5dd2116710487a",
+  "extracted_colors": [
+    {
+      "hex": "#F7C2CA",
+      "rgb": "247, 194, 202",
+      "name": "Soft Ruby",
+      "weight": 0.25
+    },
+    {
+      "hex": "#A6EBD7",
+      "rgb": "166, 235, 215",
+      "name": "Soft Forest",
+      "weight": 0.25
+    },
+    {
+      "hex": "#71DBCE",
+      "rgb": "113, 219, 206",
+      "name": "Bright Aqua",
+      "weight": 0.25
+    },
+    {
+      "hex": "#FBE7DF",
+      "rgb": "251, 231, 223",
+      "name": "Pearl White",
+      "weight": 0.25
+    },
+    {
+      "hex": "#F5F5F5",
+      "rgb": "245, 245, 245",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#16181D",
+      "rgb": "22, 24, 29",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#F7C2CA",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 11.44
+    },
+    {
+      "bg_hex": "#A6EBD7",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 13.1
+    },
+    {
+      "bg_hex": "#71DBCE",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.76
+    },
+    {
+      "bg_hex": "#FBE7DF",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 14.88
+    },
+    {
+      "bg_hex": "#F5F5F5",
+      "fg_hex": "#16181D",
+      "wcag_level": "AAA",
+      "contrast_ratio": 16.29
+    }
+  ],
+  "processing_time_ms": 1043,
+  "created_at": "2026-01-12T11:13:47.186461+00:00"
+}

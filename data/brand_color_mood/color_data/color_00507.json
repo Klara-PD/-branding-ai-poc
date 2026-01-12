@@ -1,0 +1,100 @@
+{
+  "filename": "color_00507.png",
+  "image_hash": "51d0a7014ea0dca14123d304c8c2bf18a37704a85ca59fbc4ee018b1d00c2a33",
+  "extracted_colors": [
+    {
+      "hex": "#DBDBDB",
+      "rgb": "219, 219, 219",
+      "name": "Cloud Gray",
+      "weight": 0.2
+    },
+    {
+      "hex": "#FFFFFF",
+      "rgb": "255, 255, 255",
+      "name": "Pure White",
+      "weight": 0.2
+    },
+    {
+      "hex": "#353535",
+      "rgb": "53, 53, 53",
+      "name": "Charcoal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#517D71",
+      "rgb": "81, 125, 113",
+      "name": "Deep Aqua",
+      "weight": 0.2
+    },
+    {
+      "hex": "#314D61",
+      "rgb": "49, 77, 97",
+      "name": "Deep Teal",
+      "weight": 0.2
+    },
+    {
+      "hex": "#F2F2F2",
+      "rgb": "242, 242, 242",
+      "name": "Pure White",
+      "weight": 0
+    },
+    {
+      "hex": "#191A1A",
+      "rgb": "25, 26, 26",
+      "name": "Deep Black",
+      "weight": 0
+    }
+  ],
+  "aaa_pairs": [
+    {
+      "bg_hex": "#DBDBDB",
+      "fg_hex": "#353535",
+      "wcag_level": "AAA",
+      "contrast_ratio": 8.86
+    },
+    {
+      "bg_hex": "#DBDBDB",
+      "fg_hex": "#191A1A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 12.6
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#353535",
+      "wcag_level": "AAA",
+      "contrast_ratio": 12.27
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#314D61",
+      "wcag_level": "AAA",
+      "contrast_ratio": 8.88
+    },
+    {
+      "bg_hex": "#FFFFFF",
+      "fg_hex": "#191A1A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 17.44
+    },
+    {
+      "bg_hex": "#353535",
+      "fg_hex": "#F2F2F2",
+      "wcag_level": "AAA",
+      "contrast_ratio": 10.96
+    },
+    {
+      "bg_hex": "#314D61",
+      "fg_hex": "#F2F2F2",
+      "wcag_level": "AAA",
+      "contrast_ratio": 7.93
+    },
+    {
+      "bg_hex": "#F2F2F2",
+      "fg_hex": "#191A1A",
+      "wcag_level": "AAA",
+      "contrast_ratio": 15.58
+    }
+  ],
+  "processing_time_ms": 8803,
+  "created_at": "2026-01-12T11:26:07.526674+00:00"
+}
