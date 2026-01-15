@@ -18,6 +18,8 @@ interface BrandingContextType {
   setCreativeBrief: (brief: CreativeBrief) => void;
   brandKit: BrandIdentityKit | null;
   setBrandKit: (kit: BrandIdentityKit) => void;
+  selectedColorPalette: string[] | null;
+  setSelectedColorPalette: (colors: string[] | null) => void;
   apiKeys: {
     openrouter?: string;
     replicate?: string;
@@ -39,6 +41,7 @@ export function BrandingProvider({ children }: { children: ReactNode }) {
     null
   );
   const [brandKit, setBrandKit] = useState<BrandIdentityKit | null>(null);
+  const [selectedColorPalette, setSelectedColorPalette] = useState<string[] | null>(null);
   const [apiKeys, setApiKeys] = useState<{
     openrouter?: string;
     replicate?: string;
@@ -55,6 +58,8 @@ export function BrandingProvider({ children }: { children: ReactNode }) {
         setCreativeBrief,
         brandKit,
         setBrandKit,
+        selectedColorPalette,
+        setSelectedColorPalette,
         apiKeys,
         setApiKeys,
       }}

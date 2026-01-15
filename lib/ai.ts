@@ -87,9 +87,9 @@ Brand: ${formData.businessName || 'Brand'}
 Target Audience: ${formData.targetAudience || brandInfo}
 Style Description: ${formData.styleDescription || brandInfo}
 
-CRITICAL: For each category, you MUST provide BOTH:
-1. "descriptors" - A list of 15 aesthetic keywords/phrases
-2. "visual_prompt" - A full descriptive sentence (2-3 sentences) that tells a visual story with context
+CRITICAL: For each category, you MUST provide ONLY:
+- "visual_prompt" - A full descriptive sentence (2-3 sentences) that tells a visual story with context
+- "avoid" - A list of 5 keywords to avoid
 
 The "visual_prompt" should be a natural language description that CLIP can understand. Include:
 - Context about the brand/industry (e.g., "coffee shop", "tech startup", "fashion brand")
@@ -97,37 +97,31 @@ The "visual_prompt" should be a natural language description that CLIP can under
 - Specific aesthetic qualities
 - Cultural or design references when relevant
 
+DO NOT include "descriptors", "keywords", or "tags" fields. Only provide "visual_prompt" and "avoid".
+
 Example:
-- BAD: {"descriptors": ["warm", "terracotta", "sunny"]}
-- GOOD: {"descriptors": ["warm", "terracotta", "sunny"], "visual_prompt": "A warm and inviting color palette featuring terracotta oranges and sunny yellows, inspired by Barcelona architecture and morning light filtering through Mediterranean cafes."}
+- BAD: {"descriptors": ["warm", "terracotta", "sunny"], "visual_prompt": "..."}
+- GOOD: {"visual_prompt": "A warm and inviting color palette featuring terracotta oranges and sunny yellows, inspired by Barcelona architecture and morning light filtering through Mediterranean cafes.", "avoid": ["cold", "minimalist", "corporate"]}
 
 Output MUST be valid JSON matching this exact structure:
 {
   "brand_color_mood": {
-    "descriptors": ["15 aesthetic descriptors (no color names)"],
     "avoid": ["5 keywords to avoid"],
     "visual_prompt": "A full descriptive sentence (2-3 sentences) about the color mood with brand context"
   },
   "typography_voice": {
-    "descriptors": ["15 descriptors about letterform soul/structure"],
     "avoid": ["5 keywords to avoid"],
     "visual_prompt": "A full descriptive sentence (2-3 sentences) about typography style with brand context"
   },
   "logo_geometry_essence": {
-    "descriptors": ["15 descriptors about silhouette/line-weight/tension"],
     "avoid": ["5 keywords to avoid"],
     "visual_prompt": "A full descriptive sentence (2-3 sentences) about logo style with brand context"
   },
   "photography_cinematic_world": {
-    "backgrounds": ["5 background descriptors"],
-    "models": ["5 model descriptors"],
-    "products": ["5 product descriptors"],
-    "lighting": ["5 lighting descriptors"],
     "avoid": ["5 keywords to avoid"],
     "visual_prompt": "A full descriptive sentence (2-3 sentences) combining backgrounds, models, products, and lighting into one cohesive visual narrative with brand context"
   },
   "illustration_style_medium": {
-    "descriptors": ["15 descriptors about artistic technique and materials"],
     "avoid": ["5 keywords to avoid"],
     "visual_prompt": "A full descriptive sentence (2-3 sentences) about illustration style with brand context"
   }

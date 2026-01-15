@@ -11,32 +11,24 @@ export interface DiscoveryFormData {
 
 export interface VisualDNA {
   brand_color_mood: {
-    descriptors: string[];
     avoid: string[];
-    visual_prompt?: string; // Natural language visual narrative for CLIP
+    visual_prompt: string; // Natural language visual narrative for CLIP
   };
   typography_voice: {
-    descriptors: string[];
     avoid: string[];
-    visual_prompt?: string; // Natural language visual narrative for CLIP
+    visual_prompt: string; // Natural language visual narrative for CLIP
   };
   logo_geometry_essence: {
-    descriptors: string[];
     avoid: string[];
-    visual_prompt?: string; // Natural language visual narrative for CLIP
+    visual_prompt: string; // Natural language visual narrative for CLIP
   };
   photography_cinematic_world: {
-    backgrounds: string[];
-    models: string[];
-    products: string[];
-    lighting: string[];
     avoid: string[];
-    visual_prompt?: string; // Natural language visual narrative for CLIP (combines all subcategories)
+    visual_prompt: string; // Natural language visual narrative for CLIP (combines all subcategories)
   };
   illustration_style_medium: {
-    descriptors: string[];
     avoid: string[];
-    visual_prompt?: string; // Natural language visual narrative for CLIP
+    visual_prompt: string; // Natural language visual narrative for CLIP
   };
 }
 
@@ -49,6 +41,29 @@ export interface BrandIdentityKit {
   assets: string[]; // Array of 4 image URLs
   isLoadingLogo: boolean;
   isLoadingAssets: boolean;
+}
+
+export interface InspirationItem {
+  id: string;
+  score: number;
+  metadata: {
+    file_path?: string;
+    category?: string;
+    filename?: string;
+    colors_data?: string; // Stringified JSON from Pinecone
+    hex_codes?: string[]; // Direct hex codes (if available)
+    [key: string]: any;
+  };
+  // Parsed color data (extracted from metadata)
+  palette?: string[]; // Array of hex codes
+  accessibility?: {
+    aaa_pairs?: Array<{
+      bg_hex: string;
+      fg_hex: string;
+      wcag_level: string;
+      contrast_ratio: number;
+    }>;
+  };
 }
 
 export type Step = 1 | 2 | 3 | 4;

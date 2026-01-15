@@ -1,0 +1,82 @@
+{
+  "Illustration_00001.png": {
+    "filename": "Illustration_00001.png",
+    "description": "A whimsical illustration featuring a character engaged in a gardening activity, utilizing soft, rounded shapes and a layered composition. The use of geometric forms and smooth textures creates a playful feel, while the color palette is subtle and warm, enhancing the inviting atmosphere.",
+    "content_category": "figurative",
+    "style_character": "playful",
+    "visual_era": "contemporary",
+    "audience_appeal": "children",
+    "visual_style_tags": [
+      "whimsical",
+      "illustrative",
+      "soft shapes",
+      "layered",
+      "organic"
+    ],
+    "mood_tone": "Light-hearted and cheerful"
+  },
+  "Illustration_00002.png": {
+    "filename": "Illustration_00002.png",
+    "description": "A bold, graphic representation featuring smooth, flat shapes and vibrant contrasts, with a focus on clean lines and exaggerated forms. The composition is dynamic and playful, utilizing a minimalistic approach to convey depth and texture.",
+    "content_category": "figurative",
+    "style_character": "pop",
+    "visual_era": "contemporary",
+    "audience_appeal": "youthful",
+    "visual_style_tags": [
+      "vector",
+      "flat",
+      "bold",
+      "dynamic",
+      "playful"
+    ],
+    "mood_tone": "Fun and energetic"
+  },
+  "Illustration_00004.png": {
+    "filename": "Illustration_00004.png",
+    "description": "Bold graphic style with high contrast, featuring a dynamic composition and clean line work. The use of flat colors and a layered approach creates a striking visual impact, emphasizing the figures and urban setting.",
+    "content_category": "figurative",
+    "style_character": "pop",
+    "visual_era": "contemporary",
+    "audience_appeal": "youthful",
+    "visual_style_tags": [
+      "graphic",
+      "urban",
+      "dynamic",
+      "bold",
+      "flat"
+    ],
+    "mood_tone": "Edgy and adventurous"
+  },
+  "Illustration_00005.png": {
+    "filename": "Illustration_00005.png",
+    "description": "A vibrant and playful illustration characterized by bold shapes and simplified forms. The composition is dynamic, featuring layered elements with a mix of flat and dimensional visuals. The line work is smooth and rounded, creating a friendly and inviting atmosphere. The texture is clean, and the overall treatment is colorful and stylized, evoking a joyful interaction.",
+    "content_category": "figurative",
+    "style_character": "playful",
+    "visual_era": "modern",
+    "audience_appeal": "general",
+    "visual_style_tags": [
+      "illustrative",
+      "colorful",
+      "stylized",
+      "dynamic",
+      "whimsical"
+    ],
+    "mood_tone": "Joyful and inviting"
+  },
+  "Illustration_00006.png": {
+    "filename": "Illustration_00006.png",
+    "description": "Illustration featuring a playful style with bold lines and flat shapes. The composition is dynamic with a focus on character interaction, set against a detailed background. The texture appears smooth, with a layered effect enhancing depth. The use of contrasting patterns and organic shapes adds visual interest.",
+    "content_category": "figurative",
+    "style_character": "playful",
+    "visual_era": "contemporary",
+    "audience_appeal": "children",
+    "visual_style_tags": [
+      "illustration",
+      "character design",
+      "colorful",
+      "dynamic composition",
+      "whimsical"
+    ],
+    "mood_tone": "Joyful and heartwarming"
+  }
+}

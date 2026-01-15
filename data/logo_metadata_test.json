@@ -1,0 +1,77 @@
+{
+  "Logo_0001.png": {
+    "filename": "Logo_0001.png",
+    "description": "The logo features bold, sans-serif typography with a strong visual hierarchy, emphasizing the 'LE67' element. The use of negative space is minimal, allowing for a clear and impactful presentation. The stroke weight is consistent across the text, creating a sense of balance and unity. The layout is straightforward, with a focus on the text without additional embellishments.",
+    "logo_type": "wordmark",
+    "style_character": "bold",
+    "visual_era": "contemporary",
+    "visual_style_tags": [
+      "sans-serif",
+      "thick-stroke",
+      "flat",
+      "symmetrical",
+      "minimalist"
+    ],
+    "brand_voice": "professional"
+  },
+  "Logo_0002.png": {
+    "filename": "Logo_0002.png",
+    "description": "The logo features a combination of an animal silhouette and text, utilizing negative space effectively. The animal form has a stylized, organic shape that balances well with the geometric construction of the typography below. The line quality is consistent, with a textured appearance that adds depth, while the overall composition emphasizes a harmonious relationship between the icon and the text.",
+    "logo_type": "combination mark",
+    "style_character": "artistic",
+    "visual_era": "vintage",
+    "visual_style_tags": [
+      "silhouette",
+      "textured",
+      "geometric",
+      "organic",
+      "asymmetrical"
+    ],
+    "brand_voice": "approachable"
+  },
+  "Logo_0003.png": {
+    "filename": "Logo_0003.png",
+    "description": "The logo features a geometric form with a symmetrical arrangement, utilizing bold, thick strokes that create a strong visual presence. The negative space is effectively employed to form the central icon, which harmonizes with the typography. The typography is bold and sans-serif, providing a clear contrast to the icon, contributing to a balanced composition and visual hierarchy.",
+    "logo_type": "combination mark",
+    "style_character": "bold",
+    "visual_era": "contemporary",
+    "visual_style_tags": [
+      "thick-stroke",
+      "geometric",
+      "asymmetrical",
+      "sans-serif",
+      "negative-space"
+    ],
+    "brand_voice": "approachable"
+  },
+  "Logo_0004.png": {
+    "filename": "Logo_0004.png",
+    "description": "The logo features a combination of distinct typography with a playful curve that integrates the text elements. The use of varying stroke weights creates a dynamic flow, while the arrangement emphasizes balance and visual hierarchy. The overall form reflects a modern approach, showcasing an organic integration of the letters.",
+    "logo_type": "wordmark",
+    "style_character": "playful",
+    "visual_era": "modern",
+    "visual_style_tags": [
+      "asymmetrical",
+      "thick-stroke",
+      "rounded",
+      "hand-drawn",
+      "flat"
+    ],
+    "brand_voice": "approachable"
+  },
+  "Logo_0005.png": {
+    "filename": "Logo_0005.png",
+    "description": "The logo features a geometric construction with a series of interlocking shapes that create an abstract representation. The use of negative space balances the composition while varying stroke weights provide depth and interest. The typography is positioned to the right, creating a visual relationship with the icon that emphasizes both elements harmoniously.",
+    "logo_type": "combination mark",
+    "style_character": "minimalist",
+    "visual_era": "modern",
+    "visual_style_tags": [
+      "geometric",
+      "negative-space",
+      "thin-stroke",
+      "asymmetrical",
+      "flat"
+    ],
+    "brand_voice": "sophisticated"
+  }
+}

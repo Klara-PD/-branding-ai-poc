@@ -58,21 +58,15 @@ export function Step2CreativeBrief() {
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Descriptors
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.brand_color_mood.descriptors.map((desc, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                  >
-                    {desc}
-                  </span>
-                ))}
+            {/* Visual Prompt - Natural Language (Primary) */}
+            {visualDNA.brand_color_mood.visual_prompt && (
+              <div className="bg-muted/50 rounded-lg p-4 border border-border">
+                <p className="text-base leading-relaxed text-foreground">
+                  {visualDNA.brand_color_mood.visual_prompt}
+                </p>
               </div>
-            </div>
+            )}
+            
             <div>
               <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
                 Avoid
@@ -100,21 +94,15 @@ export function Step2CreativeBrief() {
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Descriptors
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.typography_voice.descriptors.map((desc, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                  >
-                    {desc}
-                  </span>
-                ))}
+            {/* Visual Prompt - Natural Language (Primary) */}
+            {visualDNA.typography_voice.visual_prompt && (
+              <div className="bg-muted/50 rounded-lg p-4 border border-border">
+                <p className="text-base leading-relaxed text-foreground">
+                  {visualDNA.typography_voice.visual_prompt}
+                </p>
               </div>
-            </div>
+            )}
+            
             <div>
               <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
                 Avoid
@@ -142,23 +130,15 @@ export function Step2CreativeBrief() {
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Descriptors
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.logo_geometry_essence.descriptors.map(
-                  (desc, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                    >
-                      {desc}
-                    </span>
-                  )
-                )}
+            {/* Visual Prompt - Natural Language (Primary) */}
+            {visualDNA.logo_geometry_essence.visual_prompt && (
+              <div className="bg-muted/50 rounded-lg p-4 border border-border">
+                <p className="text-base leading-relaxed text-foreground">
+                  {visualDNA.logo_geometry_essence.visual_prompt}
+                </p>
               </div>
-            </div>
+            )}
+            
             <div>
               <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
                 Avoid
@@ -186,74 +166,15 @@ export function Step2CreativeBrief() {
             </p>
           </CardHeader>
           <CardContent className="space-y-6">
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Backgrounds
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.photography_cinematic_world.backgrounds.map(
-                  (item, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                    >
-                      {item}
-                    </span>
-                  )
-                )}
+            {/* Visual Prompt - Natural Language (Primary) */}
+            {visualDNA.photography_cinematic_world.visual_prompt && (
+              <div className="bg-muted/50 rounded-lg p-4 border border-border">
+                <p className="text-base leading-relaxed text-foreground">
+                  {visualDNA.photography_cinematic_world.visual_prompt}
+                </p>
               </div>
-            </div>
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Models
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.photography_cinematic_world.models.map(
-                  (item, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                    >
-                      {item}
-                    </span>
-                  )
-                )}
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Products
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.photography_cinematic_world.products.map(
-                  (item, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                    >
-                      {item}
-                    </span>
-                  )
-                )}
-              </div>
-            </div>
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Lighting
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.photography_cinematic_world.lighting.map(
-                  (item, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                    >
-                      {item}
-                    </span>
-                  )
-                )}
-              </div>
-            </div>
+            )}
+            
             <div>
               <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
                 Avoid
@@ -283,23 +204,15 @@ export function Step2CreativeBrief() {
             </p>
           </CardHeader>
           <CardContent className="space-y-4">
-            <div>
-              <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
-                Descriptors
-              </h3>
-              <div className="flex flex-wrap gap-2">
-                {visualDNA.illustration_style_medium.descriptors.map(
-                  (desc, idx) => (
-                    <span
-                      key={idx}
-                      className="px-3 py-1.5 bg-primary/10 text-primary rounded-md text-sm border border-primary/20"
-                    >
-                      {desc}
-                    </span>
-                  )
-                )}
+            {/* Visual Prompt - Natural Language (Primary) */}
+            {visualDNA.illustration_style_medium.visual_prompt && (
+              <div className="bg-muted/50 rounded-lg p-4 border border-border">
+                <p className="text-base leading-relaxed text-foreground">
+                  {visualDNA.illustration_style_medium.visual_prompt}
+                </p>
               </div>
-            </div>
+            )}
+            
             <div>
               <h3 className="font-semibold text-sm text-muted-foreground uppercase tracking-wide mb-2">
                 Avoid

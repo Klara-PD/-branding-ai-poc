@@ -30,16 +30,13 @@ export async function POST(request: NextRequest) {
       auth: replicateApiKey,
     });
 
-    const logoGeometryEssence = creativeBrief.visualDNA.logo_geometry_essence.descriptors;
-    const photographyCinematicWorld = creativeBrief.visualDNA.photography_cinematic_world;
+    const logoGeometryEssence = creativeBrief.visualDNA.logo_geometry_essence.visual_prompt;
+    const photographyCinematicWorld = creativeBrief.visualDNA.photography_cinematic_world.visual_prompt;
 
     // Generate logo
     let logoUrl: string | null = null;
     try {
-      const logoPrompt = logoGeometryEssence
-        .slice(0, 10)
-        .join(', ');
-      const finalLogoPrompt = `${logoPrompt}, clean, solid flat background, professional logo design, minimalist, high quality`;
+      const finalLogoPrompt = `${logoGeometryEssence}, clean, solid flat background, professional logo design, minimalist, high quality`;
 
       const logoOutput = await replicate.run(
         'black-forest-labs/flux-1.1-pro',
@@ -63,10 +60,10 @@ export async function POST(request: NextRequest) {
     // Generate assets (4 images)
     const assets: string[] = [];
     const assetPrompts = [
-      `${photographyCinematicWorld.backgrounds[0]}, ${photographyCinematicWorld.lighting[0]}, ${photographyCinematicWorld.products[0]}, professional brand photography, high quality`,
-      `${photographyCinematicWorld.backgrounds[1]}, ${photographyCinematicWorld.lighting[1]}, ${photographyCinematicWorld.models[0]}, cinematic brand photography, high quality`,
-      `${photographyCinematicWorld.backgrounds[2]}, ${photographyCinematicWorld.lighting[2]}, ${photographyCinematicWorld.products[1]}, premium brand mockup, high quality`,
-      `${photographyCinematicWorld.backgrounds[3]}, ${photographyCinematicWorld.lighting[3]}, ${photographyCinematicWorld.models[1]}, elegant brand photography, high quality`,
+      `${photographyCinematicWorld}, professional brand photography, high quality`,
+      `${photographyCinematicWorld}, cinematic brand photography, high quality`,
+      `${photographyCinematicWorld}, premium brand mockup, high quality`,
+      `${photographyCinematicWorld}, elegant brand photography, high quality`,
     ];
 
     for (const prompt of assetPrompts) {

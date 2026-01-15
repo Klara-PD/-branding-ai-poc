@@ -249,6 +249,309 @@ def extract_dominant_colors_from_image(image_path: Path, num_colors: int = 5) ->
         return []
 
 
+def load_enriched_metadata(project_root: Path) -> Dict:
+    """
+    Load all enriched metadata JSON files.
+    
+    Returns:
+        Dict with structure:
+        {
+            'typography': {filename: entry, ...},
+            'logo_geometry': {filename: entry, ...},
+            'illustration': {filename: entry, ...},
+            'photography': {
+                'products': {filename: entry, ...},
+                'models': {filename: entry, ...},
+                'environments': {filename: entry, ...}
+            }
+        }
+    """
+    metadata = {
+        'typography': {},
+        'logo_geometry': {},
+        'illustration': {},
+        'photography': {
+            'products': {},
+            'models': {},
+            'environments': {}
+        }
+    }
+    
+    data_dir = project_root / 'data'
+    
+    # Load typography metadata
+    typography_file = data_dir / 'typography_metadata.json'
+    if typography_file.exists():
+        try:
+            with open(typography_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, dict):
+                    metadata['typography'] = data
+                    print(f"  ✓ Loaded {len(data)} typography entries")
+        except Exception as e:
+            print(f"  ⚠️  Could not load typography_metadata.json: {e}")
+    
+    # Load logo metadata
+    logo_file = data_dir / 'logo_metadata.json'
+    if logo_file.exists():
+        try:
+            with open(logo_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, dict):
+                    metadata['logo_geometry'] = data
+                    print(f"  ✓ Loaded {len(data)} logo entries")
+        except Exception as e:
+            print(f"  ⚠️  Could not load logo_metadata.json: {e}")
+    
+    # Load illustration metadata
+    illustration_file = data_dir / 'illustration_metadata.json'
+    if illustration_file.exists():
+        try:
+            with open(illustration_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, dict):
+                    metadata['illustration'] = data
+                    print(f"  ✓ Loaded {len(data)} illustration entries")
+        except Exception as e:
+            print(f"  ⚠️  Could not load illustration_metadata.json: {e}")
+    
+    # Load photography metadata (already handled separately, but we'll use the same structure)
+    photography_file = data_dir / 'photography_metadata.json'
+    if photography_file.exists():
+        try:
+            with open(photography_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                if isinstance(data, dict):
+                    # Photography metadata is keyed by filename, need to separate by subfolder
+                    for filename, entry in data.items():
+                        subfolder = entry.get('subfolder', '')
+                        if subfolder == 'products' and 'products' in metadata['photography']:
+                            metadata['photography']['products'][filename] = entry
+                        elif subfolder == 'models' and 'models' in metadata['photography']:
+                            metadata['photography']['models'][filename] = entry
+                        elif subfolder == 'environments' and 'environments' in metadata['photography']:
+                            metadata['photography']['environments'][filename] = entry
+                    total = sum(len(v) for v in metadata['photography'].values())
+                    print(f"  ✓ Loaded {total} photography entries")
+        except Exception as e:
+            print(f"  ⚠️  Could not load photography_metadata.json: {e}")
+    
+    return metadata
+
+
+def build_text_field(category: str, enriched_entry: Optional[Dict]) -> str:
+    """
+    Build rich text field from enriched metadata for CLIP search.
+    
+    Args:
+        category: Category name (e.g., 'typography', 'logo_geometry', etc.)
+        enriched_entry: Enriched metadata entry dict (can be None)
+    
+    Returns:
+        Rich text string describing the image for CLIP search
+    """
+    if not enriched_entry:
+        return ""
+    
+    text_parts = []
+    
+    if category == 'typography':
+        # Typography: system_audit, typeface_profiles, typographic_relationships, technical_markers, visual_style_tags, mood_tone
+        system_audit = enriched_entry.get('system_audit', {})
+        typeface_profiles = enriched_entry.get('typeface_profiles', [])
+        typographic_relationships = enriched_entry.get('typographic_relationships', {})
+        technical_markers = enriched_entry.get('technical_markers', {})
+        visual_style_tags = enriched_entry.get('visual_style_tags', [])
+        mood_tone = enriched_entry.get('mood_tone', '')
+        
+        # Build text
+        total_typefaces = system_audit.get('total_typefaces_identified', 0)
+        layout_strategy = system_audit.get('overall_layout_strategy', '')
+        
+        text_parts.append(f"Typography system with {total_typefaces} typeface{'s' if total_typefaces != 1 else ''}.")
+        
+        if layout_strategy:
+            text_parts.append(f"Layout: {layout_strategy}")
+        
+        # Add typeface profiles
+        for i, profile in enumerate(typeface_profiles[:3], 1):  # Limit to 3 for brevity
+            role = profile.get('role', '')
+            morphology = profile.get('morphology_category', '')
+            google_fonts = profile.get('google_font_equivalents', [])
+            weights = profile.get('weights_and_styles_count', '')
+            morphological_dna = profile.get('morphological_dna', {})
+            visual_treatments = profile.get('visual_treatments', {})
+            rhythm = profile.get('rhythm_and_pace', '')
+            
+            font_names = ', '.join([f for f in google_fonts if f != "None - Strictly Illustrated"][:2])
+            if not font_names:
+                font_names = "custom illustrated"
+            
+            stroke_contrast = morphological_dna.get('stroke_contrast', '')
+            terminal_style = morphological_dna.get('terminal_style', '')
+            effects = visual_treatments.get('effects', '')
+            
+            typeface_desc = f"{role.capitalize()} typeface: {font_names} style, {morphology}"
+            if stroke_contrast:
+                typeface_desc += f", {stroke_contrast}"
+            if terminal_style:
+                typeface_desc += f", {terminal_style}"
+            if weights:
+                typeface_desc += f", {weights}"
+            if rhythm:
+                typeface_desc += f", {rhythm}"
+            if effects and effects != 'none':
+                typeface_desc += f", {effects}"
+            
+            text_parts.append(typeface_desc)
+        
+        # Add relationships
+        pairing_contrast = typographic_relationships.get('pairing_contrast', '')
+        hierarchy_strategy = typographic_relationships.get('hierarchy_strategy', '')
+        if pairing_contrast:
+            text_parts.append(f"Pairing contrast: {pairing_contrast}")
+        if hierarchy_strategy:
+            text_parts.append(f"Hierarchy: {hierarchy_strategy}")
+        
+        # Add technical markers
+        sub_culture = technical_markers.get('sub_culture_alignment', '')
+        modular_logic = technical_markers.get('modular_logic', '')
+        optical_intent = technical_markers.get('optical_intent', '')
+        if sub_culture:
+            text_parts.append(f"Style: {sub_culture}")
+        if modular_logic:
+            text_parts.append(f"Structure: {modular_logic}")
+        if optical_intent:
+            text_parts.append(f"Intent: {optical_intent}")
+        
+        # Add style tags
+        if visual_style_tags:
+            tags_str = ', '.join(visual_style_tags[:5])
+            text_parts.append(f"Style tags: {tags_str}")
+        
+        # Add mood
+        if mood_tone:
+            text_parts.append(f"Mood: {mood_tone}")
+    
+    elif category == 'logo_geometry':
+        # Logo: logo_type, style_character, visual_era, visual_style_tags, brand_voice
+        logo_type = enriched_entry.get('logo_type', '')
+        style_character = enriched_entry.get('style_character', '')
+        visual_era = enriched_entry.get('visual_era', '')
+        visual_style_tags = enriched_entry.get('visual_style_tags', [])
+        brand_voice = enriched_entry.get('brand_voice', '')
+        description = enriched_entry.get('description', '')
+        
+        text_parts.append("Logo design.")
+        if logo_type:
+            text_parts.append(f"Type: {logo_type}")
+        if description:
+            text_parts.append(description)
+        if style_character:
+            text_parts.append(f"Style: {style_character}")
+        if visual_era:
+            text_parts.append(f"Visual era: {visual_era}")
+        if visual_style_tags:
+            tags_str = ', '.join(visual_style_tags[:5])
+            text_parts.append(f"Style tags: {tags_str}")
+        if brand_voice:
+            text_parts.append(f"Brand voice: {brand_voice}")
+    
+    elif category == 'illustration':
+        # Illustration: content_category, style_character, visual_era, audience_appeal, visual_style_tags, mood_tone
+        content_category = enriched_entry.get('content_category', '')
+        style_character = enriched_entry.get('style_character', '')
+        visual_era = enriched_entry.get('visual_era', '')
+        audience_appeal = enriched_entry.get('audience_appeal', '')
+        visual_style_tags = enriched_entry.get('visual_style_tags', [])
+        mood_tone = enriched_entry.get('mood_tone', '')
+        description = enriched_entry.get('description', '')
+        
+        text_parts.append("Illustration style.")
+        if description:
+            text_parts.append(description)
+        if content_category:
+            text_parts.append(f"Content: {content_category}")
+        if style_character:
+            text_parts.append(f"Style: {style_character}")
+        if visual_era:
+            text_parts.append(f"Visual era: {visual_era}")
+        if audience_appeal:
+            text_parts.append(f"Audience: {audience_appeal}")
+        if visual_style_tags:
+            tags_str = ', '.join(visual_style_tags[:5])
+            text_parts.append(f"Style tags: {tags_str}")
+        if mood_tone:
+            text_parts.append(f"Mood: {mood_tone}")
+    
+    elif category.startswith('photography/'):
+        # Photography: description, visual_era, visual_style_tags, mood_tone, and category-specific fields
+        description = enriched_entry.get('description', '')
+        visual_era = enriched_entry.get('visual_era', '')
+        visual_style_tags = enriched_entry.get('visual_style_tags', [])
+        mood_tone = enriched_entry.get('mood_tone', '')
+        
+        text_parts.append("Photography.")
+        if description:
+            text_parts.append(description)
+        
+        # Category-specific fields
+        if category == 'photography/products':
+            product_type = enriched_entry.get('product_type', '')
+            environment_elements = enriched_entry.get('environment_elements', '')
+            lighting_setup = enriched_entry.get('lighting_setup', '')
+            shot_angle = enriched_entry.get('shot_angle', '')
+            
+            if product_type:
+                text_parts.append(f"Product: {product_type}")
+            if environment_elements:
+                text_parts.append(f"Environment: {environment_elements}")
+            if lighting_setup:
+                text_parts.append(f"Lighting: {lighting_setup}")
+            if shot_angle:
+                text_parts.append(f"Angle: {shot_angle}")
+        
+        elif category == 'photography/models':
+            demographics = enriched_entry.get('demographics', '')
+            gender = enriched_entry.get('gender', '')
+            facial_architecture = enriched_entry.get('facial_architecture', '')
+            character_energy = enriched_entry.get('character_energy', '')
+            
+            if demographics:
+                text_parts.append(f"Demographics: {demographics}")
+            if gender:
+                text_parts.append(f"Gender: {gender}")
+            if facial_architecture:
+                text_parts.append(f"Features: {facial_architecture}")
+            if character_energy:
+                text_parts.append(f"Energy: {character_energy}")
+        
+        elif category == 'photography/environments':
+            shot_composition = enriched_entry.get('shot_composition', '')
+            lighting_technique = enriched_entry.get('lighting_technique', '')
+            environmental_vibe = enriched_entry.get('environmental_vibe', '')
+            camera_optics = enriched_entry.get('camera_optics', '')
+            
+            if shot_composition:
+                text_parts.append(f"Composition: {shot_composition}")
+            if lighting_technique:
+                text_parts.append(f"Lighting: {lighting_technique}")
+            if environmental_vibe:
+                text_parts.append(f"Vibe: {environmental_vibe}")
+            if camera_optics:
+                text_parts.append(f"Optics: {camera_optics}")
+        
+        if visual_era:
+            text_parts.append(f"Visual era: {visual_era}")
+        if visual_style_tags:
+            tags_str = ', '.join(visual_style_tags[:5])
+            text_parts.append(f"Style tags: {tags_str}")
+        if mood_tone:
+            text_parts.append(f"Mood: {mood_tone}")
+    
+    return ". ".join(text_parts) + "." if text_parts else ""
+
+
 def get_image_files(data_root: Path) -> List[tuple[Path, str]]:
     """
     Recursively find all image files in the data directory.
@@ -392,6 +695,17 @@ def main():
         print("\n🎨 Loading color data for brand_color_mood images...")
         colors_data = load_color_data(project_root)
     
+    # Load all enriched metadata
+    print("\n📚 Loading enriched metadata files...")
+    enriched_metadata = load_enriched_metadata(project_root)
+    
+    # Keep photography metadata in old format for backward compatibility
+    photography_metadata = enriched_metadata.get('photography', {
+        'products': {},
+        'models': {},
+        'environments': {},
+    })
+    
     # Get existing vectors for deduplication
     print("\n🔍 Checking for existing vectors (deduplication)...")
     existing_ids = set()
@@ -472,6 +786,34 @@ def main():
                     metadata['hex_codes'] = hex_codes
                 if contrast_rating:
                     metadata['contrast_rating'] = contrast_rating
+            
+            # Add enriched metadata and build text field for CLIP search
+            filename = image_path.name
+            enriched_entry = None
+            text_field = ""
+            
+            # Get enriched entry based on category
+            if category == 'typography':
+                enriched_entry = enriched_metadata.get('typography', {}).get(filename)
+            elif category == 'logo_geometry':
+                enriched_entry = enriched_metadata.get('logo_geometry', {}).get(filename)
+            elif category == 'illustration':
+                enriched_entry = enriched_metadata.get('illustration', {}).get(filename)
+            elif category in ['photography/products', 'photography/models', 'photography/environments']:
+                category_key = category.split('/')[1]  # 'products', 'models', or 'environments'
+                enriched_data = photography_metadata.get(category_key, {})
+                enriched_entry = enriched_data.get(filename)
+            
+            # Build text field from enriched metadata
+            if enriched_entry:
+                text_field = build_text_field(category, enriched_entry)
+                if text_field:
+                    metadata['text'] = text_field
+                    # Also store full enriched metadata as JSON string for reference
+                    metadata['enriched_metadata'] = json.dumps(enriched_entry)
+                    # Add description if available
+                    if 'description' in enriched_entry:
+                        metadata['ai_description'] = enriched_entry['description']
             
             # Prepare vector
             vector_data = {
