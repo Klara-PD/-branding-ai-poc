@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { spawn } from 'child_process';
 import { join } from 'path';
 import { writeFile, unlink, mkdir } from 'fs/promises';
 import { existsSync } from 'fs';
@@ -57,89 +56,42 @@ export async function POST(request: NextRequest) {
 
     console.log('💾 [API] Temporary file created:', tempFile);
 
-    // Call Python script to search Pinecone with CLIP
-    const pythonScript = join(process.cwd(), 'scripts', 'search_pinecone.py');
-    const pythonPath = join(process.cwd(), 'venv', 'bin', 'python3');
-    
-    console.log('🐍 [API] Calling Python script:', pythonScript);
+    const fastapiUrl = process.env.FASTAPI_URL || 'http://127.0.0.1:8001';
+    console.log('🐍 [API] Calling FastAPI:', fastapiUrl);
     console.log('🔍 [API] CLIP Encoding started...');
 
-    return new Promise((resolve) => {
-      const python = spawn(pythonPath, [pythonScript, tempFile, pineconeApiKey, pineconeIndexName], {
-        cwd: process.cwd(),
-        env: { ...process.env, PYTHONUNBUFFERED: '1' },
-      });
-
-      let stdout = '';
-      let stderr = '';
-
-      python.stdout.on('data', (data) => {
-        const output = data.toString();
-        stdout += output;
-        // Log Python output in real-time
-        console.log('🐍 [PYTHON]', output.trim());
-      });
-
-      python.stderr.on('data', (data) => {
-        const error = data.toString();
-        stderr += error;
-        console.error('🐍 [PYTHON ERROR]', error.trim());
-      });
-
-      python.on('close', async (code) => {
-        // Clean up temp file
-        try {
-          await unlink(tempFile);
-        } catch (err) {
-          // Ignore cleanup errors
-        }
-
-        if (code !== 0) {
-          console.error('❌ [API] Python script failed with code:', code);
-          console.error('❌ [API] Error output:', stderr);
-          resolve(
-            NextResponse.json(
-              { error: 'Failed to search Pinecone', details: stderr },
-              { status: 500 }
-            )
-          );
-          return;
-        }
-
-        try {
-          const result = JSON.parse(stdout);
-          console.log('✅ [API] Pinecone Querying... - Results received');
-          console.log('📊 [API] Number of results:', result.results?.length || 0);
-          console.log('✅ [API] API Response Sent');
-
-          resolve(NextResponse.json(result));
-        } catch (parseError) {
-          console.error('❌ [API] Failed to parse Python output:', parseError);
-          console.error('❌ [API] Raw output:', stdout);
-          resolve(
-            NextResponse.json(
-              { error: 'Failed to parse results', details: stdout },
-              { status: 500 }
-            )
-          );
-        }
-      });
-
-      python.on('error', async (error) => {
-        console.error('❌ [API] Failed to spawn Python process:', error);
-        try {
-          await unlink(tempFile);
-        } catch (err) {
-          // Ignore cleanup errors
-        }
-        resolve(
-          NextResponse.json(
-            { error: 'Failed to execute Python script', details: error.message },
-            { status: 500 }
-          )
-        );
-      });
+    const response = await fetch(`${fastapiUrl}/mood-boards`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        brandBrief,
+        indexName: pineconeIndexName,
+        topK: 200,
+      }),
     });
+
+    // Clean up temp file
+    try {
+      await unlink(tempFile);
+    } catch (err) {
+      // Ignore cleanup errors
+    }
+
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({}));
+      console.error('❌ [API] FastAPI error:', errorData);
+      return NextResponse.json(
+        { error: 'Failed to search Pinecone', details: errorData },
+        { status: 500 }
+      );
+    }
+
+    const result = await response.json();
+    console.log('✅ [API] Pinecone Querying... - Results received');
+    console.log('📊 [API] Number of results:', result.results?.length || 0);
+    console.log('✅ [API] API Response Sent');
+
+    return NextResponse.json(result);
   } catch (error: any) {
     console.error('❌ [API] Unexpected error:', error);
     return NextResponse.json(

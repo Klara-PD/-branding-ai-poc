@@ -12,6 +12,15 @@ export interface SliderConfig {
   labelRight: string;
 }
 
+export interface SliderTuningMeta {
+  leftKeywords?: string[];
+  rightKeywords?: string[];
+  leftPalettes?: string[];
+  rightPalettes?: string[];
+  leftFilters?: { field: string; values: string[] }[];
+  rightFilters?: { field: string; values: string[] }[];
+}
+
 export interface CategorySliders {
   [categoryKey: string]: SliderConfig[];
 }
@@ -78,6 +87,50 @@ export const CATEGORY_TYPE_MAP: Record<string, string> = {
   'models': 'photo_model',
   'products': 'photo_product',
   'environments': 'photo_environment',
+};
+
+// Optional tuning metadata per slider key. Used for negative boosting and palette filtering.
+export const SLIDER_TUNING_META: Record<string, SliderTuningMeta> = {
+  warm_cool: {
+    leftKeywords: ['warm', 'orange', 'golden', 'sunlit', 'hot'],
+    rightKeywords: ['cold', 'blue', 'icy', 'cool', 'frost'],
+    leftPalettes: ['#FF6B2D', '#FF8A3D', '#FFB347', '#F97316', '#F59E0B'],
+    rightPalettes: ['#0EA5E9', '#3B82F6', '#60A5FA', '#2563EB', '#1D4ED8'],
+  },
+  pastel_neon: {
+    leftKeywords: ['pastel', 'soft', 'muted', 'powder'],
+    rightKeywords: ['neon', 'electric', 'vivid', 'fluorescent'],
+    leftPalettes: ['#FBCFE8', '#E9D5FF', '#BAE6FD', '#FDE68A', '#E5E7EB'],
+    rightPalettes: ['#A3E635', '#22D3EE', '#F97316', '#EC4899', '#8B5CF6'],
+  },
+  dark_bright: {
+    leftKeywords: ['dark', 'shadowy', 'low-key', 'moody'],
+    rightKeywords: ['bright', 'luminous', 'high-key', 'airy'],
+    leftPalettes: ['#0B0F19', '#111827', '#1F2937', '#374151', '#111111'],
+    rightPalettes: ['#F8FAFC', '#F1F5F9', '#E2E8F0', '#FFFFFF', '#FAFAFA'],
+    leftFilters: [{ field: 'visual_style_tags', values: ['moody', 'low-key', 'dark'] }],
+    rightFilters: [{ field: 'visual_style_tags', values: ['bright', 'airy', 'high-key'] }],
+  },
+  day_night: {
+    leftKeywords: ['day', 'daylight', 'sunny'],
+    rightKeywords: ['night', 'nocturnal', 'evening'],
+    leftPalettes: ['#FFE29A', '#FFD166', '#FDE68A', '#FFF7ED', '#E2F2FF'],
+    rightPalettes: ['#0F172A', '#111827', '#1E293B', '#0B1020', '#1F2937'],
+    leftFilters: [{ field: 'visual_style_tags', values: ['day', 'daylight'] }],
+    rightFilters: [{ field: 'visual_style_tags', values: ['night', 'nocturnal'] }],
+  },
+  serif_sans: {
+    leftFilters: [{ field: 'visual_style_tags', values: ['classic', 'traditional', 'serif'] }],
+    rightFilters: [{ field: 'visual_style_tags', values: ['modern', 'sans-serif'] }],
+  },
+  minimal_detailed: {
+    leftFilters: [{ field: 'visual_style_tags', values: ['minimal', 'minimalist'] }],
+    rightFilters: [{ field: 'visual_style_tags', values: ['ornate', 'detailed', 'complex'] }],
+  },
+  geometric_organic: {
+    leftFilters: [{ field: 'visual_style_tags', values: ['geometric', 'structured'] }],
+    rightFilters: [{ field: 'visual_style_tags', values: ['organic', 'natural'] }],
+  },
 };
 
 /**

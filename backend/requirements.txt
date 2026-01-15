@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pinecone
+sentence-transformers
+pillow
+python-dotenv
+numpy
