@@ -120,12 +120,18 @@ def search_mood_boards(
     brand_brief: str, 
     index_name: Optional[str] = None, 
     top_k: int = 200,
-    category: Optional[str] = None
+    category: Optional[str] = None,
+    diversity_sample: int = 0
 ) -> Dict[str, Any]:
     """
     Search mood boards. If category is specified, filter to that category only.
     Otherwise, query all categories with balanced distribution.
+    
+    Args:
+        diversity_sample: If > 0, randomly sample from top-N results for variety
     """
+    import random
+    
     model = get_model()
     index = get_index(index_name)
 
@@ -159,6 +165,16 @@ def search_mood_boards(
                 filter={"category": {"$eq": category}}
             )
             print(f"✅ Found {len(results.matches)} results for {category}")
+            
+            # Apply diversity sampling if requested
+            if diversity_sample > 0 and len(results.matches) > diversity_sample:
+                # Randomly sample from top-N results for variety
+                sample_pool = list(results.matches[:diversity_sample])
+                random.shuffle(sample_pool)
+                # Reconstruct with shuffled order but preserve relative scores
+                print(f"🎲 Applied diversity sampling from top {diversity_sample} results")
+                return format_results(sample_pool)
+            
             return format_results(results.matches)
         except Exception as e:
             print(f"❌ Error querying category {category}: {e}")

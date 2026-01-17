@@ -17,6 +17,7 @@ class MoodBoardsRequest(BaseModel):
     indexName: Optional[str] = None
     topK: Optional[int] = 200
     category: Optional[str] = None  # Optional category filter
+    diversitySample: Optional[int] = 10  # Sample from top-N for variety (0 = disabled)
 
 
 class RefineCategoryRequest(BaseModel):
@@ -49,6 +50,7 @@ def mood_boards(request: MoodBoardsRequest):
         index_name=request.indexName,
         top_k=request.topK or 200,
         category=request.category,  # Pass category filter
+        diversity_sample=request.diversitySample or 0,  # Apply diversity sampling
     )
 
 

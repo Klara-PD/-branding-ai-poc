@@ -83,7 +83,7 @@ export function Step1Discovery() {
   const { setFormData, setCurrentStep, setCreativeBrief } = useBranding();
   const [currentStepIndex, setCurrentStepIndex] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
-  
+
   // Form data
   const [data, setData] = useState({
     userName: '',
@@ -137,7 +137,7 @@ Value Proposition: ${data.valuePitch}
 Target Audience: ${finalAudience}
 Special Directives: ${data.specialDirectives || 'None specified'}
     `.trim();
-    
+
     const formData: DiscoveryFormData = {
       businessName: data.brandName,
       location: '',
@@ -174,15 +174,104 @@ Special Directives: ${data.specialDirectives || 'None specified'}
 
   // Quick fill for testing
   const fillWithTestData = () => {
-    const testData = {
-      userName: 'Klara',
-      brandName: 'Bloom Studio',
-      industry: 'creative',
-      niche: 'Branding Agency',
-      valuePitch: 'We transform startups into memorable brands through strategic design.',
-      audience: 'Tech Startups',
-      specialDirectives: 'Modern, minimal. Soft gradients. No dark themes.',
-    };
+    // 10 different business scenarios for testing variety
+    const testScenarios = [
+      {
+        userName: 'Klara',
+        brandName: 'Bloom Studio',
+        industry: 'creative',
+        niche: 'Branding Agency',
+        valuePitch: 'We transform startups into memorable brands through strategic design.',
+        audience: 'Tech Startups',
+        specialDirectives: 'Modern, minimal. Soft gradients. No dark themes.',
+      },
+      {
+        userName: 'Maya',
+        brandName: 'Terra Bakehouse',
+        industry: 'food',
+        niche: 'Artisan Bakery',
+        valuePitch: 'Handcrafted sourdough and pastries using ancient grains and local ingredients.',
+        audience: 'Health-conscious foodies',
+        specialDirectives: 'Warm, rustic, earthy tones. Hand-drawn elements. Organic feel.',
+      },
+      {
+        userName: 'David',
+        brandName: 'NeonPulse',
+        industry: 'tech',
+        niche: 'Gaming Platform',
+        valuePitch: 'Next-gen competitive gaming with AI-powered matchmaking.',
+        audience: 'Gen Z gamers',
+        specialDirectives: 'Bold, vibrant neon colors. Futuristic. High energy. Dark backgrounds.',
+      },
+      {
+        userName: 'Sophie',
+        brandName: 'Velvet & Vine',
+        industry: 'fashion',
+        niche: 'Luxury Boutique',
+        valuePitch: 'Curated sustainable luxury fashion from emerging European designers.',
+        audience: 'Affluent millennials',
+        specialDirectives: 'Elegant, sophisticated. Gold accents. Serif typography. Editorial feel.',
+      },
+      {
+        userName: 'Alex',
+        brandName: 'ZenSpace',
+        industry: 'health',
+        niche: 'Meditation App',
+        valuePitch: 'AI-guided meditation and breathwork for busy professionals.',
+        audience: 'Corporate professionals',
+        specialDirectives: 'Calming, serene. Soft pastels. Minimalist. Nature-inspired.',
+      },
+      {
+        userName: 'Emma',
+        brandName: 'Little Legends',
+        industry: 'education',
+        niche: 'Kids Learning Platform',
+        valuePitch: 'Interactive storytelling that teaches coding and creativity to kids.',
+        audience: 'Parents of 5-10 year olds',
+        specialDirectives: 'Playful, colorful, friendly. Rounded shapes. Fun illustrations.',
+      },
+      {
+        userName: 'Marcus',
+        brandName: 'Forge Fitness',
+        industry: 'health',
+        niche: 'CrossFit Gym',
+        valuePitch: 'Hardcore functional training with personalized coaching.',
+        audience: 'Fitness enthusiasts 25-40',
+        specialDirectives: 'Bold, aggressive, powerful. Industrial textures. Black and orange.',
+      },
+      {
+        userName: 'Luna',
+        brandName: 'Moonbeam Coffee',
+        industry: 'food',
+        niche: 'Specialty Coffee',
+        valuePitch: 'Single-origin specialty coffee roasted fresh daily.',
+        audience: 'Coffee connoisseurs',
+        specialDirectives: 'Warm, cozy, artisanal. Brown and cream palette. Vintage vibes.',
+      },
+      {
+        userName: 'Jake',
+        brandName: 'Nomad Ventures',
+        industry: 'travel',
+        niche: 'Adventure Travel',
+        valuePitch: 'Off-the-beaten-path adventures for solo travelers.',
+        audience: 'Digital nomads 28-45',
+        specialDirectives: 'Adventurous, free-spirited. Earth tones with pops of teal. Photography-focused.',
+      },
+      {
+        userName: 'Priya',
+        brandName: 'FinFlow',
+        industry: 'finance',
+        niche: 'Personal Finance App',
+        valuePitch: 'Smart budgeting and investing for first-generation wealth builders.',
+        audience: 'Young professionals',
+        specialDirectives: 'Trustworthy, modern, clean. Blue and green accents. Data visualization focus.',
+      },
+    ];
+    
+    // Pick a random scenario
+    const randomIndex = Math.floor(Math.random() * testScenarios.length);
+    const testData = testScenarios[randomIndex];
+    
     setData(testData);
     setCustomNiche(testData.niche);
     setCustomAudience(testData.audience);
@@ -376,7 +465,7 @@ Special Directives: ${data.specialDirectives || 'None specified'}
 
   const step = renderStep();
 
-  return (
+    return (
     <div className="flex items-center justify-center min-h-[calc(100vh-120px)] relative">
       {/* Main Card */}
       <motion.div
@@ -405,9 +494,9 @@ Special Directives: ${data.specialDirectives || 'None specified'}
                   backgroundColor: i <= currentStepIndex ? PURPLE : '#e5e7eb',
                   transform: i === currentStepIndex ? 'scale(1.3)' : 'scale(1)',
                 }}
-              />
-            ))}
-          </div>
+          />
+        ))}
+      </div>
 
           {/* Avatar - only show on steps 0 and 1 */}
           {currentStepIndex <= 1 && (
@@ -425,11 +514,11 @@ Special Directives: ${data.specialDirectives || 'None specified'}
           )}
 
           {/* Content */}
-          <AnimatePresence mode="wait">
-            <motion.div
+        <AnimatePresence mode="wait">
+          <motion.div
               key={currentStepIndex}
               initial={{ opacity: 0, x: 20 }}
-              animate={{ opacity: 1, x: 0 }}
+            animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.2 }}
               className="text-center space-y-6 flex-1 flex flex-col justify-center"
@@ -440,7 +529,7 @@ Special Directives: ${data.specialDirectives || 'None specified'}
                   style={{ fontFamily: "'Labil Grotesk', sans-serif" }}
                 >
                   {step.title}
-                </h1>
+              </h1>
                 <p className="text-gray-500">
                   {step.subtitle}
                 </p>
@@ -448,9 +537,9 @@ Special Directives: ${data.specialDirectives || 'None specified'}
 
               <div className="max-w-md mx-auto w-full">
                 {step.input}
-              </div>
-            </motion.div>
-          </AnimatePresence>
+            </div>
+          </motion.div>
+        </AnimatePresence>
 
           {/* Navigation - full width, buttons on opposite sides */}
           <div className="flex items-center justify-between mt-auto pt-8 w-full">

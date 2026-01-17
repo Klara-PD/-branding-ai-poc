@@ -53,6 +53,7 @@ export async function POST(request: NextRequest) {
         indexName: pineconeIndexName,
         topK: topK || 30,
         category: category || null, // Pass category filter to backend
+        diversitySample: 10, // Sample randomly from top-10 for variety
       }),
     });
 
