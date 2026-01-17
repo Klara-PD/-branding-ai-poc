@@ -1,5 +1,17 @@
+/* Google Fonts - Bricolage Grotesque */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap');
+
 @import "tailwindcss";
 /* @import "tw-animate-css"; */
+
+/* Labil Grotesk Variable Font */
+@font-face {
+  font-family: 'Labil Grotesk';
+  src: url('/fonts/LabilGrotesk-Variable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 
 @custom-variant dark (&:is(.dark *));
 
