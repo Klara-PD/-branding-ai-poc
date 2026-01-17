@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { join } from 'path';
-import { writeFile, unlink, mkdir, appendFile } from 'fs/promises';
+import { writeFile, unlink, mkdir } from 'fs/promises';
 import { existsSync } from 'fs';
 
 /**
@@ -95,9 +95,6 @@ export async function POST(request: NextRequest) {
           ? currentImagePath 
           : join(process.cwd(), currentImagePath);
       }
-      // #region agent log
-      fetch('http://127.0.0.1:7243/ingest/04912701-0df3-44bf-a263-0763cdbf7869',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'refine-category/route.ts:87',message:'Image path resolution',data:{originalPath:currentImagePath,resolvedPath:resolvedImagePath,pathExists:existsSync(resolvedImagePath)},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'B'})}).catch(()=>{});
-      // #endregion
       
       // Verify image exists
       console.log('🔍 [API] Image path resolution:', {
@@ -158,33 +155,6 @@ export async function POST(request: NextRequest) {
     console.log('📊 [API] Top result ID:', result.results?.[0]?.id);
     console.log('📊 [API] Excluded image ID:', currentImageId);
     console.log('📊 [API] Results are different:', result.results?.[0]?.id !== currentImageId);
-
-    // #region agent log - Server-side file logging
-    try {
-      const logDir = join(process.cwd(), '.cursor');
-      const logFile = join(logDir, 'debug.log');
-      const logEntry = JSON.stringify({
-        location: 'refine-category/route.ts:169',
-        message: 'API response prepared',
-        data: {
-          resultCount: result.results?.length || 0,
-          topResultId: result.results?.[0]?.id,
-          topResultPath: result.results?.[0]?.metadata?.file_path,
-          excludedImageId: currentImageId,
-          resultsAreDifferent: result.results?.[0]?.id !== currentImageId,
-          categoryType,
-          hasImagePath: !!resolvedImagePath,
-        },
-        timestamp: Date.now(),
-        sessionId: 'debug-session',
-        runId: 'run2',
-        hypothesisId: 'D'
-      }) + '\n';
-      await appendFile(logFile, logEntry);
-    } catch (logErr) {
-      // Ignore logging errors
-    }
-    // #endregion
 
     return NextResponse.json(result);
   } catch (error: any) {

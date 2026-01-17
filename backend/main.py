@@ -16,6 +16,7 @@ class MoodBoardsRequest(BaseModel):
     brandBrief: str
     indexName: Optional[str] = None
     topK: Optional[int] = 200
+    category: Optional[str] = None  # Optional category filter
 
 
 class RefineCategoryRequest(BaseModel):
@@ -47,6 +48,7 @@ def mood_boards(request: MoodBoardsRequest):
         brand_brief=request.brandBrief,
         index_name=request.indexName,
         top_k=request.topK or 200,
+        category=request.category,  # Pass category filter
     )
 
 

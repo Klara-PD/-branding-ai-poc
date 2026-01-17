@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useBranding } from "@/context/BrandingContext";
+import { BusinessSummaryCard } from "@/components/BusinessSummaryCard";
 
 export function Step2CreativeBrief() {
   const { setCurrentStep, formData, creativeBrief } = useBranding();
@@ -47,6 +48,9 @@ export function Step2CreativeBrief() {
           AI-generated Visual DNA for {formData?.businessName}
         </p>
       </div>
+
+      {/* Business Summary - Editable */}
+      <BusinessSummaryCard />
 
       <div className="grid gap-6">
         {/* Brand Color Mood */}

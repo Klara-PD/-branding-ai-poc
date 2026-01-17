@@ -91,17 +91,72 @@ def format_results(matches) -> Dict[str, Any]:
     }
 
 
-def search_mood_boards(brand_brief: str, index_name: Optional[str] = None, top_k: int = 200) -> Dict[str, Any]:
+def search_mood_boards(
+    brand_brief: str, 
+    index_name: Optional[str] = None, 
+    top_k: int = 200,
+    category: Optional[str] = None
+) -> Dict[str, Any]:
+    """
+    Search mood boards. If category is specified, filter to that category only.
+    Otherwise, query all categories with balanced distribution.
+    """
     model = get_model()
     index = get_index(index_name)
 
     query_vector = model.encode(brand_brief, convert_to_numpy=True).tolist()
-    results = index.query(
-        vector=query_vector,
-        top_k=top_k,
-        include_metadata=True,
-    )
-    return format_results(results.matches)
+    
+    # If specific category requested, query just that category
+    if category:
+        print(f"🔍 Searching category: {category} with query: {brand_brief[:60]}...")
+        try:
+            results = index.query(
+                vector=query_vector,
+                top_k=top_k,
+                include_metadata=True,
+                filter={"category": {"$eq": category}}
+            )
+            print(f"✅ Found {len(results.matches)} results for {category}")
+            return format_results(results.matches)
+        except Exception as e:
+            print(f"❌ Error querying category {category}: {e}")
+            return {"results": [], "count": 0, "error": str(e)}
+    
+    # No category specified - query all categories with balanced distribution
+    category_targets = {
+        "brand_color_mood": 30,
+        "typography": 25,
+        "logo_geometry": 30,
+        "illustration": 25,
+        "photography/models": 30,
+        "photography/products": 30,
+        "photography/environments": 30,
+    }
+    
+    all_results = []
+    
+    for cat, target_count in category_targets.items():
+        try:
+            cat_results = index.query(
+                vector=query_vector,
+                top_k=target_count,
+                include_metadata=True,
+                filter={"category": {"$eq": cat}}
+            )
+            all_results.extend(cat_results.matches)
+        except Exception as e:
+            print(f"Warning: Failed to query category {cat}: {e}")
+            continue
+    
+    # Sort by score and remove duplicates
+    seen_ids = set()
+    unique_results = []
+    for match in sorted(all_results, key=lambda x: x.score, reverse=True):
+        if match.id not in seen_ids:
+            seen_ids.add(match.id)
+            unique_results.append(match)
+    
+    return format_results(unique_results[:top_k])
 
 
 def refine_category(

@@ -17,7 +17,7 @@ export async function POST(request: NextRequest) {
   console.log('🚀 [API] /api/mood-boards - Request received');
   
   try {
-    const { brandBrief, categories } = await request.json();
+    const { brandBrief, category, topK } = await request.json();
 
     if (!brandBrief || typeof brandBrief !== 'string') {
       console.error('❌ [API] Invalid request: brandBrief is required');
@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
     }
 
     console.log('📝 [API] Brand brief received:', brandBrief.substring(0, 100) + '...');
-    console.log('📂 [API] Categories:', categories || 'all');
+    console.log('📂 [API] Category filter:', category || 'all');
 
     // Get environment variables
     const pineconeApiKey = process.env.PINECONE_API_KEY;
@@ -42,23 +42,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    console.log('🔑 [API] Pinecone API key found');
-    console.log('📊 [API] Pinecone index:', pineconeIndexName);
-
-    // Create temporary file for brief
-    const tempDir = join(process.cwd(), 'tmp');
-    if (!existsSync(tempDir)) {
-      await mkdir(tempDir, { recursive: true });
-    }
-
-    const tempFile = join(tempDir, `brief-${Date.now()}.txt`);
-    await writeFile(tempFile, brandBrief, 'utf-8');
-
-    console.log('💾 [API] Temporary file created:', tempFile);
-
     const fastapiUrl = process.env.FASTAPI_URL || 'http://127.0.0.1:8001';
     console.log('🐍 [API] Calling FastAPI:', fastapiUrl);
-    console.log('🔍 [API] CLIP Encoding started...');
 
     const response = await fetch(`${fastapiUrl}/mood-boards`, {
       method: 'POST',
@@ -66,16 +51,10 @@ export async function POST(request: NextRequest) {
       body: JSON.stringify({
         brandBrief,
         indexName: pineconeIndexName,
-        topK: 200,
+        topK: topK || 30,
+        category: category || null, // Pass category filter to backend
       }),
     });
-
-    // Clean up temp file
-    try {
-      await unlink(tempFile);
-    } catch (err) {
-      // Ignore cleanup errors
-    }
 
     if (!response.ok) {
       const errorData = await response.json().catch(() => ({}));
@@ -87,9 +66,7 @@ export async function POST(request: NextRequest) {
     }
 
     const result = await response.json();
-    console.log('✅ [API] Pinecone Querying... - Results received');
-    console.log('📊 [API] Number of results:', result.results?.length || 0);
-    console.log('✅ [API] API Response Sent');
+    console.log('✅ [API] Results received:', result.results?.length || 0, 'for category:', category || 'all');
 
     return NextResponse.json(result);
   } catch (error: any) {

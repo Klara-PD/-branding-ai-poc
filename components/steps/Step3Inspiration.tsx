@@ -11,6 +11,7 @@ import { Slider } from "@/components/ui/slider";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Label } from "@/components/ui/label";
 import { CATEGORY_SLIDERS, CATEGORY_TYPE_MAP, SLIDER_TUNING_META, type SliderConfig } from "@/lib/vibeSteering";
+import { BusinessSummaryCard } from "@/components/BusinessSummaryCard";
 import type { InspirationItem } from "@/types";
 
 const inspirationSections = [
@@ -155,62 +156,56 @@ export function Step3Inspiration() {
       return;
     }
 
-    // Fetch inspiration images for each category
+    // Fetch inspiration images for each category - using category-specific queries
     const fetchInspiration = async () => {
       setIsLoading(true);
       setError(null);
 
       try {
-        // Use visual_prompt if available (natural language), fallback to descriptors
         const { visualDNA } = creativeBrief;
         
-        // Build search query using only visual_prompt
-        const buildCategoryQuery = (category: any) => {
-          return category.visual_prompt || '';
+        // Map each category to its specific visual_prompt from the brief
+        const categoryQueryMap: Record<string, string> = {
+          'brand_color_mood': visualDNA.brand_color_mood?.visual_prompt || '',
+          'typography': visualDNA.typography_voice?.visual_prompt || '',
+          'logo_geometry': visualDNA.logo_geometry_essence?.visual_prompt || '',
+          'illustration': visualDNA.illustration_style_medium?.visual_prompt || '',
+          'photography/environments': visualDNA.photography_cinematic_world?.visual_prompt || '',
+          'photography/products': visualDNA.photography_cinematic_world?.visual_prompt || '',
+          'photography/models': visualDNA.photography_cinematic_world?.visual_prompt || '',
         };
+
+        // Fetch each category separately with its specific query
+        const allResults: InspirationResult[] = [];
         
-        const categoryQueries = [
-          buildCategoryQuery(visualDNA.brand_color_mood),
-          buildCategoryQuery(visualDNA.typography_voice),
-          buildCategoryQuery(visualDNA.logo_geometry_essence),
-          buildCategoryQuery(visualDNA.photography_cinematic_world),
-          buildCategoryQuery(visualDNA.illustration_style_medium),
-        ].filter(q => q); // Remove empty queries
-        
-        const searchQuery = categoryQueries.join(". ");
-
-        console.log('🔍 [Step3] Fetching inspiration images with query:', searchQuery.substring(0, 100));
-
-        const response = await fetch('/api/mood-boards', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            brandBrief: searchQuery,
-          }),
-        });
-
-        if (!response.ok) {
-          const errorData = await response.json();
-          throw new Error(errorData.error || 'Failed to fetch inspiration images');
+        for (const [category, query] of Object.entries(categoryQueryMap)) {
+          if (!query) continue;
+          
+          console.log(`🔍 [Step3] Fetching ${category} with query:`, query.substring(0, 60) + '...');
+          
+          try {
+            const response = await fetch('/api/mood-boards', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                brandBrief: query,
+                category: category, // Pass specific category to filter
+                topK: 30, // Get more results per category for variety
+              }),
+            });
+            
+            if (response.ok) {
+              const data = await response.json();
+              const categoryResults = data.results || [];
+              console.log(`✅ [Step3] Got ${categoryResults.length} results for ${category}`);
+              allResults.push(...categoryResults);
+            }
+          } catch (err) {
+            console.warn(`⚠️ [Step3] Failed to fetch ${category}:`, err);
+          }
         }
 
-        const data = await response.json();
-        console.log('✅ [Step3] Received inspiration results:', data?.count ?? 'no count', 'images');
-
-        // Support multiple response shapes from backend
-        const rawResults: InspirationResult[] = Array.isArray(data?.results)
-          ? data.results
-          : Array.isArray(data?.matches)
-            ? data.matches
-            : Array.isArray(data?.data)
-              ? data.data
-              : [];
-        if (rawResults.length === 0) {
-          console.warn('⚠️ [Step3] No results returned from API. Response:', data);
-          setError('No inspiration images returned. Check Pinecone index or backend response.');
-        }
+        console.log('📊 [Step3] Total results from all categories:', allResults.length);
 
         // Group results by category - STRICT matching only
         const grouped: Record<string, InspirationResult[]> = {};
@@ -223,99 +218,54 @@ export function Step3Inspiration() {
           grouped[subsection.category] = [];
         });
 
-        if (rawResults.length > 0) {
-          console.log('📊 [Step3] Total results from Pinecone:', rawResults.length);
+        // Process all results from category-specific queries
+        allResults.forEach((result: InspirationResult) => {
+          const category = result.metadata?.category;
+          if (!category) return;
           
-          // First pass: Group by exact category match
-          rawResults.forEach((result: InspirationResult) => {
-            const category = result.metadata?.category;
-            if (!category) {
-              console.log('⚠️ [Step3] Result missing category:', result.id);
-              return;
-            }
-            
-            // STRICT category matching - exact matches only to prevent cross-contamination
-            // Pinecone stores categories as: brand_color_mood, typography, logo_geometry, illustration,
-            // photography/models, photography/products, photography/environments
-            if (category === 'brand_color_mood') {
-              grouped['brand_color_mood'].push(result);
-            } else if (category === 'typography') {
-              grouped['typography'].push(result);
-            } else if (category === 'logo_geometry') {
-              grouped['logo_geometry'].push(result);
-            } else if (category === 'illustration') {
-              grouped['illustration'].push(result);
-            } else if (category === 'photography/environments' || category === 'environments') {
-              grouped['environments'].push(result);
-            } else if (category === 'photography/products' || category === 'products') {
-              grouped['products'].push(result);
-            } else if (category === 'photography/models' || category === 'models') {
-              grouped['models'].push(result);
-            } else {
-              // Log unexpected categories for debugging
-              console.log('⚠️ [Step3] Unexpected category:', category, 'from result:', result.id);
-            }
-          });
-          
-          // Log category distribution after first pass
-          console.log('📊 [Step3] Category distribution (first pass):', 
-            Object.keys(grouped).map(k => `${k}: ${grouped[k].length}`).join(', ')
-          );
-          
-          // Second pass: Fill missing categories (except typography which is expected to be empty)
-          // Use remaining results to fill categories that have no matches
-          const usedResults = new Set<string>();
-          Object.values(grouped).flat().forEach(r => usedResults.add(r.id));
-          
-          const unusedResults = rawResults.filter(r => !usedResults.has(r.id));
-          console.log('📊 [Step3] Unused results for fallback:', unusedResults.length);
-          
-          // Fill missing categories with best available results (except typography)
-          inspirationSections.forEach(section => {
-            if (section.category === 'typography') {
-              // Typography is expected to be empty, skip it
-              return;
-            }
-            if (!grouped[section.category] || grouped[section.category].length === 0) {
-              console.log(`⚠️ [Step3] Category ${section.category} is empty, filling with fallback results`);
-              // Take best unused results as fallback (top results not yet used)
-              const fallback = unusedResults.slice(0, section.imageCount);
-              grouped[section.category] = fallback;
-              fallback.forEach(r => usedResults.add(r.id));
-            }
-          });
-          
-          photographySubsections.forEach(subsection => {
-            if (!grouped[subsection.category] || grouped[subsection.category].length === 0) {
-              console.log(`⚠️ [Step3] Category ${subsection.category} is empty, filling with fallback results`);
-              const unusedNow = data.results.filter(r => !usedResults.has(r.id));
-              const fallback = unusedNow.slice(0, subsection.imageCount);
-              grouped[subsection.category] = fallback;
-              fallback.forEach(r => usedResults.add(r.id));
-            }
-          });
-          
-          // Log final category distribution
-          console.log('📊 [Step3] Final category distribution:', 
-            Object.keys(grouped).map(k => `${k}: ${grouped[k].length}`).join(', ')
-          );
-        }
+          // STRICT category matching
+          if (category === 'brand_color_mood') {
+            grouped['brand_color_mood'].push(result);
+          } else if (category === 'typography') {
+            grouped['typography'].push(result);
+          } else if (category === 'logo_geometry') {
+            grouped['logo_geometry'].push(result);
+          } else if (category === 'illustration') {
+            grouped['illustration'].push(result);
+          } else if (category === 'photography/environments' || category === 'environments') {
+            grouped['environments'].push(result);
+          } else if (category === 'photography/products' || category === 'products') {
+            grouped['products'].push(result);
+          } else if (category === 'photography/models' || category === 'models') {
+            grouped['models'].push(result);
+          }
+        });
 
-        // Limit images per category
+        // Log category distribution
+        console.log('📊 [Step3] Category distribution:', 
+          Object.keys(grouped).map(k => `${k}: ${grouped[k].length}`).join(', ')
+        );
+
+        // Limit images per category (take top results by score)
         inspirationSections.forEach(section => {
           if (grouped[section.category]) {
-            grouped[section.category] = grouped[section.category].slice(0, section.imageCount);
+            // Sort by score descending and take top N
+            grouped[section.category] = grouped[section.category]
+              .sort((a, b) => (b.score || 0) - (a.score || 0))
+              .slice(0, section.imageCount);
           }
         });
         
         photographySubsections.forEach(subsection => {
           if (grouped[subsection.category]) {
-            grouped[subsection.category] = grouped[subsection.category].slice(0, subsection.imageCount);
+            grouped[subsection.category] = grouped[subsection.category]
+              .sort((a, b) => (b.score || 0) - (a.score || 0))
+              .slice(0, subsection.imageCount);
           }
         });
 
         setResults(grouped);
-        console.log('✅ [Step3] Grouped results:', Object.keys(grouped).map(k => `${k}: ${grouped[k].length}`));
+        console.log('✅ [Step3] Final grouped results:', Object.keys(grouped).map(k => `${k}: ${grouped[k].length}`));
       } catch (err: any) {
         console.error('❌ [Step3] Error fetching inspiration:', err);
         setError(err.message || 'Failed to load inspiration images');
@@ -691,9 +641,6 @@ export function Step3Inspiration() {
             changed: newResults[categoryKey]?.[0]?.id !== prev[categoryKey]?.[0]?.id,
             newPath: newResults[categoryKey]?.[0]?.metadata?.file_path
           });
-          // #region agent log
-          fetch('http://127.0.0.1:7243/ingest/04912701-0df3-44bf-a263-0763cdbf7869',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'Step3Inspiration.tsx:393',message:'State update executed',data:{categoryKey,newFirstId:newResults[categoryKey]?.[0]?.id,prevFirstId:prev[categoryKey]?.[0]?.id,stateChanged:newResults[categoryKey]?.[0]?.id!==prev[categoryKey]?.[0]?.id},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'E'})}).catch(()=>{});
-          // #endregion
           return newResults;
         });
       } else {
@@ -764,6 +711,9 @@ export function Step3Inspiration() {
         </p>
       </div>
 
+      {/* Business Summary - Editable */}
+      <BusinessSummaryCard />
+
       {error && (
         <div className="bg-destructive/10 text-destructive p-4 rounded-lg">
           <p className="text-sm">Error: {error}</p>
@@ -805,6 +755,12 @@ export function Step3Inspiration() {
                     <p className="text-xs text-muted-foreground mt-1">
                       {section.subtitle}
                     </p>
+                    {/* Debug: Show file path */}
+                    {images[0] && (
+                      <p className="text-[10px] text-blue-500 mt-0.5 truncate max-w-[180px]" title={images[0].metadata?.file_path}>
+                        📁 {images[0].metadata?.file_path?.split('/').pop() || 'N/A'}
+                      </p>
+                    )}
                   </div>
                   {CATEGORY_TYPE_MAP[section.category] && (
                     <Popover 
@@ -899,15 +855,13 @@ export function Step3Inspiration() {
                           {(() => {
                             const imagePath = getImagePath(images[0]);
                             // Use image ID and score as key - this will change when a new image is returned
-                            const imageId = images[0].id || images[0].metadata?.file_path || 'default';
+                            const imageId = images[0].id || 'default';
                             const imageScore = images[0].score || 0;
                             const imageKey = `${section.category}-${imageId}-${imageScore}`;
-                            // Use image ID for cache busting to ensure browser fetches new image
-                            const cacheBuster = `${imageId}-${imageScore}`;
                             return imagePath ? (
                               <img
                                 key={imageKey}
-                                src={`${imagePath}?v=${cacheBuster}`}
+                                src={imagePath}
                                 alt={`${section.title} inspiration`}
                                 className="w-full h-full object-cover"
                                 loading="lazy"
@@ -1147,7 +1101,7 @@ export function Step3Inspiration() {
                             {images.map((result, imgIdx) => {
                               const imagePath = getImagePath(result);
                               // Include score in key to force re-render when results change
-                              const imageKey = `${subsection.category}-${result.id || result.metadata?.file_path || imgIdx}-${result.score || Date.now()}`;
+                              const imageKey = `${subsection.category}-${result.id || imgIdx}-${result.score || 0}`;
                               return (
                                 <div
                                   key={imageKey}
@@ -1156,7 +1110,7 @@ export function Step3Inspiration() {
                                   {imagePath ? (
                                     <img
                                       key={imageKey}
-                                      src={`${imagePath}?t=${Date.now()}`}
+                                      src={imagePath}
                                       alt={`${subsection.title} inspiration ${imgIdx + 1}`}
                                       className="w-full h-full object-cover"
                                       loading="lazy"
@@ -1204,12 +1158,12 @@ export function Step3Inspiration() {
                           <div className="aspect-square bg-muted rounded-lg overflow-hidden border border-border relative group">
                             {(() => {
                               const imagePath = getImagePath(images[0]);
-                              // Include timestamp in key to force re-render when results change
-                              const imageKey = `${subsection.category}-${images[0].id || images[0].metadata?.file_path || 'default'}-${images[0].score || Date.now()}`;
+                              // Include score in key to force re-render when results change
+                              const imageKey = `${subsection.category}-${images[0].id || 'default'}-${images[0].score || 0}`;
                               return imagePath ? (
                                 <img
                                   key={imageKey}
-                                  src={`${imagePath}?t=${Date.now()}`}
+                                  src={imagePath}
                                   alt={`${subsection.title} inspiration`}
                                   className="w-full h-full object-cover"
                                   loading="lazy"
