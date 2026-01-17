@@ -129,7 +129,24 @@ def search_mood_boards(
     model = get_model()
     index = get_index(index_name)
 
-    query_vector = model.encode(brand_brief, convert_to_numpy=True).tolist()
+    # Category-specific vocabulary to enhance CLIP query matching
+    category_prefixes = {
+        "brand_color_mood": "color palette mood atmosphere",
+        "typography": "typography typeface font lettering text design",
+        "logo_geometry": "logo design brand mark symbol graphic",
+        "illustration": "illustration artwork drawing art style",
+        "photography/environments": "environment background location scene space",
+        "photography/products": "product photography still life commercial",
+        "photography/models": "portrait photography model person people",
+    }
+    
+    # Enhance query with category vocabulary if category specified
+    query_text = brand_brief
+    if category and category in category_prefixes:
+        query_text = f"{category_prefixes[category]} {brand_brief}"
+        print(f"🔧 Enhanced query: {query_text[:80]}...")
+
+    query_vector = model.encode(query_text, convert_to_numpy=True).tolist()
     
     # If specific category requested, query just that category
     if category:
