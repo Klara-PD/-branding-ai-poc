@@ -20,6 +20,7 @@ import re
 from collections import Counter
 
 try:
+    import numpy as np
     from dotenv import load_dotenv
     from pinecone import Pinecone, ServerlessSpec
     from sentence_transformers import SentenceTransformer
@@ -355,7 +356,50 @@ def build_text_field(category: str, enriched_entry: Optional[Dict]) -> str:
     
     text_parts = []
     
-    if category == 'typography':
+    if category == 'brand_color_mood':
+        # Color palette metadata
+        extracted_colors = enriched_entry.get('extracted_colors', [])
+        aaa_pairs = enriched_entry.get('aaa_pairs', [])
+        
+        text_parts.append("Color palette mood board.")
+        
+        # Collect unique color names
+        color_names = []
+        for color in extracted_colors:
+            name = color.get('name', '')
+            if name and name not in color_names:
+                color_names.append(name)
+        
+        if color_names:
+            text_parts.append(f"Colors: {', '.join(color_names)}")
+        
+        # Derive mood from color names
+        warm_keywords = ['amber', 'honey', 'ruby', 'coral', 'gold', 'orange', 'red', 'warm', 'fire', 'sunset', 'autumn']
+        cool_keywords = ['blue', 'teal', 'ice', 'cool', 'ocean', 'sky', 'aqua', 'mint', 'winter', 'frost']
+        neutral_keywords = ['grey', 'gray', 'black', 'white', 'silver', 'cream', 'beige', 'neutral']
+        nature_keywords = ['forest', 'green', 'leaf', 'sage', 'moss', 'earth', 'wood', 'natural']
+        
+        all_color_text = ' '.join(color_names).lower()
+        moods = []
+        if any(kw in all_color_text for kw in warm_keywords):
+            moods.append("warm and inviting")
+        if any(kw in all_color_text for kw in cool_keywords):
+            moods.append("cool and calming")
+        if any(kw in all_color_text for kw in neutral_keywords):
+            moods.append("sophisticated and minimal")
+        if any(kw in all_color_text for kw in nature_keywords):
+            moods.append("organic and natural")
+        
+        if moods:
+            text_parts.append(f"Mood: {', '.join(moods)}")
+        
+        # Add accessibility info
+        if len(aaa_pairs) >= 3:
+            text_parts.append("High contrast accessible palette")
+        elif len(aaa_pairs) >= 1:
+            text_parts.append("Accessible contrast available")
+    
+    elif category == 'typography':
         # Typography: system_audit, typeface_profiles, typographic_relationships, technical_markers, visual_style_tags, mood_tone
         system_audit = enriched_entry.get('system_audit', {})
         typeface_profiles = enriched_entry.get('typeface_profiles', [])
@@ -744,7 +788,7 @@ def main():
             try:
                 image = Image.open(image_path)
                 # CLIP can handle various image formats
-                embedding = model.encode(image).tolist()
+                image_embedding = model.encode(image)
             except Exception as e:
                 print(f"\n  Warning: Could not process {image_path}: {e}")
                 error_count += 1
@@ -793,7 +837,16 @@ def main():
             text_field = ""
             
             # Get enriched entry based on category
-            if category == 'typography':
+            if category == 'brand_color_mood':
+                # Load color data from color_data subfolder
+                color_json_path = data_root / 'brand_color_mood' / 'color_data' / f'{image_path.stem}.json'
+                if color_json_path.exists():
+                    try:
+                        with open(color_json_path, 'r') as f:
+                            enriched_entry = json.load(f)
+                    except Exception as e:
+                        print(f"    Warning: Could not load color JSON for {filename}: {e}")
+            elif category == 'typography':
                 enriched_entry = enriched_metadata.get('typography', {}).get(filename)
             elif category == 'logo_geometry':
                 enriched_entry = enriched_metadata.get('logo_geometry', {}).get(filename)
@@ -805,6 +858,7 @@ def main():
                 enriched_entry = enriched_data.get(filename)
             
             # Build text field from enriched metadata
+            text_field = ""
             if enriched_entry:
                 text_field = build_text_field(category, enriched_entry)
                 if text_field:
@@ -815,10 +869,22 @@ def main():
                     if 'description' in enriched_entry:
                         metadata['ai_description'] = enriched_entry['description']
             
+            # Create HYBRID embedding: combine image + text for better semantic search
+            # Image captures visual features, text captures semantic labels
+            if text_field:
+                # Get text embedding
+                text_embedding = model.encode(text_field)
+                # Weighted average: 60% image, 40% text
+                # This preserves visual similarity while boosting semantic matching
+                final_embedding = (0.6 * image_embedding + 0.4 * text_embedding).tolist()
+            else:
+                # No text available, use image only
+                final_embedding = image_embedding.tolist()
+            
             # Prepare vector
             vector_data = {
                 'id': vector_id,
-                'values': embedding,
+                'values': final_embedding,
                 'metadata': metadata
             }
             
