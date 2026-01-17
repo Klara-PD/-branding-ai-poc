@@ -27,12 +27,25 @@ def generate_dynamic_poles(
 ) -> Dict[str, str]:
     """
     Generate semantic poles for CLIP vector steering.
-    Creates simple, direct prompts that CLIP understands well.
+    Creates rich, descriptive prompts that CLIP understands well.
     """
-    # Keep it simple - CLIP works best with direct descriptors
-    # The brand_brief provides context, labels provide direction
-    pos_pole = f"{right_label.lower()} {brand_brief}"
-    neg_pole = f"{left_label.lower()} {brand_brief}"
+    # Add category-specific vocabulary that matches our indexed data
+    category_vocabulary = {
+        "colors": ("color palette", "warm tones", "cool tones"),
+        "typography": ("typography typeface font lettering", "bold", "elegant"),
+        "logo": ("logo design brand mark symbol", "geometric", "organic"),
+        "illustration": ("illustration artwork drawing", "flat", "detailed"),
+        "photo_model": ("portrait photography model person", "candid", "posed"),
+        "photo_product": ("product photography still life", "studio", "contextual"),
+        "photo_environment": ("environment location scene background", "interior", "exterior"),
+    }
+    
+    vocab = category_vocabulary.get(category_type, ("visual design", "", ""))
+    base_context = vocab[0]
+    
+    # Create poles with category context for better CLIP matching
+    pos_pole = f"{base_context} {right_label.lower()} style {brand_brief}"
+    neg_pole = f"{base_context} {left_label.lower()} style {brand_brief}"
     
     return {"pos": pos_pole, "neg": neg_pole}
 
