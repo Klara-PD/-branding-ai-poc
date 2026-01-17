@@ -19,9 +19,21 @@ CATEGORY_NAMESPACE_MAP = {
 }
 
 
-def generate_dynamic_poles(brand_brief: str, left_label: str, right_label: str) -> Dict[str, str]:
-    pos_pole = f"{brand_brief} more {right_label.lower()}"
-    neg_pole = f"{brand_brief} more {left_label.lower()}"
+def generate_dynamic_poles(
+    brand_brief: str, 
+    left_label: str, 
+    right_label: str,
+    category_type: str = ""
+) -> Dict[str, str]:
+    """
+    Generate semantic poles for CLIP vector steering.
+    Creates simple, direct prompts that CLIP understands well.
+    """
+    # Keep it simple - CLIP works best with direct descriptors
+    # The brand_brief provides context, labels provide direction
+    pos_pole = f"{right_label.lower()} {brand_brief}"
+    neg_pole = f"{left_label.lower()} {brand_brief}"
+    
     return {"pos": pos_pole, "neg": neg_pole}
 
 
@@ -203,32 +215,45 @@ def refine_category(
         slider_label_info = slider_labels.get(slider_key, {})
         left_label = slider_label_info.get("left", "left")
         right_label = slider_label_info.get("right", "right")
-        poles = generate_dynamic_poles(brand_brief, left_label, right_label)
+        poles = generate_dynamic_poles(brand_brief, left_label, right_label, category_type)
+        
+        print(f"🎯 Slider '{slider_key}': {left_label} ↔ {right_label}, value={slider_value:.2f}")
+        print(f"   Pos: {poles['pos'][:60]}")
+        print(f"   Neg: {poles['neg'][:60]}")
+        
         pos_vector = model.encode(poles["pos"], convert_to_numpy=True)
         neg_vector = model.encode(poles["neg"], convert_to_numpy=True)
-        # Contrast enhancement: push away from negative pole
-        axis_vector = pos_vector - (0.5 * neg_vector)
-
-        base_weight = 5.0
+        
+        # Normalize both poles first
+        pos_vector = pos_vector / np.linalg.norm(pos_vector)
+        neg_vector = neg_vector / np.linalg.norm(neg_vector)
+        
+        # Direction vector: from neg to pos (normalized difference)
+        direction = pos_vector - neg_vector
+        direction = direction / np.linalg.norm(direction)
+        
+        # Scale steering by slider value
+        # slider_value is -1 to 1, where:
+        #   negative = towards left (neg_pole direction)
+        #   positive = towards right (pos_pole direction)
         abs_slider = abs(slider_value)
-        extreme_boost = 1.0 + (abs_slider ** 2) * 4.0
-        steering_weight = base_weight * extreme_boost
-        if abs_slider > 0.8:
-            extreme_multiplier = 2.0 + (abs_slider - 0.8) * 5.0
-            steering_weight *= extreme_multiplier
-        if abs_slider < 0.30:
-            steering_weight *= (abs_slider / 0.30)
-
-        steering_contribution = axis_vector * slider_value * steering_weight
+        
+        # Conservative scaling: max influence of ~0.5 at extreme values
+        # This keeps the result close to the base while steering
+        steering_scale = 0.3 * abs_slider + 0.2 * (abs_slider ** 2)
+        
+        # Apply direction based on slider sign
+        steering_contribution = direction * slider_value * steering_scale
         per_slider_weights[slider_key] = {
             "slider_value": float(slider_value),
-            "steering_weight": float(steering_weight),
+            "steering_scale": float(steering_scale),
         }
 
         steering_magnitude = np.linalg.norm(steering_contribution)
         total_steering_magnitude += steering_magnitude
         slider_count += 1
         final_vector = final_vector + steering_contribution
+        print(f"   Steering magnitude: {steering_magnitude:.4f}")
 
     # Normalize final_vector
     vector_norm = np.linalg.norm(final_vector)
@@ -271,22 +296,22 @@ def refine_category(
                     slider_label_info = slider_labels.get(slider_key, {})
                     left_label = slider_label_info.get("left", "left")
                     right_label = slider_label_info.get("right", "right")
-                    poles = generate_dynamic_poles(brand_brief, left_label, right_label)
+                    poles = generate_dynamic_poles(brand_brief, left_label, right_label, category_type)
                     pos_vector = model.encode(poles["pos"], convert_to_numpy=True)
                     neg_vector = model.encode(poles["neg"], convert_to_numpy=True)
-                    axis_vector = pos_vector - (0.5 * neg_vector)
-
-                    base_weight = 5.0 * current_steering_multiplier
+                    
+                    # Normalize poles
+                    pos_vector = pos_vector / np.linalg.norm(pos_vector)
+                    neg_vector = neg_vector / np.linalg.norm(neg_vector)
+                    
+                    # Direction vector
+                    direction = pos_vector - neg_vector
+                    direction = direction / np.linalg.norm(direction)
+                    
                     abs_slider = abs(slider_value)
-                    extreme_boost = 1.0 + (abs_slider ** 2) * 4.0
-                    steering_weight = base_weight * extreme_boost
-                    if abs_slider > 0.8:
-                        extreme_multiplier = 2.0 + (abs_slider - 0.8) * 5.0
-                        steering_weight *= extreme_multiplier
-                    if abs_slider < 0.30:
-                        steering_weight *= (abs_slider / 0.30)
-
-                    steering_contribution = axis_vector * slider_value * steering_weight
+                    # Increase steering on retry
+                    steering_scale = (0.3 * abs_slider + 0.2 * (abs_slider ** 2)) * current_steering_multiplier
+                    steering_contribution = direction * slider_value * steering_scale
 
                     retry_vector = retry_vector + steering_contribution
 
